@@ -1,0 +1,18 @@
+function getTypeEffectivenessMultiplier(moveType, pokemonTypes) {
+
+}
+
+// https://pokemongohub.net/post/wiki/comprehensive-guide-moves-pokemon-go/
+
+// see https://gamepress.gg/pokemongo/damage-mechanics
+function damage(attacker, defender, move) {
+    const power = move.power,
+        attack = (attacker.baseAttack + attacker.ivAttack) * attacker.cpMultiplier,
+        defence = (defender.baseDefence + defender.ivDefence) * defender.cpMultiplier,
+        hasStab = true, // move type same as pokemon type
+        hasWeatherBoost = true,
+        typeEffectiveness = getTypeEffectivenessMultiplier(move.type, defender.types),
+        multipliers = (hasStab ? 1.2 : 1) * (hasWeatherBoost ? 1.2 : 1) * typeEffectiveness;
+
+    return Math.floor(power * attack * multipliers / (2 * defence)) + 1;
+}
