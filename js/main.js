@@ -140,7 +140,7 @@ const cpmLookup = {
 }
 
 function start() {
-    deepFreeze(pokemonData);
+    deepFreeze(pokemonData);5
     deepFreeze(moveData);
 
     let tMs = 0;
@@ -176,27 +176,6 @@ function start() {
             id: `${selectedPokemonData.name}/${quickMoveName}/${chargeMoveName}`
         };
     }
-
-    // function buildRandomPokemon(name='', qm = '', cm = '') {
-    //     const selectedPokemonData = pickOne(pokemonData.filter(p=> name === '' || p.name === name)),
-    //         quickMoveName = pickOne(selectedPokemonData.moves.quick.filter(m => qm === '' || m === qm)),
-    //         quickMove = moveData.find(m => m.name === quickMoveName),
-    //         chargeMoveName = pickOne(selectedPokemonData.moves.charge.filter(m => cm === '' || m === cm)),
-    //         chargeMove = moveData.find(m => m.name === chargeMoveName);
-    //     console.assert(quickMove, 'quick move');
-    //     console.assert(chargeMove, 'charge move');
-    //
-    //     return {
-    //         name: selectedPokemonData.name,
-    //         stats: selectedPokemonData.stats,
-    //         types: selectedPokemonData.types,
-    //         ivs: {'attack': 15, 'defence': 15, 'hp': 15},
-    //         level: 40,
-    //         quickMove: {...moveData.find(m => m.name === quickMoveName)},
-    //         chargeMove: {...moveData.find(m => m.name === chargeMoveName)},
-    //         id: `${selectedPokemonData.name}/${quickMoveName}/${chargeMoveName}`
-    //     };
-    // }
 
     function getTypeEffectivenessMultiplier(moveType, pokemonTypes) {
         return pokemonTypes.map(pokemonType => typeEffectiveness[moveType][pokemonType]).reduce((p, c) => p * c, 1);
@@ -312,7 +291,9 @@ let t = 0;
                 for (let y=0; y<height; y++) {
                     for (let x=0; x<width; x++) {
                         // allPokemon.push({...buildRandomPokemon(['Unown', 'Groudon']), free: true, x, y});
-                        allPokemon.push({...buildRandomPokemon(new RegExp('^((?!Arceus).)*$')), free: true, x, y});
+                        // allPokemon.push({...buildRandomPokemon(new RegExp('Bulbasaur|Charmander|Squirtle')), free: true, x, y});
+                        // allPokemon.push({...buildRandomPokemon(new RegExp('Venusaur|Charizard|Blastoise')), free: true, x, y});
+                        allPokemon.push({...buildRandomPokemon(), free: true, x, y});
                     }
                 }
                 // allPokemon.push({...buildRandomPokemon('Squirtle', 'Water Pulse', 'Water Pulse'), free: true, x:0, y:0});
@@ -327,21 +308,14 @@ let t = 0;
                     }
                 });
             },
-            // getNeighbours(pokemon) {
-            //     //TODO slow
-            //     const {x,y} = pokemon;
-            //     return [[-1,0], [1, 0], [0, -1], [0, 1]].map(deltas => {
-            //         const [xDelta, yDelta] = deltas,
-            //             neighbourX = x + xDelta,
-            //             neighbourY = y + yDelta;
-            //         return allPokemon.find(p => p.x === neighbourX && p.y === neighbourY);
-            //     }).filter(p => p);
-            // },
+            getPokemon(x,y) {
+                return allPokemon[y*width + x];
+            },
             getNeighbours(pokemon) {
                 const {x,y} = pokemon;
                 return [[x-1,y], [x+1,y], [x,y-1], [x,y+1]]
                     .filter(([x,y]) => x>=0 && y>=0 && x<width && y<height)
-                    .map(([x,y]) => allPokemon[y*width + x]);
+                    .map(([x,y]) => this.getPokemon(x, y));
             },
             replacePokemon(oldPokemon, newPokemon) {
                 // console.log(`replacing ${oldPokemon.name} with ${newPokemon.name}`)
@@ -416,6 +390,21 @@ let t = 0;
 
         requestAnimationFrame(renderGrid);
     }
+    const rect = canvas.getBoundingClientRect(),
+        fx = canvas.width / grid.width,
+        fy = canvas.height / grid.height,
+        elInfo = document.getElementById('info');
+    canvas.addEventListener('mousemove', e => {
+        const x = e.clientX - rect.left,
+            y = e.clientY - rect.top,
+            px = Math.floor(x/fx),
+            py = Math.floor(y/fy),
+            pokemon = grid.getPokemon(px,py);
+        elInfo.innerHTML = `${pokemon.name}: ${pokemon.quickMove.name}/${pokemon.chargeMove.name}`;
+    });
+    canvas.addEventListener('mouseleave', e => {
+        elInfo.innerHTML = '';
+    });
 
     const list = document.getElementById('list');
     function updateList() {
@@ -429,7 +418,7 @@ let t = 0;
         list.innerHTML = '';
 
         const arr = Object.keys(pokemonCounts).sort(function(p1,p2){return pokemonCounts[p2]-pokemonCounts[p1]})
-        list.innerHTML = arr.map(name => `<li><div style="background-color: #${getPokemonNameColour(name)}" class="box"></div> ${name} - ${pokemonCounts[name]}</li>`).join('');
+        list.innerHTML = arr.map(name => `<li><div style="background-color: #${getPokemonNameColour(name)}" class="box"></div><span class="listName">${name}</span><span class="listCount">${pokemonCounts[name]}</span></li>`).join('');
 
     }
 

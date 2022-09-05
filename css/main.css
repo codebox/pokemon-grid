@@ -1,4 +1,11 @@
-#canvas {
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#grid {
+    border: 1px solid black;
+    cursor: crosshair;
+}
+div.box {
     border: 1px solid black;
 }
 #container {
@@ -6,11 +13,24 @@
     flex-direction: row;
 }
 #list {
-    max-height: 300px;
+    max-height: 600px;
     overflow-y: scroll;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+#list li {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    gap: 5px;
+    justify-content: space-between;
+}
+.listName {
+    flex-grow: 1;
 }
 .box {
     width: 1em;
     height: 1em;
     display: inline-block;
+
 }
