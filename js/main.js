@@ -146,23 +146,24 @@ function start() {
     let tMs = 0;
     const tMsDelta = 100,
         stepDelayMillis = 0,
-        gridWidth = 50,
-        gridHeight = 50;
+        gridWidth = 100,
+        gridHeight = 100;
 
     let battles = [];
+    let battleCount = 0;
 
     function pickOne(arr) {
         return arr[Math.floor(arr.length * Math.random())];
     }
 
-    function buildRandomPokemon(names= []) {
-        const selectedPokemonData = pickOne(pokemonData.filter(p => names.length === 0 || names.includes(p.name))),
+    function buildRandomPokemon(nameRegex = /.*/) {
+        const selectedPokemonData = pickOne(pokemonData.filter(p => p.name.match(nameRegex))),
             quickMoveName = pickOne(selectedPokemonData.moves.quick),
             quickMove = moveData.find(m => m.name === quickMoveName),
             chargeMoveName = pickOne(selectedPokemonData.moves.charge),
             chargeMove = moveData.find(m => m.name === chargeMoveName);
-            console.assert(quickMove, 'quick move');
-            console.assert(chargeMove, 'charge move');
+            // console.assert(quickMove, 'quick move');
+            // console.assert(chargeMove, 'charge move');
 
         return {
             name: selectedPokemonData.name,
@@ -246,13 +247,13 @@ let t = 0;
                         p2State.health -= p1ChargeDamage;
                         p1State.energy += p1.chargeMove.energyDelta;
                         p1State.chargeMoveCountdown = p1.chargeMove.durationMs;
-                        console.log(`${t}: ${p1.name} uses charge move ${p1.chargeMove.name}`)
+                        // console.log(`${t}: ${p1.name} uses charge move ${p1.chargeMove.name}`)
                         change = true;
                     } else if (p1State.quickMoveCountdown <= 0) {
                         p2State.health -= p1QuickDamage;
                         p1State.quickMoveCountdown = p1.quickMove.durationMs;
                         p1State.energy += p1.quickMove.energyDelta;
-                        console.log(`${t}: ${p1.name} uses quick move ${p1.quickMove.name}`)
+                        // console.log(`${t}: ${p1.name} uses quick move ${p1.quickMove.name}`)
                         change = true;
                     }
 
@@ -262,19 +263,19 @@ let t = 0;
                         p1State.health -= p2ChargeDamage;
                         p2State.energy += p2.chargeMove.energyDelta;
                         p2State.chargeMoveCountdown = p2.chargeMove.durationMs;
-                        console.log(`${t}: ${p2.name} uses charge move ${p2.chargeMove.name}`)
+                        // console.log(`${t}: ${p2.name} uses charge move ${p2.chargeMove.name}`)
                         change = true;
 
                     } else if (p2State.quickMoveCountdown <= 0) {
                         p1State.health -= p2QuickDamage;
                         p2State.quickMoveCountdown = p2.quickMove.durationMs;
                         p2State.energy += p2.quickMove.energyDelta;
-                        console.log(`${t}: ${p2.name} uses quick move ${p2.quickMove.name}`)
+                        // console.log(`${t}: ${p2.name} uses quick move ${p2.quickMove.name}`)
                         change = true;
                     }
 
                     if (change) {
-                        console.log(`${t}: ${p1.name} = ${p1State.health}, ${p2.name} = ${p2State.health}`)
+                        // console.log(`${t}: ${p1.name} = ${p1State.health}, ${p2.name} = ${p2State.health}`)
                     }
                     if (p1State.health <= 0) {
                         this.finished = true;
@@ -304,13 +305,14 @@ let t = 0;
 
     const grid = (function(width, height){
         const allPokemon = [];
+
         return {
             width, height,
             init() {
                 for (let y=0; y<height; y++) {
                     for (let x=0; x<width; x++) {
                         // allPokemon.push({...buildRandomPokemon(['Unown', 'Groudon']), free: true, x, y});
-                        allPokemon.push({...buildRandomPokemon(), free: true, x, y});
+                        allPokemon.push({...buildRandomPokemon(new RegExp('^((?!Arceus).)*$')), free: true, x, y});
                     }
                 }
                 // allPokemon.push({...buildRandomPokemon('Squirtle', 'Water Pulse', 'Water Pulse'), free: true, x:0, y:0});
@@ -325,18 +327,24 @@ let t = 0;
                     }
                 });
             },
+            // getNeighbours(pokemon) {
+            //     //TODO slow
+            //     const {x,y} = pokemon;
+            //     return [[-1,0], [1, 0], [0, -1], [0, 1]].map(deltas => {
+            //         const [xDelta, yDelta] = deltas,
+            //             neighbourX = x + xDelta,
+            //             neighbourY = y + yDelta;
+            //         return allPokemon.find(p => p.x === neighbourX && p.y === neighbourY);
+            //     }).filter(p => p);
+            // },
             getNeighbours(pokemon) {
-                //TODO slow
                 const {x,y} = pokemon;
-                return [[-1,0], [1, 0], [0, -1], [0, 1]].map(deltas => {
-                    const [xDelta, yDelta] = deltas,
-                        neighbourX = x + xDelta,
-                        neighbourY = y + yDelta;
-                    return allPokemon.find(p => p.x === neighbourX && p.y === neighbourY);
-                }).filter(p => p);
+                return [[x-1,y], [x+1,y], [x,y-1], [x,y+1]]
+                    .filter(([x,y]) => x>=0 && y>=0 && x<width && y<height)
+                    .map(([x,y]) => allPokemon[y*width + x]);
             },
             replacePokemon(oldPokemon, newPokemon) {
-                console.log(`replacing ${oldPokemon.name} with ${newPokemon.name}`)
+                // console.log(`replacing ${oldPokemon.name} with ${newPokemon.name}`)
                 const {x,y} = oldPokemon,
                     index = y * grid.width + x;
                 allPokemon[index] = {...newPokemon, x, y};
@@ -348,6 +356,7 @@ let t = 0;
     function runTimeStep() {
         // try to pair up free pokemon into new battles
         grid.forEachPokemon(freePokemon => {
+            const n = grid.getNeighbours(freePokemon);
             const freeNeighbours = grid.getNeighbours(freePokemon).filter(p => p.free).filter(p => p.id !== freePokemon.id);
             if (freeNeighbours.length) {
                 const randomFreeNeighbour = pickOne(freeNeighbours);
@@ -367,17 +376,25 @@ let t = 0;
                 winner.free = true;
                 const loser = finishedBattle.loser;
                 grid.replacePokemon(loser, winner);
-                updateList();
+                // updateList();
             } else {
                 finishedBattle.p1.free = true;
                 finishedBattle.p2.free = true;
             }
+            battleCount++;
         });
         battles = battles.filter(b => !b.finished);
 
         setTimeout(runTimeStep, stepDelayMillis);
     }
 
+    let seconds = 0;
+    setInterval(() => {
+        seconds++;
+        console.log('Battles/sec: ' + battleCount / seconds)
+    }, 1000)
+
+    setInterval(updateList, 1000);
     const canvas = document.getElementById('grid'),
         ctx = canvas.getContext('2d');
 
