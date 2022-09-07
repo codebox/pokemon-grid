@@ -146,8 +146,8 @@ function start() {
     let tMs = 0;
     const tMsDelta = 100,
         stepDelayMillis = 0,
-        gridWidth = 100,
-        gridHeight = 100;
+        gridWidth = 200,
+        gridHeight = 200;
 
     let battles = [];
     let battleCount = 0;
@@ -292,8 +292,8 @@ let t = 0;
                     for (let x=0; x<width; x++) {
                         // allPokemon.push({...buildRandomPokemon(['Unown', 'Groudon']), free: true, x, y});
                         // allPokemon.push({...buildRandomPokemon(new RegExp('Bulbasaur|Charmander|Squirtle')), free: true, x, y});
-                        // allPokemon.push({...buildRandomPokemon(new RegExp('Venusaur|Charizard|Blastoise')), free: true, x, y});
-                        allPokemon.push({...buildRandomPokemon(), free: true, x, y});
+                        allPokemon.push({...buildRandomPokemon(new RegExp('Venusaur|Charizard|Blastoise')), free: true, x, y});
+                        // allPokemon.push({...buildRandomPokemon(), free: true, x, y});
                     }
                 }
                 // allPokemon.push({...buildRandomPokemon('Squirtle', 'Water Pulse', 'Water Pulse'), free: true, x:0, y:0});
@@ -314,15 +314,14 @@ let t = 0;
             getNeighbours(pokemon) {
                 const {x,y} = pokemon;
                 return [[x-1,y], [x+1,y], [x,y-1], [x,y+1]]
+                // return [[x-1,y-1], [x-1,y], [x-1,y+1], [x,y-1], [x,y+1], [x+1,y-1], [x+1,y], [x+1,y+1]]
                     .filter(([x,y]) => x>=0 && y>=0 && x<width && y<height)
                     .map(([x,y]) => this.getPokemon(x, y));
             },
             replacePokemon(oldPokemon, newPokemon) {
-                // console.log(`replacing ${oldPokemon.name} with ${newPokemon.name}`)
                 const {x,y} = oldPokemon,
                     index = y * grid.width + x;
                 allPokemon[index] = {...newPokemon, x, y};
-                // console.log('grid is now', allPokemon)
             }
         };
     }(gridWidth, gridHeight));

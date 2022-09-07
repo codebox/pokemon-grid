@@ -1,18 +1,34 @@
-function getTypeEffectivenessMultiplier(moveType, pokemonTypes) {
+https://pokemongohub.net/post/wiki/comprehensive-guide-moves-pokemon-go/
+https://twitter.com/matthen2/status/1543226572592783362
+https://gamepress.gg/pokemongo/damage-mechanics
 
-}
+UI States:
+    Stopped
+        Select weather (allow none)
+        Select grid size (predefined sizes)
+        Select pokemon
+            de/select all links (select all - all pokemon with all moves, deselect all - does not affect moves, just deselects all pokemon which will also disable the Go button)
+            name filterable list, allow de/select all displayed
+            clicking on pokemon shows available moves, these can also be de/selected.
+            show count of selected pokemon
+        Go button (disabled if no pokemon are selected)
 
-// https://pokemongohub.net/post/wiki/comprehensive-guide-moves-pokemon-go/
+    Running
+        Show info, refreshed every second:
+            Total Pokemon count, weather, real run time, in-game run time, battles ongoing, battles finished, list of pokemon with count for each
+            graph of top-10 pokemon
+        Hover over grid - shows info about pokemon in targeted square
+        Pause button
+        Stop Button
 
-// see https://gamepress.gg/pokemongo/damage-mechanics
-function damage(attacker, defender, move) {
-    const power = move.power,
-        attack = (attacker.baseAttack + attacker.ivAttack) * attacker.cpMultiplier,
-        defence = (defender.baseDefence + defender.ivDefence) * defender.cpMultiplier,
-        hasStab = true, // move type same as pokemon type
-        hasWeatherBoost = true,
-        typeEffectiveness = getTypeEffectivenessMultiplier(move.type, defender.types),
-        multipliers = (hasStab ? 1.2 : 1) * (hasWeatherBoost ? 1.2 : 1) * typeEffectiveness;
+    Paused
+       Select weather (allow none)
+       Show info - same details as when running but do not update
+       Go button
+       Hover over grid still works
 
-    return Math.floor(power * attack * multipliers / (2 * defence)) + 1;
-}
+Code changes
+    Cache battle outcomes
+    Break apart into separate files
+    More optimisations
+    Web workers, wasm?
