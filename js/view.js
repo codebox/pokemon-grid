@@ -4,10 +4,10 @@ function buildView(model) {
         elList = document.getElementById('list'),
         ctx = elCanvas.getContext('2d'),
         rect = elCanvas.getBoundingClientRect(),
-        fx = elCanvas.width / model.width,
-        fy = elCanvas.height / model.height,
-        cellWidth = elCanvas.width / model.width,
-        cellHeight = elCanvas.height / model.height;
+        fx = elCanvas.width / model.grid.width,
+        fy = elCanvas.height / model.grid.height,
+        cellWidth = elCanvas.width / model.grid.width,
+        cellHeight = elCanvas.height / model.grid.height;
 
     const typeColours = {
         "Bug": "A6B91A",
@@ -45,7 +45,7 @@ function buildView(model) {
                     y = e.clientY - rect.top,
                     px = Math.floor(x/fx),
                     py = Math.floor(y/fy),
-                    pokemon = model.getPokemon(px,py);
+                    pokemon = model.grid.getPokemon(px,py);
                 elInfo.innerHTML = `${pokemon.name}: ${pokemon.quickMove.name}/${pokemon.chargeMove.name}`;
             });
             elCanvas.addEventListener('mouseleave', e => {
@@ -54,14 +54,14 @@ function buildView(model) {
         },
         updateGrid() {
             ctx.clearRect(0,0, elCanvas.width, elCanvas.height);
-            model.forEachPokemon(pokemon => {
+            model.grid.forEachPokemon(pokemon => {
                 ctx.fillStyle = `#${getPokemonColour(pokemon)}`;
                 ctx.fillRect(pokemon.x * cellWidth, pokemon.y * cellHeight, cellWidth, cellHeight);
             });
         },
         updateList() {
             const pokemonCounts = {};
-            model.forEachPokemon(p => {
+            model.grid.forEachPokemon(p => {
                 if (!(p.name in pokemonCounts)) {
                     pokemonCounts[p.name] = 0;
                 }

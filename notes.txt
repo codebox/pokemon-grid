@@ -28,6 +28,7 @@ UI States:
        Hover over grid still works
 
 Code changes
+    Use js modules
     Download game master JSON https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json
     Cache battle outcomes
     Break apart into separate files

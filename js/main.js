@@ -1,10 +1,16 @@
 window.onload = start
 
 function start() {
-    const model = buildModel(100, 100),
+    const
+        config = {
+            grid: {
+                width: 50,
+                height: 50
+            }
+        },
+        model = buildModel(config),
         view = buildView(model);
 
-    model.init();
     view.init();
 
     deepFreeze(pokemonData);
@@ -19,9 +25,8 @@ function start() {
 
     function runTimeStep() {
         // try to pair up free pokemon into new battles
-        model.forEachPokemon(freePokemon => {
-            const n = model.getNeighbours(freePokemon);
-            const freeNeighbours = model.getNeighbours(freePokemon).filter(p => p.free).filter(p => p.id !== freePokemon.id);
+        model.grid.forEachPokemon(freePokemon => {
+            const freeNeighbours = model.grid.getNeighbours(freePokemon).filter(p => p.free).filter(p => p.id !== freePokemon.id);
             if (freeNeighbours.length) {
                 const randomFreeNeighbour = pickOne(freeNeighbours);
                 freePokemon.free = false;
@@ -39,7 +44,7 @@ function start() {
             if (winner) {
                 winner.free = true;
                 const loser = finishedBattle.loser;
-                model.replacePokemon(loser, winner);
+                model.grid.replacePokemon(loser, winner);
                 // updateList();
             } else {
                 finishedBattle.p1.free = true;
