@@ -11,8 +11,7 @@ function start() {
         model = buildModel(config),
         view = buildView(model);
 
-    view.init();
-    view.onStopGoClick(() => {
+    view.on('stopGoClick', () => {
         if (model.state === STATE_RUNNING) {
             setState(STATE_PAUSED);
         } else {
@@ -20,11 +19,31 @@ function start() {
         }
     });
 
+    view.on('gridOnMouseMove', event => {
+        const {x,y} = event.data,
+            pokemon = model.grid.getPokemon(x, y);
+        view.setInfoText(`${pokemon.name}: ${pokemon.quickMove.name}/${pokemon.chargeMove.name}`);
+    });
+    view.on('gridOnMouseLeave', () => {
+        view.setInfoText('');
+    });
+    view.on('pokemonSelected', event => {
+        model.selectedPokemon.add(event.data);
+    });
+    view.on('pokemonDeselected', event => {
+        model.selectedPokemon.delete(event.data);
+    });
+    view.on('newGridClick', event => {
+        setState(STATE_STOPPED);
+    });
+
     let updateListInterval;
     function setState(state) {
         if (state !== model.state) {
             view.updateForState(model.state = state);
             if (state === STATE_RUNNING) {
+                model.battles.clear();
+                model.populateGrid();
                 runTimeStep();
                 renderGrid();
                 updateListInterval = setInterval(view.updateList, 1000);
@@ -72,13 +91,6 @@ function start() {
         }
     }
 
-    // let prevCount = 0;
-    // setInterval(() => {
-    //     console.log('Battles/sec: ' + (model.battles.counts.finished - prevCount));
-    //     prevCount = model.battles.counts.finished;
-    // }, 1000)
-
-
     function renderGrid() {
         view.updateGrid();
         if (model.state === STATE_RUNNING) {
@@ -86,7 +98,7 @@ function start() {
         }
     }
 
+    view.populatePokemonSelectionList(pokemonData);
     setState(STATE_STOPPED);
-
 
 }

@@ -1,6 +1,5 @@
 function buildBattles() {
-    let allBattles = [],
-        completedBattleCount = 0;
+    let allBattles = [];
 
     function getTypeEffectivenessMultiplier(moveType, pokemonTypes) {
         return pokemonTypes.map(pokemonType => typeEffectiveness[moveType][pokemonType]).reduce((p, c) => p * c, 1);
@@ -50,6 +49,11 @@ function buildBattles() {
         },
         tick(tMsDelta) {
             this.forEach(battle => battle.tick(tMsDelta));
+        },
+        clear() {
+            allBattles = [];
+            this.counts.started = 0;
+            this.counts.finished = 0;
         },
         add(p1, p2) {
             const p1State = buildState(p1),

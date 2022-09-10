@@ -26,6 +26,7 @@ UI States:
        Show info - same details as when running but do not update
        Go button
        Hover over grid still works
+       Hover over (or click) pokemon in list, highlights them on grid
 
 Code changes
     Use js modules
@@ -36,3 +37,4 @@ Code changes
     Web workers, wasm?
     Vary colours according to pokemon as well as type
     Make all settings/selections bookmarkable
+    Remove duplicates from pokemon.js data

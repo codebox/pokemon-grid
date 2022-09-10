@@ -1,5 +1,5 @@
-function buildPokemon(nameRegex = /.*/) {
-    const selectedPokemonData = pickOne(pokemonData.filter(p => p.name.match(nameRegex))),
+function buildPokemon(pokemonNames) {
+    const selectedPokemonData = pickOne(pokemonData.filter(p => pokemonNames.has(p.name))),
         quickMoveName = pickOne(selectedPokemonData.moves.quick),
         quickMove = moveData.find(m => m.name === quickMoveName),
         chargeMoveName = pickOne(selectedPokemonData.moves.charge),
