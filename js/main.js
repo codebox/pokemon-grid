@@ -16,10 +16,8 @@ function start() {
     deepFreeze(pokemonData);
     deepFreeze(moveData);
 
-    let tMs = 0;
     const tMsDelta = 100,
         stepDelayMillis = 0;
-
 
     function runTimeStep() {
         // try to pair up free pokemon into new battles
@@ -34,8 +32,7 @@ function start() {
         }, pokemon => pokemon.free);
 
         // move each battle on by tMsDelta
-        model.battles.tick(tMsDelta);
-        tMs += tMsDelta
+        model.tick(tMsDelta);
 
         model.battles.forEach(finishedBattle => {
             const winner = finishedBattle.winner;
@@ -43,7 +40,6 @@ function start() {
                 winner.free = true;
                 const loser = finishedBattle.loser;
                 model.grid.replacePokemon(loser, winner);
-                // updateList();
             } else {
                 finishedBattle.p1.free = true;
                 finishedBattle.p2.free = true;
@@ -54,10 +50,10 @@ function start() {
         setTimeout(runTimeStep, stepDelayMillis);
     }
 
-    let seconds = 0;
+    let prevCount = 0;
     setInterval(() => {
-        seconds++;
-        // console.log('Battles/sec: ' + battleCount / seconds)
+        console.log('Battles/sec: ' + (model.battles.counts.finished - prevCount));
+        prevCount = model.battles.counts.finished;
     }, 1000)
 
     setInterval(view.updateList, 1000);

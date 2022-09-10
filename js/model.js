@@ -5,6 +5,10 @@ function buildModel(config) {
     const battles = buildBattles();
 
     return {
-        grid, battles
+        tick(tMsDelta) {
+            this.ts += tMsDelta;
+            battles.tick(tMsDelta);
+        },
+        grid, battles, ts: 0, finishedBattles: 0
     };
 }

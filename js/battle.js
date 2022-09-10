@@ -1,5 +1,5 @@
 function buildBattles() {
-    let battles = [],
+    let allBattles = [],
         completedBattleCount = 0;
 
     function getTypeEffectivenessMultiplier(moveType, pokemonTypes) {
@@ -31,16 +31,20 @@ function buildBattles() {
         }
     }());
 
-    return {
+    const battles = {
+        counts: {
+            started: 0,
+            finished: 0
+        },
         forEach(fn, fnFilter = () => true){
-            battles.forEach(b => {
+            allBattles.forEach(b => {
                 if (fnFilter(b)) { //don't do array.filter here because fn() might modify the objects
                     fn(b);
                 }
             });
         },
         removeFinished() {
-            battles = battles.filter(b => ! b.finished);
+            allBattles = allBattles.filter(b => ! b.finished);
         },
         tick(tMsDelta) {
             this.forEach(battle => battle.tick(tMsDelta));
@@ -52,6 +56,8 @@ function buildBattles() {
                 p1ChargeDamage = damageCalculator.damage(p1, p2, p1.chargeMove),
                 p2QuickDamage = damageCalculator.damage(p2, p1, p2.quickMove),
                 p2ChargeDamage = damageCalculator.damage(p2, p1, p2.chargeMove);
+
+            battles.counts.started++;
 
             let t = 0;
             const battle = {
@@ -84,12 +90,15 @@ function buildBattles() {
                     }
 
                     if (p1State.health <= 0) {
+                        battles.counts.finished++;
                         this.finished = true;
                         if (p2State.health > 0) {
                             this.winner = p2;
                             this.loser = p1;
                         }
+
                     } else if (p2State.health <= 0) {
+                        battles.counts.finished++;
                         this.finished = true;
                         this.winner = p1;
                         this.loser = p2;
@@ -100,7 +109,8 @@ function buildBattles() {
                 winner: null,
                 loser: null
             };
-            battles.push(battle);
+            allBattles.push(battle);
         }
     };
+    return battles;
 }
