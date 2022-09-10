@@ -4,8 +4,8 @@ function start() {
     const
         config = {
             grid: {
-                width: 50,
-                height: 50
+                width: 100,
+                height: 100
             }
         },
         model = buildModel(config),

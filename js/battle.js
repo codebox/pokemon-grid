@@ -11,7 +11,9 @@ function buildBattles() {
             quickMoveCountdown: 0,
             chargeMoveCountdown: 0,
             energy: 0,
-            health: (p.stats.baseStamina + p.ivs.hp) * cpmLookup[p.level]
+            health: (p.stats.baseStamina + p.ivs.hp) * cpmLookup[p.level],
+            singleMove: p.quickMove.name === p.chargeMove.name,
+            pokemon: p
         };
     }
 
@@ -70,22 +72,32 @@ function buildBattles() {
                         p2State.health -= p1ChargeDamage;
                         p1State.energy += p1.chargeMove.energyDelta;
                         p1State.chargeMoveCountdown = p1.chargeMove.durationMs;
+                        if (p1State.singleMove) {
+                            p1State.quickMoveCountdown = p1.quickMove.durationMs;
+                        }
+                        // console.log(`${t}: ${p1.name} CHARGE [${p1.chargeMove.name}/${p1ChargeDamage}] -> ${p2.name} [${p2State.health}]`)
                     } else if (p1State.quickMoveCountdown <= 0) {
                         p2State.health -= p1QuickDamage;
-                        p1State.quickMoveCountdown = p1.quickMove.durationMs;
                         p1State.energy += p1.quickMove.energyDelta;
+                        p1State.quickMoveCountdown = p1.quickMove.durationMs;
+                        // console.log(`${t}: ${p1.name} QUICK [${p1.quickMove.name}/${p1QuickDamage}] -> ${p2.name} [${p2State.health}]`)
                     }
 
                     p2State.quickMoveCountdown -= tMsDelta;
                     p2State.chargeMoveCountdown -= tMsDelta;
-                    if (p2State.energy + p2.chargeMove.energyDelta >= 0) {
+                    if (p2State.energy + p2.chargeMove.energyDelta >= 0 && p2State.chargeMoveCountdown <= 0) {
                         p1State.health -= p2ChargeDamage;
                         p2State.energy += p2.chargeMove.energyDelta;
                         p2State.chargeMoveCountdown = p2.chargeMove.durationMs;
+                        if (p2State.singleMove) {
+                            p2State.quickMoveCountdown = p2.quickMove.durationMs;
+                        }
+                        // console.log(`${t}: ${p2.name} CHARGE [${p2.chargeMove.name}/${p2ChargeDamage}] -> ${p1.name} [${p1State.health}]`)
                     } else if (p2State.quickMoveCountdown <= 0) {
                         p1State.health -= p2QuickDamage;
-                        p2State.quickMoveCountdown = p2.quickMove.durationMs;
                         p2State.energy += p2.quickMove.energyDelta;
+                        p2State.quickMoveCountdown = p2.quickMove.durationMs;
+                        // console.log(`${t}: ${p2.name} QUICK [${p2.quickMove.name}/${p2QuickDamage}] -> ${p1.name} [${p1State.health}]`)
                     }
 
                     if (p1State.health <= 0) {
