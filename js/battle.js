@@ -63,7 +63,6 @@ function buildBattles() {
             const battle = {
                 p1, p2,
                 tick(tMsDelta) {
-                    let change = false;
                     p1State.quickMoveCountdown -= tMsDelta;
                     p1State.chargeMoveCountdown -= tMsDelta;
 
