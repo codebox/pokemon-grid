@@ -20,8 +20,6 @@ function start() {
     const tMsDelta = 100,
         stepDelayMillis = 0;
 
-    let battles = [];
-    let battleCount = 0;
 
     function runTimeStep() {
         // try to pair up free pokemon into new battles
@@ -31,15 +29,15 @@ function start() {
                 const randomFreeNeighbour = pickOne(freeNeighbours);
                 freePokemon.free = false;
                 randomFreeNeighbour.free = false;
-                battles.push(buildBattle(freePokemon, randomFreeNeighbour));
+                model.battles.add(freePokemon, randomFreeNeighbour);
             }
         }, pokemon => pokemon.free);
 
         // move each battle on by tMsDelta
-        battles.forEach(battle => battle.tick(tMsDelta));
+        model.battles.tick(tMsDelta);
         tMs += tMsDelta
 
-        battles.filter(b => b.finished).forEach(finishedBattle => {
+        model.battles.forEach(finishedBattle => {
             const winner = finishedBattle.winner;
             if (winner) {
                 winner.free = true;
@@ -50,9 +48,8 @@ function start() {
                 finishedBattle.p1.free = true;
                 finishedBattle.p2.free = true;
             }
-            battleCount++;
-        });
-        battles = battles.filter(b => !b.finished);
+        }, b => b.finished);
+        model.battles.removeFinished();
 
         setTimeout(runTimeStep, stepDelayMillis);
     }
@@ -60,7 +57,7 @@ function start() {
     let seconds = 0;
     setInterval(() => {
         seconds++;
-        console.log('Battles/sec: ' + battleCount / seconds)
+        // console.log('Battles/sec: ' + battleCount / seconds)
     }, 1000)
 
     setInterval(view.updateList, 1000);

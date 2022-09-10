@@ -1,4 +1,11 @@
-function buildBattle(p1, p2) {
+function buildBattles() {
+    let battles = [],
+        completedBattleCount = 0;
+
+    function getTypeEffectivenessMultiplier(moveType, pokemonTypes) {
+        return pokemonTypes.map(pokemonType => typeEffectiveness[moveType][pokemonType]).reduce((p, c) => p * c, 1);
+    }
+
     function buildState(p) {
         return {
             quickMoveCountdown: 0,
@@ -6,10 +13,6 @@ function buildBattle(p1, p2) {
             energy: 0,
             health: (p.stats.baseStamina + p.ivs.hp) * cpmLookup[p.level]
         };
-    }
-
-    function getTypeEffectivenessMultiplier(moveType, pokemonTypes) {
-        return pokemonTypes.map(pokemonType => typeEffectiveness[moveType][pokemonType]).reduce((p, c) => p * c, 1);
     }
 
     const damageCalculator = (function(){
@@ -28,75 +31,76 @@ function buildBattle(p1, p2) {
         }
     }());
 
-    const p1State = buildState(p1),
-        p2State = buildState(p2),
-        p1QuickDamage = damageCalculator.damage(p1, p2, p1.quickMove),
-        p1ChargeDamage = damageCalculator.damage(p1, p2, p1.chargeMove),
-        p2QuickDamage = damageCalculator.damage(p2, p1, p2.quickMove),
-        p2ChargeDamage = damageCalculator.damage(p2, p1, p2.chargeMove);
-    let t = 0;
     return {
-        p1, p2,
-        tick(tMsDelta) {
-
-            let change = false;
-            p1State.quickMoveCountdown -= tMsDelta;
-            p1State.chargeMoveCountdown -= tMsDelta;
-            if (p1State.energy + p1.chargeMove.energyDelta >= 0 && p1State.chargeMoveCountdown <= 0) {
-                p2State.health -= p1ChargeDamage;
-                p1State.energy += p1.chargeMove.energyDelta;
-                p1State.chargeMoveCountdown = p1.chargeMove.durationMs;
-                // console.log(`${t}: ${p1.name} uses charge move ${p1.chargeMove.name}`)
-                change = true;
-            } else if (p1State.quickMoveCountdown <= 0) {
-                p2State.health -= p1QuickDamage;
-                p1State.quickMoveCountdown = p1.quickMove.durationMs;
-                p1State.energy += p1.quickMove.energyDelta;
-                // console.log(`${t}: ${p1.name} uses quick move ${p1.quickMove.name}`)
-                change = true;
-            }
-
-            p2State.quickMoveCountdown -= tMsDelta;
-            p2State.chargeMoveCountdown -= tMsDelta;
-            if (p2State.energy + p2.chargeMove.energyDelta >= 0) {
-                p1State.health -= p2ChargeDamage;
-                p2State.energy += p2.chargeMove.energyDelta;
-                p2State.chargeMoveCountdown = p2.chargeMove.durationMs;
-                // console.log(`${t}: ${p2.name} uses charge move ${p2.chargeMove.name}`)
-                change = true;
-
-            } else if (p2State.quickMoveCountdown <= 0) {
-                p1State.health -= p2QuickDamage;
-                p2State.quickMoveCountdown = p2.quickMove.durationMs;
-                p2State.energy += p2.quickMove.energyDelta;
-                // console.log(`${t}: ${p2.name} uses quick move ${p2.quickMove.name}`)
-                change = true;
-            }
-
-            if (change) {
-                // console.log(`${t}: ${p1.name} = ${p1State.health}, ${p2.name} = ${p2State.health}`)
-            }
-            if (p1State.health <= 0) {
-                this.finished = true;
-                if (p2State.health > 0) {
-                    this.winner = p2;
-                    this.loser = p1;
-                    // console.log(`${p2.name} beat ${p1.name}`)
-                } else {
-                    // console.log(`${p1.name} vs ${p2.name} - DRAW`)
+        forEach(fn, fnFilter = () => true){
+            battles.forEach(b => {
+                if (fnFilter(b)) { //don't do array.filter here because fn() might modify the objects
+                    fn(b);
                 }
-            } else if (p2State.health <= 0) {
-                this.finished = true;
-                this.winner = p1;
-                this.loser = p2;
-                // console.log(`${p1.name} beat ${p2.name}`)
-            } else {
-                // console.log(`${p1.name} [${p1State.health}] - ${p2.name} [${p2State.health}]`)
-            }
-            t += tMsDelta;
+            });
         },
-        finished: false,
-        winner: null,
-        loser: null
+        removeFinished() {
+            battles = battles.filter(b => ! b.finished);
+        },
+        tick(tMsDelta) {
+            this.forEach(battle => battle.tick(tMsDelta));
+        },
+        add(p1, p2) {
+            const p1State = buildState(p1),
+                p2State = buildState(p2),
+                p1QuickDamage = damageCalculator.damage(p1, p2, p1.quickMove),
+                p1ChargeDamage = damageCalculator.damage(p1, p2, p1.chargeMove),
+                p2QuickDamage = damageCalculator.damage(p2, p1, p2.quickMove),
+                p2ChargeDamage = damageCalculator.damage(p2, p1, p2.chargeMove);
+
+            let t = 0;
+            const battle = {
+                p1, p2,
+                tick(tMsDelta) {
+                    let change = false;
+                    p1State.quickMoveCountdown -= tMsDelta;
+                    p1State.chargeMoveCountdown -= tMsDelta;
+
+                    if (p1State.energy + p1.chargeMove.energyDelta >= 0 && p1State.chargeMoveCountdown <= 0) {
+                        p2State.health -= p1ChargeDamage;
+                        p1State.energy += p1.chargeMove.energyDelta;
+                        p1State.chargeMoveCountdown = p1.chargeMove.durationMs;
+                    } else if (p1State.quickMoveCountdown <= 0) {
+                        p2State.health -= p1QuickDamage;
+                        p1State.quickMoveCountdown = p1.quickMove.durationMs;
+                        p1State.energy += p1.quickMove.energyDelta;
+                    }
+
+                    p2State.quickMoveCountdown -= tMsDelta;
+                    p2State.chargeMoveCountdown -= tMsDelta;
+                    if (p2State.energy + p2.chargeMove.energyDelta >= 0) {
+                        p1State.health -= p2ChargeDamage;
+                        p2State.energy += p2.chargeMove.energyDelta;
+                        p2State.chargeMoveCountdown = p2.chargeMove.durationMs;
+                    } else if (p2State.quickMoveCountdown <= 0) {
+                        p1State.health -= p2QuickDamage;
+                        p2State.quickMoveCountdown = p2.quickMove.durationMs;
+                        p2State.energy += p2.quickMove.energyDelta;
+                    }
+
+                    if (p1State.health <= 0) {
+                        this.finished = true;
+                        if (p2State.health > 0) {
+                            this.winner = p2;
+                            this.loser = p1;
+                        }
+                    } else if (p2State.health <= 0) {
+                        this.finished = true;
+                        this.winner = p1;
+                        this.loser = p2;
+                    }
+                    t += tMsDelta;
+                },
+                finished: false,
+                winner: null,
+                loser: null
+            };
+            battles.push(battle);
+        }
     };
 }
