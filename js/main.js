@@ -12,6 +12,27 @@ function start() {
         view = buildView(model);
 
     view.init();
+    view.onStopGoClick(() => {
+        if (model.state === STATE_RUNNING) {
+            setState(STATE_PAUSED);
+        } else {
+            setState(STATE_RUNNING);
+        }
+    });
+
+    let updateListInterval;
+    function setState(state) {
+        if (state !== model.state) {
+            view.updateForState(model.state = state);
+            if (state === STATE_RUNNING) {
+                runTimeStep();
+                renderGrid();
+                updateListInterval = setInterval(view.updateList, 1000);
+            } else {
+                clearInterval(updateListInterval);
+            }
+        }
+    }
 
     deepFreeze(pokemonData);
     deepFreeze(moveData);
@@ -31,7 +52,6 @@ function start() {
             }
         }, pokemon => pokemon.free);
 
-        // move each battle on by tMsDelta
         model.tick(tMsDelta);
 
         model.battles.forEach(finishedBattle => {
@@ -47,22 +67,26 @@ function start() {
         }, b => b.finished);
         model.battles.removeFinished();
 
-        setTimeout(runTimeStep, stepDelayMillis);
+        if (model.state === STATE_RUNNING) {
+            setTimeout(runTimeStep, stepDelayMillis);
+        }
     }
 
-    let prevCount = 0;
-    setInterval(() => {
-        console.log('Battles/sec: ' + (model.battles.counts.finished - prevCount));
-        prevCount = model.battles.counts.finished;
-    }, 1000)
+    // let prevCount = 0;
+    // setInterval(() => {
+    //     console.log('Battles/sec: ' + (model.battles.counts.finished - prevCount));
+    //     prevCount = model.battles.counts.finished;
+    // }, 1000)
 
-    setInterval(view.updateList, 1000);
 
     function renderGrid() {
         view.updateGrid();
-        requestAnimationFrame(renderGrid);
+        if (model.state === STATE_RUNNING) {
+            requestAnimationFrame(renderGrid);
+        }
     }
 
-    runTimeStep();
-    renderGrid();
+    setState(STATE_STOPPED);
+
+
 }

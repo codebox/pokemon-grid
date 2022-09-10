@@ -2,6 +2,7 @@ function buildView(model) {
     const elCanvas = document.getElementById('grid'),
         elInfo = document.getElementById('info'),
         elList = document.getElementById('list'),
+        elStopGo = document.getElementById('stopGo'),
         ctx = elCanvas.getContext('2d'),
         rect = elCanvas.getBoundingClientRect(),
         fx = elCanvas.width / model.grid.width,
@@ -28,6 +29,12 @@ function buildView(model) {
         "Rock": "B6A136",
         "Steel": "B7B7CE",
         "Water": "6390F0"
+    };
+
+    let onStopGoClickHandler = () => {};
+
+    elStopGo.onclick = () => {
+        onStopGoClickHandler();
     };
 
     function getPokemonColour(pokemon) {
@@ -71,6 +78,16 @@ function buildView(model) {
 
             const arr = Object.keys(pokemonCounts).sort(function(p1,p2){return pokemonCounts[p2]-pokemonCounts[p1]})
             elList.innerHTML = arr.map(name => `<li><div style="background-color: #${getPokemonNameColour(name)}" class="box"></div><span class="listName">${name}</span><span class="listCount">${pokemonCounts[name]}</span></li>`).join('');
+        },
+        updateForState(state) {
+            if (state === STATE_RUNNING) {
+                elStopGo.innerHTML = 'Pause';
+            } else {
+                elStopGo.innerHTML = 'Run';
+            }
+        },
+        onStopGoClick(fn) {
+            onStopGoClickHandler = fn;
         }
     };
 }
