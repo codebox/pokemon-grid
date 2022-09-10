@@ -28,7 +28,10 @@ UI States:
        Hover over grid still works
 
 Code changes
+    Download game master JSON https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json
     Cache battle outcomes
     Break apart into separate files
     More optimisations
     Web workers, wasm?
+    Vary colours according to pokemon as well as type
+    Make all settings/selections bookmarkable

@@ -1,5 +1,0 @@
-function buildView() {
-    return {
-
-    };
-}
