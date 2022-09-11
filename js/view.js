@@ -4,7 +4,10 @@ function buildView(model) {
         elList = document.getElementById('list'),
         elStopGo = document.getElementById('stopGo'),
         elNewGrid = document.getElementById('newGrid'),
+        elSettings = document.getElementById('settings'),
+        elPokemonFilter = document.getElementById('pokemonFilter'),
         elSelectionList = document.getElementById('pokemonSelectionList'),
+        elSelectedList = document.getElementById('pokemonSelectedList'),
         ctx = elCanvas.getContext('2d'),
         rect = elCanvas.getBoundingClientRect(),
         fx = elCanvas.width / model.grid.width,
@@ -45,10 +48,24 @@ function buildView(model) {
     elCanvas.onmouseleave = () => trigger('gridOnMouseLeave');
     elSelectionList.onclick = e => {
         if (e.target.nodeName === 'LI') {
-            const isSelected = e.target.classList.toggle('selected');
-            trigger(isSelected ? 'pokemonSelected' : 'pokemonDeselected', e.target.innerHTML);
+            trigger('pokemonSelected', e.target.innerHTML);
+            elSelectionList.removeChild(e.target);
+            elSelectedList.insertBefore(e.target, elSelectedList.firstChild);
         }
     }
+    elSelectedList.onclick = e => {
+        if (e.target.nodeName === 'LI') {
+            trigger('pokemonDeselected', e.target.innerHTML);
+            elSelectedList.removeChild(e.target);
+            elSelectionList.insertBefore(e.target, elSelectionList.firstChild);
+        }
+    }
+    elPokemonFilter.onkeyup = e => {
+        const filter = elPokemonFilter.value;
+        [ ...elSelectionList.children].forEach(li => {
+            li.style.display = li.innerHTML.toLowerCase().indexOf(filter.toLowerCase()) >= 0 ? '' : 'none';
+        })
+    };
 
     function getPokemonColour(pokemon) {
         return typeColours[pokemon.types[0]];
@@ -100,7 +117,7 @@ function buildView(model) {
             elList.innerHTML = arr.map(name => `<li><div style="background-color: #${getPokemonNameColour(name)}" class="box"></div><span class="listName">${name}</span><span class="listCount">${pokemonCounts[name]}</span></li>`).join('');
         },
         updateForState(state) {
-            toggle(elSelectionList, state === STATE_STOPPED);
+            toggle(elSettings, state === STATE_STOPPED);
             toggle(elCanvas, state !== STATE_STOPPED);
             toggle(elList, state !== STATE_STOPPED);
             toggle(elNewGrid, state !== STATE_STOPPED);
