@@ -36,3 +36,32 @@ div.box {
 #pokemonSelectionList li.selected {
     background-color: aquamarine;
 }
+#settings {
+    display: flex;
+    flex-direction: row;
+}
+#settings ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solid red;
+    overflow-y: scroll;
+    cursor: pointer;
+}
+#settings li {
+    padding: 0 3px;
+}
+#settings li:hover {
+    background-color: #c2c2ec;
+}
+.settingsColumn label, .settingsColumn input{
+    margin: 4px 0;
+}
+.settingsColumn {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    max-width: 100px;
+    max-height: 400px;
+    margin: 0 4px;
+}
