@@ -1,8 +1,8 @@
-function buildBattles() {
+function buildBattles(staticData) {
     let allBattles = [];
 
     function getTypeEffectivenessMultiplier(moveType, pokemonTypes) {
-        return pokemonTypes.map(pokemonType => typeEffectiveness[moveType][pokemonType]).reduce((p, c) => p * c, 1);
+        return pokemonTypes.map(pokemonType => staticData.getTypeEffectivenessMultiplier(moveType, pokemonType)).reduce((p, c) => p * c, 1);
     }
 
     function buildState(p) {

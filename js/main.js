@@ -8,8 +8,9 @@ function start() {
                 height: 100
             }
         },
-        model = buildModel(config),
-        view = buildView(model);
+        staticData = buildStaticData(),
+        model = buildModel(config, staticData),
+        view = buildView(model, staticData);
 
     view.on('stopGoClick', () => {
         if (model.state === STATE_RUNNING) {
@@ -36,6 +37,14 @@ function start() {
     view.on('newGridClick', event => {
         setState(STATE_STOPPED);
     });
+    view.on('gridSizeChanged', event => {
+        const size = {
+            'Small': 50,
+            'Medium': 10,
+            'Large': 200,
+        }[event.data];
+        config.grid.width = config.grid.height = size;
+    });
 
     let updateListInterval;
     function setState(state) {
@@ -53,9 +62,6 @@ function start() {
             }
         }
     }
-
-    deepFreeze(pokemonData);
-    deepFreeze(moveData);
 
     const tMsDelta = 100,
         stepDelayMillis = 0;
@@ -99,7 +105,6 @@ function start() {
         }
     }
 
-    view.populatePokemonSelectionList(pokemonData);
     setState(STATE_STOPPED);
 
 }

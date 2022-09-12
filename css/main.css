@@ -34,7 +34,8 @@ div.box {
     display: inline-block;
 }
 #pokemonSelectionList li.selected {
-    background-color: aquamarine;
+    background-color: #006BB7;
+    color: white;
 }
 #settings {
     display: flex;

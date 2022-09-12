@@ -1,10 +1,11 @@
-function buildView(model) {
+function buildView(model, staticData) {
     const elCanvas = document.getElementById('grid'),
         elInfo = document.getElementById('info'),
         elList = document.getElementById('list'),
         elStopGo = document.getElementById('stopGo'),
         elNewGrid = document.getElementById('newGrid'),
         elSettings = document.getElementById('settings'),
+        elGridSizeList = document.getElementById('gridSize'),
         elPokemonFilter = document.getElementById('pokemonFilter'),
         elSelectionList = document.getElementById('pokemonSelectionList'),
         elSelectedList = document.getElementById('pokemonSelectedList'),
@@ -36,6 +37,12 @@ function buildView(model) {
 
     elStopGo.onclick = () => trigger('stopGoClick');
     elNewGrid.onclick = () => trigger('newGridClick');
+    elGridSizeList.onclick = e => {
+        [...elGridSizeList.children].forEach(el => {
+           el.classList.toggle('selected', e.target === el);
+        });
+        trigger('gridSizeChanged', e.target.innerHTML);
+    }
     elCanvas.onmousemove = e => {
         const x = e.clientX - rect.left,
             y = e.clientY - rect.top,
@@ -69,7 +76,7 @@ function buildView(model) {
         return typeColours[pokemon.types[0]];
     }
     function getPokemonNameColour(name) {
-        const pokemon = pokemonData.find(p => p.name === name)
+        const pokemon = staticData.getPokemonByName(name);
         return getPokemonColour(pokemon);
     }
 
@@ -84,15 +91,26 @@ function buildView(model) {
         eventTarget.dispatchEvent(event);
     }
 
+    function initialiseSettings() {
+        const pokemonNames = [];
+        staticData.getAllPokemon().forEach(pk => {
+            pokemonNames.push(pk.name);
+        });
+        elSelectionList.innerHTML = pokemonNames.map(name => `<li>${name}</li>`).join('');
+        model.selectedPokemon.forEach(pk => {
+            const li = [...elSelectionList.children].find(el => el.innerHTML.toLowerCase() === pk);
+            elSelectionList.removeChild(li);
+            elSelectedList.insertBefore(li, elSelectedList.firstChild);
+        });
+    }
+    initialiseSettings();
+
     return {
         on(eventName, handler) {
             eventTarget.addEventListener(eventName, handler);
         },
         setInfoText(text) {
             elInfo.innerHTML = text;
-        },
-        populatePokemonSelectionList(allPokemon) {
-            elSelectionList.innerHTML = allPokemon.map(p => `<li>${p.name}</li>`).join('');
         },
         updateGrid() {
             ctx.clearRect(0,0, elCanvas.width, elCanvas.height);
@@ -124,7 +142,9 @@ function buildView(model) {
                 cellWidth = elCanvas.width / model.grid.width;
                 cellHeight = elCanvas.height / model.grid.height;
                 elStopGo.innerHTML = 'Pause';
-            } else {
+            } else if (state === STATE_PAUSED) {
+                elStopGo.innerHTML = 'Run';
+            } else if (state === STATE_STOPPED) {
                 elStopGo.innerHTML = 'Run';
             }
         }
