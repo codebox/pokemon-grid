@@ -5,7 +5,7 @@ function buildView(model, staticData) {
         elStopGo = document.getElementById('stopGo'),
         elNewGrid = document.getElementById('newGrid'),
         elSettings = document.getElementById('settings'),
-        elGridSizeList = document.getElementById('gridSize'),
+        elGridSizeList = document.getElementById('gridSizeList'),
         elWeatherList = document.getElementById('weatherList'),
         elNoWeather = document.getElementById('noWeather'),
         elPokemonFilter = document.getElementById('pokemonFilter'),
@@ -79,6 +79,12 @@ function buildView(model, staticData) {
             [...elWeatherList.children].forEach(li => li.classList.toggle('selected', li === e.target));
         }
     }
+    elGridSizeList.onclick = e => {
+        if (e.target.nodeName === 'LI') {
+            trigger('gridSizeSelected', e.target.innerHTML);
+            [...elGridSizeList.children].forEach(li => li.classList.toggle('selected', li === e.target));
+        }
+    }
 
     function getPokemonColour(pokemon) {
         return typeColours[pokemon.types[0]];
@@ -117,6 +123,9 @@ function buildView(model, staticData) {
         } else {
             elNoWeather.classList.add('selected');
         }
+
+        const liSelectedGridSize = [...elGridSizeList.children].find(li => li.innerHTML.toLowerCase() === model.gridSize.toLowerCase());
+        liSelectedGridSize.classList.add('selected');
     }
     initialiseSettings();
 

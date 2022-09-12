@@ -2,14 +2,8 @@ window.onload = start
 
 function start() {
     const
-        config = {
-            grid: {
-                width: 100,
-                height: 100
-            }
-        },
         staticData = buildStaticData(),
-        model = buildModel(config, staticData),
+        model = buildModel(staticData),
         view = buildView(model, staticData);
 
     view.on('stopGoClick', () => {
@@ -37,13 +31,8 @@ function start() {
     view.on('newGridClick', event => {
         setState(STATE_STOPPED);
     });
-    view.on('gridSizeChanged', event => {
-        const size = {
-            'Small': 50,
-            'Medium': 10,
-            'Large': 200,
-        }[event.data];
-        config.grid.width = config.grid.height = size;
+    view.on('gridSizeSelected', event => {
+        model.gridSize = event.data;
     });
     view.on('weatherSelected', event => {
         model.weather = event.data;
