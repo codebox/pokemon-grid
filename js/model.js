@@ -19,8 +19,7 @@ function buildModel(staticData) {
             this.battles.tick(tMsDelta);
         },
         ts: 0,
-        finishedBattles: 0,
-        selectedPokemon: new Set(['charmander', 'squirtle', 'bulbasaur']),
+        selectedPokemon: new Set(['Charmander', 'Squirtle', 'Bulbasaur']),
         weather: '',
         gridSize: 'small',
         counters: []

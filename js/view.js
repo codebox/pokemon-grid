@@ -2,6 +2,7 @@ function buildView(model, staticData) {
     const elCanvasGrid = document.getElementById('grid'),
         elCanvasGraph = document.getElementById('graph'),
         elInfo = document.getElementById('info'),
+        elStats = document.getElementById('stats'),
         elList = document.getElementById('list'),
         elStopGo = document.getElementById('stopGo'),
         elNewGrid = document.getElementById('newGrid'),
@@ -120,7 +121,7 @@ function buildView(model, staticData) {
         });
         elSelectionList.innerHTML = pokemonNames.map(name => `<li>${name}</li>`).join('');
         model.selectedPokemon.forEach(pk => {
-            const li = [...elSelectionList.children].find(el => el.innerHTML.toLowerCase() === pk);
+            const li = [...elSelectionList.children].find(el => el.innerHTML.toLowerCase() === pk.toLowerCase());
             elSelectionList.removeChild(li);
             elSelectedList.insertBefore(li, elSelectedList.firstChild);
         });
@@ -156,6 +157,9 @@ function buildView(model, staticData) {
             const arr = Object.keys(pokemonCounts).sort(function(p1,p2){return pokemonCounts[p2]-pokemonCounts[p1]})
             elList.innerHTML = arr.map(name => `<li><div style="background-color: #${getPokemonNameColour(name)}" class="box"></div><span class="listName">${name}</span><span class="listCount">${pokemonCounts[name]}</span></li>`).join('');
         },
+        updateStats(gameTimeMs, battlesInProgress, battlesFinished, battlesDrawn) {
+            elStats.innerHTML = `Time: ${formatTime(gameTimeMs)} Battles: ${battlesInProgress} in progress, ${battlesFinished} finished, ${battlesDrawn} drawn`;
+        },
         updateGraph(counters) {
             const graphPlots = {};
             Object.keys(counters[0]).forEach(pokemonName => graphPlots[pokemonName] = []);
@@ -167,15 +171,15 @@ function buildView(model, staticData) {
                     maxValue = Math.max(maxValue, count);
                 });
             });
-            const pokemonCount = model.grid.width * model.grid.height;
+            const graphTopMargin=10;
             ctxGraph.clearRect(0, 0, elCanvasGraph.width, elCanvasGraph.height);
             Object.entries(graphPlots).forEach(([pokemonName, counts]) => {
                 const colour = getPokemonNameColour(pokemonName);
                 ctxGraph.strokeStyle = `#${colour}`;
                 ctxGraph.beginPath();
                 for (let x=0; x<counts.length-1; x++) {
-                    ctxGraph.moveTo(x, elCanvasGraph.height * (1 - counts[x] / maxValue));
-                    ctxGraph.lineTo(x+1, elCanvasGraph.height * (1 - counts[x+1] / maxValue));
+                    ctxGraph.moveTo(x, graphTopMargin + (elCanvasGraph.height - graphTopMargin) * (1 - counts[x] / maxValue));
+                    ctxGraph.lineTo(x+1, graphTopMargin + (elCanvasGraph.height - graphTopMargin) * (1 - counts[x+1] / maxValue));
                 }
                 ctxGraph.stroke();
             });

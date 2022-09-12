@@ -51,7 +51,11 @@ function start() {
         view.updateGraph(model.counters);
     }
 
-    let updateListInterval;
+    function refreshStats() {
+        view.updateStats(model.ts, model.battles.counts.started - model.battles.counts.finished, model.battles.counts.finished, model.battles.counts.drawn);
+    }
+
+    let updateListInterval, updateStatsInterval;
     function setState(state) {
         if (state !== model.state) {
             if (state === STATE_RUNNING) {
@@ -61,8 +65,10 @@ function start() {
                 runTimeStep();
                 renderGrid();
                 updateListInterval = setInterval(refreshCounters, 1000);
+                updateStatsInterval = setInterval(refreshStats, 1000);
             } else {
                 clearInterval(updateListInterval);
+                clearInterval(updateStatsInterval);
                 view.updateForState(model.state = state);
             }
         }

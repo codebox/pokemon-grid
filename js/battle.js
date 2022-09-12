@@ -35,7 +35,8 @@ function buildBattles(model, staticData) {
     const battles = {
         counts: {
             started: 0,
-            finished: 0
+            finished: 0,
+            drawn: 0
         },
         forEach(fn, fnFilter = () => true){
             allBattles.forEach(b => {
@@ -110,6 +111,8 @@ function buildBattles(model, staticData) {
                         if (p2State.health > 0) {
                             this.winner = p2;
                             this.loser = p1;
+                        } else {
+                            battles.counts.drawn++;
                         }
 
                     } else if (p2State.health <= 0) {

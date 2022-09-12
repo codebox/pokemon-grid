@@ -38,3 +38,4 @@ Code changes
     Vary colours according to pokemon as well as type
     Make all settings/selections bookmarkable
     Remove duplicates from pokemon.js data
+    add seedable rnd algorithm, include seed in url

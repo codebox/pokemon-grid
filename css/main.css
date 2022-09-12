@@ -8,6 +8,10 @@ body {
 div.box {
     border: 1px solid black;
 }
+p {
+    min-height: 24px;
+    margin: 0;
+}
 #container {
     display: flex;
     flex-direction: row;
