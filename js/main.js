@@ -38,6 +38,19 @@ function start() {
         model.weather = event.data;
     });
 
+    function refreshCounters() {
+        const pokemonCounts = {};
+        model.grid.forEachPokemon(p => {
+            if (!(p.name in pokemonCounts)) {
+                pokemonCounts[p.name] = 0;
+            }
+            pokemonCounts[p.name]++;
+        });
+        view.updateList(pokemonCounts);
+        model.counters.push(pokemonCounts);
+        view.updateGraph(model.counters);
+    }
+
     let updateListInterval;
     function setState(state) {
         if (state !== model.state) {
@@ -47,7 +60,7 @@ function start() {
                 view.updateForState(model.state = state);
                 runTimeStep();
                 renderGrid();
-                updateListInterval = setInterval(view.updateList, 1000);
+                updateListInterval = setInterval(refreshCounters, 1000);
             } else {
                 clearInterval(updateListInterval);
                 view.updateForState(model.state = state);
