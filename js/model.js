@@ -3,13 +3,13 @@ var STATE_STOPPED = 'stopped',
     STATE_RUNNING = 'running';
 
 function buildModel(config) {
-    const grid = buildGrid(config.grid.width, config.grid.height);
 
     const battles = buildBattles();
 
     return {
         populateGrid() {
-            grid.populate(() => buildPokemon(this.selectedPokemon));
+            this.grid = buildGrid(config.grid.width, config.grid.height);
+            this.grid.populate(() => buildPokemon(this.selectedPokemon));
         },
         tick(tMsDelta) {
             this.ts += tMsDelta;

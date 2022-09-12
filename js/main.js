@@ -40,15 +40,16 @@ function start() {
     let updateListInterval;
     function setState(state) {
         if (state !== model.state) {
-            view.updateForState(model.state = state);
             if (state === STATE_RUNNING) {
                 model.battles.clear();
                 model.populateGrid();
+                view.updateForState(model.state = state);
                 runTimeStep();
                 renderGrid();
                 updateListInterval = setInterval(view.updateList, 1000);
             } else {
                 clearInterval(updateListInterval);
+                view.updateForState(model.state = state);
             }
         }
     }

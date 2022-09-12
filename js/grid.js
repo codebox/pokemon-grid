@@ -23,8 +23,8 @@ function buildGrid(width, height) {
         },
         getNeighbours(pokemon) {
             const {x,y} = pokemon;
-            // return [[x-1,y], [x+1,y], [x,y-1], [x,y+1]]
-            return [[x-1,y-1], [x-1,y], [x-1,y+1], [x,y-1], [x,y+1], [x+1,y-1], [x+1,y], [x+1,y+1]]
+            return [[x-1,y], [x+1,y], [x,y-1], [x,y+1]]
+            // return [[x-1,y-1], [x-1,y], [x-1,y+1], [x,y-1], [x,y+1], [x+1,y-1], [x+1,y], [x+1,y+1]]
                 .filter(([x,y]) => x>=0 && y>=0 && x<width && y<height)
                 .map(([x,y]) => this.getPokemon(x, y));
         },

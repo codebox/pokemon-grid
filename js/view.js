@@ -9,11 +9,9 @@ function buildView(model) {
         elSelectionList = document.getElementById('pokemonSelectionList'),
         elSelectedList = document.getElementById('pokemonSelectedList'),
         ctx = elCanvas.getContext('2d'),
-        rect = elCanvas.getBoundingClientRect(),
-        fx = elCanvas.width / model.grid.width,
-        fy = elCanvas.height / model.grid.height,
-        cellWidth = elCanvas.width / model.grid.width,
-        cellHeight = elCanvas.height / model.grid.height;
+        rect = elCanvas.getBoundingClientRect();
+
+    let cellWidth, cellHeight;
 
     const typeColours = {
         "Bug": "A6B91A",
@@ -41,8 +39,8 @@ function buildView(model) {
     elCanvas.onmousemove = e => {
         const x = e.clientX - rect.left,
             y = e.clientY - rect.top,
-            px = Math.floor(x/fx),
-            py = Math.floor(y/fy);
+            px = Math.floor(x/cellWidth),
+            py = Math.floor(y/cellHeight);
         trigger('gridOnMouseMove', {x: px, y: py});
     }
     elCanvas.onmouseleave = () => trigger('gridOnMouseLeave');
@@ -123,6 +121,8 @@ function buildView(model) {
             toggle(elNewGrid, state !== STATE_STOPPED);
 
             if (state === STATE_RUNNING) {
+                cellWidth = elCanvas.width / model.grid.width;
+                cellHeight = elCanvas.height / model.grid.height;
                 elStopGo.innerHTML = 'Pause';
             } else {
                 elStopGo.innerHTML = 'Run';
