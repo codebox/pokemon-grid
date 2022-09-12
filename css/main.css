@@ -33,7 +33,7 @@ div.box {
     height: 1em;
     display: inline-block;
 }
-#pokemonSelectionList li.selected {
+#settings li.selected {
     background-color: #006BB7;
     color: white;
 }

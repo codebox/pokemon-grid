@@ -6,6 +6,8 @@ function buildView(model, staticData) {
         elNewGrid = document.getElementById('newGrid'),
         elSettings = document.getElementById('settings'),
         elGridSizeList = document.getElementById('gridSize'),
+        elWeatherList = document.getElementById('weatherList'),
+        elNoWeather = document.getElementById('noWeather'),
         elPokemonFilter = document.getElementById('pokemonFilter'),
         elSelectionList = document.getElementById('pokemonSelectionList'),
         elSelectedList = document.getElementById('pokemonSelectedList'),
@@ -69,8 +71,14 @@ function buildView(model, staticData) {
         const filter = elPokemonFilter.value;
         [ ...elSelectionList.children].forEach(li => {
             li.style.display = li.innerHTML.toLowerCase().indexOf(filter.toLowerCase()) >= 0 ? '' : 'none';
-        })
+        });
     };
+    elWeatherList.onclick = e => {
+        if (e.target.nodeName === 'LI') {
+            trigger('weatherSelected', e.target.innerHTML);
+            [...elWeatherList.children].forEach(li => li.classList.toggle('selected', li === e.target));
+        }
+    }
 
     function getPokemonColour(pokemon) {
         return typeColours[pokemon.types[0]];
@@ -102,6 +110,13 @@ function buildView(model, staticData) {
             elSelectionList.removeChild(li);
             elSelectedList.insertBefore(li, elSelectedList.firstChild);
         });
+
+        const liSelectedWeather = [...elWeatherList.children].find(li => li.innerHTML.toLowerCase() === model.weather.toLowerCase());
+        if (liSelectedWeather) {
+            liSelectedWeather.classList.add('selected');
+        } else {
+            elNoWeather.classList.add('selected');
+        }
     }
     initialiseSettings();
 

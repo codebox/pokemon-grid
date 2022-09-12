@@ -14,6 +14,10 @@ function buildStaticData() {
         },
         getCpmForLevel(level) {
             return cpmLookup[level];
+        },
+        isWeatherBoosted(type, weather) {
+            const types = weatherBoost[weather] || new Set();
+            return types.has(type);
         }
     };
 }

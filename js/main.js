@@ -45,6 +45,9 @@ function start() {
         }[event.data];
         config.grid.width = config.grid.height = size;
     });
+    view.on('weatherSelected', event => {
+        model.weather = event.data;
+    });
 
     let updateListInterval;
     function setState(state) {

@@ -1,4 +1,4 @@
-function buildBattles(staticData) {
+function buildBattles(model, staticData) {
     let allBattles = [];
 
     function getTypeEffectivenessMultiplier(moveType, pokemonTypes) {
@@ -10,7 +10,7 @@ function buildBattles(staticData) {
             quickMoveCountdown: 0,
             chargeMoveCountdown: 0,
             energy: 0,
-            health: (p.stats.baseStamina + p.ivs.hp) * cpmLookup[p.level],
+            health: (p.stats.baseStamina + p.ivs.hp) * staticData.getCpmForLevel(p.level),
             singleMove: p.quickMove.name === p.chargeMove.name,
             pokemon: p
         };
@@ -18,12 +18,12 @@ function buildBattles(staticData) {
 
     const damageCalculator = (function(){
         return {
-            damage(attacker, defender, move) {
+            damage(attacker, defender, move, weather) {
                 const power = move.power,
-                    attack = (attacker.stats.baseAttack + attacker.ivs.attack) * cpmLookup[attacker.level],
-                    defence = (defender.stats.baseDefense + defender.ivs.defence) * cpmLookup[defender.level],
+                    attack = (attacker.stats.baseAttack + attacker.ivs.attack) * staticData.getCpmForLevel(attacker.level),
+                    defence = (defender.stats.baseDefense + defender.ivs.defence) * staticData.getCpmForLevel(defender.level),
                     hasStab = move.type in attacker.types,
-                    hasWeatherBoost = true, //TODO
+                    hasWeatherBoost = staticData.isWeatherBoosted(move.type, model.weather),
                     typeEffectiveness = getTypeEffectivenessMultiplier(move.type, defender.types),
                     multipliers = (hasStab ? 1.2 : 1) * (hasWeatherBoost ? 1.2 : 1) * typeEffectiveness;
 
