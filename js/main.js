@@ -8,7 +8,7 @@ function start() {
 
     view.on('stopGoClick', () => {
         if (model.state === STATE_RUNNING) {
-            setState(STATE_PAUSED);
+            setState(STATE_STOPPED);
         } else {
             setState(STATE_RUNNING);
         }
@@ -27,9 +27,6 @@ function start() {
     });
     view.on('pokemonDeselected', event => {
         model.selectedPokemon.delete(event.data);
-    });
-    view.on('newGridClick', event => {
-        setState(STATE_STOPPED);
     });
     view.on('gridSizeSelected', event => {
         model.gridSize = event.data;

@@ -57,7 +57,7 @@ p {
     padding: 0 3px;
 }
 #settings li:hover {
-    background-color: #c2c2ec;
+    background-color: #006BB722;
 }
 .settingsColumn label, .settingsColumn input{
     margin: 4px 0;

@@ -5,7 +5,6 @@ function buildView(model, staticData) {
         elStats = document.getElementById('stats'),
         elList = document.getElementById('list'),
         elStopGo = document.getElementById('stopGo'),
-        elNewGrid = document.getElementById('newGrid'),
         elSettings = document.getElementById('settings'),
         elGridSizeList = document.getElementById('gridSizeList'),
         elWeatherList = document.getElementById('weatherList'),
@@ -41,7 +40,6 @@ function buildView(model, staticData) {
     };
 
     elStopGo.onclick = () => trigger('stopGoClick');
-    elNewGrid.onclick = () => trigger('newGridClick');
     elGridSizeList.onclick = e => {
         [...elGridSizeList.children].forEach(el => {
            el.classList.toggle('selected', e.target === el);
@@ -187,17 +185,16 @@ function buildView(model, staticData) {
         updateForState(state) {
             toggle(elSettings, state === STATE_STOPPED);
             toggle(elCanvasGrid, state !== STATE_STOPPED);
+            toggle(elCanvasGraph, state !== STATE_STOPPED);
             toggle(elList, state !== STATE_STOPPED);
-            toggle(elNewGrid, state !== STATE_STOPPED);
+            toggle(elStats, state !== STATE_STOPPED);
 
             if (state === STATE_RUNNING) {
                 cellWidth = elCanvasGrid.width / model.grid.width;
                 cellHeight = elCanvasGrid.height / model.grid.height;
-                elStopGo.innerHTML = 'Pause';
-            } else if (state === STATE_PAUSED) {
-                elStopGo.innerHTML = 'Run';
-            } else if (state === STATE_STOPPED) {
-                elStopGo.innerHTML = 'Run';
+                elStopGo.innerHTML = 'Stop';
+            } else {
+                elStopGo.innerHTML = 'Go';
             }
         }
     };
