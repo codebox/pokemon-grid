@@ -69,6 +69,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Mega Venusaur",
+        "moves": {
+            "charge": [
+                "Sludge Bomb",
+                "Petal Blizzard",
+                "Solar Beam"
+            ],
+            "quick": [
+                "Razor Leaf Fast",
+                "Vine Whip Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 190,
+            "baseAttack": 241,
+            "baseDefense": 246
+        },
+        "types": [
+            "Grass",
+            "Poison"
+        ]
+    },
+    {
         "name": "Charmander",
         "moves": {
             "charge": [
@@ -197,6 +220,29 @@ var pokemonData = [
             "baseStamina": 188,
             "baseAttack": 171,
             "baseDefense": 207
+        },
+        "types": [
+            "Water"
+        ]
+    },
+    {
+        "name": "Mega Blastoise",
+        "moves": {
+            "charge": [
+                "Flash Cannon",
+                "Ice Beam",
+                "Hydro Pump",
+                "Skull Bash"
+            ],
+            "quick": [
+                "Water Gun Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 188,
+            "baseAttack": 264,
+            "baseDefense": 237
         },
         "types": [
             "Water"
@@ -332,6 +378,30 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Mega Beedrill",
+        "moves": {
+            "charge": [
+                "Sludge Bomb",
+                "Aerial Ace",
+                "X Scissor",
+                "Fell Stinger"
+            ],
+            "quick": [
+                "Infestation Fast",
+                "Poison Jab Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 163,
+            "baseAttack": 303,
+            "baseDefense": 148
+        },
+        "types": [
+            "Bug",
+            "Poison"
+        ]
+    },
+    {
         "name": "Pidgey",
         "moves": {
             "charge": [
@@ -395,6 +465,30 @@ var pokemonData = [
             "baseStamina": 195,
             "baseAttack": 166,
             "baseDefense": 154
+        },
+        "types": [
+            "Normal",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Mega Pidgeot",
+        "moves": {
+            "charge": [
+                "Hurricane",
+                "Aerial Ace",
+                "Brave Bird",
+                "Feather Dance"
+            ],
+            "quick": [
+                "Air Slash Fast",
+                "Steel Wing Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 195,
+            "baseAttack": 280,
+            "baseDefense": 175
         },
         "types": [
             "Normal",
@@ -1970,6 +2064,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Mega Alakazam",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Focus Blast",
+                "Shadow Ball",
+                "Fire Punch"
+            ],
+            "quick": [
+                "Psycho Cut Fast",
+                "Confusion Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 146,
+            "baseAttack": 367,
+            "baseDefense": 207
+        },
+        "types": [
+            "Psychic"
+        ]
+    },
+    {
         "name": "Machop",
         "moves": {
             "charge": [
@@ -2480,6 +2597,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Mega Slowbro",
+        "moves": {
+            "charge": [
+                "Water Pulse",
+                "Psychic",
+                "Ice Beam"
+            ],
+            "quick": [
+                "Water Gun Fast",
+                "Confusion Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 224,
+            "baseDefense": 259
+        },
+        "types": [
+            "Water",
+            "Psychic"
+        ]
+    },
+    {
         "name": "Magnemite",
         "moves": {
             "charge": [
@@ -2869,6 +3009,30 @@ var pokemonData = [
             "baseStamina": 155,
             "baseAttack": 261,
             "baseDefense": 149
+        },
+        "types": [
+            "Ghost",
+            "Poison"
+        ]
+    },
+    {
+        "name": "Mega Gengar",
+        "moves": {
+            "charge": [
+                "Shadow Ball",
+                "Focus Blast",
+                "Sludge Bomb"
+            ],
+            "quick": [
+                "Sucker Punch Fast",
+                "Hex Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 349,
+            "baseDefense": 199
         },
         "types": [
             "Ghost",
@@ -3475,6 +3639,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Mega Kangaskhan",
+        "moves": {
+            "charge": [
+                "Crunch",
+                "Earthquake",
+                "Outrage",
+                "Power Up Punch"
+            ],
+            "quick": [
+                "Mud Slap Fast",
+                "Low Kick Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 233,
+            "baseAttack": 246,
+            "baseDefense": 210
+        },
+        "types": [
+            "Normal"
+        ]
+    },
+    {
         "name": "Horsea",
         "moves": {
             "charge": [
@@ -3837,6 +4024,31 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Mega Gyarados",
+        "moves": {
+            "charge": [
+                "Hydro Pump",
+                "Crunch",
+                "Outrage",
+                "Twister"
+            ],
+            "quick": [
+                "Bite Fast",
+                "Waterfall Fast",
+                "Dragon Breath Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 292,
+            "baseDefense": 247
+        },
+        "types": [
+            "Water",
+            "Dark"
+        ]
+    },
+    {
         "name": "Lapras",
         "moves": {
             "charge": [
@@ -4100,6 +4312,32 @@ var pokemonData = [
             "baseStamina": 190,
             "baseAttack": 221,
             "baseDefense": 159
+        },
+        "types": [
+            "Rock",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Mega Aerodactyl",
+        "moves": {
+            "charge": [
+                "Ancient Power",
+                "Iron Head",
+                "Hyper Beam",
+                "Rock Slide",
+                "Earth Power"
+            ],
+            "quick": [
+                "Steel Wing Fast",
+                "Bite Fast",
+                "Rock Throw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 190,
+            "baseAttack": 292,
+            "baseDefense": 210
         },
         "types": [
             "Rock",
@@ -5130,6 +5368,31 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Mega Ampharos",
+        "moves": {
+            "charge": [
+                "Zap Cannon",
+                "Focus Blast",
+                "Thunder",
+                "Power Gem",
+                "Thunder Punch"
+            ],
+            "quick": [
+                "Charge Beam Fast",
+                "Volt Switch Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 207,
+            "baseAttack": 294,
+            "baseDefense": 203
+        },
+        "types": [
+            "Electric",
+            "Dragon"
+        ]
+    },
+    {
         "name": "Bellossom",
         "moves": {
             "charge": [
@@ -5772,6 +6035,31 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Mega Steelix",
+        "moves": {
+            "charge": [
+                "Earthquake",
+                "Heavy Slam",
+                "Crunch",
+                "Psychic Fangs"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Dragon Tail Fast",
+                "Thunder Fang Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 181,
+            "baseAttack": 212,
+            "baseDefense": 327
+        },
+        "types": [
+            "Steel",
+            "Ground"
+        ]
+    },
+    {
         "name": "Snubbull",
         "moves": {
             "charge": [
@@ -5883,6 +6171,29 @@ var pokemonData = [
             "baseStamina": 172,
             "baseAttack": 236,
             "baseDefense": 181
+        },
+        "types": [
+            "Bug",
+            "Steel"
+        ]
+    },
+    {
+        "name": "Mega Scizor",
+        "moves": {
+            "charge": [
+                "X Scissor",
+                "Iron Head",
+                "Night Slash"
+            ],
+            "quick": [
+                "Bullet Punch Fast",
+                "Fury Cutter Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 172,
+            "baseAttack": 279,
+            "baseDefense": 250
         },
         "types": [
             "Bug",
@@ -6301,6 +6612,30 @@ var pokemonData = [
             "baseStamina": 181,
             "baseAttack": 224,
             "baseDefense": 144
+        },
+        "types": [
+            "Dark",
+            "Fire"
+        ]
+    },
+    {
+        "name": "Mega Houndoom",
+        "moves": {
+            "charge": [
+                "Crunch",
+                "Fire Blast",
+                "Foul Play",
+                "Flamethrower"
+            ],
+            "quick": [
+                "Snarl Fast",
+                "Fire Fang Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 181,
+            "baseAttack": 289,
+            "baseDefense": 194
         },
         "types": [
             "Dark",
@@ -8094,6 +8429,30 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Mega Aggron",
+        "moves": {
+            "charge": [
+                "Thunder",
+                "Stone Edge",
+                "Heavy Slam",
+                "Rock Tomb"
+            ],
+            "quick": [
+                "Dragon Tail Fast",
+                "Iron Tail Fast",
+                "Smack Down Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 172,
+            "baseAttack": 247,
+            "baseDefense": 331
+        },
+        "types": [
+            "Steel"
+        ]
+    },
+    {
         "name": "Meditite",
         "moves": {
             "charge": [
@@ -8182,6 +8541,31 @@ var pokemonData = [
             "baseStamina": 172,
             "baseAttack": 215,
             "baseDefense": 127
+        },
+        "types": [
+            "Electric"
+        ]
+    },
+    {
+        "name": "Mega Manectric",
+        "moves": {
+            "charge": [
+                "Thunder",
+                "Wild Charge",
+                "Flame Burst",
+                "Overheat",
+                "Psychic Fangs"
+            ],
+            "quick": [
+                "Snarl Fast",
+                "Charge Beam Fast",
+                "Thunder Fang Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 172,
+            "baseAttack": 286,
+            "baseDefense": 179
         },
         "types": [
             "Electric"
@@ -8733,6 +9117,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Mega Altaria",
+        "moves": {
+            "charge": [
+                "Sky Attack",
+                "Dazzling Gleam",
+                "Dragon Pulse"
+            ],
+            "quick": [
+                "Peck Fast",
+                "Dragon Breath Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 181,
+            "baseAttack": 222,
+            "baseDefense": 218
+        },
+        "types": [
+            "Dragon",
+            "Fairy"
+        ]
+    },
+    {
         "name": "Zangoose",
         "moves": {
             "charge": [
@@ -9280,6 +9687,28 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Mega Banette",
+        "moves": {
+            "charge": [
+                "Shadow Ball",
+                "Dazzling Gleam",
+                "Thunder"
+            ],
+            "quick": [
+                "Hex Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 162,
+            "baseAttack": 312,
+            "baseDefense": 160
+        },
+        "types": [
+            "Ghost"
+        ]
+    },
+    {
         "name": "Duskull",
         "moves": {
             "charge": [
@@ -9387,6 +9816,29 @@ var pokemonData = [
             "baseStamina": 163,
             "baseAttack": 246,
             "baseDefense": 120
+        },
+        "types": [
+            "Dark"
+        ]
+    },
+    {
+        "name": "Mega Absol",
+        "moves": {
+            "charge": [
+                "Dark Pulse",
+                "Thunder",
+                "Megahorn",
+                "Payback"
+            ],
+            "quick": [
+                "Psycho Cut Fast",
+                "Snarl Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 163,
+            "baseAttack": 314,
+            "baseDefense": 130
         },
         "types": [
             "Dark"
@@ -9863,6 +10315,30 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Mega Latias",
+        "moves": {
+            "charge": [
+                "Psychic",
+                "Outrage",
+                "Thunder"
+            ],
+            "quick": [
+                "Dragon Breath Fast",
+                "Zen Headbutt Fast",
+                "Charm Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 190,
+            "baseAttack": 289,
+            "baseDefense": 297
+        },
+        "types": [
+            "Dragon",
+            "Psychic"
+        ]
+    },
+    {
         "name": "Latios",
         "moves": {
             "charge": [
@@ -9879,6 +10355,29 @@ var pokemonData = [
             "baseStamina": 190,
             "baseAttack": 268,
             "baseDefense": 212
+        },
+        "types": [
+            "Dragon",
+            "Psychic"
+        ]
+    },
+    {
+        "name": "Mega Latios",
+        "moves": {
+            "charge": [
+                "Psychic",
+                "Dragon Claw",
+                "Solar Beam"
+            ],
+            "quick": [
+                "Dragon Breath Fast",
+                "Zen Headbutt Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 190,
+            "baseAttack": 335,
+            "baseDefense": 241
         },
         "types": [
             "Dragon",
@@ -11119,6 +11618,30 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Mega Lopunny",
+        "moves": {
+            "charge": [
+                "Fire Punch",
+                "Hyper Beam",
+                "Focus Blast"
+            ],
+            "quick": [
+                "Pound Fast",
+                "Low Kick Fast",
+                "Double Kick Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 163,
+            "baseAttack": 282,
+            "baseDefense": 214
+        },
+        "types": [
+            "Normal",
+            "Fighting"
+        ]
+    },
+    {
         "name": "Mismagius",
         "moves": {
             "charge": [
@@ -11849,6 +12372,30 @@ var pokemonData = [
             "baseStamina": 207,
             "baseAttack": 178,
             "baseDefense": 158
+        },
+        "types": [
+            "Grass",
+            "Ice"
+        ]
+    },
+    {
+        "name": "Mega Abomasnow",
+        "moves": {
+            "charge": [
+                "Blizzard",
+                "Energy Ball",
+                "Outrage",
+                "Weather Ball Ice"
+            ],
+            "quick": [
+                "Powder Snow Fast",
+                "Razor Leaf Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 207,
+            "baseAttack": 240,
+            "baseDefense": 191
         },
         "types": [
             "Grass",

@@ -13,21 +13,37 @@ def format_type(name):
 def filter_json(data, prop_name):
     return [obj['data'][prop_name] for obj in data if prop_name in obj['data']]
 
+def build_mega_pokemon(regular_pokemon, mega_overrides):
+    return {
+       'name': 'Mega {}'.format(regular_pokemon['name']),
+       'form': 'NORMAL',
+       'moves': regular_pokemon['moves'],
+       'stats': mega_overrides['stats'],
+       'types': [format_type(t) for t in [mega_overrides['typeOverride1']] + ([mega_overrides['typeOverride2']] if 'typeOverride2' in mega_overrides else [])]
+    }
+
 def filter_pokemon_props(p):
+    pokemon_list = []
     if 'cinematicMoves' in p and 'stats' in p and p['stats']:
         name = format_name(p['pokemonId'])
-        return [{
+        regular_pokemon = {
             'name': name,
             'form': p['form'][len(name) + 1:] if 'form' in p else 'NORMAL',
             'moves': {
-                'charge': [format_move(m) for m in p['cinematicMoves']],
-                'quick': [format_move(m) for m in p['quickMoves']]
+              'charge': [format_move(m) for m in p['cinematicMoves']],
+              'quick': [format_move(m) for m in p['quickMoves']]
             },
             'stats': p['stats'],
             'types': [format_type(t) for t in [p['type']] + ([p['type2']] if 'type2' in p else [])]
-        }]
-    else:
-        print('skipping', p['pokemonId'])
+        }
+        pokemon_list.append(regular_pokemon)
+
+        if 'tempEvoOverrides' in p:
+            mega_overrides = [ovr for ovr in p['tempEvoOverrides'] if ovr.get('tempEvoId') == 'TEMP_EVOLUTION_MEGA']
+            if mega_overrides:
+                pokemon_list.append(build_mega_pokemon(regular_pokemon, mega_overrides[0]))
+
+    return pokemon_list
 
 def dedupe_forms(all_pokemon):
     def equivalent(p1, p2):
