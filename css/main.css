@@ -43,13 +43,12 @@ p {
 }
 #settings {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 #settings ul{
     padding: 0;
     margin: 0;
     list-style: none;
-    border: 1px solid red;
     overflow-y: scroll;
     cursor: pointer;
 }
@@ -59,14 +58,53 @@ p {
 #settings li:hover {
     background-color: #006BB722;
 }
-.settingsColumn label, .settingsColumn input{
-    margin: 4px 0;
-}
-.settingsColumn {
+#pokemonSelectionList {
     display: flex;
     flex-direction: column;
-    width: 100px;
-    max-width: 100px;
     max-height: 400px;
     margin: 0 4px;
+    border: 1px solid black;
+}
+.pokemonListItemTop {
+    display: flex;
+    flex-direction: row;
+    line-height: 20px;
+}
+#pokemonSelectionList li.expanded .pokemonListItemTop {
+    padding-bottom: 4px;
+}
+.pokemonListItemTop label {
+    flex-grow: 1;
+}
+.pokemonListItemShowDetails {
+    flex: 0 0 10px;
+    line-height: 5px;
+    font-size: 25px;
+    transition-duration: 0.4s;
+    transition-property: transform;
+    margin-right: 5px;
+}
+.pokemonListItemDetails {
+    display: none;
+    padding: 0 4px;
+}
+#pokemonSelectionList > li {
+    padding: 2px 0;
+    border: 1px solid #626262;
+}
+#pokemonSelectionList li.expanded .pokemonListItemDetails {
+    display: inherit;
+}
+#pokemonSelectionList li.expanded .pokemonListItemShowDetails {
+    transform: rotate(180deg);
+}
+.pokemonListItemDetails h3 {
+    border-top: 1px dotted grey;
+    margin: 0;
+    padding: 4px 0 4px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.pokemonListItemDetailsQuickMoves, .pokemonListItemDetailsChargedMoves {
+    margin-bottom: 4px ! important;
 }

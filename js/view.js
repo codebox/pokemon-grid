@@ -11,7 +11,6 @@ function buildView(model, staticData) {
         elNoWeather = document.getElementById('noWeather'),
         elPokemonFilter = document.getElementById('pokemonFilter'),
         elSelectionList = document.getElementById('pokemonSelectionList'),
-        elSelectedList = document.getElementById('pokemonSelectedList'),
         ctxGrid = elCanvasGrid.getContext('2d'),
         ctxGraph = elCanvasGraph.getContext('2d'),
         rect = elCanvasGrid.getBoundingClientRect();
@@ -54,20 +53,6 @@ function buildView(model, staticData) {
         trigger('gridOnMouseMove', {x: px, y: py});
     }
     elCanvasGrid.onmouseleave = () => trigger('gridOnMouseLeave');
-    elSelectionList.onclick = e => {
-        if (e.target.nodeName === 'LI') {
-            trigger('pokemonSelected', e.target.innerHTML);
-            elSelectionList.removeChild(e.target);
-            elSelectedList.insertBefore(e.target, elSelectedList.firstChild);
-        }
-    }
-    elSelectedList.onclick = e => {
-        if (e.target.nodeName === 'LI') {
-            trigger('pokemonDeselected', e.target.innerHTML);
-            elSelectedList.removeChild(e.target);
-            elSelectionList.insertBefore(e.target, elSelectionList.firstChild);
-        }
-    }
     elPokemonFilter.onkeyup = e => {
         const filter = elPokemonFilter.value;
         [ ...elSelectionList.children].forEach(li => {
@@ -112,16 +97,47 @@ function buildView(model, staticData) {
         eventTarget.dispatchEvent(event);
     }
 
-    function initialiseSettings() {
-        const pokemonNames = [];
-        staticData.getAllPokemon().forEach(pk => {
-            pokemonNames.push(pk.name);
+    function buildPokemonSelectionListItem(pokemon) {
+        const li = document.createElement('li');
+
+        li.innerHTML = `
+            <div class="pokemonListItemTop">                
+                <label><input type="checkbox"> ${pokemon.name}</label>
+                <div class="pokemonListItemShowDetails">&#8964;</div>
+            </div>
+            <div class="pokemonListItemDetails">
+                <h3>Quick Moves</h3>
+                <ul class="pokemonListItemDetailsQuickMoves">
+                    ${pokemon.moves.quick.map(m => "<li><label><input type='checkbox'>" + m + "</label></li>").join("")}
+                </ul>
+                <h3>Charge Moves</h3>
+                <ul class="pokemonListItemDetailsChargeMoves">
+                    ${pokemon.moves.charge.map(m => "<li><label><input type='checkbox'>" + m + "</label></li>").join("")}
+                </ul>
+            </div>
+        `;
+
+        li.dataset.pokemon = pokemon.name;
+
+        li.addEventListener('click', e => {
+            if (e.target.classList.contains('pokemonListItemShowDetails')) {
+                li.classList.toggle('expanded');
+            } else if (e.target.tagName === 'INPUT') {
+                trigger(e.target.checked ? 'pokemonSelected' : 'pokemonDeselected', pokemon.name);
+            }
         });
-        elSelectionList.innerHTML = pokemonNames.map(name => `<li>${name}</li>`).join('');
-        model.selectedPokemon.forEach(pk => {
-            const li = [...elSelectionList.children].find(el => el.innerHTML.toLowerCase() === pk.toLowerCase());
-            elSelectionList.removeChild(li);
-            elSelectedList.insertBefore(li, elSelectedList.firstChild);
+
+        return li;
+    }
+
+    function initialiseSettings() {
+        elSelectionList.innerHTML = '';
+        staticData.getAllPokemon().forEach(pk => {
+            const li = buildPokemonSelectionListItem(pk);
+            elSelectionList.appendChild(li);
+        });
+        [...elSelectionList.children].forEach(li => {
+            li.querySelector('input').checked = model.selectedPokemon.has(li.dataset.pokemon);
         });
 
         const liSelectedWeather = [...elWeatherList.children].find(li => li.innerHTML.toLowerCase() === model.weather.toLowerCase());
