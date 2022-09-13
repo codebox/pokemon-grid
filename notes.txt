@@ -2,6 +2,9 @@ https://pokemongohub.net/post/wiki/comprehensive-guide-moves-pokemon-go/
 https://twitter.com/matthen2/status/1543226572592783362
 https://gamepress.gg/pokemongo/damage-mechanics
 
+pokemonSettings.tempEvoOverrides [mega pokemon:]
+pokemonSettings.shadow
+
 UI States:
     Stopped
         Select weather (allow none)

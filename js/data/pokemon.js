@@ -402,6 +402,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Rattata (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Crunch",
+                "Hyper Fang",
+                "Shadow Ball"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Quick Attack Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 102,
+            "baseAttack": 103,
+            "baseDefense": 70
+        },
+        "types": [
+            "Dark",
+            "Normal"
+        ]
+    },
+    {
         "name": "Rattata",
         "moves": {
             "charge": [
@@ -420,6 +443,29 @@ var pokemonData = [
             "baseDefense": 70
         },
         "types": [
+            "Normal"
+        ]
+    },
+    {
+        "name": "Raticate (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Crunch",
+                "Hyper Fang",
+                "Hyper Beam"
+            ],
+            "quick": [
+                "Bite Fast",
+                "Quick Attack Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 181,
+            "baseAttack": 135,
+            "baseDefense": 154
+        },
+        "types": [
+            "Dark",
             "Normal"
         ]
     },
@@ -538,6 +584,75 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Pikachu (COSTUME_2020 form)",
+        "moves": {
+            "charge": [
+                "Discharge",
+                "Thunderbolt",
+                "Wild Charge",
+                "Fly"
+            ],
+            "quick": [
+                "Thunder Shock Fast",
+                "Quick Attack Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 111,
+            "baseAttack": 112,
+            "baseDefense": 96
+        },
+        "types": [
+            "Electric"
+        ]
+    },
+    {
+        "name": "Pikachu (FLYING_5TH_ANNIV form)",
+        "moves": {
+            "charge": [
+                "Discharge",
+                "Thunderbolt",
+                "Wild Charge",
+                "Fly"
+            ],
+            "quick": [
+                "Thunder Shock Fast",
+                "Quick Attack Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 111,
+            "baseAttack": 112,
+            "baseDefense": 96
+        },
+        "types": [
+            "Electric"
+        ]
+    },
+    {
+        "name": "Pikachu (FLYING_OKINAWA form)",
+        "moves": {
+            "charge": [
+                "Discharge",
+                "Thunderbolt",
+                "Wild Charge",
+                "Fly"
+            ],
+            "quick": [
+                "Thunder Shock Fast",
+                "Quick Attack Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 111,
+            "baseAttack": 112,
+            "baseDefense": 96
+        },
+        "types": [
+            "Electric"
+        ]
+    },
+    {
         "name": "Pikachu",
         "moves": {
             "charge": [
@@ -557,6 +672,97 @@ var pokemonData = [
         },
         "types": [
             "Electric"
+        ]
+    },
+    {
+        "name": "Pikachu (POP_STAR form)",
+        "moves": {
+            "charge": [
+                "Draining Kiss",
+                "Thunder Punch",
+                "Play Rough"
+            ],
+            "quick": [
+                "Thunder Shock Fast",
+                "Charm Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 111,
+            "baseAttack": 112,
+            "baseDefense": 96
+        },
+        "types": [
+            "Electric"
+        ]
+    },
+    {
+        "name": "Pikachu (ROCK_STAR form)",
+        "moves": {
+            "charge": [
+                "Meteor Mash",
+                "Thunder Punch",
+                "Play Rough"
+            ],
+            "quick": [
+                "Thunder Shock Fast",
+                "Charm Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 111,
+            "baseAttack": 112,
+            "baseDefense": 96
+        },
+        "types": [
+            "Electric"
+        ]
+    },
+    {
+        "name": "Pikachu (VS_2019 form)",
+        "moves": {
+            "charge": [
+                "Flying Press",
+                "Thunder Punch",
+                "Play Rough"
+            ],
+            "quick": [
+                "Thunder Shock Fast",
+                "Charm Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 111,
+            "baseAttack": 112,
+            "baseDefense": 96
+        },
+        "types": [
+            "Electric"
+        ]
+    },
+    {
+        "name": "Raichu (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Psychic",
+                "Thunder Punch",
+                "Wild Charge",
+                "Grass Knot"
+            ],
+            "quick": [
+                "Volt Switch Fast",
+                "Spark Fast",
+                "Thunder Shock Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 201,
+            "baseDefense": 154
+        },
+        "types": [
+            "Electric",
+            "Psychic"
         ]
     },
     {
@@ -585,6 +791,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Sandshrew (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Blizzard",
+                "Gyro Ball",
+                "Night Slash"
+            ],
+            "quick": [
+                "Metal Claw Fast",
+                "Powder Snow Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 137,
+            "baseAttack": 125,
+            "baseDefense": 129
+        },
+        "types": [
+            "Ice",
+            "Steel"
+        ]
+    },
+    {
         "name": "Sandshrew",
         "moves": {
             "charge": [
@@ -604,6 +833,30 @@ var pokemonData = [
         },
         "types": [
             "Ground"
+        ]
+    },
+    {
+        "name": "Sandslash (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Blizzard",
+                "Gyro Ball",
+                "Bulldoze",
+                "Ice Punch"
+            ],
+            "quick": [
+                "Metal Claw Fast",
+                "Powder Snow Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 181,
+            "baseAttack": 177,
+            "baseDefense": 195
+        },
+        "types": [
+            "Ice",
+            "Steel"
         ]
     },
     {
@@ -816,6 +1069,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Vulpix (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Dark Pulse",
+                "Ice Beam",
+                "Blizzard",
+                "Weather Ball Ice"
+            ],
+            "quick": [
+                "Zen Headbutt Fast",
+                "Powder Snow Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 116,
+            "baseAttack": 96,
+            "baseDefense": 109
+        },
+        "types": [
+            "Ice"
+        ]
+    },
+    {
         "name": "Vulpix",
         "moves": {
             "charge": [
@@ -836,6 +1112,32 @@ var pokemonData = [
         },
         "types": [
             "Fire"
+        ]
+    },
+    {
+        "name": "Ninetales (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Dazzling Gleam",
+                "Ice Beam",
+                "Blizzard",
+                "Psyshock",
+                "Weather Ball Ice"
+            ],
+            "quick": [
+                "Feint Attack Fast",
+                "Powder Snow Fast",
+                "Charm Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 177,
+            "baseAttack": 170,
+            "baseDefense": 193
+        },
+        "types": [
+            "Ice",
+            "Fairy"
         ]
     },
     {
@@ -1120,6 +1422,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Diglett (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Dig",
+                "Mud Bomb",
+                "Rock Tomb"
+            ],
+            "quick": [
+                "Mud Slap Fast",
+                "Metal Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 67,
+            "baseAttack": 108,
+            "baseDefense": 81
+        },
+        "types": [
+            "Ground",
+            "Steel"
+        ]
+    },
+    {
         "name": "Diglett",
         "moves": {
             "charge": [
@@ -1164,6 +1489,95 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Dugtrio (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Earthquake",
+                "Mud Bomb",
+                "Iron Head"
+            ],
+            "quick": [
+                "Metal Claw Fast",
+                "Mud Slap Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 111,
+            "baseAttack": 201,
+            "baseDefense": 142
+        },
+        "types": [
+            "Ground",
+            "Steel"
+        ]
+    },
+    {
+        "name": "Dugtrio",
+        "moves": {
+            "charge": [
+                "Earthquake",
+                "Mud Bomb",
+                "Stone Edge"
+            ],
+            "quick": [
+                "Sucker Punch Fast",
+                "Mud Slap Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 111,
+            "baseAttack": 167,
+            "baseDefense": 136
+        },
+        "types": [
+            "Ground"
+        ]
+    },
+    {
+        "name": "Meowth (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Night Slash",
+                "Dark Pulse",
+                "Foul Play"
+            ],
+            "quick": [
+                "Scratch Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 120,
+            "baseAttack": 99,
+            "baseDefense": 78
+        },
+        "types": [
+            "Dark"
+        ]
+    },
+    {
+        "name": "Meowth (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Night Slash",
+                "Gyro Ball",
+                "Dig"
+            ],
+            "quick": [
+                "Scratch Fast",
+                "Metal Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 137,
+            "baseAttack": 115,
+            "baseDefense": 92
+        },
+        "types": [
+            "Steel"
+        ]
+    },
+    {
         "name": "Meowth",
         "moves": {
             "charge": [
@@ -1183,6 +1597,29 @@ var pokemonData = [
         },
         "types": [
             "Normal"
+        ]
+    },
+    {
+        "name": "Persian (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Foul Play",
+                "Dark Pulse",
+                "Play Rough",
+                "Payback"
+            ],
+            "quick": [
+                "Scratch Fast",
+                "Feint Attack Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 163,
+            "baseAttack": 158,
+            "baseDefense": 136
+        },
+        "types": [
+            "Dark"
         ]
     },
     {
@@ -1301,6 +1738,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Growlithe (HISUIAN form)",
+        "moves": {
+            "charge": [
+                "Rock Slide",
+                "Crunch",
+                "Flamethrower"
+            ],
+            "quick": [
+                "Ember Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 142,
+            "baseDefense": 92
+        },
+        "types": [
+            "Fire",
+            "Rock"
+        ]
+    },
+    {
         "name": "Growlithe",
         "moves": {
             "charge": [
@@ -1320,6 +1780,31 @@ var pokemonData = [
         },
         "types": [
             "Fire"
+        ]
+    },
+    {
+        "name": "Arcanine (HISUIAN form)",
+        "moves": {
+            "charge": [
+                "Rock Slide",
+                "Wild Charge",
+                "Crunch",
+                "Flamethrower"
+            ],
+            "quick": [
+                "Fire Fang Fast",
+                "Snarl Fast",
+                "Rock Smash Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 232,
+            "baseDefense": 165
+        },
+        "types": [
+            "Fire",
+            "Rock"
         ]
     },
     {
@@ -1672,6 +2157,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Geodude (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Rock Slide",
+                "Rock Tomb",
+                "Thunderbolt"
+            ],
+            "quick": [
+                "Rock Throw Fast",
+                "Volt Switch Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 120,
+            "baseAttack": 132,
+            "baseDefense": 132
+        },
+        "types": [
+            "Rock",
+            "Electric"
+        ]
+    },
+    {
         "name": "Geodude",
         "moves": {
             "charge": [
@@ -1695,6 +2203,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Graveler (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Thunderbolt",
+                "Stone Edge",
+                "Rock Blast"
+            ],
+            "quick": [
+                "Rock Throw Fast",
+                "Volt Switch Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 146,
+            "baseAttack": 164,
+            "baseDefense": 164
+        },
+        "types": [
+            "Rock",
+            "Electric"
+        ]
+    },
+    {
         "name": "Graveler",
         "moves": {
             "charge": [
@@ -1715,6 +2246,29 @@ var pokemonData = [
         "types": [
             "Rock",
             "Ground"
+        ]
+    },
+    {
+        "name": "Golem (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Stone Edge",
+                "Rock Blast",
+                "Wild Charge"
+            ],
+            "quick": [
+                "Rock Throw Fast",
+                "Volt Switch Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 190,
+            "baseAttack": 211,
+            "baseDefense": 198
+        },
+        "types": [
+            "Rock",
+            "Electric"
         ]
     },
     {
@@ -1742,6 +2296,28 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Ponyta (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Play Rough",
+                "Psybeam",
+                "Swift"
+            ],
+            "quick": [
+                "Low Kick Fast",
+                "Psycho Cut Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 137,
+            "baseAttack": 170,
+            "baseDefense": 127
+        },
+        "types": [
+            "Psychic"
+        ]
+    },
+    {
         "name": "Ponyta",
         "moves": {
             "charge": [
@@ -1761,6 +2337,31 @@ var pokemonData = [
         },
         "types": [
             "Fire"
+        ]
+    },
+    {
+        "name": "Rapidash (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Play Rough",
+                "Psychic",
+                "Body Slam",
+                "Megahorn"
+            ],
+            "quick": [
+                "Low Kick Fast",
+                "Psycho Cut Fast",
+                "Fairy Wind Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 163,
+            "baseAttack": 207,
+            "baseDefense": 162
+        },
+        "types": [
+            "Psychic",
+            "Fairy"
         ]
     },
     {
@@ -1788,6 +2389,28 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Slowpoke (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Surf",
+                "Psyshock",
+                "Psychic"
+            ],
+            "quick": [
+                "Confusion Fast",
+                "Iron Tail Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 207,
+            "baseAttack": 109,
+            "baseDefense": 98
+        },
+        "types": [
+            "Psychic"
+        ]
+    },
+    {
         "name": "Slowpoke",
         "moves": {
             "charge": [
@@ -1807,6 +2430,29 @@ var pokemonData = [
         },
         "types": [
             "Water",
+            "Psychic"
+        ]
+    },
+    {
+        "name": "Slowbro (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Focus Blast",
+                "Psychic",
+                "Sludge Bomb"
+            ],
+            "quick": [
+                "Confusion Fast",
+                "Poison Jab Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 182,
+            "baseDefense": 156
+        },
+        "types": [
+            "Poison",
             "Psychic"
         ]
     },
@@ -1879,6 +2525,28 @@ var pokemonData = [
         "types": [
             "Electric",
             "Steel"
+        ]
+    },
+    {
+        "name": "Farfetchd (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Brick Break",
+                "Brave Bird",
+                "Leaf Blade"
+            ],
+            "quick": [
+                "Rock Smash Fast",
+                "Fury Cutter Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 141,
+            "baseAttack": 174,
+            "baseDefense": 114
+        },
+        "types": [
+            "Fighting"
         ]
     },
     {
@@ -1996,6 +2664,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Grimer (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Crunch",
+                "Gunk Shot",
+                "Sludge Bomb"
+            ],
+            "quick": [
+                "Poison Jab Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 190,
+            "baseAttack": 135,
+            "baseDefense": 90
+        },
+        "types": [
+            "Poison",
+            "Dark"
+        ]
+    },
+    {
         "name": "Grimer",
         "moves": {
             "charge": [
@@ -2015,6 +2706,31 @@ var pokemonData = [
         },
         "types": [
             "Poison"
+        ]
+    },
+    {
+        "name": "Muk (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Dark Pulse",
+                "Gunk Shot",
+                "Sludge Wave",
+                "Acid Spray"
+            ],
+            "quick": [
+                "Bite Fast",
+                "Poison Jab Fast",
+                "Snarl Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 233,
+            "baseAttack": 190,
+            "baseDefense": 172
+        },
+        "types": [
+            "Poison",
+            "Dark"
         ]
     },
     {
@@ -2276,6 +2992,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Voltorb (HISUIAN form)",
+        "moves": {
+            "charge": [
+                "Swift",
+                "Thunderbolt",
+                "Energy Ball"
+            ],
+            "quick": [
+                "Charge Beam Fast",
+                "Tackle Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 120,
+            "baseAttack": 109,
+            "baseDefense": 111
+        },
+        "types": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
         "name": "Voltorb",
         "moves": {
             "charge": [
@@ -2295,6 +3034,29 @@ var pokemonData = [
         },
         "types": [
             "Electric"
+        ]
+    },
+    {
+        "name": "Electrode (HISUIAN form)",
+        "moves": {
+            "charge": [
+                "Swift",
+                "Wild Charge",
+                "Energy Ball"
+            ],
+            "quick": [
+                "Thunder Shock Fast",
+                "Tackle Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 176,
+            "baseDefense": 176
+        },
+        "types": [
+            "Electric",
+            "Grass"
         ]
     },
     {
@@ -2344,6 +3106,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Exeggutor (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Seed Bomb",
+                "Dragon Pulse",
+                "Solar Beam"
+            ],
+            "quick": [
+                "Bullet Seed Fast",
+                "Dragon Tail Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 230,
+            "baseDefense": 153
+        },
+        "types": [
+            "Grass",
+            "Dragon"
+        ]
+    },
+    {
         "name": "Exeggutor",
         "moves": {
             "charge": [
@@ -2387,6 +3172,31 @@ var pokemonData = [
         },
         "types": [
             "Ground"
+        ]
+    },
+    {
+        "name": "Marowak (ALOLA form)",
+        "moves": {
+            "charge": [
+                "Bone Club",
+                "Shadow Ball",
+                "Fire Blast",
+                "Flame Wheel"
+            ],
+            "quick": [
+                "Hex Fast",
+                "Rock Smash Fast",
+                "Fire Spin Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 144,
+            "baseDefense": 186
+        },
+        "types": [
+            "Fire",
+            "Ghost"
         ]
     },
     {
@@ -2501,6 +3311,31 @@ var pokemonData = [
         },
         "types": [
             "Poison"
+        ]
+    },
+    {
+        "name": "Weezing (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Sludge",
+                "Hyper Beam",
+                "Play Rough",
+                "Hyper Beam",
+                "Overheat"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Fairy Wind Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 163,
+            "baseAttack": 174,
+            "baseDefense": 197
+        },
+        "types": [
+            "Poison",
+            "Fairy"
         ]
     },
     {
@@ -2771,6 +3606,29 @@ var pokemonData = [
         },
         "types": [
             "Water",
+            "Psychic"
+        ]
+    },
+    {
+        "name": "Mr Mime (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Psybeam",
+                "Psychic",
+                "Ice Punch"
+            ],
+            "quick": [
+                "Confusion Fast",
+                "Zen Headbutt Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 137,
+            "baseAttack": 183,
+            "baseDefense": 169
+        },
+        "types": [
+            "Ice",
             "Psychic"
         ]
     },
@@ -3275,6 +4133,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Articuno (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Ancient Power",
+                "Brave Bird"
+            ],
+            "quick": [
+                "Confusion Fast",
+                "Psycho Cut Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 207,
+            "baseAttack": 250,
+            "baseDefense": 197
+        },
+        "types": [
+            "Psychic",
+            "Flying"
+        ]
+    },
+    {
         "name": "Articuno",
         "moves": {
             "charge": [
@@ -3299,6 +4180,28 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Zapdos (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Close Combat",
+                "Ancient Power",
+                "Brave Bird"
+            ],
+            "quick": [
+                "Counter Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 207,
+            "baseAttack": 252,
+            "baseDefense": 189
+        },
+        "types": [
+            "Fighting",
+            "Flying"
+        ]
+    },
+    {
         "name": "Zapdos",
         "moves": {
             "charge": [
@@ -3319,6 +4222,29 @@ var pokemonData = [
         },
         "types": [
             "Electric",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Moltres (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Payback",
+                "Ancient Power",
+                "Brave Bird"
+            ],
+            "quick": [
+                "Sucker Punch Fast",
+                "Wing Attack Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 207,
+            "baseAttack": 202,
+            "baseDefense": 231
+        },
+        "types": [
+            "Dark",
             "Flying"
         ]
     },
@@ -3415,6 +4341,29 @@ var pokemonData = [
         "types": [
             "Dragon",
             "Flying"
+        ]
+    },
+    {
+        "name": "Mewtwo (A form)",
+        "moves": {
+            "charge": [
+                "Rock Slide",
+                "Dynamic Punch",
+                "Earthquake",
+                "Futuresight"
+            ],
+            "quick": [
+                "Confusion Fast",
+                "Iron Tail Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 214,
+            "baseAttack": 182,
+            "baseDefense": 278
+        },
+        "types": [
+            "Psychic"
         ]
     },
     {
@@ -4571,6 +5520,30 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Slowking (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Shadow Ball",
+                "Sludge Wave"
+            ],
+            "quick": [
+                "Hex Fast",
+                "Confusion Fast",
+                "Acid Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 190,
+            "baseDefense": 180
+        },
+        "types": [
+            "Poison",
+            "Psychic"
+        ]
+    },
+    {
         "name": "Slowking",
         "moves": {
             "charge": [
@@ -4844,6 +5817,31 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Qwilfish (HISUIAN form)",
+        "moves": {
+            "charge": [
+                "Aqua Tail",
+                "Ice Beam",
+                "Sludge Bomb",
+                "Dark Pulse",
+                "Shadow Ball"
+            ],
+            "quick": [
+                "Poison Sting Fast",
+                "Poison Jab Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 163,
+            "baseAttack": 184,
+            "baseDefense": 151
+        },
+        "types": [
+            "Dark",
+            "Poison"
+        ]
+    },
+    {
         "name": "Qwilfish",
         "moves": {
             "charge": [
@@ -4936,6 +5934,29 @@ var pokemonData = [
         "types": [
             "Bug",
             "Fighting"
+        ]
+    },
+    {
+        "name": "Sneasel (HISUIAN form)",
+        "moves": {
+            "charge": [
+                "Aerial Ace",
+                "Close Combat",
+                "X Scissor"
+            ],
+            "quick": [
+                "Rock Smash Fast",
+                "Poison Jab Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 146,
+            "baseAttack": 189,
+            "baseDefense": 146
+        },
+        "types": [
+            "Fighting",
+            "Poison"
         ]
     },
     {
@@ -6026,6 +7047,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Zigzagoon (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Dig",
+                "Body Slam",
+                "Swift"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 116,
+            "baseAttack": 58,
+            "baseDefense": 80
+        },
+        "types": [
+            "Dark",
+            "Normal"
+        ]
+    },
+    {
         "name": "Zigzagoon",
         "moves": {
             "charge": [
@@ -6044,6 +7088,29 @@ var pokemonData = [
             "baseDefense": 80
         },
         "types": [
+            "Normal"
+        ]
+    },
+    {
+        "name": "Linoone (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Dig",
+                "Body Slam",
+                "Gunk Shot"
+            ],
+            "quick": [
+                "Snarl Fast",
+                "Lick Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 186,
+            "baseAttack": 142,
+            "baseDefense": 128
+        },
+        "types": [
+            "Dark",
             "Normal"
         ]
     },
@@ -8055,6 +9122,95 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Castform",
+        "moves": {
+            "charge": [
+                "Hurricane",
+                "Energy Ball",
+                "Weather Ball Rock",
+                "Weather Ball Normal"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Hex Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 172,
+            "baseAttack": 139,
+            "baseDefense": 139
+        },
+        "types": [
+            "Normal"
+        ]
+    },
+    {
+        "name": "Castform (RAINY form)",
+        "moves": {
+            "charge": [
+                "Hydro Pump",
+                "Thunder",
+                "Weather Ball Water"
+            ],
+            "quick": [
+                "Water Gun Fast",
+                "Tackle Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 172,
+            "baseAttack": 139,
+            "baseDefense": 139
+        },
+        "types": [
+            "Water"
+        ]
+    },
+    {
+        "name": "Castform (SNOWY form)",
+        "moves": {
+            "charge": [
+                "Blizzard",
+                "Ice Beam",
+                "Weather Ball Ice"
+            ],
+            "quick": [
+                "Powder Snow Fast",
+                "Tackle Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 172,
+            "baseAttack": 139,
+            "baseDefense": 139
+        },
+        "types": [
+            "Ice"
+        ]
+    },
+    {
+        "name": "Castform (SUNNY form)",
+        "moves": {
+            "charge": [
+                "Fire Blast",
+                "Solar Beam",
+                "Weather Ball Fire"
+            ],
+            "quick": [
+                "Ember Fast",
+                "Tackle Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 172,
+            "baseAttack": 139,
+            "baseDefense": 139
+        },
+        "types": [
+            "Fire"
+        ]
+    },
+    {
         "name": "Kecleon",
         "moves": {
             "charge": [
@@ -8842,6 +9998,94 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Deoxys (ATTACK form)",
+        "moves": {
+            "charge": [
+                "Psycho Boost",
+                "Zap Cannon",
+                "Dark Pulse"
+            ],
+            "quick": [
+                "Zen Headbutt Fast",
+                "Poison Jab Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 137,
+            "baseAttack": 414,
+            "baseDefense": 46
+        },
+        "types": [
+            "Psychic"
+        ]
+    },
+    {
+        "name": "Deoxys (DEFENSE form)",
+        "moves": {
+            "charge": [
+                "Psycho Boost",
+                "Thunderbolt",
+                "Rock Slide"
+            ],
+            "quick": [
+                "Zen Headbutt Fast",
+                "Counter Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 137,
+            "baseAttack": 144,
+            "baseDefense": 330
+        },
+        "types": [
+            "Psychic"
+        ]
+    },
+    {
+        "name": "Deoxys",
+        "moves": {
+            "charge": [
+                "Psycho Boost",
+                "Thunderbolt",
+                "Hyper Beam"
+            ],
+            "quick": [
+                "Zen Headbutt Fast",
+                "Charge Beam Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 137,
+            "baseAttack": 345,
+            "baseDefense": 115
+        },
+        "types": [
+            "Psychic"
+        ]
+    },
+    {
+        "name": "Deoxys (SPEED form)",
+        "moves": {
+            "charge": [
+                "Psycho Boost",
+                "Thunderbolt",
+                "Swift"
+            ],
+            "quick": [
+                "Zen Headbutt Fast",
+                "Charge Beam Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 137,
+            "baseAttack": 230,
+            "baseDefense": 218
+        },
+        "types": [
+            "Psychic"
+        ]
+    },
+    {
         "name": "Turtwig",
         "moves": {
             "charge": [
@@ -9446,6 +10690,75 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Wormadam (PLANT form)",
+        "moves": {
+            "charge": [
+                "Psybeam",
+                "Energy Ball",
+                "Bug Buzz"
+            ],
+            "quick": [
+                "Confusion Fast",
+                "Bug Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 141,
+            "baseDefense": 180
+        },
+        "types": [
+            "Bug",
+            "Grass"
+        ]
+    },
+    {
+        "name": "Wormadam (SANDY form)",
+        "moves": {
+            "charge": [
+                "Psybeam",
+                "Bulldoze",
+                "Bug Buzz"
+            ],
+            "quick": [
+                "Confusion Fast",
+                "Bug Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 141,
+            "baseDefense": 180
+        },
+        "types": [
+            "Bug",
+            "Ground"
+        ]
+    },
+    {
+        "name": "Wormadam (TRASH form)",
+        "moves": {
+            "charge": [
+                "Psybeam",
+                "Iron Head",
+                "Bug Buzz"
+            ],
+            "quick": [
+                "Confusion Fast",
+                "Bug Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 127,
+            "baseDefense": 175
+        },
+        "types": [
+            "Bug",
+            "Steel"
+        ]
+    },
+    {
         "name": "Mothim",
         "moves": {
             "charge": [
@@ -9610,6 +10923,29 @@ var pokemonData = [
                 "Dazzling Gleam",
                 "Hyper Beam",
                 "Solar Beam"
+            ],
+            "quick": [
+                "Razor Leaf Fast",
+                "Bullet Seed Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 172,
+            "baseAttack": 170,
+            "baseDefense": 153
+        },
+        "types": [
+            "Grass"
+        ]
+    },
+    {
+        "name": "Cherrim (SUNNY form)",
+        "moves": {
+            "charge": [
+                "Dazzling Gleam",
+                "Hyper Beam",
+                "Solar Beam",
+                "Weather Ball Fire"
             ],
             "quick": [
                 "Razor Leaf Fast",
@@ -10941,6 +12277,98 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Rotom (FAN form)",
+        "moves": {
+            "charge": [
+                "Ominous Wind",
+                "Thunderbolt",
+                "Thunder"
+            ],
+            "quick": [
+                "Astonish Fast",
+                "Air Slash Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 137,
+            "baseAttack": 204,
+            "baseDefense": 219
+        },
+        "types": [
+            "Electric",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Rotom (FROST form)",
+        "moves": {
+            "charge": [
+                "Blizzard",
+                "Thunderbolt",
+                "Thunder"
+            ],
+            "quick": [
+                "Astonish Fast",
+                "Thunder Shock Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 137,
+            "baseAttack": 204,
+            "baseDefense": 219
+        },
+        "types": [
+            "Electric",
+            "Ice"
+        ]
+    },
+    {
+        "name": "Rotom (HEAT form)",
+        "moves": {
+            "charge": [
+                "Overheat",
+                "Thunderbolt",
+                "Thunder"
+            ],
+            "quick": [
+                "Astonish Fast",
+                "Thunder Shock Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 137,
+            "baseAttack": 204,
+            "baseDefense": 219
+        },
+        "types": [
+            "Electric",
+            "Fire"
+        ]
+    },
+    {
+        "name": "Rotom (MOW form)",
+        "moves": {
+            "charge": [
+                "Ominous Wind",
+                "Thunderbolt",
+                "Thunder"
+            ],
+            "quick": [
+                "Astonish Fast",
+                "Thunder Shock Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 137,
+            "baseAttack": 204,
+            "baseDefense": 219
+        },
+        "types": [
+            "Electric",
+            "Grass"
+        ]
+    },
+    {
         "name": "Rotom",
         "moves": {
             "charge": [
@@ -10961,6 +12389,29 @@ var pokemonData = [
         "types": [
             "Electric",
             "Ghost"
+        ]
+    },
+    {
+        "name": "Rotom (WASH form)",
+        "moves": {
+            "charge": [
+                "Hydro Pump",
+                "Thunderbolt",
+                "Thunder"
+            ],
+            "quick": [
+                "Astonish Fast",
+                "Thunder Shock Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 137,
+            "baseAttack": 204,
+            "baseDefense": 219
+        },
+        "types": [
+            "Electric",
+            "Water"
         ]
     },
     {
@@ -11146,6 +12597,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Giratina (ORIGIN form)",
+        "moves": {
+            "charge": [
+                "Dragon Pulse",
+                "Ominous Wind",
+                "Shadow Ball"
+            ],
+            "quick": [
+                "Dragon Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 284,
+            "baseAttack": 225,
+            "baseDefense": 187
+        },
+        "types": [
+            "Ghost",
+            "Dragon"
+        ]
+    },
+    {
         "name": "Cresselia",
         "moves": {
             "charge": [
@@ -11257,6 +12731,294 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Shaymin (SKY form)",
+        "moves": {
+            "charge": [
+                "Energy Ball",
+                "Grass Knot",
+                "Solar Beam",
+                "Seed Flare"
+            ],
+            "quick": [
+                "Hidden Power Fast",
+                "Zen Headbutt Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 225,
+            "baseAttack": 261,
+            "baseDefense": 166
+        },
+        "types": [
+            "Grass",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Arceus (BUG form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Bug"
+        ]
+    },
+    {
+        "name": "Arceus (DARK form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Dark"
+        ]
+    },
+    {
+        "name": "Arceus (DRAGON form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Dragon"
+        ]
+    },
+    {
+        "name": "Arceus (ELECTRIC form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Electric"
+        ]
+    },
+    {
+        "name": "Arceus (FAIRY form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Fairy"
+        ]
+    },
+    {
+        "name": "Arceus (FIGHTING form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Fighting"
+        ]
+    },
+    {
+        "name": "Arceus (FIRE form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Fire"
+        ]
+    },
+    {
+        "name": "Arceus (FLYING form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Flying"
+        ]
+    },
+    {
+        "name": "Arceus (GHOST form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Ghost"
+        ]
+    },
+    {
+        "name": "Arceus (GRASS form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Grass"
+        ]
+    },
+    {
+        "name": "Arceus (GROUND form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Ground"
+        ]
+    },
+    {
+        "name": "Arceus (ICE form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Ice"
+        ]
+    },
+    {
         "name": "Arceus",
         "moves": {
             "charge": [
@@ -11276,6 +13038,116 @@ var pokemonData = [
         },
         "types": [
             "Normal"
+        ]
+    },
+    {
+        "name": "Arceus (POISON form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Poison"
+        ]
+    },
+    {
+        "name": "Arceus (PSYCHIC form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Psychic"
+        ]
+    },
+    {
+        "name": "Arceus (ROCK form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Rock"
+        ]
+    },
+    {
+        "name": "Arceus (STEEL form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Steel"
+        ]
+    },
+    {
+        "name": "Arceus (WATER form)",
+        "moves": {
+            "charge": [
+                "Futuresight",
+                "Hyper Beam",
+                "Outrage"
+            ],
+            "quick": [
+                "Iron Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 237,
+            "baseAttack": 238,
+            "baseDefense": 238
+        },
+        "types": [
+            "Water"
         ]
     },
     {
@@ -12631,6 +14503,27 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Darumaka (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Ice Punch",
+                "Ice Beam"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Ice Fang Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 172,
+            "baseAttack": 153,
+            "baseDefense": 86
+        },
+        "types": [
+            "Ice"
+        ]
+    },
+    {
         "name": "Darumaka",
         "moves": {
             "charge": [
@@ -12673,6 +14566,78 @@ var pokemonData = [
         },
         "types": [
             "Fire"
+        ]
+    },
+    {
+        "name": "Darmanitan (GALARIAN_STANDARD form)",
+        "moves": {
+            "charge": [
+                "Overheat",
+                "Avalanche",
+                "Super Power",
+                "Ice Punch"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Ice Fang Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 233,
+            "baseAttack": 263,
+            "baseDefense": 114
+        },
+        "types": [
+            "Ice"
+        ]
+    },
+    {
+        "name": "Darmanitan (GALARIAN_ZEN form)",
+        "moves": {
+            "charge": [
+                "Overheat",
+                "Avalanche",
+                "Super Power",
+                "Ice Punch"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Ice Fang Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 233,
+            "baseAttack": 323,
+            "baseDefense": 123
+        },
+        "types": [
+            "Ice",
+            "Fire"
+        ]
+    },
+    {
+        "name": "Darmanitan (ZEN form)",
+        "moves": {
+            "charge": [
+                "Overheat",
+                "Focus Blast",
+                "Psychic",
+                "Rock Slide"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Fire Fang Fast",
+                "Incinerate Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 233,
+            "baseAttack": 243,
+            "baseDefense": 202
+        },
+        "types": [
+            "Fire",
+            "Psychic"
         ]
     },
     {
@@ -12811,6 +14776,27 @@ var pokemonData = [
         "types": [
             "Psychic",
             "Flying"
+        ]
+    },
+    {
+        "name": "Yamask (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Night Shade",
+                "Rock Tomb"
+            ],
+            "quick": [
+                "Astonish Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 116,
+            "baseAttack": 95,
+            "baseDefense": 141
+        },
+        "types": [
+            "Ground",
+            "Ghost"
         ]
     },
     {
@@ -14081,6 +16067,30 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Stunfisk (GALARIAN form)",
+        "moves": {
+            "charge": [
+                "Earthquake",
+                "Flash Cannon",
+                "Muddy Water",
+                "Rock Slide"
+            ],
+            "quick": [
+                "Mud Shot Fast",
+                "Metal Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 240,
+            "baseAttack": 144,
+            "baseDefense": 171
+        },
+        "types": [
+            "Ground",
+            "Steel"
+        ]
+    },
+    {
         "name": "Stunfisk",
         "moves": {
             "charge": [
@@ -14305,6 +16315,30 @@ var pokemonData = [
         },
         "types": [
             "Normal",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Braviary (HISUIAN form)",
+        "moves": {
+            "charge": [
+                "Dazzling Gleam",
+                "Brave Bird",
+                "Psychic",
+                "Ominous Wind"
+            ],
+            "quick": [
+                "Air Slash Fast",
+                "Zen Headbutt Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 242,
+            "baseAttack": 213,
+            "baseDefense": 137
+        },
+        "types": [
+            "Psychic",
             "Flying"
         ]
     },
@@ -14636,6 +16670,29 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Tornadus (THERIAN form)",
+        "moves": {
+            "charge": [
+                "Heat Wave",
+                "Psychic",
+                "Focus Blast",
+                "Hurricane"
+            ],
+            "quick": [
+                "Astonish Fast",
+                "Gust Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 188,
+            "baseAttack": 238,
+            "baseDefense": 189
+        },
+        "types": [
+            "Flying"
+        ]
+    },
+    {
         "name": "Thundurus",
         "moves": {
             "charge": [
@@ -14653,6 +16710,30 @@ var pokemonData = [
             "baseStamina": 188,
             "baseAttack": 266,
             "baseDefense": 164
+        },
+        "types": [
+            "Electric",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Thundurus (THERIAN form)",
+        "moves": {
+            "charge": [
+                "Sludge Wave",
+                "Thunder",
+                "Focus Blast",
+                "Thunderbolt"
+            ],
+            "quick": [
+                "Bite Fast",
+                "Volt Switch Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 188,
+            "baseAttack": 295,
+            "baseDefense": 161
         },
         "types": [
             "Electric",
@@ -14732,6 +16813,54 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Landorus (THERIAN form)",
+        "moves": {
+            "charge": [
+                "Earthquake",
+                "Bulldoze",
+                "Stone Edge",
+                "Super Power"
+            ],
+            "quick": [
+                "Mud Shot Fast",
+                "Extrasensory Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 205,
+            "baseAttack": 289,
+            "baseDefense": 179
+        },
+        "types": [
+            "Ground",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Kyurem (BLACK form)",
+        "moves": {
+            "charge": [
+                "Iron Head",
+                "Blizzard",
+                "Stone Edge",
+                "Outrage"
+            ],
+            "quick": [
+                "Dragon Tail Fast",
+                "Shadow Claw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 245,
+            "baseAttack": 310,
+            "baseDefense": 183
+        },
+        "types": [
+            "Dragon",
+            "Ice"
+        ]
+    },
+    {
         "name": "Kyurem",
         "moves": {
             "charge": [
@@ -14748,6 +16877,30 @@ var pokemonData = [
             "baseStamina": 245,
             "baseAttack": 246,
             "baseDefense": 170
+        },
+        "types": [
+            "Dragon",
+            "Ice"
+        ]
+    },
+    {
+        "name": "Kyurem (WHITE form)",
+        "moves": {
+            "charge": [
+                "Dragon Pulse",
+                "Blizzard",
+                "Ancient Power",
+                "Focus Blast"
+            ],
+            "quick": [
+                "Dragon Breath Fast",
+                "Steel Wing Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 245,
+            "baseAttack": 310,
+            "baseDefense": 183
         },
         "types": [
             "Dragon",
@@ -14803,12 +16956,152 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Meloetta (ARIA form)",
+        "moves": {
+            "charge": [
+                "Psyshock",
+                "Thunderbolt",
+                "Dazzling Gleam",
+                "Hyper Beam"
+            ],
+            "quick": [
+                "Quick Attack Fast",
+                "Confusion Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 225,
+            "baseAttack": 250,
+            "baseDefense": 225
+        },
+        "types": [
+            "Normal",
+            "Psychic"
+        ]
+    },
+    {
+        "name": "Meloetta (PIROUETTE form)",
+        "moves": {
+            "charge": [
+                "Close Combat",
+                "Fire Punch",
+                "Ice Punch",
+                "Hyper Beam"
+            ],
+            "quick": [
+                "Quick Attack Fast",
+                "Low Kick Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 225,
+            "baseAttack": 269,
+            "baseDefense": 188
+        },
+        "types": [
+            "Normal",
+            "Fighting"
+        ]
+    },
+    {
+        "name": "Genesect (BURN form)",
+        "moves": {
+            "charge": [
+                "X Scissor",
+                "Magnet Bomb",
+                "Flamethrower"
+            ],
+            "quick": [
+                "Metal Claw Fast",
+                "Fury Cutter Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 174,
+            "baseAttack": 252,
+            "baseDefense": 199
+        },
+        "types": [
+            "Bug",
+            "Steel"
+        ]
+    },
+    {
+        "name": "Genesect (CHILL form)",
+        "moves": {
+            "charge": [
+                "X Scissor",
+                "Magnet Bomb",
+                "Ice Beam"
+            ],
+            "quick": [
+                "Metal Claw Fast",
+                "Fury Cutter Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 174,
+            "baseAttack": 252,
+            "baseDefense": 199
+        },
+        "types": [
+            "Bug",
+            "Steel"
+        ]
+    },
+    {
+        "name": "Genesect (DOUSE form)",
+        "moves": {
+            "charge": [
+                "X Scissor",
+                "Magnet Bomb",
+                "Gunk Shot"
+            ],
+            "quick": [
+                "Metal Claw Fast",
+                "Fury Cutter Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 174,
+            "baseAttack": 252,
+            "baseDefense": 199
+        },
+        "types": [
+            "Bug",
+            "Steel"
+        ]
+    },
+    {
         "name": "Genesect",
         "moves": {
             "charge": [
                 "X Scissor",
                 "Magnet Bomb",
                 "Hyper Beam"
+            ],
+            "quick": [
+                "Metal Claw Fast",
+                "Fury Cutter Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 174,
+            "baseAttack": 252,
+            "baseDefense": 199
+        },
+        "types": [
+            "Bug",
+            "Steel"
+        ]
+    },
+    {
+        "name": "Genesect (SHOCK form)",
+        "moves": {
+            "charge": [
+                "X Scissor",
+                "Magnet Bomb",
+                "Zap Cannon"
             ],
             "quick": [
                 "Metal Claw Fast",
@@ -15264,6 +17557,54 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Pyroar (FEMALE form)",
+        "moves": {
+            "charge": [
+                "Flame Charge",
+                "Solar Beam",
+                "Dark Pulse",
+                "Overheat"
+            ],
+            "quick": [
+                "Fire Fang Fast",
+                "Take Down Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 200,
+            "baseAttack": 221,
+            "baseDefense": 149
+        },
+        "types": [
+            "Fire",
+            "Normal"
+        ]
+    },
+    {
+        "name": "Pyroar",
+        "moves": {
+            "charge": [
+                "Flame Charge",
+                "Solar Beam",
+                "Dark Pulse",
+                "Overheat"
+            ],
+            "quick": [
+                "Fire Fang Fast",
+                "Take Down Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 200,
+            "baseAttack": 221,
+            "baseDefense": 149
+        },
+        "types": [
+            "Fire",
+            "Normal"
+        ]
+    },
+    {
         "name": "Flabebe",
         "moves": {
             "charge": [
@@ -15465,6 +17806,28 @@ var pokemonData = [
             "baseStamina": 158,
             "baseAttack": 120,
             "baseDefense": 114
+        },
+        "types": [
+            "Psychic"
+        ]
+    },
+    {
+        "name": "Meowstic (FEMALE form)",
+        "moves": {
+            "charge": [
+                "Psychic",
+                "Energy Ball",
+                "Shadow Ball"
+            ],
+            "quick": [
+                "Confusion Fast",
+                "Charm Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 179,
+            "baseAttack": 166,
+            "baseDefense": 167
         },
         "types": [
             "Psychic"
@@ -16168,6 +18531,75 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Pumpkaboo (AVERAGE form)",
+        "moves": {
+            "charge": [
+                "Grass Knot",
+                "Shadow Sneak",
+                "Foul Play"
+            ],
+            "quick": [
+                "Astonish Fast",
+                "Razor Leaf Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 135,
+            "baseAttack": 121,
+            "baseDefense": 123
+        },
+        "types": [
+            "Ghost",
+            "Grass"
+        ]
+    },
+    {
+        "name": "Pumpkaboo (LARGE form)",
+        "moves": {
+            "charge": [
+                "Grass Knot",
+                "Shadow Sneak",
+                "Foul Play"
+            ],
+            "quick": [
+                "Astonish Fast",
+                "Razor Leaf Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 144,
+            "baseAttack": 120,
+            "baseDefense": 122
+        },
+        "types": [
+            "Ghost",
+            "Grass"
+        ]
+    },
+    {
+        "name": "Pumpkaboo (SUPER form)",
+        "moves": {
+            "charge": [
+                "Grass Knot",
+                "Shadow Sneak",
+                "Foul Play"
+            ],
+            "quick": [
+                "Astonish Fast",
+                "Razor Leaf Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 153,
+            "baseAttack": 118,
+            "baseDefense": 120
+        },
+        "types": [
+            "Ghost",
+            "Grass"
+        ]
+    },
+    {
         "name": "Gourgeist",
         "moves": {
             "charge": [
@@ -16185,6 +18617,78 @@ var pokemonData = [
             "baseStamina": 146,
             "baseAttack": 171,
             "baseDefense": 219
+        },
+        "types": [
+            "Ghost",
+            "Grass"
+        ]
+    },
+    {
+        "name": "Gourgeist (AVERAGE form)",
+        "moves": {
+            "charge": [
+                "Seed Bomb",
+                "Shadow Ball",
+                "Foul Play",
+                "Fire Blast"
+            ],
+            "quick": [
+                "Hex Fast",
+                "Razor Leaf Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 163,
+            "baseAttack": 175,
+            "baseDefense": 213
+        },
+        "types": [
+            "Ghost",
+            "Grass"
+        ]
+    },
+    {
+        "name": "Gourgeist (LARGE form)",
+        "moves": {
+            "charge": [
+                "Seed Bomb",
+                "Shadow Ball",
+                "Foul Play",
+                "Fire Blast"
+            ],
+            "quick": [
+                "Hex Fast",
+                "Razor Leaf Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 181,
+            "baseAttack": 179,
+            "baseDefense": 206
+        },
+        "types": [
+            "Ghost",
+            "Grass"
+        ]
+    },
+    {
+        "name": "Gourgeist (SUPER form)",
+        "moves": {
+            "charge": [
+                "Seed Bomb",
+                "Shadow Ball",
+                "Foul Play",
+                "Fire Blast"
+            ],
+            "quick": [
+                "Hex Fast",
+                "Razor Leaf Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 198,
+            "baseAttack": 182,
+            "baseDefense": 200
         },
         "types": [
             "Ghost",
@@ -16378,6 +18882,29 @@ var pokemonData = [
         "types": [
             "Psychic",
             "Ghost"
+        ]
+    },
+    {
+        "name": "Hoopa (UNBOUND form)",
+        "moves": {
+            "charge": [
+                "Shadow Ball",
+                "Dark Pulse",
+                "Psychic"
+            ],
+            "quick": [
+                "Confusion Fast",
+                "Astonish Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 173,
+            "baseAttack": 311,
+            "baseDefense": 191
+        },
+        "types": [
+            "Psychic",
+            "Dark"
         ]
     },
     {
@@ -16861,6 +19388,75 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Oricorio (PAU form)",
+        "moves": {
+            "charge": [
+                "Aerial Ace",
+                "Air Cutter",
+                "Hurricane"
+            ],
+            "quick": [
+                "Pound Fast",
+                "Air Slash Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 181,
+            "baseAttack": 196,
+            "baseDefense": 145
+        },
+        "types": [
+            "Psychic",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Oricorio (POMPOM form)",
+        "moves": {
+            "charge": [
+                "Aerial Ace",
+                "Air Cutter",
+                "Hurricane"
+            ],
+            "quick": [
+                "Pound Fast",
+                "Air Slash Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 181,
+            "baseAttack": 196,
+            "baseDefense": 145
+        },
+        "types": [
+            "Electric",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Oricorio (SENSU form)",
+        "moves": {
+            "charge": [
+                "Aerial Ace",
+                "Air Cutter",
+                "Hurricane"
+            ],
+            "quick": [
+                "Pound Fast",
+                "Air Slash Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 181,
+            "baseAttack": 196,
+            "baseDefense": 145
+        },
+        "types": [
+            "Ghost",
+            "Flying"
+        ]
+    },
+    {
         "name": "Cutiefly",
         "moves": {
             "charge": [
@@ -16949,6 +19545,51 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Lycanroc (DUSK form)",
+        "moves": {
+            "charge": [
+                "Stone Edge",
+                "Iron Head",
+                "Crunch"
+            ],
+            "quick": [
+                "Sucker Punch Fast",
+                "Counter Fast",
+                "Rock Throw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 181,
+            "baseAttack": 234,
+            "baseDefense": 139
+        },
+        "types": [
+            "Rock"
+        ]
+    },
+    {
+        "name": "Lycanroc (MIDNIGHT form)",
+        "moves": {
+            "charge": [
+                "Stone Edge",
+                "Psychic Fangs",
+                "Crunch"
+            ],
+            "quick": [
+                "Counter Fast",
+                "Rock Throw Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 198,
+            "baseAttack": 218,
+            "baseDefense": 152
+        },
+        "types": [
+            "Rock"
+        ]
+    },
+    {
         "name": "Wishiwashi",
         "moves": {
             "charge": [
@@ -16966,6 +19607,29 @@ var pokemonData = [
             "baseStamina": 128,
             "baseAttack": 46,
             "baseDefense": 43
+        },
+        "types": [
+            "Water"
+        ]
+    },
+    {
+        "name": "Wishiwashi (SCHOOL form)",
+        "moves": {
+            "charge": [
+                "Brine",
+                "Surf",
+                "Aqua Tail"
+            ],
+            "quick": [
+                "Water Gun Fast",
+                "Waterfall Fast",
+                "Iron Tail Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 128,
+            "baseAttack": 255,
+            "baseDefense": 242
         },
         "types": [
             "Water"
@@ -17561,6 +20225,294 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Silvally (BUG form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Bug"
+        ]
+    },
+    {
+        "name": "Silvally (DARK form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Dark"
+        ]
+    },
+    {
+        "name": "Silvally (DRAGON form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Dragon"
+        ]
+    },
+    {
+        "name": "Silvally (ELECTRIC form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Electric"
+        ]
+    },
+    {
+        "name": "Silvally (FAIRY form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Fairy"
+        ]
+    },
+    {
+        "name": "Silvally (FIGHTING form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Fighting"
+        ]
+    },
+    {
+        "name": "Silvally (FIRE form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Fire"
+        ]
+    },
+    {
+        "name": "Silvally (FLYING form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Flying"
+        ]
+    },
+    {
+        "name": "Silvally (GHOST form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Ghost"
+        ]
+    },
+    {
+        "name": "Silvally (GRASS form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Grass"
+        ]
+    },
+    {
+        "name": "Silvally (GROUND form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Ground"
+        ]
+    },
+    {
+        "name": "Silvally (ICE form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Ice"
+        ]
+    },
+    {
         "name": "Silvally",
         "moves": {
             "charge": [
@@ -17585,6 +20537,126 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Silvally (POISON form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Poison"
+        ]
+    },
+    {
+        "name": "Silvally (PSYCHIC form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Psychic"
+        ]
+    },
+    {
+        "name": "Silvally (ROCK form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Rock"
+        ]
+    },
+    {
+        "name": "Silvally (STEEL form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Steel"
+        ]
+    },
+    {
+        "name": "Silvally (WATER form)",
+        "moves": {
+            "charge": [
+                "Tri Attack",
+                "Iron Head",
+                "Aerial Ace",
+                "X Scissor"
+            ],
+            "quick": [
+                "Tackle Fast",
+                "Take Down Fast",
+                "Bite Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 216,
+            "baseAttack": 198,
+            "baseDefense": 198
+        },
+        "types": [
+            "Water"
+        ]
+    },
+    {
         "name": "Minior",
         "moves": {
             "charge": [
@@ -17601,6 +20673,167 @@ var pokemonData = [
             "baseStamina": 155,
             "baseAttack": 116,
             "baseDefense": 194
+        },
+        "types": [
+            "Rock",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Minior (BLUE form)",
+        "moves": {
+            "charge": [
+                "Power Gem",
+                "Ancient Power",
+                "Acrobatics"
+            ],
+            "quick": [
+                "Rollout Fast",
+                "Take Down Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 218,
+            "baseDefense": 131
+        },
+        "types": [
+            "Rock",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Minior (GREEN form)",
+        "moves": {
+            "charge": [
+                "Power Gem",
+                "Ancient Power",
+                "Acrobatics"
+            ],
+            "quick": [
+                "Rollout Fast",
+                "Take Down Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 218,
+            "baseDefense": 131
+        },
+        "types": [
+            "Rock",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Minior (INDIGO form)",
+        "moves": {
+            "charge": [
+                "Power Gem",
+                "Ancient Power",
+                "Acrobatics"
+            ],
+            "quick": [
+                "Rollout Fast",
+                "Take Down Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 218,
+            "baseDefense": 131
+        },
+        "types": [
+            "Rock",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Minior (ORANGE form)",
+        "moves": {
+            "charge": [
+                "Power Gem",
+                "Ancient Power",
+                "Acrobatics"
+            ],
+            "quick": [
+                "Rollout Fast",
+                "Take Down Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 218,
+            "baseDefense": 131
+        },
+        "types": [
+            "Rock",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Minior (RED form)",
+        "moves": {
+            "charge": [
+                "Power Gem",
+                "Ancient Power",
+                "Acrobatics"
+            ],
+            "quick": [
+                "Rollout Fast",
+                "Take Down Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 218,
+            "baseDefense": 131
+        },
+        "types": [
+            "Rock",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Minior (VIOLET form)",
+        "moves": {
+            "charge": [
+                "Power Gem",
+                "Ancient Power",
+                "Acrobatics"
+            ],
+            "quick": [
+                "Rollout Fast",
+                "Take Down Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 218,
+            "baseDefense": 131
+        },
+        "types": [
+            "Rock",
+            "Flying"
+        ]
+    },
+    {
+        "name": "Minior (YELLOW form)",
+        "moves": {
+            "charge": [
+                "Power Gem",
+                "Ancient Power",
+                "Acrobatics"
+            ],
+            "quick": [
+                "Rollout Fast",
+                "Take Down Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 155,
+            "baseAttack": 218,
+            "baseDefense": 131
         },
         "types": [
             "Rock",
@@ -18118,10 +21351,14 @@ var pokemonData = [
         "name": "Celesteela",
         "moves": {
             "charge": [
-                "Struggle"
+                "Iron Head",
+                "Body Slam",
+                "Heavy Slam",
+                "Bulldoze"
             ],
             "quick": [
-                "Struggle"
+                "Air Slash Fast",
+                "Smack Down Fast"
             ]
         },
         "stats": {
@@ -18138,10 +21375,14 @@ var pokemonData = [
         "name": "Kartana",
         "moves": {
             "charge": [
-                "Struggle"
+                "Leaf Blade",
+                "X Scissor",
+                "Night Slash",
+                "Aerial Ace"
             ],
             "quick": [
-                "Struggle"
+                "Air Slash Fast",
+                "Razor Leaf Fast"
             ]
         },
         "stats": {
@@ -18175,6 +21416,46 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Necrozma (DAWN_WINGS form)",
+        "moves": {
+            "charge": [
+                "Struggle"
+            ],
+            "quick": [
+                "Struggle"
+            ]
+        },
+        "stats": {
+            "baseStamina": 200,
+            "baseAttack": 277,
+            "baseDefense": 220
+        },
+        "types": [
+            "Psychic",
+            "Ghost"
+        ]
+    },
+    {
+        "name": "Necrozma (DUSK_MANE form)",
+        "moves": {
+            "charge": [
+                "Struggle"
+            ],
+            "quick": [
+                "Struggle"
+            ]
+        },
+        "stats": {
+            "baseStamina": 200,
+            "baseAttack": 277,
+            "baseDefense": 220
+        },
+        "types": [
+            "Psychic",
+            "Steel"
+        ]
+    },
+    {
         "name": "Necrozma",
         "moves": {
             "charge": [
@@ -18191,6 +21472,26 @@ var pokemonData = [
         },
         "types": [
             "Psychic"
+        ]
+    },
+    {
+        "name": "Necrozma (ULTRA form)",
+        "moves": {
+            "charge": [
+                "Struggle"
+            ],
+            "quick": [
+                "Struggle"
+            ]
+        },
+        "stats": {
+            "baseStamina": 200,
+            "baseAttack": 337,
+            "baseDefense": 196
+        },
+        "types": [
+            "Psychic",
+            "Dragon"
         ]
     },
     {
@@ -19839,6 +23140,27 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Eiscue (NOICE form)",
+        "moves": {
+            "charge": [
+                "Icy Wind",
+                "Weather Ball Ice",
+                "Surf"
+            ],
+            "quick": [
+                "Powder Snow Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 181,
+            "baseAttack": 173,
+            "baseDefense": 139
+        },
+        "types": [
+            "Ice"
+        ]
+    },
+    {
         "name": "Indeedee",
         "moves": {
             "charge": [
@@ -19854,6 +23176,28 @@ var pokemonData = [
             "baseStamina": 155,
             "baseAttack": 208,
             "baseDefense": 166
+        },
+        "types": [
+            "Psychic",
+            "Normal"
+        ]
+    },
+    {
+        "name": "Indeedee (FEMALE form)",
+        "moves": {
+            "charge": [
+                "Psybeam",
+                "Psychic",
+                "Energy Ball"
+            ],
+            "quick": [
+                "Extrasensory Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 172,
+            "baseAttack": 184,
+            "baseDefense": 184
         },
         "types": [
             "Psychic",
@@ -20138,6 +23482,57 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Zacian (CROWNED_SWORD form)",
+        "moves": {
+            "charge": [
+                "Play Rough",
+                "Iron Head",
+                "Wild Charge",
+                "Close Combat"
+            ],
+            "quick": [
+                "Metal Claw Fast",
+                "Snarl Fast",
+                "Quick Attack Fast",
+                "Fire Fang Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 192,
+            "baseAttack": 332,
+            "baseDefense": 240
+        },
+        "types": [
+            "Fairy",
+            "Steel"
+        ]
+    },
+    {
+        "name": "Zacian (HERO form)",
+        "moves": {
+            "charge": [
+                "Play Rough",
+                "Iron Head",
+                "Wild Charge",
+                "Close Combat"
+            ],
+            "quick": [
+                "Metal Claw Fast",
+                "Snarl Fast",
+                "Quick Attack Fast",
+                "Fire Fang Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 192,
+            "baseAttack": 254,
+            "baseDefense": 236
+        },
+        "types": [
+            "Fairy"
+        ]
+    },
+    {
         "name": "Zamazenta",
         "moves": {
             "charge": [
@@ -20161,6 +23556,81 @@ var pokemonData = [
         "types": [
             "Fighting",
             "Steel"
+        ]
+    },
+    {
+        "name": "Zamazenta (CROWNED_SHIELD form)",
+        "moves": {
+            "charge": [
+                "Moonblast",
+                "Iron Head",
+                "Crunch",
+                "Close Combat"
+            ],
+            "quick": [
+                "Metal Claw Fast",
+                "Snarl Fast",
+                "Quick Attack Fast",
+                "Ice Fang Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 192,
+            "baseAttack": 250,
+            "baseDefense": 292
+        },
+        "types": [
+            "Fighting",
+            "Steel"
+        ]
+    },
+    {
+        "name": "Zamazenta (HERO form)",
+        "moves": {
+            "charge": [
+                "Moonblast",
+                "Iron Head",
+                "Crunch",
+                "Close Combat"
+            ],
+            "quick": [
+                "Metal Claw Fast",
+                "Snarl Fast",
+                "Quick Attack Fast",
+                "Ice Fang Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 192,
+            "baseAttack": 254,
+            "baseDefense": 236
+        },
+        "types": [
+            "Fighting"
+        ]
+    },
+    {
+        "name": "Eternatus (ETERNAMAX form)",
+        "moves": {
+            "charge": [
+                "Cross Poison",
+                "Dragon Pulse",
+                "Flamethrower",
+                "Hyper Beam"
+            ],
+            "quick": [
+                "Dragon Tail Fast",
+                "Poison Jab Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 452,
+            "baseAttack": 251,
+            "baseDefense": 505
+        },
+        "types": [
+            "Poison",
+            "Dragon"
         ]
     },
     {
@@ -20228,6 +23698,56 @@ var pokemonData = [
         },
         "types": [
             "Fighting"
+        ]
+    },
+    {
+        "name": "Urshifu (RAPID_STRIKE form)",
+        "moves": {
+            "charge": [
+                "Brick Break",
+                "Dynamic Punch",
+                "Close Combat",
+                "Aqua Jet"
+            ],
+            "quick": [
+                "Rock Smash Fast",
+                "Counter Fast",
+                "Waterfall Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 225,
+            "baseAttack": 254,
+            "baseDefense": 177
+        },
+        "types": [
+            "Fighting",
+            "Water"
+        ]
+    },
+    {
+        "name": "Urshifu (SINGLE_STRIKE form)",
+        "moves": {
+            "charge": [
+                "Brick Break",
+                "Dynamic Punch",
+                "Close Combat",
+                "Payback"
+            ],
+            "quick": [
+                "Rock Smash Fast",
+                "Counter Fast",
+                "Sucker Punch Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 225,
+            "baseAttack": 254,
+            "baseDefense": 177
+        },
+        "types": [
+            "Fighting",
+            "Dark"
         ]
     },
     {
@@ -20341,6 +23861,30 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Calyrex (ICE_RIDER form)",
+        "moves": {
+            "charge": [
+                "Psyshock",
+                "Psychic",
+                "Energy Ball",
+                "Avalanche"
+            ],
+            "quick": [
+                "Confusion Fast",
+                "Take Down Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 205,
+            "baseAttack": 268,
+            "baseDefense": 246
+        },
+        "types": [
+            "Psychic",
+            "Ice"
+        ]
+    },
+    {
         "name": "Calyrex",
         "moves": {
             "charge": [
@@ -20361,6 +23905,30 @@ var pokemonData = [
         "types": [
             "Psychic",
             "Grass"
+        ]
+    },
+    {
+        "name": "Calyrex (SHADOW_RIDER form)",
+        "moves": {
+            "charge": [
+                "Psyshock",
+                "Psychic",
+                "Energy Ball",
+                "Shadow Ball"
+            ],
+            "quick": [
+                "Confusion Fast",
+                "Take Down Fast"
+            ]
+        },
+        "stats": {
+            "baseStamina": 205,
+            "baseAttack": 324,
+            "baseDefense": 194
+        },
+        "types": [
+            "Psychic",
+            "Ghost"
         ]
     },
     {

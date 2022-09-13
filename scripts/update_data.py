@@ -14,18 +14,46 @@ def filter_json(data, prop_name):
     return [obj['data'][prop_name] for obj in data if prop_name in obj['data']]
 
 def filter_pokemon_props(p):
-    if 'cinematicMoves' in p and 'stats' in p and p['stats'] and 'form' not in p:
-        return {
-            'name': format_name(p['pokemonId']),
+    if 'cinematicMoves' in p and 'stats' in p and p['stats']:
+        name = format_name(p['pokemonId'])
+        return [{
+            'name': name,
+            'form': p['form'][len(name) + 1:] if 'form' in p else 'NORMAL',
             'moves': {
                 'charge': [format_move(m) for m in p['cinematicMoves']],
                 'quick': [format_move(m) for m in p['quickMoves']]
             },
             'stats': p['stats'],
             'types': [format_type(t) for t in [p['type']] + ([p['type2']] if 'type2' in p else [])]
-        }
+        }]
     else:
         print('skipping', p['pokemonId'])
+
+def dedupe_forms(all_pokemon):
+    def equivalent(p1, p2):
+        return p1['stats'] == p2['stats'] and set(p1['moves']['charge']) == set(p2['moves']['charge']) and set(p1['moves']['quick']) == set(p2['moves']['quick']) and set(p1['types']) == set(p2['types'])
+
+    pokemon_groups = {}
+    for p in all_pokemon:
+        name = p['name']
+        if name not in pokemon_groups:
+            pokemon_groups[name] = []
+        pokemon_groups[name].append(p)
+
+    for pokemon_name, pokemon_list in pokemon_groups.items():
+        normal_form = next((p for p in pokemon_list if p['form'] == 'NORMAL'), None)
+        if normal_form:
+            for pokemon in pokemon_list:
+                if pokemon is not normal_form and equivalent(pokemon, normal_form):
+                    all_pokemon.remove(pokemon)
+
+    for p in all_pokemon:
+        form = p['form']
+        del p['form']
+        if form != 'NORMAL':
+            p['name'] = '{} ({} form)'.format(p['name'], form)
+
+    return all_pokemon
 
 def filter_move_props(m):
     return {
@@ -41,9 +69,13 @@ def process_types(t):
 
 data = requests.get(datafile).json()
 
-pokemon = [p for p in[filter_pokemon_props(pk) for pk in filter_json(data, 'pokemonSettings')] if p]
+pokemon_settings = filter_json(data, 'pokemonSettings')
+pokemon_lists = [filter_pokemon_props(pks) for pks in pokemon_settings]
+pokemon = [p for pokemon_list in pokemon_lists if pokemon_list for p in pokemon_list]
+unique_pokemon = dedupe_forms(pokemon)
+
 with open('../js/data/pokemon.js', 'w') as f:
-    f.write('var pokemonData = {};'.format(json.dumps(pokemon, indent=4)))
+    f.write('var pokemonData = {};'.format(json.dumps(unique_pokemon, indent=4)))
 
 moves = [filter_move_props(mv) for mv in filter_json(data, 'moveSettings')]
 with open('../js/data/moves.js', 'w') as f:
