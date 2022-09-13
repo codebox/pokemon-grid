@@ -43,6 +43,20 @@ def filter_pokemon_props(p):
             if mega_overrides:
                 pokemon_list.append(build_mega_pokemon(regular_pokemon, mega_overrides[0]))
 
+        if 'shadow' in p:
+            shadow_pokemon = {
+                'name': 'Shadow {}'.format(name),
+                'form': regular_pokemon['form'],
+                'moves': regular_pokemon['moves'],
+                'stats': {
+                    'baseStamina': regular_pokemon['stats']['baseStamina'],
+                    'baseAttack': regular_pokemon['stats']['baseAttack'] * 1.2,
+                    'baseDefense': regular_pokemon['stats']['baseDefense'] * 0.8
+                },
+                'types': regular_pokemon['types']
+            }
+            pokemon_list.append(shadow_pokemon)
+
     return pokemon_list
 
 def dedupe_forms(all_pokemon):
