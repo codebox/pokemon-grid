@@ -30,8 +30,8 @@ def filter_pokemon_props(p):
             'name': name,
             'form': p['form'][len(name) + 1:] if 'form' in p else 'NORMAL',
             'moves': {
-              'charge': [format_move(m) for m in p['cinematicMoves']],
-              'quick': [format_move(m) for m in p['quickMoves']]
+              'charge': [format_move(m) for m in p['cinematicMoves'] + p.get('eliteCinematicMove', [])],
+              'quick': [format_move(m) for m in p['quickMoves'] + p.get('eliteQuickMove', [])]
             },
             'stats': p['stats'],
             'types': [format_type(t) for t in [p['type']] + ([p['type2']] if 'type2' in p else [])]

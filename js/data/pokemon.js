@@ -97,7 +97,8 @@ var pokemonData = [
             "charge": [
                 "Sludge Bomb",
                 "Petal Blizzard",
-                "Solar Beam"
+                "Solar Beam",
+                "Frenzy Plant"
             ],
             "quick": [
                 "Razor Leaf",
@@ -120,7 +121,8 @@ var pokemonData = [
             "charge": [
                 "Sludge Bomb",
                 "Petal Blizzard",
-                "Solar Beam"
+                "Solar Beam",
+                "Frenzy Plant"
             ],
             "quick": [
                 "Razor Leaf",
@@ -143,7 +145,8 @@ var pokemonData = [
             "charge": [
                 "Sludge Bomb",
                 "Petal Blizzard",
-                "Solar Beam"
+                "Solar Beam",
+                "Frenzy Plant"
             ],
             "quick": [
                 "Razor Leaf",
@@ -214,7 +217,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Ember",
-                "Fire Fang"
+                "Fire Fang",
+                "Scratch"
             ]
         },
         "stats": {
@@ -236,7 +240,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Ember",
-                "Fire Fang"
+                "Fire Fang",
+                "Scratch"
             ]
         },
         "stats": {
@@ -254,11 +259,16 @@ var pokemonData = [
             "charge": [
                 "Fire Blast",
                 "Dragon Claw",
-                "Overheat"
+                "Overheat",
+                "Blast Burn",
+                "Flamethrower"
             ],
             "quick": [
                 "Fire Spin",
-                "Air Slash"
+                "Air Slash",
+                "Ember",
+                "Wing Attack",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -277,11 +287,16 @@ var pokemonData = [
             "charge": [
                 "Fire Blast",
                 "Dragon Claw",
-                "Overheat"
+                "Overheat",
+                "Blast Burn",
+                "Flamethrower"
             ],
             "quick": [
                 "Fire Spin",
-                "Air Slash"
+                "Air Slash",
+                "Ember",
+                "Wing Attack",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -389,7 +404,8 @@ var pokemonData = [
                 "Flash Cannon",
                 "Ice Beam",
                 "Hydro Pump",
-                "Skull Bash"
+                "Skull Bash",
+                "Hydro Cannon"
             ],
             "quick": [
                 "Water Gun",
@@ -412,7 +428,8 @@ var pokemonData = [
                 "Flash Cannon",
                 "Ice Beam",
                 "Hydro Pump",
-                "Skull Bash"
+                "Skull Bash",
+                "Hydro Cannon"
             ],
             "quick": [
                 "Water Gun",
@@ -435,7 +452,8 @@ var pokemonData = [
                 "Flash Cannon",
                 "Ice Beam",
                 "Hydro Pump",
-                "Skull Bash"
+                "Skull Bash",
+                "Hydro Cannon"
             ],
             "quick": [
                 "Water Gun",
@@ -501,7 +519,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Struggle Bug",
-                "Confusion"
+                "Confusion",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -605,11 +624,13 @@ var pokemonData = [
                 "Sludge Bomb",
                 "Aerial Ace",
                 "X Scissor",
-                "Fell Stinger"
+                "Fell Stinger",
+                "Drill Run"
             ],
             "quick": [
                 "Infestation",
-                "Poison Jab"
+                "Poison Jab",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -629,11 +650,13 @@ var pokemonData = [
                 "Sludge Bomb",
                 "Aerial Ace",
                 "X Scissor",
-                "Fell Stinger"
+                "Fell Stinger",
+                "Drill Run"
             ],
             "quick": [
                 "Infestation",
-                "Poison Jab"
+                "Poison Jab",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -653,11 +676,13 @@ var pokemonData = [
                 "Sludge Bomb",
                 "Aerial Ace",
                 "X Scissor",
-                "Fell Stinger"
+                "Fell Stinger",
+                "Drill Run"
             ],
             "quick": [
                 "Infestation",
-                "Poison Jab"
+                "Poison Jab",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -723,11 +748,14 @@ var pokemonData = [
                 "Hurricane",
                 "Aerial Ace",
                 "Brave Bird",
-                "Feather Dance"
+                "Feather Dance",
+                "Air Cutter"
             ],
             "quick": [
                 "Air Slash",
-                "Steel Wing"
+                "Steel Wing",
+                "Wing Attack",
+                "Gust"
             ]
         },
         "stats": {
@@ -747,11 +775,14 @@ var pokemonData = [
                 "Hurricane",
                 "Aerial Ace",
                 "Brave Bird",
-                "Feather Dance"
+                "Feather Dance",
+                "Air Cutter"
             ],
             "quick": [
                 "Air Slash",
-                "Steel Wing"
+                "Steel Wing",
+                "Wing Attack",
+                "Gust"
             ]
         },
         "stats": {
@@ -950,7 +981,8 @@ var pokemonData = [
             "charge": [
                 "Aerial Ace",
                 "Drill Peck",
-                "Sky Attack"
+                "Sky Attack",
+                "Twister"
             ],
             "quick": [
                 "Peck",
@@ -973,7 +1005,8 @@ var pokemonData = [
             "charge": [
                 "Aerial Ace",
                 "Drill Run",
-                "Sky Attack"
+                "Sky Attack",
+                "Twister"
             ],
             "quick": [
                 "Peck",
@@ -996,7 +1029,8 @@ var pokemonData = [
             "charge": [
                 "Wrap",
                 "Poison Fang",
-                "Sludge Bomb"
+                "Sludge Bomb",
+                "Gunk Shot"
             ],
             "quick": [
                 "Poison Sting",
@@ -1018,7 +1052,8 @@ var pokemonData = [
             "charge": [
                 "Wrap",
                 "Poison Fang",
-                "Sludge Bomb"
+                "Sludge Bomb",
+                "Gunk Shot"
             ],
             "quick": [
                 "Poison Sting",
@@ -1116,7 +1151,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Thunder Shock",
-                "Quick Attack"
+                "Quick Attack",
+                "Present"
             ]
         },
         "stats": {
@@ -1152,7 +1188,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Pikachu",
+        "name": "Pikachu (KARIYUSHI form)",
         "moves": {
             "charge": [
                 "Discharge",
@@ -1162,6 +1198,31 @@ var pokemonData = [
             "quick": [
                 "Thunder Shock",
                 "Quick Attack"
+            ]
+        },
+        "stats": {
+            "baseStamina": 111,
+            "baseAttack": 112,
+            "baseDefense": 96
+        },
+        "types": [
+            "Electric"
+        ]
+    },
+    {
+        "name": "Pikachu",
+        "moves": {
+            "charge": [
+                "Discharge",
+                "Thunderbolt",
+                "Wild Charge",
+                "Surf",
+                "Thunder"
+            ],
+            "quick": [
+                "Thunder Shock",
+                "Quick Attack",
+                "Present"
             ]
         },
         "stats": {
@@ -1271,7 +1332,8 @@ var pokemonData = [
                 "Brick Break",
                 "Thunder Punch",
                 "Wild Charge",
-                "Skull Bash"
+                "Skull Bash",
+                "Thunder"
             ],
             "quick": [
                 "Volt Switch",
@@ -1341,7 +1403,8 @@ var pokemonData = [
             "charge": [
                 "Dig",
                 "Rock Slide",
-                "Sand Tomb"
+                "Sand Tomb",
+                "Rock Tomb"
             ],
             "quick": [
                 "Scratch",
@@ -1363,7 +1426,8 @@ var pokemonData = [
             "charge": [
                 "Dig",
                 "Rock Slide",
-                "Sand Tomb"
+                "Sand Tomb",
+                "Rock Tomb"
             ],
             "quick": [
                 "Scratch",
@@ -1390,7 +1454,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Metal Claw",
-                "Powder Snow"
+                "Powder Snow",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -1414,7 +1479,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Metal Claw",
-                "Powder Snow"
+                "Powder Snow",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -1433,7 +1499,8 @@ var pokemonData = [
             "charge": [
                 "Earthquake",
                 "Rock Tomb",
-                "Bulldoze"
+                "Bulldoze",
+                "Night Slash"
             ],
             "quick": [
                 "Metal Claw",
@@ -1455,7 +1522,8 @@ var pokemonData = [
             "charge": [
                 "Earthquake",
                 "Rock Tomb",
-                "Bulldoze"
+                "Bulldoze",
+                "Night Slash"
             ],
             "quick": [
                 "Metal Claw",
@@ -1714,7 +1782,8 @@ var pokemonData = [
             "quick": [
                 "Poison Jab",
                 "Iron Tail",
-                "Double Kick"
+                "Double Kick",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -1740,7 +1809,8 @@ var pokemonData = [
             "quick": [
                 "Poison Jab",
                 "Iron Tail",
-                "Double Kick"
+                "Double Kick",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -1787,7 +1857,8 @@ var pokemonData = [
             "quick": [
                 "Charge Beam",
                 "Zen Headbutt",
-                "Charm"
+                "Charm",
+                "Pound"
             ]
         },
         "stats": {
@@ -1951,11 +2022,14 @@ var pokemonData = [
                 "Overheat",
                 "Solar Beam",
                 "Psyshock",
-                "Weather Ball Fire"
+                "Weather Ball Fire",
+                "Fire Blast",
+                "Flamethrower"
             ],
             "quick": [
                 "Feint Attack",
-                "Fire Spin"
+                "Fire Spin",
+                "Ember"
             ]
         },
         "stats": {
@@ -1975,11 +2049,14 @@ var pokemonData = [
                 "Overheat",
                 "Solar Beam",
                 "Psyshock",
-                "Weather Ball Fire"
+                "Weather Ball Fire",
+                "Fire Blast",
+                "Flamethrower"
             ],
             "quick": [
                 "Feint Attack",
-                "Fire Spin"
+                "Fire Spin",
+                "Ember"
             ]
         },
         "stats": {
@@ -1997,7 +2074,9 @@ var pokemonData = [
             "charge": [
                 "Disarming Voice",
                 "Gyro Ball",
-                "Dazzling Gleam"
+                "Dazzling Gleam",
+                "Play Rough",
+                "Body Slam"
             ],
             "quick": [
                 "Pound",
@@ -2045,7 +2124,8 @@ var pokemonData = [
             "charge": [
                 "Poison Fang",
                 "Air Cutter",
-                "Swift"
+                "Swift",
+                "Sludge Bomb"
             ],
             "quick": [
                 "Quick Attack",
@@ -2068,7 +2148,8 @@ var pokemonData = [
             "charge": [
                 "Poison Fang",
                 "Air Cutter",
-                "Swift"
+                "Swift",
+                "Sludge Bomb"
             ],
             "quick": [
                 "Quick Attack",
@@ -2091,7 +2172,8 @@ var pokemonData = [
             "charge": [
                 "Shadow Ball",
                 "Air Cutter",
-                "Poison Fang"
+                "Poison Fang",
+                "Ominous Wind"
             ],
             "quick": [
                 "Wing Attack",
@@ -2114,7 +2196,8 @@ var pokemonData = [
             "charge": [
                 "Shadow Ball",
                 "Air Cutter",
-                "Poison Fang"
+                "Poison Fang",
+                "Ominous Wind"
             ],
             "quick": [
                 "Wing Attack",
@@ -2304,7 +2387,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Struggle Bug",
-                "Fury Cutter"
+                "Fury Cutter",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -2374,7 +2458,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Infestation",
-                "Confusion"
+                "Confusion",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -2398,7 +2483,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Infestation",
-                "Confusion"
+                "Confusion",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -2729,7 +2815,8 @@ var pokemonData = [
             "charge": [
                 "Night Slash",
                 "Dark Pulse",
-                "Foul Play"
+                "Foul Play",
+                "Body Slam"
             ],
             "quick": [
                 "Scratch",
@@ -2751,7 +2838,8 @@ var pokemonData = [
             "charge": [
                 "Night Slash",
                 "Dark Pulse",
-                "Foul Play"
+                "Foul Play",
+                "Body Slam"
             ],
             "quick": [
                 "Scratch",
@@ -2820,7 +2908,8 @@ var pokemonData = [
                 "Foul Play",
                 "Power Gem",
                 "Play Rough",
-                "Payback"
+                "Payback",
+                "Night Slash"
             ],
             "quick": [
                 "Scratch",
@@ -2843,7 +2932,8 @@ var pokemonData = [
                 "Foul Play",
                 "Power Gem",
                 "Play Rough",
-                "Payback"
+                "Payback",
+                "Night Slash"
             ],
             "quick": [
                 "Scratch",
@@ -2982,11 +3072,13 @@ var pokemonData = [
                 "Close Combat",
                 "Low Sweep",
                 "Night Slash",
-                "Ice Punch"
+                "Ice Punch",
+                "Cross Chop"
             ],
             "quick": [
                 "Low Kick",
-                "Counter"
+                "Counter",
+                "Karate Chop"
             ]
         },
         "stats": {
@@ -3146,12 +3238,14 @@ var pokemonData = [
                 "Wild Charge",
                 "Crunch",
                 "Flamethrower",
-                "Psychic Fangs"
+                "Psychic Fangs",
+                "Bulldoze"
             ],
             "quick": [
                 "Fire Fang",
                 "Snarl",
-                "Thunder Fang"
+                "Thunder Fang",
+                "Bite"
             ]
         },
         "stats": {
@@ -3171,12 +3265,14 @@ var pokemonData = [
                 "Wild Charge",
                 "Crunch",
                 "Flamethrower",
-                "Psychic Fangs"
+                "Psychic Fangs",
+                "Bulldoze"
             ],
             "quick": [
                 "Fire Fang",
                 "Snarl",
-                "Thunder Fang"
+                "Thunder Fang",
+                "Bite"
             ]
         },
         "stats": {
@@ -3238,7 +3334,8 @@ var pokemonData = [
             "charge": [
                 "Water Pulse",
                 "Mud Bomb",
-                "Bubble Beam"
+                "Bubble Beam",
+                "Scald"
             ],
             "quick": [
                 "Bubble",
@@ -3260,7 +3357,8 @@ var pokemonData = [
             "charge": [
                 "Water Pulse",
                 "Mud Bomb",
-                "Bubble Beam"
+                "Bubble Beam",
+                "Scald"
             ],
             "quick": [
                 "Bubble",
@@ -3284,7 +3382,8 @@ var pokemonData = [
                 "Dynamic Punch",
                 "Ice Punch",
                 "Power Up Punch",
-                "Scald"
+                "Scald",
+                "Submission"
             ],
             "quick": [
                 "Bubble",
@@ -3310,7 +3409,8 @@ var pokemonData = [
                 "Dynamic Punch",
                 "Ice Punch",
                 "Power Up Punch",
-                "Scald"
+                "Scald",
+                "Submission"
             ],
             "quick": [
                 "Bubble",
@@ -3423,11 +3523,14 @@ var pokemonData = [
                 "Futuresight",
                 "Focus Blast",
                 "Shadow Ball",
-                "Fire Punch"
+                "Fire Punch",
+                "Dazzling Gleam",
+                "Psychic"
             ],
             "quick": [
                 "Psycho Cut",
-                "Confusion"
+                "Confusion",
+                "Counter"
             ]
         },
         "stats": {
@@ -3446,11 +3549,14 @@ var pokemonData = [
                 "Futuresight",
                 "Focus Blast",
                 "Shadow Ball",
-                "Fire Punch"
+                "Fire Punch",
+                "Dazzling Gleam",
+                "Psychic"
             ],
             "quick": [
                 "Psycho Cut",
-                "Confusion"
+                "Confusion",
+                "Counter"
             ]
         },
         "stats": {
@@ -3469,11 +3575,14 @@ var pokemonData = [
                 "Futuresight",
                 "Focus Blast",
                 "Shadow Ball",
-                "Fire Punch"
+                "Fire Punch",
+                "Dazzling Gleam",
+                "Psychic"
             ],
             "quick": [
                 "Psycho Cut",
-                "Confusion"
+                "Confusion",
+                "Counter"
             ]
         },
         "stats": {
@@ -3495,7 +3604,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Rock Smash",
-                "Karate Chop"
+                "Karate Chop",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -3517,7 +3627,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Rock Smash",
-                "Karate Chop"
+                "Karate Chop",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -3535,7 +3646,8 @@ var pokemonData = [
             "charge": [
                 "Submission",
                 "Brick Break",
-                "Dynamic Punch"
+                "Dynamic Punch",
+                "Cross Chop"
             ],
             "quick": [
                 "Low Kick",
@@ -3557,7 +3669,8 @@ var pokemonData = [
             "charge": [
                 "Submission",
                 "Brick Break",
-                "Dynamic Punch"
+                "Dynamic Punch",
+                "Cross Chop"
             ],
             "quick": [
                 "Low Kick",
@@ -3581,11 +3694,15 @@ var pokemonData = [
                 "Dynamic Punch",
                 "Close Combat",
                 "Rock Slide",
-                "Cross Chop"
+                "Cross Chop",
+                "Stone Edge",
+                "Submission",
+                "Payback"
             ],
             "quick": [
                 "Bullet Punch",
-                "Counter"
+                "Counter",
+                "Karate Chop"
             ]
         },
         "stats": {
@@ -3605,11 +3722,15 @@ var pokemonData = [
                 "Dynamic Punch",
                 "Close Combat",
                 "Rock Slide",
-                "Cross Chop"
+                "Cross Chop",
+                "Stone Edge",
+                "Submission",
+                "Payback"
             ],
             "quick": [
                 "Bullet Punch",
-                "Counter"
+                "Counter",
+                "Karate Chop"
             ]
         },
         "stats": {
@@ -3677,7 +3798,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Bullet Seed",
-                "Acid"
+                "Acid",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -3700,7 +3822,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Bullet Seed",
-                "Acid"
+                "Acid",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -3955,7 +4078,8 @@ var pokemonData = [
             "charge": [
                 "Dig",
                 "Stone Edge",
-                "Rock Blast"
+                "Rock Blast",
+                "Rock Slide"
             ],
             "quick": [
                 "Rock Throw",
@@ -3978,7 +4102,8 @@ var pokemonData = [
             "charge": [
                 "Dig",
                 "Stone Edge",
-                "Rock Blast"
+                "Rock Blast",
+                "Rock Slide"
             ],
             "quick": [
                 "Rock Throw",
@@ -4005,7 +4130,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Rock Throw",
-                "Volt Switch"
+                "Volt Switch",
+                "Rollout"
             ]
         },
         "stats": {
@@ -4028,7 +4154,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Rock Throw",
-                "Volt Switch"
+                "Volt Switch",
+                "Rollout"
             ]
         },
         "stats": {
@@ -4139,7 +4266,8 @@ var pokemonData = [
             "charge": [
                 "Flame Charge",
                 "Flame Wheel",
-                "Stomp"
+                "Stomp",
+                "Fire Blast"
             ],
             "quick": [
                 "Tackle",
@@ -4161,7 +4289,8 @@ var pokemonData = [
             "charge": [
                 "Flame Charge",
                 "Flame Wheel",
-                "Stomp"
+                "Stomp",
+                "Fire Blast"
             ],
             "quick": [
                 "Tackle",
@@ -4239,7 +4368,8 @@ var pokemonData = [
             "quick": [
                 "Low Kick",
                 "Fire Spin",
-                "Incinerate"
+                "Incinerate",
+                "Ember"
             ]
         },
         "stats": {
@@ -4263,7 +4393,8 @@ var pokemonData = [
             "quick": [
                 "Low Kick",
                 "Fire Spin",
-                "Incinerate"
+                "Incinerate",
+                "Ember"
             ]
         },
         "stats": {
@@ -4630,7 +4761,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Air Slash",
-                "Fury Cutter"
+                "Fury Cutter",
+                "Cut"
             ]
         },
         "stats": {
@@ -4653,7 +4785,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Air Slash",
-                "Fury Cutter"
+                "Fury Cutter",
+                "Cut"
             ]
         },
         "stats": {
@@ -4672,7 +4805,8 @@ var pokemonData = [
             "charge": [
                 "Drill Peck",
                 "Aerial Ace",
-                "Brave Bird"
+                "Brave Bird",
+                "Swift"
             ],
             "quick": [
                 "Peck",
@@ -4695,7 +4829,8 @@ var pokemonData = [
             "charge": [
                 "Drill Peck",
                 "Aerial Ace",
-                "Brave Bird"
+                "Brave Bird",
+                "Air Cutter"
             ],
             "quick": [
                 "Feint Attack",
@@ -4718,11 +4853,13 @@ var pokemonData = [
             "charge": [
                 "Aurora Beam",
                 "Icy Wind",
-                "Aqua Tail"
+                "Aqua Tail",
+                "Aqua Jet"
             ],
             "quick": [
                 "Ice Shard",
-                "Lick"
+                "Lick",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -4740,11 +4877,14 @@ var pokemonData = [
             "charge": [
                 "Aurora Beam",
                 "Water Pulse",
-                "Blizzard"
+                "Blizzard",
+                "Aqua Jet",
+                "Icy Wind"
             ],
             "quick": [
                 "Frost Breath",
-                "Iron Tail"
+                "Iron Tail",
+                "Ice Shard"
             ]
         },
         "stats": {
@@ -4909,7 +5049,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Infestation",
-                "Poison Jab"
+                "Poison Jab",
+                "Lick"
             ]
         },
         "stats": {
@@ -4933,7 +5074,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Infestation",
-                "Poison Jab"
+                "Poison Jab",
+                "Lick"
             ]
         },
         "stats": {
@@ -4996,7 +5138,8 @@ var pokemonData = [
                 "Aurora Beam",
                 "Hydro Pump",
                 "Avalanche",
-                "Icy Wind"
+                "Icy Wind",
+                "Blizzard"
             ],
             "quick": [
                 "Frost Breath",
@@ -5020,7 +5163,8 @@ var pokemonData = [
                 "Aurora Beam",
                 "Hydro Pump",
                 "Avalanche",
-                "Icy Wind"
+                "Icy Wind",
+                "Blizzard"
             ],
             "quick": [
                 "Frost Breath",
@@ -5043,11 +5187,13 @@ var pokemonData = [
             "charge": [
                 "Night Shade",
                 "Dark Pulse",
-                "Sludge Bomb"
+                "Sludge Bomb",
+                "Ominous Wind"
             ],
             "quick": [
                 "Lick",
-                "Astonish"
+                "Astonish",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -5072,7 +5218,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Shadow Claw",
-                "Astonish"
+                "Astonish",
+                "Lick"
             ]
         },
         "stats": {
@@ -5091,12 +5238,17 @@ var pokemonData = [
             "charge": [
                 "Shadow Ball",
                 "Focus Blast",
-                "Sludge Bomb"
+                "Sludge Bomb",
+                "Sludge Wave",
+                "Dark Pulse",
+                "Psychic",
+                "Shadow Punch"
             ],
             "quick": [
                 "Sucker Punch",
                 "Hex",
-                "Shadow Claw"
+                "Shadow Claw",
+                "Lick"
             ]
         },
         "stats": {
@@ -5115,12 +5267,17 @@ var pokemonData = [
             "charge": [
                 "Shadow Ball",
                 "Focus Blast",
-                "Sludge Bomb"
+                "Sludge Bomb",
+                "Sludge Wave",
+                "Dark Pulse",
+                "Psychic",
+                "Shadow Punch"
             ],
             "quick": [
                 "Sucker Punch",
                 "Hex",
-                "Shadow Claw"
+                "Shadow Claw",
+                "Lick"
             ]
         },
         "stats": {
@@ -5139,7 +5296,9 @@ var pokemonData = [
             "charge": [
                 "Sand Tomb",
                 "Stone Edge",
-                "Heavy Slam"
+                "Heavy Slam",
+                "Iron Head",
+                "Rock Slide"
             ],
             "quick": [
                 "Rock Throw",
@@ -5162,7 +5321,9 @@ var pokemonData = [
             "charge": [
                 "Sand Tomb",
                 "Stone Edge",
-                "Heavy Slam"
+                "Heavy Slam",
+                "Iron Head",
+                "Rock Slide"
             ],
             "quick": [
                 "Rock Throw",
@@ -5233,7 +5394,8 @@ var pokemonData = [
                 "Fire Punch",
                 "Ice Punch",
                 "Thunder Punch",
-                "Shadow Ball"
+                "Shadow Ball",
+                "Psyshock"
             ],
             "quick": [
                 "Zen Headbutt",
@@ -5259,7 +5421,8 @@ var pokemonData = [
                 "Fire Punch",
                 "Ice Punch",
                 "Thunder Punch",
-                "Shadow Ball"
+                "Shadow Ball",
+                "Psyshock"
             ],
             "quick": [
                 "Zen Headbutt",
@@ -5330,7 +5493,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Bubble",
-                "Metal Claw"
+                "Metal Claw",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -5353,7 +5517,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Bubble",
-                "Metal Claw"
+                "Metal Claw",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -5417,7 +5582,8 @@ var pokemonData = [
             "charge": [
                 "Discharge",
                 "Thunderbolt",
-                "Gyro Ball"
+                "Gyro Ball",
+                "Signal Beam"
             ],
             "quick": [
                 "Spark",
@@ -5439,7 +5605,8 @@ var pokemonData = [
             "charge": [
                 "Discharge",
                 "Thunderbolt",
-                "Gyro Ball"
+                "Gyro Ball",
+                "Signal Beam"
             ],
             "quick": [
                 "Spark",
@@ -5512,7 +5679,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Spark",
-                "Volt Switch"
+                "Volt Switch",
+                "Tackle"
             ]
         },
         "stats": {
@@ -5535,7 +5703,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Spark",
-                "Volt Switch"
+                "Volt Switch",
+                "Tackle"
             ]
         },
         "stats": {
@@ -5599,7 +5768,8 @@ var pokemonData = [
             "charge": [
                 "Seed Bomb",
                 "Dragon Pulse",
-                "Solar Beam"
+                "Solar Beam",
+                "Draco Meteor"
             ],
             "quick": [
                 "Bullet Seed",
@@ -5622,7 +5792,8 @@ var pokemonData = [
             "charge": [
                 "Seed Bomb",
                 "Dragon Pulse",
-                "Solar Beam"
+                "Solar Beam",
+                "Draco Meteor"
             ],
             "quick": [
                 "Bullet Seed",
@@ -5650,7 +5821,8 @@ var pokemonData = [
             "quick": [
                 "Bullet Seed",
                 "Extrasensory",
-                "Confusion"
+                "Confusion",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -5674,7 +5846,8 @@ var pokemonData = [
             "quick": [
                 "Bullet Seed",
                 "Extrasensory",
-                "Confusion"
+                "Confusion",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -5738,7 +5911,8 @@ var pokemonData = [
                 "Bone Club",
                 "Shadow Ball",
                 "Fire Blast",
-                "Flame Wheel"
+                "Flame Wheel",
+                "Shadow Bone"
             ],
             "quick": [
                 "Hex",
@@ -5763,7 +5937,8 @@ var pokemonData = [
                 "Bone Club",
                 "Shadow Ball",
                 "Fire Blast",
-                "Flame Wheel"
+                "Flame Wheel",
+                "Shadow Bone"
             ],
             "quick": [
                 "Hex",
@@ -5833,7 +6008,9 @@ var pokemonData = [
             "charge": [
                 "Close Combat",
                 "Low Sweep",
-                "Stone Edge"
+                "Stone Edge",
+                "Stomp",
+                "Brick Break"
             ],
             "quick": [
                 "Low Kick",
@@ -5856,7 +6033,9 @@ var pokemonData = [
             "charge": [
                 "Close Combat",
                 "Low Sweep",
-                "Stone Edge"
+                "Stone Edge",
+                "Stomp",
+                "Brick Break"
             ],
             "quick": [
                 "Low Kick",
@@ -5881,11 +6060,13 @@ var pokemonData = [
                 "Ice Punch",
                 "Thunder Punch",
                 "Close Combat",
-                "Power Up Punch"
+                "Power Up Punch",
+                "Brick Break"
             ],
             "quick": [
                 "Bullet Punch",
-                "Counter"
+                "Counter",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -5905,11 +6086,13 @@ var pokemonData = [
                 "Ice Punch",
                 "Thunder Punch",
                 "Close Combat",
-                "Power Up Punch"
+                "Power Up Punch",
+                "Brick Break"
             ],
             "quick": [
                 "Bullet Punch",
-                "Counter"
+                "Counter",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -5927,7 +6110,8 @@ var pokemonData = [
             "charge": [
                 "Hyper Beam",
                 "Stomp",
-                "Power Whip"
+                "Power Whip",
+                "Body Slam"
             ],
             "quick": [
                 "Lick",
@@ -6135,7 +6319,8 @@ var pokemonData = [
             "charge": [
                 "Surf",
                 "Earthquake",
-                "Stone Edge"
+                "Stone Edge",
+                "Megahorn"
             ],
             "quick": [
                 "Mud Slap",
@@ -6158,7 +6343,8 @@ var pokemonData = [
             "charge": [
                 "Surf",
                 "Earthquake",
-                "Stone Edge"
+                "Stone Edge",
+                "Megahorn"
             ],
             "quick": [
                 "Mud Slap",
@@ -6203,7 +6389,8 @@ var pokemonData = [
             "charge": [
                 "Grass Knot",
                 "Sludge Bomb",
-                "Solar Beam"
+                "Solar Beam",
+                "Power Whip"
             ],
             "quick": [
                 "Vine Whip",
@@ -6225,7 +6412,8 @@ var pokemonData = [
             "charge": [
                 "Grass Knot",
                 "Sludge Bomb",
-                "Solar Beam"
+                "Solar Beam",
+                "Power Whip"
             ],
             "quick": [
                 "Vine Whip",
@@ -6248,7 +6436,9 @@ var pokemonData = [
                 "Crunch",
                 "Earthquake",
                 "Outrage",
-                "Power Up Punch"
+                "Power Up Punch",
+                "Brick Break",
+                "Stomp"
             ],
             "quick": [
                 "Mud Slap",
@@ -6271,7 +6461,9 @@ var pokemonData = [
                 "Crunch",
                 "Earthquake",
                 "Outrage",
-                "Power Up Punch"
+                "Power Up Punch",
+                "Brick Break",
+                "Stomp"
             ],
             "quick": [
                 "Mud Slap",
@@ -6294,7 +6486,9 @@ var pokemonData = [
                 "Crunch",
                 "Earthquake",
                 "Outrage",
-                "Power Up Punch"
+                "Power Up Punch",
+                "Brick Break",
+                "Stomp"
             ],
             "quick": [
                 "Mud Slap",
@@ -6360,7 +6554,8 @@ var pokemonData = [
             "charge": [
                 "Aurora Beam",
                 "Dragon Pulse",
-                "Hydro Pump"
+                "Hydro Pump",
+                "Blizzard"
             ],
             "quick": [
                 "Water Gun",
@@ -6382,7 +6577,8 @@ var pokemonData = [
             "charge": [
                 "Aurora Beam",
                 "Dragon Pulse",
-                "Hydro Pump"
+                "Hydro Pump",
+                "Blizzard"
             ],
             "quick": [
                 "Water Gun",
@@ -6426,11 +6622,14 @@ var pokemonData = [
             "charge": [
                 "Ice Beam",
                 "Water Pulse",
-                "Megahorn"
+                "Megahorn",
+                "Icy Wind",
+                "Drill Run"
             ],
             "quick": [
                 "Peck",
-                "Waterfall"
+                "Waterfall",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -6476,7 +6675,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Hidden Power",
-                "Water Gun"
+                "Water Gun",
+                "Tackle"
             ]
         },
         "stats": {
@@ -6587,11 +6787,13 @@ var pokemonData = [
             "charge": [
                 "Night Slash",
                 "X Scissor",
-                "Aerial Ace"
+                "Aerial Ace",
+                "Bug Buzz"
             ],
             "quick": [
                 "Fury Cutter",
-                "Air Slash"
+                "Air Slash",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -6610,11 +6812,13 @@ var pokemonData = [
             "charge": [
                 "Night Slash",
                 "X Scissor",
-                "Aerial Ace"
+                "Aerial Ace",
+                "Bug Buzz"
             ],
             "quick": [
                 "Fury Cutter",
-                "Air Slash"
+                "Air Slash",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -6634,11 +6838,13 @@ var pokemonData = [
                 "Draining Kiss",
                 "Avalanche",
                 "Psyshock",
-                "Focus Blast"
+                "Focus Blast",
+                "Ice Punch"
             ],
             "quick": [
                 "Frost Breath",
-                "Confusion"
+                "Confusion",
+                "Pound"
             ]
         },
         "stats": {
@@ -6746,7 +6952,8 @@ var pokemonData = [
                 "Vice Grip",
                 "X Scissor",
                 "Close Combat",
-                "Super Power"
+                "Super Power",
+                "Submission"
             ],
             "quick": [
                 "Rock Smash",
@@ -6770,7 +6977,8 @@ var pokemonData = [
                 "Vice Grip",
                 "X Scissor",
                 "Close Combat",
-                "Super Power"
+                "Super Power",
+                "Submission"
             ],
             "quick": [
                 "Rock Smash",
@@ -6854,12 +7062,15 @@ var pokemonData = [
                 "Hydro Pump",
                 "Crunch",
                 "Outrage",
-                "Twister"
+                "Twister",
+                "Dragon Pulse",
+                "Aqua Tail"
             ],
             "quick": [
                 "Bite",
                 "Waterfall",
-                "Dragon Breath"
+                "Dragon Breath",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -6879,12 +7090,15 @@ var pokemonData = [
                 "Hydro Pump",
                 "Crunch",
                 "Outrage",
-                "Twister"
+                "Twister",
+                "Dragon Pulse",
+                "Aqua Tail"
             ],
             "quick": [
                 "Bite",
                 "Waterfall",
-                "Dragon Breath"
+                "Dragon Breath",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -6904,12 +7118,15 @@ var pokemonData = [
                 "Hydro Pump",
                 "Crunch",
                 "Outrage",
-                "Twister"
+                "Twister",
+                "Dragon Pulse",
+                "Aqua Tail"
             ],
             "quick": [
                 "Bite",
                 "Waterfall",
-                "Dragon Breath"
+                "Dragon Breath",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -6929,11 +7146,14 @@ var pokemonData = [
                 "Hydro Pump",
                 "Surf",
                 "Blizzard",
-                "Skull Bash"
+                "Skull Bash",
+                "Dragon Pulse",
+                "Ice Beam"
             ],
             "quick": [
                 "Frost Breath",
-                "Water Gun"
+                "Water Gun",
+                "Ice Shard"
             ]
         },
         "stats": {
@@ -6953,11 +7173,14 @@ var pokemonData = [
                 "Hydro Pump",
                 "Surf",
                 "Blizzard",
-                "Skull Bash"
+                "Skull Bash",
+                "Dragon Pulse",
+                "Ice Beam"
             ],
             "quick": [
                 "Frost Breath",
-                "Water Gun"
+                "Water Gun",
+                "Ice Shard"
             ]
         },
         "stats": {
@@ -6994,7 +7217,9 @@ var pokemonData = [
         "moves": {
             "charge": [
                 "Dig",
-                "Swift"
+                "Swift",
+                "Last Resort",
+                "Body Slam"
             ],
             "quick": [
                 "Quick Attack",
@@ -7016,7 +7241,9 @@ var pokemonData = [
             "charge": [
                 "Water Pulse",
                 "Hydro Pump",
-                "Aqua Tail"
+                "Aqua Tail",
+                "Last Resort",
+                "Scald"
             ],
             "quick": [
                 "Water Gun"
@@ -7037,7 +7264,9 @@ var pokemonData = [
             "charge": [
                 "Discharge",
                 "Thunderbolt",
-                "Thunder"
+                "Thunder",
+                "Last Resort",
+                "Zap Cannon"
             ],
             "quick": [
                 "Thunder Shock",
@@ -7059,7 +7288,10 @@ var pokemonData = [
             "charge": [
                 "Fire Blast",
                 "Flamethrower",
-                "Overheat"
+                "Overheat",
+                "Last Resort",
+                "Heat Wave",
+                "Super Power"
             ],
             "quick": [
                 "Ember",
@@ -7081,11 +7313,16 @@ var pokemonData = [
             "charge": [
                 "Solar Beam",
                 "Hyper Beam",
-                "Zap Cannon"
+                "Zap Cannon",
+                "Signal Beam",
+                "Psybeam",
+                "Discharge"
             ],
             "quick": [
                 "Charge Beam",
-                "Hidden Power"
+                "Hidden Power",
+                "Tackle",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -7103,11 +7340,16 @@ var pokemonData = [
             "charge": [
                 "Solar Beam",
                 "Hyper Beam",
-                "Zap Cannon"
+                "Zap Cannon",
+                "Signal Beam",
+                "Psybeam",
+                "Discharge"
             ],
             "quick": [
                 "Charge Beam",
-                "Hidden Power"
+                "Hidden Power",
+                "Tackle",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -7125,7 +7367,9 @@ var pokemonData = [
             "charge": [
                 "Ancient Power",
                 "Bubble Beam",
-                "Rock Blast"
+                "Rock Blast",
+                "Rock Tomb",
+                "Brine"
             ],
             "quick": [
                 "Water Gun",
@@ -7148,7 +7392,9 @@ var pokemonData = [
             "charge": [
                 "Ancient Power",
                 "Bubble Beam",
-                "Rock Blast"
+                "Rock Blast",
+                "Rock Tomb",
+                "Brine"
             ],
             "quick": [
                 "Water Gun",
@@ -7171,11 +7417,13 @@ var pokemonData = [
             "charge": [
                 "Ancient Power",
                 "Hydro Pump",
-                "Rock Blast"
+                "Rock Blast",
+                "Rock Slide"
             ],
             "quick": [
                 "Mud Shot",
-                "Water Gun"
+                "Water Gun",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -7194,11 +7442,13 @@ var pokemonData = [
             "charge": [
                 "Ancient Power",
                 "Hydro Pump",
-                "Rock Blast"
+                "Rock Blast",
+                "Rock Slide"
             ],
             "quick": [
                 "Mud Shot",
-                "Water Gun"
+                "Water Gun",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -7268,7 +7518,8 @@ var pokemonData = [
             "quick": [
                 "Mud Shot",
                 "Rock Smash",
-                "Waterfall"
+                "Waterfall",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -7292,7 +7543,8 @@ var pokemonData = [
             "quick": [
                 "Mud Shot",
                 "Rock Smash",
-                "Waterfall"
+                "Waterfall",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -7397,7 +7649,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Zen Headbutt",
-                "Lick"
+                "Lick",
+                "Yawn"
             ]
         },
         "stats": {
@@ -7423,7 +7676,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Zen Headbutt",
-                "Lick"
+                "Lick",
+                "Yawn"
             ]
         },
         "stats": {
@@ -7488,7 +7742,8 @@ var pokemonData = [
                 "Ice Beam",
                 "Icy Wind",
                 "Blizzard",
-                "Ancient Power"
+                "Ancient Power",
+                "Hurricane"
             ],
             "quick": [
                 "Frost Breath",
@@ -7512,7 +7767,8 @@ var pokemonData = [
                 "Ice Beam",
                 "Icy Wind",
                 "Blizzard",
-                "Ancient Power"
+                "Ancient Power",
+                "Hurricane"
             ],
             "quick": [
                 "Frost Breath",
@@ -7584,7 +7840,8 @@ var pokemonData = [
                 "Drill Peck"
             ],
             "quick": [
-                "Charge Beam"
+                "Charge Beam",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -7608,7 +7865,8 @@ var pokemonData = [
                 "Drill Peck"
             ],
             "quick": [
-                "Charge Beam"
+                "Charge Beam",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -7674,7 +7932,8 @@ var pokemonData = [
                 "Fire Blast",
                 "Heat Wave",
                 "Overheat",
-                "Ancient Power"
+                "Ancient Power",
+                "Sky Attack"
             ],
             "quick": [
                 "Fire Spin",
@@ -7698,7 +7957,8 @@ var pokemonData = [
                 "Fire Blast",
                 "Heat Wave",
                 "Overheat",
-                "Ancient Power"
+                "Ancient Power",
+                "Sky Attack"
             ],
             "quick": [
                 "Fire Spin",
@@ -7813,7 +8073,9 @@ var pokemonData = [
                 "Hyper Beam",
                 "Outrage",
                 "Dragon Claw",
-                "Super Power"
+                "Super Power",
+                "Draco Meteor",
+                "Dragon Pulse"
             ],
             "quick": [
                 "Dragon Tail",
@@ -7839,7 +8101,9 @@ var pokemonData = [
                 "Hyper Beam",
                 "Outrage",
                 "Dragon Claw",
-                "Super Power"
+                "Super Power",
+                "Draco Meteor",
+                "Dragon Pulse"
             ],
             "quick": [
                 "Dragon Tail",
@@ -7864,7 +8128,8 @@ var pokemonData = [
                 "Rock Slide",
                 "Dynamic Punch",
                 "Earthquake",
-                "Futuresight"
+                "Futuresight",
+                "Psystrike"
             ],
             "quick": [
                 "Confusion",
@@ -7887,7 +8152,8 @@ var pokemonData = [
                 "Rock Slide",
                 "Dynamic Punch",
                 "Earthquake",
-                "Futuresight"
+                "Futuresight",
+                "Psystrike"
             ],
             "quick": [
                 "Confusion",
@@ -7911,7 +8177,10 @@ var pokemonData = [
                 "Thunderbolt",
                 "Ice Beam",
                 "Focus Blast",
-                "Flamethrower"
+                "Flamethrower",
+                "Psystrike",
+                "Shadow Ball",
+                "Hyper Beam"
             ],
             "quick": [
                 "Psycho Cut",
@@ -7935,7 +8204,10 @@ var pokemonData = [
                 "Thunderbolt",
                 "Ice Beam",
                 "Focus Blast",
-                "Flamethrower"
+                "Flamethrower",
+                "Psystrike",
+                "Shadow Ball",
+                "Hyper Beam"
             ],
             "quick": [
                 "Psycho Cut",
@@ -8101,7 +8373,8 @@ var pokemonData = [
             "charge": [
                 "Petal Blizzard",
                 "Solar Beam",
-                "Earthquake"
+                "Earthquake",
+                "Frenzy Plant"
             ],
             "quick": [
                 "Razor Leaf",
@@ -8123,7 +8396,8 @@ var pokemonData = [
             "charge": [
                 "Petal Blizzard",
                 "Solar Beam",
-                "Earthquake"
+                "Earthquake",
+                "Frenzy Plant"
             ],
             "quick": [
                 "Razor Leaf",
@@ -8233,7 +8507,8 @@ var pokemonData = [
             "charge": [
                 "Fire Blast",
                 "Overheat",
-                "Solar Beam"
+                "Solar Beam",
+                "Blast Burn"
             ],
             "quick": [
                 "Ember",
@@ -8256,7 +8531,8 @@ var pokemonData = [
             "charge": [
                 "Fire Blast",
                 "Overheat",
-                "Solar Beam"
+                "Solar Beam",
+                "Blast Burn"
             ],
             "quick": [
                 "Ember",
@@ -8367,12 +8643,14 @@ var pokemonData = [
             "charge": [
                 "Crunch",
                 "Hydro Pump",
-                "Ice Beam"
+                "Ice Beam",
+                "Hydro Cannon"
             ],
             "quick": [
                 "Waterfall",
                 "Bite",
-                "Ice Fang"
+                "Ice Fang",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -8390,12 +8668,14 @@ var pokemonData = [
             "charge": [
                 "Crunch",
                 "Hydro Pump",
-                "Ice Beam"
+                "Ice Beam",
+                "Hydro Cannon"
             ],
             "quick": [
                 "Waterfall",
                 "Bite",
-                "Ice Fang"
+                "Ice Fang",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -8717,7 +8997,9 @@ var pokemonData = [
             "charge": [
                 "Grass Knot",
                 "Psyshock",
-                "Signal Beam"
+                "Signal Beam",
+                "Psychic",
+                "Body Slam"
             ],
             "quick": [
                 "Pound",
@@ -8739,7 +9021,8 @@ var pokemonData = [
             "charge": [
                 "Wild Charge",
                 "Shadow Ball",
-                "Psychic"
+                "Psychic",
+                "Body Slam"
             ],
             "quick": [
                 "Pound",
@@ -8766,7 +9049,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Hidden Power",
-                "Peck"
+                "Peck",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -8788,7 +9072,9 @@ var pokemonData = [
             ],
             "quick": [
                 "Extrasensory",
-                "Hidden Power"
+                "Hidden Power",
+                "Steel Wing",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -8943,7 +9229,8 @@ var pokemonData = [
                 "Focus Blast",
                 "Thunder",
                 "Power Gem",
-                "Thunder Punch"
+                "Thunder Punch",
+                "Dragon Pulse"
             ],
             "quick": [
                 "Charge Beam",
@@ -8967,7 +9254,8 @@ var pokemonData = [
                 "Focus Blast",
                 "Thunder",
                 "Power Gem",
-                "Thunder Punch"
+                "Thunder Punch",
+                "Dragon Pulse"
             ],
             "quick": [
                 "Charge Beam",
@@ -8992,7 +9280,8 @@ var pokemonData = [
                 "Focus Blast",
                 "Thunder",
                 "Power Gem",
-                "Thunder Punch"
+                "Thunder Punch",
+                "Dragon Pulse"
             ],
             "quick": [
                 "Charge Beam",
@@ -9153,7 +9442,8 @@ var pokemonData = [
                 "Hydro Pump",
                 "Blizzard",
                 "Surf",
-                "Weather Ball Water"
+                "Weather Ball Water",
+                "Earthquake"
             ],
             "quick": [
                 "Mud Shot",
@@ -9176,7 +9466,8 @@ var pokemonData = [
                 "Hydro Pump",
                 "Blizzard",
                 "Surf",
-                "Weather Ball Water"
+                "Weather Ball Water",
+                "Earthquake"
             ],
             "quick": [
                 "Mud Shot",
@@ -9291,7 +9582,8 @@ var pokemonData = [
                 "Energy Ball",
                 "Dazzling Gleam",
                 "Solar Beam",
-                "Aerial Ace"
+                "Aerial Ace",
+                "Acrobatics"
             ],
             "quick": [
                 "Infestation",
@@ -9316,7 +9608,8 @@ var pokemonData = [
                 "Energy Ball",
                 "Dazzling Gleam",
                 "Solar Beam",
-                "Aerial Ace"
+                "Aerial Ace",
+                "Acrobatics"
             ],
             "quick": [
                 "Infestation",
@@ -9547,7 +9840,9 @@ var pokemonData = [
                 "Psybeam",
                 "Psychic",
                 "Futuresight",
-                "Psychic Fangs"
+                "Psychic Fangs",
+                "Last Resort",
+                "Shadow Ball"
             ],
             "quick": [
                 "Confusion",
@@ -9568,7 +9863,9 @@ var pokemonData = [
         "moves": {
             "charge": [
                 "Dark Pulse",
-                "Foul Play"
+                "Foul Play",
+                "Last Resort",
+                "Psychic"
             ],
             "quick": [
                 "Feint Attack",
@@ -11031,7 +11328,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Waterfall",
-                "Dragon Breath"
+                "Dragon Breath",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -11055,7 +11353,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Waterfall",
-                "Dragon Breath"
+                "Dragon Breath",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -11261,7 +11560,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Powder Snow",
-                "Pound"
+                "Pound",
+                "Frost Breath"
             ]
         },
         "stats": {
@@ -11280,7 +11580,8 @@ var pokemonData = [
             "charge": [
                 "Thunder Punch",
                 "Brick Break",
-                "Discharge"
+                "Discharge",
+                "Thunderbolt"
             ],
             "quick": [
                 "Thunder Shock",
@@ -11302,7 +11603,8 @@ var pokemonData = [
             "charge": [
                 "Brick Break",
                 "Fire Punch",
-                "Flame Burst"
+                "Flame Burst",
+                "Flamethrower"
             ],
             "quick": [
                 "Ember",
@@ -11471,7 +11773,8 @@ var pokemonData = [
             "quick": [
                 "Extrasensory",
                 "Snarl",
-                "Ice Fang"
+                "Ice Fang",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -11495,7 +11798,8 @@ var pokemonData = [
             "quick": [
                 "Extrasensory",
                 "Snarl",
-                "Ice Fang"
+                "Ice Fang",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -11609,7 +11913,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Bite",
-                "Iron Tail"
+                "Iron Tail",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -11632,7 +11937,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Bite",
-                "Iron Tail"
+                "Iron Tail",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -11651,7 +11957,8 @@ var pokemonData = [
             "charge": [
                 "Sky Attack",
                 "Hydro Pump",
-                "Futuresight"
+                "Futuresight",
+                "Aeroblast"
             ],
             "quick": [
                 "Extrasensory",
@@ -11674,7 +11981,8 @@ var pokemonData = [
             "charge": [
                 "Sky Attack",
                 "Hydro Pump",
-                "Futuresight"
+                "Futuresight",
+                "Aeroblast"
             ],
             "quick": [
                 "Extrasensory",
@@ -11697,7 +12005,9 @@ var pokemonData = [
             "charge": [
                 "Brave Bird",
                 "Fire Blast",
-                "Solar Beam"
+                "Solar Beam",
+                "Earthquake",
+                "Sacred Fire"
             ],
             "quick": [
                 "Extrasensory",
@@ -11722,7 +12032,9 @@ var pokemonData = [
             "charge": [
                 "Brave Bird",
                 "Fire Blast",
-                "Solar Beam"
+                "Solar Beam",
+                "Earthquake",
+                "Sacred Fire"
             ],
             "quick": [
                 "Extrasensory",
@@ -11753,7 +12065,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Confusion",
-                "Charge Beam"
+                "Charge Beam",
+                "Magical Leaf"
             ]
         },
         "stats": {
@@ -11817,7 +12130,8 @@ var pokemonData = [
                 "Leaf Blade",
                 "Aerial Ace",
                 "Earthquake",
-                "Dragon Claw"
+                "Dragon Claw",
+                "Frenzy Plant"
             ],
             "quick": [
                 "Fury Cutter",
@@ -11930,7 +12244,9 @@ var pokemonData = [
                 "Focus Blast",
                 "Overheat",
                 "Brave Bird",
-                "Blaze Kick"
+                "Blaze Kick",
+                "Blast Burn",
+                "Stone Edge"
             ],
             "quick": [
                 "Counter",
@@ -11954,7 +12270,9 @@ var pokemonData = [
                 "Focus Blast",
                 "Overheat",
                 "Brave Bird",
-                "Blaze Kick"
+                "Blaze Kick",
+                "Blast Burn",
+                "Stone Edge"
             ],
             "quick": [
                 "Counter",
@@ -12068,7 +12386,8 @@ var pokemonData = [
                 "Earthquake",
                 "Sludge Wave",
                 "Surf",
-                "Muddy Water"
+                "Muddy Water",
+                "Hydro Cannon"
             ],
             "quick": [
                 "Mud Shot",
@@ -12092,7 +12411,8 @@ var pokemonData = [
                 "Earthquake",
                 "Sludge Wave",
                 "Surf",
-                "Muddy Water"
+                "Muddy Water",
+                "Hydro Cannon"
             ],
             "quick": [
                 "Mud Shot",
@@ -12660,7 +12980,8 @@ var pokemonData = [
             "quick": [
                 "Razor Leaf",
                 "Feint Attack",
-                "Snarl"
+                "Snarl",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -12685,7 +13006,8 @@ var pokemonData = [
             "quick": [
                 "Razor Leaf",
                 "Feint Attack",
-                "Snarl"
+                "Snarl",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -12887,7 +13209,8 @@ var pokemonData = [
             "charge": [
                 "Psychic",
                 "Dazzling Gleam",
-                "Shadow Ball"
+                "Shadow Ball",
+                "Synchronoise"
             ],
             "quick": [
                 "Confusion",
@@ -12911,7 +13234,8 @@ var pokemonData = [
             "charge": [
                 "Psychic",
                 "Dazzling Gleam",
-                "Shadow Ball"
+                "Shadow Ball",
+                "Synchronoise"
             ],
             "quick": [
                 "Confusion",
@@ -13005,7 +13329,8 @@ var pokemonData = [
             "charge": [
                 "Dynamic Punch",
                 "Seed Bomb",
-                "Sludge Bomb"
+                "Sludge Bomb",
+                "Grass Knot"
             ],
             "quick": [
                 "Counter",
@@ -13071,7 +13396,8 @@ var pokemonData = [
             "charge": [
                 "Hyper Beam",
                 "Play Rough",
-                "Earthquake"
+                "Earthquake",
+                "Body Slam"
             ],
             "quick": [
                 "Yawn"
@@ -13142,7 +13468,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Bug Bite",
-                "Shadow Claw"
+                "Shadow Claw",
+                "Struggle Bug"
             ]
         },
         "stats": {
@@ -14497,7 +14824,8 @@ var pokemonData = [
             "charge": [
                 "Earthquake",
                 "Dragon Claw",
-                "Stone Edge"
+                "Stone Edge",
+                "Earth Power"
             ],
             "quick": [
                 "Mud Shot",
@@ -14520,7 +14848,8 @@ var pokemonData = [
             "charge": [
                 "Earthquake",
                 "Dragon Claw",
-                "Stone Edge"
+                "Stone Edge",
+                "Earth Power"
             ],
             "quick": [
                 "Mud Shot",
@@ -14660,7 +14989,8 @@ var pokemonData = [
             "charge": [
                 "Sky Attack",
                 "Dazzling Gleam",
-                "Dragon Pulse"
+                "Dragon Pulse",
+                "Moonblast"
             ],
             "quick": [
                 "Peck",
@@ -14683,7 +15013,8 @@ var pokemonData = [
             "charge": [
                 "Sky Attack",
                 "Dazzling Gleam",
-                "Dragon Pulse"
+                "Dragon Pulse",
+                "Moonblast"
             ],
             "quick": [
                 "Peck",
@@ -15771,11 +16102,13 @@ var pokemonData = [
             "charge": [
                 "Blizzard",
                 "Earthquake",
-                "Water Pulse"
+                "Water Pulse",
+                "Icicle Spear"
             ],
             "quick": [
                 "Waterfall",
-                "Frost Breath"
+                "Frost Breath",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -15794,11 +16127,13 @@ var pokemonData = [
             "charge": [
                 "Blizzard",
                 "Earthquake",
-                "Water Pulse"
+                "Water Pulse",
+                "Icicle Spear"
             ],
             "quick": [
                 "Waterfall",
-                "Frost Breath"
+                "Frost Breath",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -16015,7 +16350,8 @@ var pokemonData = [
             "charge": [
                 "Fire Blast",
                 "Hydro Pump",
-                "Draco Meteor"
+                "Draco Meteor",
+                "Outrage"
             ],
             "quick": [
                 "Dragon Tail",
@@ -16039,7 +16375,8 @@ var pokemonData = [
             "charge": [
                 "Fire Blast",
                 "Hydro Pump",
-                "Draco Meteor"
+                "Draco Meteor",
+                "Outrage"
             ],
             "quick": [
                 "Dragon Tail",
@@ -16149,7 +16486,8 @@ var pokemonData = [
             "charge": [
                 "Psychic",
                 "Flash Cannon",
-                "Earthquake"
+                "Earthquake",
+                "Meteor Mash"
             ],
             "quick": [
                 "Bullet Punch",
@@ -16172,7 +16510,8 @@ var pokemonData = [
             "charge": [
                 "Psychic",
                 "Flash Cannon",
-                "Earthquake"
+                "Earthquake",
+                "Meteor Mash"
             ],
             "quick": [
                 "Bullet Punch",
@@ -16195,7 +16534,8 @@ var pokemonData = [
             "charge": [
                 "Stone Edge",
                 "Zap Cannon",
-                "Focus Blast"
+                "Focus Blast",
+                "Earthquake"
             ],
             "quick": [
                 "Rock Throw",
@@ -16218,7 +16558,8 @@ var pokemonData = [
             "charge": [
                 "Blizzard",
                 "Earthquake",
-                "Focus Blast"
+                "Focus Blast",
+                "Thunder"
             ],
             "quick": [
                 "Frost Breath",
@@ -16241,7 +16582,8 @@ var pokemonData = [
             "charge": [
                 "Flash Cannon",
                 "Hyper Beam",
-                "Focus Blast"
+                "Focus Blast",
+                "Zap Cannon"
             ],
             "quick": [
                 "Metal Claw",
@@ -16264,7 +16606,8 @@ var pokemonData = [
             "charge": [
                 "Psychic",
                 "Outrage",
-                "Thunder"
+                "Thunder",
+                "Mist Ball"
             ],
             "quick": [
                 "Dragon Breath",
@@ -16288,7 +16631,8 @@ var pokemonData = [
             "charge": [
                 "Psychic",
                 "Outrage",
-                "Thunder"
+                "Thunder",
+                "Mist Ball"
             ],
             "quick": [
                 "Dragon Breath",
@@ -16312,7 +16656,8 @@ var pokemonData = [
             "charge": [
                 "Psychic",
                 "Outrage",
-                "Thunder"
+                "Thunder",
+                "Mist Ball"
             ],
             "quick": [
                 "Dragon Breath",
@@ -16336,7 +16681,8 @@ var pokemonData = [
             "charge": [
                 "Psychic",
                 "Dragon Claw",
-                "Solar Beam"
+                "Solar Beam",
+                "Luster Purge"
             ],
             "quick": [
                 "Dragon Breath",
@@ -16359,7 +16705,8 @@ var pokemonData = [
             "charge": [
                 "Psychic",
                 "Dragon Claw",
-                "Solar Beam"
+                "Solar Beam",
+                "Luster Purge"
             ],
             "quick": [
                 "Dragon Breath",
@@ -16382,7 +16729,8 @@ var pokemonData = [
             "charge": [
                 "Psychic",
                 "Dragon Claw",
-                "Solar Beam"
+                "Solar Beam",
+                "Luster Purge"
             ],
             "quick": [
                 "Dragon Breath",
@@ -16427,7 +16775,8 @@ var pokemonData = [
             "charge": [
                 "Earthquake",
                 "Fire Blast",
-                "Solar Beam"
+                "Solar Beam",
+                "Fire Punch"
             ],
             "quick": [
                 "Mud Shot",
@@ -16449,7 +16798,8 @@ var pokemonData = [
             "charge": [
                 "Outrage",
                 "Aerial Ace",
-                "Ancient Power"
+                "Ancient Power",
+                "Hurricane"
             ],
             "quick": [
                 "Air Slash",
@@ -16694,7 +17044,8 @@ var pokemonData = [
                 "Stone Edge",
                 "Solar Beam",
                 "Earthquake",
-                "Sand Tomb"
+                "Sand Tomb",
+                "Frenzy Plant"
             ],
             "quick": [
                 "Bite",
@@ -16718,7 +17069,8 @@ var pokemonData = [
                 "Stone Edge",
                 "Solar Beam",
                 "Earthquake",
-                "Sand Tomb"
+                "Sand Tomb",
+                "Frenzy Plant"
             ],
             "quick": [
                 "Bite",
@@ -16831,7 +17183,8 @@ var pokemonData = [
             "charge": [
                 "Solar Beam",
                 "Flamethrower",
-                "Close Combat"
+                "Close Combat",
+                "Blast Burn"
             ],
             "quick": [
                 "Fire Spin",
@@ -16854,7 +17207,8 @@ var pokemonData = [
             "charge": [
                 "Solar Beam",
                 "Flamethrower",
-                "Close Combat"
+                "Close Combat",
+                "Blast Burn"
             ],
             "quick": [
                 "Fire Spin",
@@ -16922,7 +17276,8 @@ var pokemonData = [
                 "Hydro Pump",
                 "Blizzard",
                 "Flash Cannon",
-                "Drill Peck"
+                "Drill Peck",
+                "Hydro Cannon"
             ],
             "quick": [
                 "Waterfall",
@@ -17039,7 +17394,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Wing Attack",
-                "Quick Attack"
+                "Quick Attack",
+                "Gust"
             ]
         },
         "stats": {
@@ -17062,7 +17418,8 @@ var pokemonData = [
             ],
             "quick": [
                 "Wing Attack",
-                "Quick Attack"
+                "Quick Attack",
+                "Gust"
             ]
         },
         "stats": {
@@ -17081,7 +17438,11 @@ var pokemonData = [
             "charge": [
                 "Hyper Fang",
                 "Crunch",
-                "Grass Knot"
+                "Grass Knot",
+                "Shadow Ball",
+                "Thunderbolt",
+                "Ice Beam",
+                "Super Power"
             ],
             "quick": [
                 "Tackle",
@@ -17103,7 +17464,11 @@ var pokemonData = [
             "charge": [
                 "Hyper Fang",
                 "Crunch",
-                "Grass Knot"
+                "Grass Knot",
+                "Shadow Ball",
+                "Thunderbolt",
+                "Ice Beam",
+                "Super Power"
             ],
             "quick": [
                 "Tackle",
@@ -17301,7 +17666,8 @@ var pokemonData = [
             "charge": [
                 "Hyper Beam",
                 "Wild Charge",
-                "Crunch"
+                "Crunch",
+                "Psychic Fangs"
             ],
             "quick": [
                 "Spark",
@@ -17324,7 +17690,8 @@ var pokemonData = [
             "charge": [
                 "Hyper Beam",
                 "Wild Charge",
-                "Crunch"
+                "Crunch",
+                "Psychic Fangs"
             ],
             "quick": [
                 "Spark",
@@ -17371,11 +17738,13 @@ var pokemonData = [
                 "Sludge Bomb",
                 "Dazzling Gleam",
                 "Grass Knot",
-                "Leaf Storm"
+                "Leaf Storm",
+                "Weather Ball Fire"
             ],
             "quick": [
                 "Poison Jab",
-                "Razor Leaf"
+                "Razor Leaf",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -18504,7 +18873,8 @@ var pokemonData = [
                 "Outrage",
                 "Earthquake",
                 "Fire Blast",
-                "Sand Tomb"
+                "Sand Tomb",
+                "Earth Power"
             ],
             "quick": [
                 "Dragon Tail",
@@ -18528,7 +18898,8 @@ var pokemonData = [
                 "Outrage",
                 "Earthquake",
                 "Fire Blast",
-                "Sand Tomb"
+                "Sand Tomb",
+                "Earth Power"
             ],
             "quick": [
                 "Dragon Tail",
@@ -19164,7 +19535,8 @@ var pokemonData = [
                 "Hyper Beam",
                 "Earthquake",
                 "Solar Beam",
-                "Shadow Ball"
+                "Shadow Ball",
+                "Body Slam"
             ],
             "quick": [
                 "Lick",
@@ -19188,7 +19560,8 @@ var pokemonData = [
                 "Earthquake",
                 "Stone Edge",
                 "Skull Bash",
-                "Super Power"
+                "Super Power",
+                "Rock Wrecker"
             ],
             "quick": [
                 "Mud Slap",
@@ -19213,7 +19586,8 @@ var pokemonData = [
                 "Earthquake",
                 "Stone Edge",
                 "Skull Bash",
-                "Super Power"
+                "Super Power",
+                "Rock Wrecker"
             ],
             "quick": [
                 "Mud Slap",
@@ -19285,7 +19659,8 @@ var pokemonData = [
                 "Thunder Punch",
                 "Wild Charge",
                 "Thunder",
-                "Ice Punch"
+                "Ice Punch",
+                "Flamethrower"
             ],
             "quick": [
                 "Thunder Shock",
@@ -19308,7 +19683,8 @@ var pokemonData = [
                 "Thunder Punch",
                 "Wild Charge",
                 "Thunder",
-                "Ice Punch"
+                "Ice Punch",
+                "Flamethrower"
             ],
             "quick": [
                 "Thunder Shock",
@@ -19331,7 +19707,8 @@ var pokemonData = [
                 "Brick Break",
                 "Fire Punch",
                 "Fire Blast",
-                "Psychic"
+                "Psychic",
+                "Thunderbolt"
             ],
             "quick": [
                 "Fire Spin",
@@ -19354,7 +19731,8 @@ var pokemonData = [
                 "Brick Break",
                 "Fire Punch",
                 "Fire Blast",
-                "Psychic"
+                "Psychic",
+                "Thunderbolt"
             ],
             "quick": [
                 "Fire Spin",
@@ -19424,11 +19802,13 @@ var pokemonData = [
             "charge": [
                 "Solar Beam",
                 "Leaf Blade",
-                "Energy Ball"
+                "Energy Ball",
+                "Last Resort"
             ],
             "quick": [
                 "Razor Leaf",
-                "Quick Attack"
+                "Quick Attack",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -19446,7 +19826,9 @@ var pokemonData = [
             "charge": [
                 "Avalanche",
                 "Icy Wind",
-                "Ice Beam"
+                "Ice Beam",
+                "Last Resort",
+                "Water Pulse"
             ],
             "quick": [
                 "Ice Shard",
@@ -19516,7 +19898,8 @@ var pokemonData = [
             "charge": [
                 "Avalanche",
                 "Bulldoze",
-                "Stone Edge"
+                "Stone Edge",
+                "Ancient Power"
             ],
             "quick": [
                 "Mud Slap",
@@ -19539,7 +19922,8 @@ var pokemonData = [
             "charge": [
                 "Avalanche",
                 "Bulldoze",
-                "Stone Edge"
+                "Stone Edge",
+                "Ancient Power"
             ],
             "quick": [
                 "Mud Slap",
@@ -19563,7 +19947,8 @@ var pokemonData = [
                 "Solar Beam",
                 "Hyper Beam",
                 "Zap Cannon",
-                "Blizzard"
+                "Blizzard",
+                "Tri Attack"
             ],
             "quick": [
                 "Hidden Power",
@@ -19587,7 +19972,8 @@ var pokemonData = [
                 "Solar Beam",
                 "Hyper Beam",
                 "Zap Cannon",
-                "Blizzard"
+                "Blizzard",
+                "Tri Attack"
             ],
             "quick": [
                 "Hidden Power",
@@ -19610,7 +19996,8 @@ var pokemonData = [
             "charge": [
                 "Close Combat",
                 "Psychic",
-                "Leaf Blade"
+                "Leaf Blade",
+                "Synchronoise"
             ],
             "quick": [
                 "Confusion",
@@ -19634,7 +20021,8 @@ var pokemonData = [
             "charge": [
                 "Close Combat",
                 "Psychic",
-                "Leaf Blade"
+                "Leaf Blade",
+                "Synchronoise"
             ],
             "quick": [
                 "Confusion",
@@ -19704,7 +20092,8 @@ var pokemonData = [
             "charge": [
                 "Ominous Wind",
                 "Psychic",
-                "Dark Pulse"
+                "Dark Pulse",
+                "Shadow Ball"
             ],
             "quick": [
                 "Hex",
@@ -19726,7 +20115,8 @@ var pokemonData = [
             "charge": [
                 "Ominous Wind",
                 "Psychic",
-                "Dark Pulse"
+                "Dark Pulse",
+                "Shadow Ball"
             ],
             "quick": [
                 "Hex",
@@ -20114,7 +20504,8 @@ var pokemonData = [
             "charge": [
                 "Aurora Beam",
                 "Moonblast",
-                "Futuresight"
+                "Futuresight",
+                "Grass Knot"
             ],
             "quick": [
                 "Psycho Cut",
@@ -20180,7 +20571,8 @@ var pokemonData = [
             "charge": [
                 "Focus Blast",
                 "Shadow Ball",
-                "Dark Pulse"
+                "Dark Pulse",
+                "Sludge Bomb"
             ],
             "quick": [
                 "Snarl",
@@ -20713,7 +21105,8 @@ var pokemonData = [
             "charge": [
                 "Grass Knot",
                 "Leaf Tornado",
-                "Aerial Ace"
+                "Aerial Ace",
+                "Frenzy Plant"
             ],
             "quick": [
                 "Iron Tail",
@@ -20781,7 +21174,8 @@ var pokemonData = [
                 "Heat Wave",
                 "Rock Slide",
                 "Focus Blast",
-                "Flame Charge"
+                "Flame Charge",
+                "Blast Burn"
             ],
             "quick": [
                 "Low Kick",
@@ -20849,7 +21243,8 @@ var pokemonData = [
                 "Hydro Pump",
                 "Blizzard",
                 "Megahorn",
-                "Razor Shell"
+                "Razor Shell",
+                "Hydro Cannon"
             ],
             "quick": [
                 "Fury Cutter",
@@ -24335,7 +24730,8 @@ var pokemonData = [
             "charge": [
                 "Dragon Pulse",
                 "Dark Pulse",
-                "Flash Cannon"
+                "Flash Cannon",
+                "Brutal Swing"
             ],
             "quick": [
                 "Bite",
@@ -24405,7 +24801,8 @@ var pokemonData = [
             "charge": [
                 "Close Combat",
                 "Iron Head",
-                "Stone Edge"
+                "Stone Edge",
+                "Sacred Sword"
             ],
             "quick": [
                 "Metal Claw",
@@ -24429,7 +24826,8 @@ var pokemonData = [
             "charge": [
                 "Close Combat",
                 "Earthquake",
-                "Rock Slide"
+                "Rock Slide",
+                "Sacred Sword"
             ],
             "quick": [
                 "Smack Down",
@@ -24453,7 +24851,8 @@ var pokemonData = [
             "charge": [
                 "Close Combat",
                 "Leaf Blade",
-                "Stone Edge"
+                "Stone Edge",
+                "Sacred Sword"
             ],
             "quick": [
                 "Quick Attack",
@@ -24829,75 +25228,6 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Genesect (BURN form)",
-        "moves": {
-            "charge": [
-                "X Scissor",
-                "Magnet Bomb",
-                "Flamethrower"
-            ],
-            "quick": [
-                "Metal Claw",
-                "Fury Cutter"
-            ]
-        },
-        "stats": {
-            "baseStamina": 174,
-            "baseAttack": 252,
-            "baseDefense": 199
-        },
-        "types": [
-            "Bug",
-            "Steel"
-        ]
-    },
-    {
-        "name": "Genesect (CHILL form)",
-        "moves": {
-            "charge": [
-                "X Scissor",
-                "Magnet Bomb",
-                "Ice Beam"
-            ],
-            "quick": [
-                "Metal Claw",
-                "Fury Cutter"
-            ]
-        },
-        "stats": {
-            "baseStamina": 174,
-            "baseAttack": 252,
-            "baseDefense": 199
-        },
-        "types": [
-            "Bug",
-            "Steel"
-        ]
-    },
-    {
-        "name": "Genesect (DOUSE form)",
-        "moves": {
-            "charge": [
-                "X Scissor",
-                "Magnet Bomb",
-                "Gunk Shot"
-            ],
-            "quick": [
-                "Metal Claw",
-                "Fury Cutter"
-            ]
-        },
-        "stats": {
-            "baseStamina": 174,
-            "baseAttack": 252,
-            "baseDefense": 199
-        },
-        "types": [
-            "Bug",
-            "Steel"
-        ]
-    },
-    {
         "name": "Genesect",
         "moves": {
             "charge": [
@@ -24921,12 +25251,109 @@ var pokemonData = [
         ]
     },
     {
+        "name": "Genesect (BURN form)",
+        "moves": {
+            "charge": [
+                "X Scissor",
+                "Magnet Bomb",
+                "Flamethrower",
+                "Techno Blast Burn"
+            ],
+            "quick": [
+                "Metal Claw",
+                "Fury Cutter"
+            ]
+        },
+        "stats": {
+            "baseStamina": 174,
+            "baseAttack": 252,
+            "baseDefense": 199
+        },
+        "types": [
+            "Bug",
+            "Steel"
+        ]
+    },
+    {
+        "name": "Genesect (CHILL form)",
+        "moves": {
+            "charge": [
+                "X Scissor",
+                "Magnet Bomb",
+                "Ice Beam",
+                "Techno Blast Chill"
+            ],
+            "quick": [
+                "Metal Claw",
+                "Fury Cutter"
+            ]
+        },
+        "stats": {
+            "baseStamina": 174,
+            "baseAttack": 252,
+            "baseDefense": 199
+        },
+        "types": [
+            "Bug",
+            "Steel"
+        ]
+    },
+    {
+        "name": "Genesect (DOUSE form)",
+        "moves": {
+            "charge": [
+                "X Scissor",
+                "Magnet Bomb",
+                "Gunk Shot",
+                "Techno Blast Water"
+            ],
+            "quick": [
+                "Metal Claw",
+                "Fury Cutter"
+            ]
+        },
+        "stats": {
+            "baseStamina": 174,
+            "baseAttack": 252,
+            "baseDefense": 199
+        },
+        "types": [
+            "Bug",
+            "Steel"
+        ]
+    },
+    {
+        "name": "Genesect",
+        "moves": {
+            "charge": [
+                "X Scissor",
+                "Magnet Bomb",
+                "Hyper Beam",
+                "Techno Blast Normal"
+            ],
+            "quick": [
+                "Metal Claw",
+                "Fury Cutter"
+            ]
+        },
+        "stats": {
+            "baseStamina": 174,
+            "baseAttack": 252,
+            "baseDefense": 199
+        },
+        "types": [
+            "Bug",
+            "Steel"
+        ]
+    },
+    {
         "name": "Genesect (SHOCK form)",
         "moves": {
             "charge": [
                 "X Scissor",
                 "Magnet Bomb",
-                "Zap Cannon"
+                "Zap Cannon",
+                "Techno Blast Shock"
             ],
             "quick": [
                 "Metal Claw",
@@ -25254,7 +25681,8 @@ var pokemonData = [
             "quick": [
                 "Peck",
                 "Fire Spin",
-                "Steel Wing"
+                "Steel Wing",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -26108,7 +26536,9 @@ var pokemonData = [
             "charge": [
                 "Moonblast",
                 "Dazzling Gleam",
-                "Draining Kiss"
+                "Draining Kiss",
+                "Last Resort",
+                "Psyshock"
             ],
             "quick": [
                 "Charm",
@@ -27763,7 +28193,8 @@ var pokemonData = [
             "charge": [
                 "Super Power",
                 "Payback",
-                "Stomp"
+                "Stomp",
+                "Drain Punch"
             ],
             "quick": [
                 "Tackle",
@@ -30655,7 +31086,8 @@ var pokemonData = [
                 "Cross Chop",
                 "Night Slash",
                 "Hyper Beam",
-                "Gunk Shot"
+                "Gunk Shot",
+                "Obstruct"
             ],
             "quick": [
                 "Counter",
@@ -30679,7 +31111,8 @@ var pokemonData = [
                 "Cross Chop",
                 "Night Slash",
                 "Hyper Beam",
-                "Gunk Shot"
+                "Gunk Shot",
+                "Obstruct"
             ],
             "quick": [
                 "Counter",
