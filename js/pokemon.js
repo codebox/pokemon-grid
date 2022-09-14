@@ -1,8 +1,11 @@
-function buildPokemon(pokemonNames, staticData) {
-    const selectedPokemonData = pickOne([...pokemonNames].map(name => staticData.getPokemonByName(name))),
-        quickMoveName = pickOne(selectedPokemonData.moves.quick),
+function buildPokemon(model, staticData) {
+    function filterMoves(pokemonName, allMoves) {
+        return allMoves.filter(m => !(model.moveExclusions[pokemonName] || new Set()).has(m));
+    }
+    const selectedPokemonData = pickOne([...model.selectedPokemon].map(name => staticData.getPokemonByName(name))),
+        quickMoveName = pickOne(filterMoves(selectedPokemonData.name, selectedPokemonData.moves.quick)),
         quickMove = staticData.getMoveByName(quickMoveName),
-        chargeMoveName = pickOne(selectedPokemonData.moves.charge),
+        chargeMoveName = pickOne(filterMoves(selectedPokemonData.name, selectedPokemonData.moves.charge)),
         chargeMove = staticData.getMoveByName(chargeMoveName);
 
     return {

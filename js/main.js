@@ -10,7 +10,12 @@ function start() {
         if (model.state === STATE_RUNNING) {
             setState(STATE_STOPPED);
         } else {
-            setState(STATE_RUNNING);
+            try {
+                model.validate();
+                setState(STATE_RUNNING);
+            } catch (err) {
+                alert(err);
+            }
         }
     });
 
@@ -27,6 +32,19 @@ function start() {
     });
     view.on('pokemonDeselected', event => {
         model.selectedPokemon.delete(event.data);
+    });
+    view.on('moveSelected', event => {
+        const {pokemon, move} = event.data;
+        if (model.moveExclusions[pokemon]) {
+            model.moveExclusions[pokemon].delete(move);
+        }
+    });
+    view.on('moveDeselected', event => {
+        const {pokemon, move} = event.data;
+        if (!model.moveExclusions[pokemon]) {
+            model.moveExclusions[pokemon] = new Set();
+        }
+        model.moveExclusions[pokemon].add(move);
     });
     view.on('gridSizeSelected', event => {
         model.gridSize = event.data;

@@ -8,8 +8,8 @@ var pokemonData = [
                 "Power Whip"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Tackle Fast"
+                "Vine Whip",
+                "Tackle"
             ]
         },
         "stats": {
@@ -31,8 +31,8 @@ var pokemonData = [
                 "Power Whip"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Tackle Fast"
+                "Vine Whip",
+                "Tackle"
             ]
         },
         "stats": {
@@ -54,8 +54,8 @@ var pokemonData = [
                 "Power Whip"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Vine Whip Fast"
+                "Razor Leaf",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -77,8 +77,8 @@ var pokemonData = [
                 "Power Whip"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Vine Whip Fast"
+                "Razor Leaf",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -100,8 +100,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Vine Whip Fast"
+                "Razor Leaf",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -123,8 +123,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Vine Whip Fast"
+                "Razor Leaf",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -146,8 +146,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Vine Whip Fast"
+                "Razor Leaf",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -169,8 +169,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Ember Fast",
-                "Scratch Fast"
+                "Ember",
+                "Scratch"
             ]
         },
         "stats": {
@@ -191,8 +191,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Ember Fast",
-                "Scratch Fast"
+                "Ember",
+                "Scratch"
             ]
         },
         "stats": {
@@ -213,8 +213,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Ember Fast",
-                "Fire Fang Fast"
+                "Ember",
+                "Fire Fang"
             ]
         },
         "stats": {
@@ -235,8 +235,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Ember Fast",
-                "Fire Fang Fast"
+                "Ember",
+                "Fire Fang"
             ]
         },
         "stats": {
@@ -257,8 +257,8 @@ var pokemonData = [
                 "Overheat"
             ],
             "quick": [
-                "Fire Spin Fast",
-                "Air Slash Fast"
+                "Fire Spin",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -280,8 +280,8 @@ var pokemonData = [
                 "Overheat"
             ],
             "quick": [
-                "Fire Spin Fast",
-                "Air Slash Fast"
+                "Fire Spin",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -303,8 +303,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Bubble Fast",
-                "Tackle Fast"
+                "Bubble",
+                "Tackle"
             ]
         },
         "stats": {
@@ -325,8 +325,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Bubble Fast",
-                "Tackle Fast"
+                "Bubble",
+                "Tackle"
             ]
         },
         "stats": {
@@ -347,8 +347,8 @@ var pokemonData = [
                 "Hydro Pump"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Bite Fast"
+                "Water Gun",
+                "Bite"
             ]
         },
         "stats": {
@@ -369,8 +369,8 @@ var pokemonData = [
                 "Hydro Pump"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Bite Fast"
+                "Water Gun",
+                "Bite"
             ]
         },
         "stats": {
@@ -392,8 +392,8 @@ var pokemonData = [
                 "Skull Bash"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Bite Fast"
+                "Water Gun",
+                "Bite"
             ]
         },
         "stats": {
@@ -415,8 +415,8 @@ var pokemonData = [
                 "Skull Bash"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Bite Fast"
+                "Water Gun",
+                "Bite"
             ]
         },
         "stats": {
@@ -438,8 +438,8 @@ var pokemonData = [
                 "Skull Bash"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Bite Fast"
+                "Water Gun",
+                "Bite"
             ]
         },
         "stats": {
@@ -458,8 +458,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Tackle Fast"
+                "Bug Bite",
+                "Tackle"
             ]
         },
         "stats": {
@@ -478,8 +478,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Tackle Fast"
+                "Bug Bite",
+                "Tackle"
             ]
         },
         "stats": {
@@ -500,8 +500,8 @@ var pokemonData = [
                 "Signal Beam"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Confusion Fast"
+                "Struggle Bug",
+                "Confusion"
             ]
         },
         "stats": {
@@ -521,8 +521,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Poison Sting Fast"
+                "Bug Bite",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -542,8 +542,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Poison Sting Fast"
+                "Bug Bite",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -563,8 +563,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Poison Sting Fast"
+                "Bug Bite",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -584,8 +584,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Poison Sting Fast"
+                "Bug Bite",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -608,8 +608,8 @@ var pokemonData = [
                 "Fell Stinger"
             ],
             "quick": [
-                "Infestation Fast",
-                "Poison Jab Fast"
+                "Infestation",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -632,8 +632,8 @@ var pokemonData = [
                 "Fell Stinger"
             ],
             "quick": [
-                "Infestation Fast",
-                "Poison Jab Fast"
+                "Infestation",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -656,8 +656,8 @@ var pokemonData = [
                 "Fell Stinger"
             ],
             "quick": [
-                "Infestation Fast",
-                "Poison Jab Fast"
+                "Infestation",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -679,8 +679,8 @@ var pokemonData = [
                 "Air Cutter"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Tackle Fast"
+                "Quick Attack",
+                "Tackle"
             ]
         },
         "stats": {
@@ -702,8 +702,8 @@ var pokemonData = [
                 "Air Cutter"
             ],
             "quick": [
-                "Wing Attack Fast",
-                "Steel Wing Fast"
+                "Wing Attack",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -726,8 +726,8 @@ var pokemonData = [
                 "Feather Dance"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Steel Wing Fast"
+                "Air Slash",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -750,8 +750,8 @@ var pokemonData = [
                 "Feather Dance"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Steel Wing Fast"
+                "Air Slash",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -773,8 +773,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Tackle Fast",
-                "Quick Attack Fast"
+                "Tackle",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -796,8 +796,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Tackle Fast",
-                "Quick Attack Fast"
+                "Tackle",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -819,8 +819,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Quick Attack Fast"
+                "Tackle",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -841,8 +841,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Quick Attack Fast"
+                "Tackle",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -863,8 +863,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Bite Fast",
-                "Quick Attack Fast"
+                "Bite",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -886,8 +886,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Bite Fast",
-                "Quick Attack Fast"
+                "Bite",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -909,8 +909,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Bite Fast",
-                "Quick Attack Fast"
+                "Bite",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -931,8 +931,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Bite Fast",
-                "Quick Attack Fast"
+                "Bite",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -953,8 +953,8 @@ var pokemonData = [
                 "Sky Attack"
             ],
             "quick": [
-                "Peck Fast",
-                "Quick Attack Fast"
+                "Peck",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -976,8 +976,8 @@ var pokemonData = [
                 "Sky Attack"
             ],
             "quick": [
-                "Peck Fast",
-                "Steel Wing Fast"
+                "Peck",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -999,8 +999,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Acid Fast"
+                "Poison Sting",
+                "Acid"
             ]
         },
         "stats": {
@@ -1021,8 +1021,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Acid Fast"
+                "Poison Sting",
+                "Acid"
             ]
         },
         "stats": {
@@ -1044,9 +1044,9 @@ var pokemonData = [
                 "Acid Spray"
             ],
             "quick": [
-                "Bite Fast",
-                "Acid Fast",
-                "Dragon Tail Fast"
+                "Bite",
+                "Acid",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -1068,9 +1068,9 @@ var pokemonData = [
                 "Acid Spray"
             ],
             "quick": [
-                "Bite Fast",
-                "Acid Fast",
-                "Dragon Tail Fast"
+                "Bite",
+                "Acid",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -1092,8 +1092,8 @@ var pokemonData = [
                 "Fly"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Quick Attack Fast"
+                "Thunder Shock",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -1115,8 +1115,8 @@ var pokemonData = [
                 "Fly"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Quick Attack Fast"
+                "Thunder Shock",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -1138,8 +1138,8 @@ var pokemonData = [
                 "Fly"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Quick Attack Fast"
+                "Thunder Shock",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -1160,8 +1160,8 @@ var pokemonData = [
                 "Wild Charge"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Quick Attack Fast"
+                "Thunder Shock",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -1182,8 +1182,8 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Charm Fast"
+                "Thunder Shock",
+                "Charm"
             ]
         },
         "stats": {
@@ -1204,8 +1204,8 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Charm Fast"
+                "Thunder Shock",
+                "Charm"
             ]
         },
         "stats": {
@@ -1226,8 +1226,8 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Charm Fast"
+                "Thunder Shock",
+                "Charm"
             ]
         },
         "stats": {
@@ -1249,9 +1249,9 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Volt Switch Fast",
-                "Spark Fast",
-                "Thunder Shock Fast"
+                "Volt Switch",
+                "Spark",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -1274,10 +1274,10 @@ var pokemonData = [
                 "Skull Bash"
             ],
             "quick": [
-                "Volt Switch Fast",
-                "Spark Fast",
-                "Charm Fast",
-                "Thunder Shock Fast"
+                "Volt Switch",
+                "Spark",
+                "Charm",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -1298,8 +1298,8 @@ var pokemonData = [
                 "Night Slash"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Powder Snow Fast"
+                "Metal Claw",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -1321,8 +1321,8 @@ var pokemonData = [
                 "Night Slash"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Powder Snow Fast"
+                "Metal Claw",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -1344,8 +1344,8 @@ var pokemonData = [
                 "Sand Tomb"
             ],
             "quick": [
-                "Scratch Fast",
-                "Mud Shot Fast"
+                "Scratch",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -1366,8 +1366,8 @@ var pokemonData = [
                 "Sand Tomb"
             ],
             "quick": [
-                "Scratch Fast",
-                "Mud Shot Fast"
+                "Scratch",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -1389,8 +1389,8 @@ var pokemonData = [
                 "Ice Punch"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Powder Snow Fast"
+                "Metal Claw",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -1413,8 +1413,8 @@ var pokemonData = [
                 "Ice Punch"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Powder Snow Fast"
+                "Metal Claw",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -1436,8 +1436,8 @@ var pokemonData = [
                 "Bulldoze"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Mud Shot Fast"
+                "Metal Claw",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -1458,8 +1458,8 @@ var pokemonData = [
                 "Bulldoze"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Mud Shot Fast"
+                "Metal Claw",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -1480,8 +1480,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Bite Fast",
-                "Poison Sting Fast"
+                "Bite",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -1502,8 +1502,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Bite Fast",
-                "Poison Sting Fast"
+                "Bite",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -1525,8 +1525,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Bite Fast",
-                "Poison Sting Fast"
+                "Bite",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -1548,8 +1548,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Bite Fast",
-                "Poison Sting Fast"
+                "Bite",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -1572,8 +1572,8 @@ var pokemonData = [
                 "Poison Fang"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Bite Fast"
+                "Poison Jab",
+                "Bite"
             ]
         },
         "stats": {
@@ -1597,8 +1597,8 @@ var pokemonData = [
                 "Poison Fang"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Bite Fast"
+                "Poison Jab",
+                "Bite"
             ]
         },
         "stats": {
@@ -1620,8 +1620,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Peck Fast",
-                "Poison Sting Fast"
+                "Peck",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -1642,8 +1642,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Peck Fast",
-                "Poison Sting Fast"
+                "Peck",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -1665,8 +1665,8 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Poison Sting Fast"
+                "Poison Jab",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -1688,8 +1688,8 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Poison Sting Fast"
+                "Poison Jab",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -1712,9 +1712,9 @@ var pokemonData = [
                 "Sand Tomb"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Iron Tail Fast",
-                "Double Kick Fast"
+                "Poison Jab",
+                "Iron Tail",
+                "Double Kick"
             ]
         },
         "stats": {
@@ -1738,9 +1738,9 @@ var pokemonData = [
                 "Sand Tomb"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Iron Tail Fast",
-                "Double Kick Fast"
+                "Poison Jab",
+                "Iron Tail",
+                "Double Kick"
             ]
         },
         "stats": {
@@ -1762,8 +1762,8 @@ var pokemonData = [
                 "Moonblast"
             ],
             "quick": [
-                "Pound Fast",
-                "Zen Headbutt Fast"
+                "Pound",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -1785,9 +1785,9 @@ var pokemonData = [
                 "Meteor Mash"
             ],
             "quick": [
-                "Charge Beam Fast",
-                "Zen Headbutt Fast",
-                "Charm Fast"
+                "Charge Beam",
+                "Zen Headbutt",
+                "Charm"
             ]
         },
         "stats": {
@@ -1809,8 +1809,8 @@ var pokemonData = [
                 "Weather Ball Ice"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Powder Snow Fast"
+                "Zen Headbutt",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -1832,8 +1832,8 @@ var pokemonData = [
                 "Weather Ball Ice"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Powder Snow Fast"
+                "Zen Headbutt",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -1855,8 +1855,8 @@ var pokemonData = [
                 "Weather Ball Fire"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Ember Fast"
+                "Quick Attack",
+                "Ember"
             ]
         },
         "stats": {
@@ -1878,8 +1878,8 @@ var pokemonData = [
                 "Weather Ball Fire"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Ember Fast"
+                "Quick Attack",
+                "Ember"
             ]
         },
         "stats": {
@@ -1902,9 +1902,9 @@ var pokemonData = [
                 "Weather Ball Ice"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Powder Snow Fast",
-                "Charm Fast"
+                "Feint Attack",
+                "Powder Snow",
+                "Charm"
             ]
         },
         "stats": {
@@ -1928,9 +1928,9 @@ var pokemonData = [
                 "Weather Ball Ice"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Powder Snow Fast",
-                "Charm Fast"
+                "Feint Attack",
+                "Powder Snow",
+                "Charm"
             ]
         },
         "stats": {
@@ -1954,8 +1954,8 @@ var pokemonData = [
                 "Weather Ball Fire"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Fire Spin Fast"
+                "Feint Attack",
+                "Fire Spin"
             ]
         },
         "stats": {
@@ -1978,8 +1978,8 @@ var pokemonData = [
                 "Weather Ball Fire"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Fire Spin Fast"
+                "Feint Attack",
+                "Fire Spin"
             ]
         },
         "stats": {
@@ -2000,8 +2000,8 @@ var pokemonData = [
                 "Dazzling Gleam"
             ],
             "quick": [
-                "Pound Fast",
-                "Feint Attack Fast"
+                "Pound",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -2024,9 +2024,9 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Pound Fast",
-                "Feint Attack Fast",
-                "Charm Fast"
+                "Pound",
+                "Feint Attack",
+                "Charm"
             ]
         },
         "stats": {
@@ -2048,8 +2048,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Bite Fast"
+                "Quick Attack",
+                "Bite"
             ]
         },
         "stats": {
@@ -2071,8 +2071,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Bite Fast"
+                "Quick Attack",
+                "Bite"
             ]
         },
         "stats": {
@@ -2094,8 +2094,8 @@ var pokemonData = [
                 "Poison Fang"
             ],
             "quick": [
-                "Wing Attack Fast",
-                "Bite Fast"
+                "Wing Attack",
+                "Bite"
             ]
         },
         "stats": {
@@ -2117,8 +2117,8 @@ var pokemonData = [
                 "Poison Fang"
             ],
             "quick": [
-                "Wing Attack Fast",
-                "Bite Fast"
+                "Wing Attack",
+                "Bite"
             ]
         },
         "stats": {
@@ -2140,8 +2140,8 @@ var pokemonData = [
                 "Moonblast"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Acid Fast"
+                "Razor Leaf",
+                "Acid"
             ]
         },
         "stats": {
@@ -2163,8 +2163,8 @@ var pokemonData = [
                 "Moonblast"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Acid Fast"
+                "Razor Leaf",
+                "Acid"
             ]
         },
         "stats": {
@@ -2186,8 +2186,8 @@ var pokemonData = [
                 "Moonblast"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Acid Fast"
+                "Razor Leaf",
+                "Acid"
             ]
         },
         "stats": {
@@ -2209,8 +2209,8 @@ var pokemonData = [
                 "Moonblast"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Acid Fast"
+                "Razor Leaf",
+                "Acid"
             ]
         },
         "stats": {
@@ -2233,8 +2233,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Acid Fast"
+                "Razor Leaf",
+                "Acid"
             ]
         },
         "stats": {
@@ -2257,8 +2257,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Acid Fast"
+                "Razor Leaf",
+                "Acid"
             ]
         },
         "stats": {
@@ -2280,8 +2280,8 @@ var pokemonData = [
                 "Seed Bomb"
             ],
             "quick": [
-                "Scratch Fast",
-                "Bug Bite Fast"
+                "Scratch",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -2303,8 +2303,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Fury Cutter Fast"
+                "Struggle Bug",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -2326,8 +2326,8 @@ var pokemonData = [
                 "Signal Beam"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Confusion Fast"
+                "Bug Bite",
+                "Confusion"
             ]
         },
         "stats": {
@@ -2349,8 +2349,8 @@ var pokemonData = [
                 "Signal Beam"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Confusion Fast"
+                "Bug Bite",
+                "Confusion"
             ]
         },
         "stats": {
@@ -2373,8 +2373,8 @@ var pokemonData = [
                 "Poison Fang"
             ],
             "quick": [
-                "Infestation Fast",
-                "Confusion Fast"
+                "Infestation",
+                "Confusion"
             ]
         },
         "stats": {
@@ -2397,8 +2397,8 @@ var pokemonData = [
                 "Poison Fang"
             ],
             "quick": [
-                "Infestation Fast",
-                "Confusion Fast"
+                "Infestation",
+                "Confusion"
             ]
         },
         "stats": {
@@ -2420,8 +2420,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Metal Claw Fast"
+                "Mud Slap",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -2443,8 +2443,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Metal Claw Fast"
+                "Mud Slap",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -2466,8 +2466,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Scratch Fast"
+                "Mud Slap",
+                "Scratch"
             ]
         },
         "stats": {
@@ -2488,8 +2488,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Scratch Fast"
+                "Mud Slap",
+                "Scratch"
             ]
         },
         "stats": {
@@ -2510,8 +2510,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Sucker Punch Fast",
-                "Mud Slap Fast"
+                "Sucker Punch",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -2532,8 +2532,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Sucker Punch Fast",
-                "Mud Slap Fast"
+                "Sucker Punch",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -2554,8 +2554,8 @@ var pokemonData = [
                 "Iron Head"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Mud Slap Fast"
+                "Metal Claw",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -2577,8 +2577,8 @@ var pokemonData = [
                 "Iron Head"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Mud Slap Fast"
+                "Metal Claw",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -2600,8 +2600,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Sucker Punch Fast",
-                "Mud Slap Fast"
+                "Sucker Punch",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -2622,8 +2622,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Sucker Punch Fast",
-                "Mud Slap Fast"
+                "Sucker Punch",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -2644,8 +2644,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Scratch Fast",
-                "Bite Fast"
+                "Scratch",
+                "Bite"
             ]
         },
         "stats": {
@@ -2666,8 +2666,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Scratch Fast",
-                "Bite Fast"
+                "Scratch",
+                "Bite"
             ]
         },
         "stats": {
@@ -2688,8 +2688,8 @@ var pokemonData = [
                 "Dig"
             ],
             "quick": [
-                "Scratch Fast",
-                "Metal Claw Fast"
+                "Scratch",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -2710,8 +2710,8 @@ var pokemonData = [
                 "Dig"
             ],
             "quick": [
-                "Scratch Fast",
-                "Metal Claw Fast"
+                "Scratch",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -2732,8 +2732,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Scratch Fast",
-                "Bite Fast"
+                "Scratch",
+                "Bite"
             ]
         },
         "stats": {
@@ -2754,8 +2754,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Scratch Fast",
-                "Bite Fast"
+                "Scratch",
+                "Bite"
             ]
         },
         "stats": {
@@ -2777,8 +2777,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Scratch Fast",
-                "Feint Attack Fast"
+                "Scratch",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -2800,8 +2800,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Scratch Fast",
-                "Feint Attack Fast"
+                "Scratch",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -2823,8 +2823,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Scratch Fast",
-                "Feint Attack Fast"
+                "Scratch",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -2846,8 +2846,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Scratch Fast",
-                "Feint Attack Fast"
+                "Scratch",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -2868,8 +2868,8 @@ var pokemonData = [
                 "Cross Chop"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Zen Headbutt Fast"
+                "Water Gun",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -2890,8 +2890,8 @@ var pokemonData = [
                 "Cross Chop"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Zen Headbutt Fast"
+                "Water Gun",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -2915,8 +2915,8 @@ var pokemonData = [
                 "Cross Chop"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Confusion Fast"
+                "Water Gun",
+                "Confusion"
             ]
         },
         "stats": {
@@ -2940,8 +2940,8 @@ var pokemonData = [
                 "Cross Chop"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Confusion Fast"
+                "Water Gun",
+                "Confusion"
             ]
         },
         "stats": {
@@ -2962,8 +2962,8 @@ var pokemonData = [
                 "Brick Break"
             ],
             "quick": [
-                "Karate Chop Fast",
-                "Scratch Fast"
+                "Karate Chop",
+                "Scratch"
             ]
         },
         "stats": {
@@ -2985,8 +2985,8 @@ var pokemonData = [
                 "Ice Punch"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Counter Fast"
+                "Low Kick",
+                "Counter"
             ]
         },
         "stats": {
@@ -3007,8 +3007,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Ember Fast",
-                "Bite Fast"
+                "Ember",
+                "Bite"
             ]
         },
         "stats": {
@@ -3030,8 +3030,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Ember Fast",
-                "Bite Fast"
+                "Ember",
+                "Bite"
             ]
         },
         "stats": {
@@ -3053,8 +3053,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Ember Fast",
-                "Bite Fast"
+                "Ember",
+                "Bite"
             ]
         },
         "stats": {
@@ -3075,8 +3075,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Ember Fast",
-                "Bite Fast"
+                "Ember",
+                "Bite"
             ]
         },
         "stats": {
@@ -3098,9 +3098,9 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Fire Fang Fast",
-                "Snarl Fast",
-                "Rock Smash Fast"
+                "Fire Fang",
+                "Snarl",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -3123,9 +3123,9 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Fire Fang Fast",
-                "Snarl Fast",
-                "Rock Smash Fast"
+                "Fire Fang",
+                "Snarl",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -3149,9 +3149,9 @@ var pokemonData = [
                 "Psychic Fangs"
             ],
             "quick": [
-                "Fire Fang Fast",
-                "Snarl Fast",
-                "Thunder Fang Fast"
+                "Fire Fang",
+                "Snarl",
+                "Thunder Fang"
             ]
         },
         "stats": {
@@ -3174,9 +3174,9 @@ var pokemonData = [
                 "Psychic Fangs"
             ],
             "quick": [
-                "Fire Fang Fast",
-                "Snarl Fast",
-                "Thunder Fang Fast"
+                "Fire Fang",
+                "Snarl",
+                "Thunder Fang"
             ]
         },
         "stats": {
@@ -3197,8 +3197,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Bubble Fast",
-                "Mud Shot Fast"
+                "Bubble",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -3219,8 +3219,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Bubble Fast",
-                "Mud Shot Fast"
+                "Bubble",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -3241,8 +3241,8 @@ var pokemonData = [
                 "Bubble Beam"
             ],
             "quick": [
-                "Bubble Fast",
-                "Mud Shot Fast"
+                "Bubble",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -3263,8 +3263,8 @@ var pokemonData = [
                 "Bubble Beam"
             ],
             "quick": [
-                "Bubble Fast",
-                "Mud Shot Fast"
+                "Bubble",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -3287,9 +3287,9 @@ var pokemonData = [
                 "Scald"
             ],
             "quick": [
-                "Bubble Fast",
-                "Rock Smash Fast",
-                "Mud Shot Fast"
+                "Bubble",
+                "Rock Smash",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -3313,9 +3313,9 @@ var pokemonData = [
                 "Scald"
             ],
             "quick": [
-                "Bubble Fast",
-                "Rock Smash Fast",
-                "Mud Shot Fast"
+                "Bubble",
+                "Rock Smash",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -3337,8 +3337,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Charge Beam Fast"
+                "Zen Headbutt",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -3359,8 +3359,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Charge Beam Fast"
+                "Zen Headbutt",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -3381,8 +3381,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Psycho Cut Fast",
-                "Confusion Fast"
+                "Psycho Cut",
+                "Confusion"
             ]
         },
         "stats": {
@@ -3403,8 +3403,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Psycho Cut Fast",
-                "Confusion Fast"
+                "Psycho Cut",
+                "Confusion"
             ]
         },
         "stats": {
@@ -3426,8 +3426,8 @@ var pokemonData = [
                 "Fire Punch"
             ],
             "quick": [
-                "Psycho Cut Fast",
-                "Confusion Fast"
+                "Psycho Cut",
+                "Confusion"
             ]
         },
         "stats": {
@@ -3449,8 +3449,8 @@ var pokemonData = [
                 "Fire Punch"
             ],
             "quick": [
-                "Psycho Cut Fast",
-                "Confusion Fast"
+                "Psycho Cut",
+                "Confusion"
             ]
         },
         "stats": {
@@ -3472,8 +3472,8 @@ var pokemonData = [
                 "Fire Punch"
             ],
             "quick": [
-                "Psycho Cut Fast",
-                "Confusion Fast"
+                "Psycho Cut",
+                "Confusion"
             ]
         },
         "stats": {
@@ -3494,8 +3494,8 @@ var pokemonData = [
                 "Cross Chop"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Karate Chop Fast"
+                "Rock Smash",
+                "Karate Chop"
             ]
         },
         "stats": {
@@ -3516,8 +3516,8 @@ var pokemonData = [
                 "Cross Chop"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Karate Chop Fast"
+                "Rock Smash",
+                "Karate Chop"
             ]
         },
         "stats": {
@@ -3538,8 +3538,8 @@ var pokemonData = [
                 "Dynamic Punch"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Karate Chop Fast"
+                "Low Kick",
+                "Karate Chop"
             ]
         },
         "stats": {
@@ -3560,8 +3560,8 @@ var pokemonData = [
                 "Dynamic Punch"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Karate Chop Fast"
+                "Low Kick",
+                "Karate Chop"
             ]
         },
         "stats": {
@@ -3584,8 +3584,8 @@ var pokemonData = [
                 "Cross Chop"
             ],
             "quick": [
-                "Bullet Punch Fast",
-                "Counter Fast"
+                "Bullet Punch",
+                "Counter"
             ]
         },
         "stats": {
@@ -3608,8 +3608,8 @@ var pokemonData = [
                 "Cross Chop"
             ],
             "quick": [
-                "Bullet Punch Fast",
-                "Counter Fast"
+                "Bullet Punch",
+                "Counter"
             ]
         },
         "stats": {
@@ -3630,8 +3630,8 @@ var pokemonData = [
                 "Wrap"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Acid Fast"
+                "Vine Whip",
+                "Acid"
             ]
         },
         "stats": {
@@ -3653,8 +3653,8 @@ var pokemonData = [
                 "Wrap"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Acid Fast"
+                "Vine Whip",
+                "Acid"
             ]
         },
         "stats": {
@@ -3676,8 +3676,8 @@ var pokemonData = [
                 "Seed Bomb"
             ],
             "quick": [
-                "Bullet Seed Fast",
-                "Acid Fast"
+                "Bullet Seed",
+                "Acid"
             ]
         },
         "stats": {
@@ -3699,8 +3699,8 @@ var pokemonData = [
                 "Seed Bomb"
             ],
             "quick": [
-                "Bullet Seed Fast",
-                "Acid Fast"
+                "Bullet Seed",
+                "Acid"
             ]
         },
         "stats": {
@@ -3724,8 +3724,8 @@ var pokemonData = [
                 "Acid Spray"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Acid Fast"
+                "Razor Leaf",
+                "Acid"
             ]
         },
         "stats": {
@@ -3749,8 +3749,8 @@ var pokemonData = [
                 "Acid Spray"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Acid Fast"
+                "Razor Leaf",
+                "Acid"
             ]
         },
         "stats": {
@@ -3772,8 +3772,8 @@ var pokemonData = [
                 "Wrap"
             ],
             "quick": [
-                "Bubble Fast",
-                "Poison Sting Fast"
+                "Bubble",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -3797,8 +3797,8 @@ var pokemonData = [
                 "Scald"
             ],
             "quick": [
-                "Acid Fast",
-                "Poison Jab Fast"
+                "Acid",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -3820,8 +3820,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Volt Switch Fast"
+                "Rock Throw",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -3843,8 +3843,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Volt Switch Fast"
+                "Rock Throw",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -3866,8 +3866,8 @@ var pokemonData = [
                 "Dig"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Tackle Fast"
+                "Rock Throw",
+                "Tackle"
             ]
         },
         "stats": {
@@ -3889,8 +3889,8 @@ var pokemonData = [
                 "Dig"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Tackle Fast"
+                "Rock Throw",
+                "Tackle"
             ]
         },
         "stats": {
@@ -3912,8 +3912,8 @@ var pokemonData = [
                 "Rock Blast"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Volt Switch Fast"
+                "Rock Throw",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -3935,8 +3935,8 @@ var pokemonData = [
                 "Rock Blast"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Volt Switch Fast"
+                "Rock Throw",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -3958,8 +3958,8 @@ var pokemonData = [
                 "Rock Blast"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Mud Slap Fast"
+                "Rock Throw",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -3981,8 +3981,8 @@ var pokemonData = [
                 "Rock Blast"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Mud Slap Fast"
+                "Rock Throw",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -4004,8 +4004,8 @@ var pokemonData = [
                 "Wild Charge"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Volt Switch Fast"
+                "Rock Throw",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -4027,8 +4027,8 @@ var pokemonData = [
                 "Wild Charge"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Volt Switch Fast"
+                "Rock Throw",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -4051,8 +4051,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Mud Slap Fast"
+                "Rock Throw",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -4075,8 +4075,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Mud Slap Fast"
+                "Rock Throw",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -4098,8 +4098,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Psycho Cut Fast"
+                "Low Kick",
+                "Psycho Cut"
             ]
         },
         "stats": {
@@ -4120,8 +4120,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Psycho Cut Fast"
+                "Low Kick",
+                "Psycho Cut"
             ]
         },
         "stats": {
@@ -4142,8 +4142,8 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Tackle Fast",
-                "Ember Fast"
+                "Tackle",
+                "Ember"
             ]
         },
         "stats": {
@@ -4164,8 +4164,8 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Tackle Fast",
-                "Ember Fast"
+                "Tackle",
+                "Ember"
             ]
         },
         "stats": {
@@ -4187,9 +4187,9 @@ var pokemonData = [
                 "Megahorn"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Psycho Cut Fast",
-                "Fairy Wind Fast"
+                "Low Kick",
+                "Psycho Cut",
+                "Fairy Wind"
             ]
         },
         "stats": {
@@ -4212,9 +4212,9 @@ var pokemonData = [
                 "Megahorn"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Psycho Cut Fast",
-                "Fairy Wind Fast"
+                "Low Kick",
+                "Psycho Cut",
+                "Fairy Wind"
             ]
         },
         "stats": {
@@ -4237,9 +4237,9 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Fire Spin Fast",
-                "Incinerate Fast"
+                "Low Kick",
+                "Fire Spin",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -4261,9 +4261,9 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Fire Spin Fast",
-                "Incinerate Fast"
+                "Low Kick",
+                "Fire Spin",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -4284,8 +4284,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Confusion Fast",
-                "Iron Tail Fast"
+                "Confusion",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -4306,8 +4306,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Confusion Fast",
-                "Iron Tail Fast"
+                "Confusion",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -4328,8 +4328,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Confusion Fast"
+                "Water Gun",
+                "Confusion"
             ]
         },
         "stats": {
@@ -4351,8 +4351,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Confusion Fast"
+                "Water Gun",
+                "Confusion"
             ]
         },
         "stats": {
@@ -4374,8 +4374,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Confusion Fast",
-                "Poison Jab Fast"
+                "Confusion",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -4397,8 +4397,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Confusion Fast",
-                "Poison Jab Fast"
+                "Confusion",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -4420,8 +4420,8 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Confusion Fast"
+                "Water Gun",
+                "Confusion"
             ]
         },
         "stats": {
@@ -4443,8 +4443,8 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Confusion Fast"
+                "Water Gun",
+                "Confusion"
             ]
         },
         "stats": {
@@ -4466,8 +4466,8 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Confusion Fast"
+                "Water Gun",
+                "Confusion"
             ]
         },
         "stats": {
@@ -4489,8 +4489,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Spark Fast",
-                "Thunder Shock Fast"
+                "Spark",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -4512,8 +4512,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Spark Fast",
-                "Thunder Shock Fast"
+                "Spark",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -4536,9 +4536,9 @@ var pokemonData = [
                 "Discharge"
             ],
             "quick": [
-                "Spark Fast",
-                "Charge Beam Fast",
-                "Thunder Shock Fast"
+                "Spark",
+                "Charge Beam",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -4561,9 +4561,9 @@ var pokemonData = [
                 "Discharge"
             ],
             "quick": [
-                "Spark Fast",
-                "Charge Beam Fast",
-                "Thunder Shock Fast"
+                "Spark",
+                "Charge Beam",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -4585,8 +4585,8 @@ var pokemonData = [
                 "Leaf Blade"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Fury Cutter Fast"
+                "Rock Smash",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -4607,8 +4607,8 @@ var pokemonData = [
                 "Leaf Blade"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Fury Cutter Fast"
+                "Rock Smash",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -4629,8 +4629,8 @@ var pokemonData = [
                 "Leaf Blade"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Fury Cutter Fast"
+                "Air Slash",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -4652,8 +4652,8 @@ var pokemonData = [
                 "Leaf Blade"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Fury Cutter Fast"
+                "Air Slash",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -4675,8 +4675,8 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Peck Fast",
-                "Quick Attack Fast"
+                "Peck",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -4698,8 +4698,8 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Steel Wing Fast"
+                "Feint Attack",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -4721,8 +4721,8 @@ var pokemonData = [
                 "Aqua Tail"
             ],
             "quick": [
-                "Ice Shard Fast",
-                "Lick Fast"
+                "Ice Shard",
+                "Lick"
             ]
         },
         "stats": {
@@ -4743,8 +4743,8 @@ var pokemonData = [
                 "Blizzard"
             ],
             "quick": [
-                "Frost Breath Fast",
-                "Iron Tail Fast"
+                "Frost Breath",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -4766,8 +4766,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Bite Fast"
+                "Poison Jab",
+                "Bite"
             ]
         },
         "stats": {
@@ -4789,8 +4789,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Bite Fast"
+                "Poison Jab",
+                "Bite"
             ]
         },
         "stats": {
@@ -4812,8 +4812,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Mud Slap Fast"
+                "Poison Jab",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -4834,8 +4834,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Mud Slap Fast"
+                "Poison Jab",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -4857,9 +4857,9 @@ var pokemonData = [
                 "Acid Spray"
             ],
             "quick": [
-                "Bite Fast",
-                "Poison Jab Fast",
-                "Snarl Fast"
+                "Bite",
+                "Poison Jab",
+                "Snarl"
             ]
         },
         "stats": {
@@ -4882,9 +4882,9 @@ var pokemonData = [
                 "Acid Spray"
             ],
             "quick": [
-                "Bite Fast",
-                "Poison Jab Fast",
-                "Snarl Fast"
+                "Bite",
+                "Poison Jab",
+                "Snarl"
             ]
         },
         "stats": {
@@ -4908,8 +4908,8 @@ var pokemonData = [
                 "Acid Spray"
             ],
             "quick": [
-                "Infestation Fast",
-                "Poison Jab Fast"
+                "Infestation",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -4932,8 +4932,8 @@ var pokemonData = [
                 "Acid Spray"
             ],
             "quick": [
-                "Infestation Fast",
-                "Poison Jab Fast"
+                "Infestation",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -4954,8 +4954,8 @@ var pokemonData = [
                 "Icy Wind"
             ],
             "quick": [
-                "Ice Shard Fast",
-                "Tackle Fast"
+                "Ice Shard",
+                "Tackle"
             ]
         },
         "stats": {
@@ -4976,8 +4976,8 @@ var pokemonData = [
                 "Icy Wind"
             ],
             "quick": [
-                "Ice Shard Fast",
-                "Tackle Fast"
+                "Ice Shard",
+                "Tackle"
             ]
         },
         "stats": {
@@ -4999,8 +4999,8 @@ var pokemonData = [
                 "Icy Wind"
             ],
             "quick": [
-                "Frost Breath Fast",
-                "Ice Shard Fast"
+                "Frost Breath",
+                "Ice Shard"
             ]
         },
         "stats": {
@@ -5023,8 +5023,8 @@ var pokemonData = [
                 "Icy Wind"
             ],
             "quick": [
-                "Frost Breath Fast",
-                "Ice Shard Fast"
+                "Frost Breath",
+                "Ice Shard"
             ]
         },
         "stats": {
@@ -5046,8 +5046,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Lick Fast",
-                "Astonish Fast"
+                "Lick",
+                "Astonish"
             ]
         },
         "stats": {
@@ -5071,8 +5071,8 @@ var pokemonData = [
                 "Ice Punch"
             ],
             "quick": [
-                "Shadow Claw Fast",
-                "Astonish Fast"
+                "Shadow Claw",
+                "Astonish"
             ]
         },
         "stats": {
@@ -5094,9 +5094,9 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Sucker Punch Fast",
-                "Hex Fast",
-                "Shadow Claw Fast"
+                "Sucker Punch",
+                "Hex",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -5118,9 +5118,9 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Sucker Punch Fast",
-                "Hex Fast",
-                "Shadow Claw Fast"
+                "Sucker Punch",
+                "Hex",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -5142,8 +5142,8 @@ var pokemonData = [
                 "Heavy Slam"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Tackle Fast"
+                "Rock Throw",
+                "Tackle"
             ]
         },
         "stats": {
@@ -5165,8 +5165,8 @@ var pokemonData = [
                 "Heavy Slam"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Tackle Fast"
+                "Rock Throw",
+                "Tackle"
             ]
         },
         "stats": {
@@ -5188,8 +5188,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Pound Fast",
-                "Confusion Fast"
+                "Pound",
+                "Confusion"
             ]
         },
         "stats": {
@@ -5210,8 +5210,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Pound Fast",
-                "Confusion Fast"
+                "Pound",
+                "Confusion"
             ]
         },
         "stats": {
@@ -5236,8 +5236,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Confusion Fast"
+                "Zen Headbutt",
+                "Confusion"
             ]
         },
         "stats": {
@@ -5262,8 +5262,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Confusion Fast"
+                "Zen Headbutt",
+                "Confusion"
             ]
         },
         "stats": {
@@ -5284,8 +5284,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Bubble Fast",
-                "Mud Shot Fast"
+                "Bubble",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -5306,8 +5306,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Bubble Fast",
-                "Mud Shot Fast"
+                "Bubble",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -5329,8 +5329,8 @@ var pokemonData = [
                 "Crabhammer"
             ],
             "quick": [
-                "Bubble Fast",
-                "Metal Claw Fast"
+                "Bubble",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -5352,8 +5352,8 @@ var pokemonData = [
                 "Crabhammer"
             ],
             "quick": [
-                "Bubble Fast",
-                "Metal Claw Fast"
+                "Bubble",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -5374,8 +5374,8 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Charge Beam Fast",
-                "Tackle Fast"
+                "Charge Beam",
+                "Tackle"
             ]
         },
         "stats": {
@@ -5397,8 +5397,8 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Charge Beam Fast",
-                "Tackle Fast"
+                "Charge Beam",
+                "Tackle"
             ]
         },
         "stats": {
@@ -5420,8 +5420,8 @@ var pokemonData = [
                 "Gyro Ball"
             ],
             "quick": [
-                "Spark Fast",
-                "Tackle Fast"
+                "Spark",
+                "Tackle"
             ]
         },
         "stats": {
@@ -5442,8 +5442,8 @@ var pokemonData = [
                 "Gyro Ball"
             ],
             "quick": [
-                "Spark Fast",
-                "Tackle Fast"
+                "Spark",
+                "Tackle"
             ]
         },
         "stats": {
@@ -5464,8 +5464,8 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Tackle Fast"
+                "Thunder Shock",
+                "Tackle"
             ]
         },
         "stats": {
@@ -5487,8 +5487,8 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Tackle Fast"
+                "Thunder Shock",
+                "Tackle"
             ]
         },
         "stats": {
@@ -5511,8 +5511,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Spark Fast",
-                "Volt Switch Fast"
+                "Spark",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -5534,8 +5534,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Spark Fast",
-                "Volt Switch Fast"
+                "Spark",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -5556,8 +5556,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Confusion Fast",
-                "Bullet Seed Fast"
+                "Confusion",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -5579,8 +5579,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Confusion Fast",
-                "Bullet Seed Fast"
+                "Confusion",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -5602,8 +5602,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Bullet Seed Fast",
-                "Dragon Tail Fast"
+                "Bullet Seed",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -5625,8 +5625,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Bullet Seed Fast",
-                "Dragon Tail Fast"
+                "Bullet Seed",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -5648,9 +5648,9 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Bullet Seed Fast",
-                "Extrasensory Fast",
-                "Confusion Fast"
+                "Bullet Seed",
+                "Extrasensory",
+                "Confusion"
             ]
         },
         "stats": {
@@ -5672,9 +5672,9 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Bullet Seed Fast",
-                "Extrasensory Fast",
-                "Confusion Fast"
+                "Bullet Seed",
+                "Extrasensory",
+                "Confusion"
             ]
         },
         "stats": {
@@ -5696,8 +5696,8 @@ var pokemonData = [
                 "Bulldoze"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Rock Smash Fast"
+                "Mud Slap",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -5718,8 +5718,8 @@ var pokemonData = [
                 "Bulldoze"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Rock Smash Fast"
+                "Mud Slap",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -5741,9 +5741,9 @@ var pokemonData = [
                 "Flame Wheel"
             ],
             "quick": [
-                "Hex Fast",
-                "Rock Smash Fast",
-                "Fire Spin Fast"
+                "Hex",
+                "Rock Smash",
+                "Fire Spin"
             ]
         },
         "stats": {
@@ -5766,9 +5766,9 @@ var pokemonData = [
                 "Flame Wheel"
             ],
             "quick": [
-                "Hex Fast",
-                "Rock Smash Fast",
-                "Fire Spin Fast"
+                "Hex",
+                "Rock Smash",
+                "Fire Spin"
             ]
         },
         "stats": {
@@ -5791,8 +5791,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Rock Smash Fast"
+                "Mud Slap",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -5814,8 +5814,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Rock Smash Fast"
+                "Mud Slap",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -5836,9 +5836,9 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Rock Smash Fast",
-                "Double Kick Fast"
+                "Low Kick",
+                "Rock Smash",
+                "Double Kick"
             ]
         },
         "stats": {
@@ -5859,9 +5859,9 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Rock Smash Fast",
-                "Double Kick Fast"
+                "Low Kick",
+                "Rock Smash",
+                "Double Kick"
             ]
         },
         "stats": {
@@ -5884,8 +5884,8 @@ var pokemonData = [
                 "Power Up Punch"
             ],
             "quick": [
-                "Bullet Punch Fast",
-                "Counter Fast"
+                "Bullet Punch",
+                "Counter"
             ]
         },
         "stats": {
@@ -5908,8 +5908,8 @@ var pokemonData = [
                 "Power Up Punch"
             ],
             "quick": [
-                "Bullet Punch Fast",
-                "Counter Fast"
+                "Bullet Punch",
+                "Counter"
             ]
         },
         "stats": {
@@ -5930,8 +5930,8 @@ var pokemonData = [
                 "Power Whip"
             ],
             "quick": [
-                "Lick Fast",
-                "Zen Headbutt Fast"
+                "Lick",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -5952,8 +5952,8 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Tackle Fast",
-                "Infestation Fast"
+                "Tackle",
+                "Infestation"
             ]
         },
         "stats": {
@@ -5974,8 +5974,8 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Tackle Fast",
-                "Infestation Fast"
+                "Tackle",
+                "Infestation"
             ]
         },
         "stats": {
@@ -5998,8 +5998,8 @@ var pokemonData = [
                 "Overheat"
             ],
             "quick": [
-                "Tackle Fast",
-                "Fairy Wind Fast"
+                "Tackle",
+                "Fairy Wind"
             ]
         },
         "stats": {
@@ -6023,8 +6023,8 @@ var pokemonData = [
                 "Overheat"
             ],
             "quick": [
-                "Tackle Fast",
-                "Fairy Wind Fast"
+                "Tackle",
+                "Fairy Wind"
             ]
         },
         "stats": {
@@ -6047,8 +6047,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Tackle Fast",
-                "Infestation Fast"
+                "Tackle",
+                "Infestation"
             ]
         },
         "stats": {
@@ -6070,8 +6070,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Tackle Fast",
-                "Infestation Fast"
+                "Tackle",
+                "Infestation"
             ]
         },
         "stats": {
@@ -6092,8 +6092,8 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Rock Smash Fast"
+                "Mud Slap",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -6115,8 +6115,8 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Rock Smash Fast"
+                "Mud Slap",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -6138,8 +6138,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Rock Smash Fast"
+                "Mud Slap",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -6161,8 +6161,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Rock Smash Fast"
+                "Mud Slap",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -6184,8 +6184,8 @@ var pokemonData = [
                 "Dazzling Gleam"
             ],
             "quick": [
-                "Pound Fast",
-                "Zen Headbutt Fast"
+                "Pound",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -6206,8 +6206,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Infestation Fast"
+                "Vine Whip",
+                "Infestation"
             ]
         },
         "stats": {
@@ -6228,8 +6228,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Infestation Fast"
+                "Vine Whip",
+                "Infestation"
             ]
         },
         "stats": {
@@ -6251,8 +6251,8 @@ var pokemonData = [
                 "Power Up Punch"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Low Kick Fast"
+                "Mud Slap",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -6274,8 +6274,8 @@ var pokemonData = [
                 "Power Up Punch"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Low Kick Fast"
+                "Mud Slap",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -6297,8 +6297,8 @@ var pokemonData = [
                 "Power Up Punch"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Low Kick Fast"
+                "Mud Slap",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -6319,8 +6319,8 @@ var pokemonData = [
                 "Flash Cannon"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Bubble Fast"
+                "Water Gun",
+                "Bubble"
             ]
         },
         "stats": {
@@ -6341,8 +6341,8 @@ var pokemonData = [
                 "Flash Cannon"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Bubble Fast"
+                "Water Gun",
+                "Bubble"
             ]
         },
         "stats": {
@@ -6363,8 +6363,8 @@ var pokemonData = [
                 "Hydro Pump"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Dragon Breath Fast"
+                "Water Gun",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -6385,8 +6385,8 @@ var pokemonData = [
                 "Hydro Pump"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Dragon Breath Fast"
+                "Water Gun",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -6407,8 +6407,8 @@ var pokemonData = [
                 "Aqua Tail"
             ],
             "quick": [
-                "Peck Fast",
-                "Mud Shot Fast"
+                "Peck",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -6429,8 +6429,8 @@ var pokemonData = [
                 "Megahorn"
             ],
             "quick": [
-                "Peck Fast",
-                "Waterfall Fast"
+                "Peck",
+                "Waterfall"
             ]
         },
         "stats": {
@@ -6451,8 +6451,8 @@ var pokemonData = [
                 "Power Gem"
             ],
             "quick": [
-                "Tackle Fast",
-                "Water Gun Fast"
+                "Tackle",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -6475,8 +6475,8 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Hidden Power Fast",
-                "Water Gun Fast"
+                "Hidden Power",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -6498,8 +6498,8 @@ var pokemonData = [
                 "Ice Punch"
             ],
             "quick": [
-                "Confusion Fast",
-                "Zen Headbutt Fast"
+                "Confusion",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -6521,8 +6521,8 @@ var pokemonData = [
                 "Ice Punch"
             ],
             "quick": [
-                "Confusion Fast",
-                "Zen Headbutt Fast"
+                "Confusion",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -6544,8 +6544,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Confusion Fast",
-                "Zen Headbutt Fast"
+                "Confusion",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -6567,8 +6567,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Confusion Fast",
-                "Zen Headbutt Fast"
+                "Confusion",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -6590,8 +6590,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Air Slash Fast"
+                "Fury Cutter",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -6613,8 +6613,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Air Slash Fast"
+                "Fury Cutter",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -6637,8 +6637,8 @@ var pokemonData = [
                 "Focus Blast"
             ],
             "quick": [
-                "Frost Breath Fast",
-                "Confusion Fast"
+                "Frost Breath",
+                "Confusion"
             ]
         },
         "stats": {
@@ -6660,8 +6660,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Low Kick Fast"
+                "Thunder Shock",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -6682,8 +6682,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Low Kick Fast"
+                "Thunder Shock",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -6704,8 +6704,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Ember Fast",
-                "Karate Chop Fast"
+                "Ember",
+                "Karate Chop"
             ]
         },
         "stats": {
@@ -6726,8 +6726,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Ember Fast",
-                "Karate Chop Fast"
+                "Ember",
+                "Karate Chop"
             ]
         },
         "stats": {
@@ -6749,9 +6749,9 @@ var pokemonData = [
                 "Super Power"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Bug Bite Fast",
-                "Fury Cutter Fast"
+                "Rock Smash",
+                "Bug Bite",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -6773,9 +6773,9 @@ var pokemonData = [
                 "Super Power"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Bug Bite Fast",
-                "Fury Cutter Fast"
+                "Rock Smash",
+                "Bug Bite",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -6796,8 +6796,8 @@ var pokemonData = [
                 "Earthquake"
             ],
             "quick": [
-                "Tackle Fast",
-                "Zen Headbutt Fast"
+                "Tackle",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -6816,7 +6816,7 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Splash Fast"
+                "Splash"
             ]
         },
         "stats": {
@@ -6835,7 +6835,7 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Splash Fast"
+                "Splash"
             ]
         },
         "stats": {
@@ -6857,9 +6857,9 @@ var pokemonData = [
                 "Twister"
             ],
             "quick": [
-                "Bite Fast",
-                "Waterfall Fast",
-                "Dragon Breath Fast"
+                "Bite",
+                "Waterfall",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -6882,9 +6882,9 @@ var pokemonData = [
                 "Twister"
             ],
             "quick": [
-                "Bite Fast",
-                "Waterfall Fast",
-                "Dragon Breath Fast"
+                "Bite",
+                "Waterfall",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -6907,9 +6907,9 @@ var pokemonData = [
                 "Twister"
             ],
             "quick": [
-                "Bite Fast",
-                "Waterfall Fast",
-                "Dragon Breath Fast"
+                "Bite",
+                "Waterfall",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -6932,8 +6932,8 @@ var pokemonData = [
                 "Skull Bash"
             ],
             "quick": [
-                "Frost Breath Fast",
-                "Water Gun Fast"
+                "Frost Breath",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -6956,8 +6956,8 @@ var pokemonData = [
                 "Skull Bash"
             ],
             "quick": [
-                "Frost Breath Fast",
-                "Water Gun Fast"
+                "Frost Breath",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -6977,7 +6977,7 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Transform Fast"
+                "Transform"
             ]
         },
         "stats": {
@@ -6997,8 +6997,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Tackle Fast"
+                "Quick Attack",
+                "Tackle"
             ]
         },
         "stats": {
@@ -7019,7 +7019,7 @@ var pokemonData = [
                 "Aqua Tail"
             ],
             "quick": [
-                "Water Gun Fast"
+                "Water Gun"
             ]
         },
         "stats": {
@@ -7040,8 +7040,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Volt Switch Fast"
+                "Thunder Shock",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -7062,8 +7062,8 @@ var pokemonData = [
                 "Overheat"
             ],
             "quick": [
-                "Ember Fast",
-                "Fire Spin Fast"
+                "Ember",
+                "Fire Spin"
             ]
         },
         "stats": {
@@ -7084,8 +7084,8 @@ var pokemonData = [
                 "Zap Cannon"
             ],
             "quick": [
-                "Charge Beam Fast",
-                "Hidden Power Fast"
+                "Charge Beam",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -7106,8 +7106,8 @@ var pokemonData = [
                 "Zap Cannon"
             ],
             "quick": [
-                "Charge Beam Fast",
-                "Hidden Power Fast"
+                "Charge Beam",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -7128,8 +7128,8 @@ var pokemonData = [
                 "Rock Blast"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Mud Shot Fast"
+                "Water Gun",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -7151,8 +7151,8 @@ var pokemonData = [
                 "Rock Blast"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Mud Shot Fast"
+                "Water Gun",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -7174,8 +7174,8 @@ var pokemonData = [
                 "Rock Blast"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Water Gun Fast"
+                "Mud Shot",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -7197,8 +7197,8 @@ var pokemonData = [
                 "Rock Blast"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Water Gun Fast"
+                "Mud Shot",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -7220,8 +7220,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Scratch Fast",
-                "Mud Shot Fast"
+                "Scratch",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -7243,8 +7243,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Scratch Fast",
-                "Mud Shot Fast"
+                "Scratch",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -7266,9 +7266,9 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Rock Smash Fast",
-                "Waterfall Fast"
+                "Mud Shot",
+                "Rock Smash",
+                "Waterfall"
             ]
         },
         "stats": {
@@ -7290,9 +7290,9 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Rock Smash Fast",
-                "Waterfall Fast"
+                "Mud Shot",
+                "Rock Smash",
+                "Waterfall"
             ]
         },
         "stats": {
@@ -7316,9 +7316,9 @@ var pokemonData = [
                 "Earth Power"
             ],
             "quick": [
-                "Steel Wing Fast",
-                "Bite Fast",
-                "Rock Throw Fast"
+                "Steel Wing",
+                "Bite",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -7342,9 +7342,9 @@ var pokemonData = [
                 "Earth Power"
             ],
             "quick": [
-                "Steel Wing Fast",
-                "Bite Fast",
-                "Rock Throw Fast"
+                "Steel Wing",
+                "Bite",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -7368,9 +7368,9 @@ var pokemonData = [
                 "Earth Power"
             ],
             "quick": [
-                "Steel Wing Fast",
-                "Bite Fast",
-                "Rock Throw Fast"
+                "Steel Wing",
+                "Bite",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -7396,8 +7396,8 @@ var pokemonData = [
                 "Super Power"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Lick Fast"
+                "Zen Headbutt",
+                "Lick"
             ]
         },
         "stats": {
@@ -7422,8 +7422,8 @@ var pokemonData = [
                 "Super Power"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Lick Fast"
+                "Zen Headbutt",
+                "Lick"
             ]
         },
         "stats": {
@@ -7444,8 +7444,8 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Confusion Fast",
-                "Psycho Cut Fast"
+                "Confusion",
+                "Psycho Cut"
             ]
         },
         "stats": {
@@ -7467,8 +7467,8 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Confusion Fast",
-                "Psycho Cut Fast"
+                "Confusion",
+                "Psycho Cut"
             ]
         },
         "stats": {
@@ -7491,8 +7491,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Frost Breath Fast",
-                "Ice Shard Fast"
+                "Frost Breath",
+                "Ice Shard"
             ]
         },
         "stats": {
@@ -7515,8 +7515,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Frost Breath Fast",
-                "Ice Shard Fast"
+                "Frost Breath",
+                "Ice Shard"
             ]
         },
         "stats": {
@@ -7538,7 +7538,7 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Counter Fast"
+                "Counter"
             ]
         },
         "stats": {
@@ -7560,7 +7560,7 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Counter Fast"
+                "Counter"
             ]
         },
         "stats": {
@@ -7584,7 +7584,7 @@ var pokemonData = [
                 "Drill Peck"
             ],
             "quick": [
-                "Charge Beam Fast"
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -7608,7 +7608,7 @@ var pokemonData = [
                 "Drill Peck"
             ],
             "quick": [
-                "Charge Beam Fast"
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -7630,8 +7630,8 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Sucker Punch Fast",
-                "Wing Attack Fast"
+                "Sucker Punch",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -7653,8 +7653,8 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Sucker Punch Fast",
-                "Wing Attack Fast"
+                "Sucker Punch",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -7677,8 +7677,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Fire Spin Fast",
-                "Wing Attack Fast"
+                "Fire Spin",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -7701,8 +7701,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Fire Spin Fast",
-                "Wing Attack Fast"
+                "Fire Spin",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -7724,8 +7724,8 @@ var pokemonData = [
                 "Aqua Tail"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Iron Tail Fast"
+                "Dragon Breath",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -7746,8 +7746,8 @@ var pokemonData = [
                 "Aqua Tail"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Iron Tail Fast"
+                "Dragon Breath",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -7769,8 +7769,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Iron Tail Fast"
+                "Dragon Breath",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -7792,8 +7792,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Iron Tail Fast"
+                "Dragon Breath",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -7816,9 +7816,9 @@ var pokemonData = [
                 "Super Power"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Steel Wing Fast",
-                "Dragon Breath Fast"
+                "Dragon Tail",
+                "Steel Wing",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -7842,9 +7842,9 @@ var pokemonData = [
                 "Super Power"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Steel Wing Fast",
-                "Dragon Breath Fast"
+                "Dragon Tail",
+                "Steel Wing",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -7867,8 +7867,8 @@ var pokemonData = [
                 "Futuresight"
             ],
             "quick": [
-                "Confusion Fast",
-                "Iron Tail Fast"
+                "Confusion",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -7890,8 +7890,8 @@ var pokemonData = [
                 "Futuresight"
             ],
             "quick": [
-                "Confusion Fast",
-                "Iron Tail Fast"
+                "Confusion",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -7914,8 +7914,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Psycho Cut Fast",
-                "Confusion Fast"
+                "Psycho Cut",
+                "Confusion"
             ]
         },
         "stats": {
@@ -7938,8 +7938,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Psycho Cut Fast",
-                "Confusion Fast"
+                "Psycho Cut",
+                "Confusion"
             ]
         },
         "stats": {
@@ -7982,20 +7982,20 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Pound Fast",
-                "Steel Wing Fast",
-                "Charge Beam Fast",
-                "Shadow Claw Fast",
-                "Volt Switch Fast",
-                "Struggle Bug Fast",
-                "Frost Breath Fast",
-                "Dragon Tail Fast",
-                "Infestation Fast",
-                "Poison Jab Fast",
-                "Rock Smash Fast",
-                "Snarl Fast",
-                "Cut Fast",
-                "Waterfall Fast"
+                "Pound",
+                "Steel Wing",
+                "Charge Beam",
+                "Shadow Claw",
+                "Volt Switch",
+                "Struggle Bug",
+                "Frost Breath",
+                "Dragon Tail",
+                "Infestation",
+                "Poison Jab",
+                "Rock Smash",
+                "Snarl",
+                "Cut",
+                "Waterfall"
             ]
         },
         "stats": {
@@ -8016,8 +8016,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Tackle Fast"
+                "Vine Whip",
+                "Tackle"
             ]
         },
         "stats": {
@@ -8038,8 +8038,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Tackle Fast"
+                "Vine Whip",
+                "Tackle"
             ]
         },
         "stats": {
@@ -8060,8 +8060,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Tackle Fast"
+                "Razor Leaf",
+                "Tackle"
             ]
         },
         "stats": {
@@ -8082,8 +8082,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Tackle Fast"
+                "Razor Leaf",
+                "Tackle"
             ]
         },
         "stats": {
@@ -8104,8 +8104,8 @@ var pokemonData = [
                 "Earthquake"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Vine Whip Fast"
+                "Razor Leaf",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -8126,8 +8126,8 @@ var pokemonData = [
                 "Earthquake"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Vine Whip Fast"
+                "Razor Leaf",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -8148,8 +8148,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Ember Fast",
-                "Tackle Fast"
+                "Ember",
+                "Tackle"
             ]
         },
         "stats": {
@@ -8170,8 +8170,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Ember Fast",
-                "Tackle Fast"
+                "Ember",
+                "Tackle"
             ]
         },
         "stats": {
@@ -8192,8 +8192,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Ember Fast",
-                "Tackle Fast"
+                "Ember",
+                "Tackle"
             ]
         },
         "stats": {
@@ -8214,8 +8214,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Ember Fast",
-                "Tackle Fast"
+                "Ember",
+                "Tackle"
             ]
         },
         "stats": {
@@ -8236,9 +8236,9 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Ember Fast",
-                "Shadow Claw Fast",
-                "Incinerate Fast"
+                "Ember",
+                "Shadow Claw",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -8259,9 +8259,9 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Ember Fast",
-                "Shadow Claw Fast",
-                "Incinerate Fast"
+                "Ember",
+                "Shadow Claw",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -8282,8 +8282,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Scratch Fast"
+                "Water Gun",
+                "Scratch"
             ]
         },
         "stats": {
@@ -8304,8 +8304,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Scratch Fast"
+                "Water Gun",
+                "Scratch"
             ]
         },
         "stats": {
@@ -8326,8 +8326,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Scratch Fast"
+                "Water Gun",
+                "Scratch"
             ]
         },
         "stats": {
@@ -8348,8 +8348,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Scratch Fast"
+                "Water Gun",
+                "Scratch"
             ]
         },
         "stats": {
@@ -8370,9 +8370,9 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Bite Fast",
-                "Ice Fang Fast"
+                "Waterfall",
+                "Bite",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -8393,9 +8393,9 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Bite Fast",
-                "Ice Fang Fast"
+                "Waterfall",
+                "Bite",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -8416,8 +8416,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Scratch Fast",
-                "Quick Attack Fast"
+                "Scratch",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -8438,8 +8438,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Sucker Punch Fast"
+                "Quick Attack",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -8460,8 +8460,8 @@ var pokemonData = [
                 "Night Shade"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Peck Fast"
+                "Feint Attack",
+                "Peck"
             ]
         },
         "stats": {
@@ -8484,8 +8484,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Wing Attack Fast",
-                "Extrasensory Fast"
+                "Wing Attack",
+                "Extrasensory"
             ]
         },
         "stats": {
@@ -8507,8 +8507,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bug Bite Fast"
+                "Tackle",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -8531,8 +8531,8 @@ var pokemonData = [
                 "Dynamic Punch"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Bug Bite Fast"
+                "Struggle Bug",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -8554,8 +8554,8 @@ var pokemonData = [
                 "Cross Poison"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Bug Bite Fast"
+                "Poison Sting",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -8578,8 +8578,8 @@ var pokemonData = [
                 "Lunge"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Infestation Fast"
+                "Poison Sting",
+                "Infestation"
             ]
         },
         "stats": {
@@ -8603,8 +8603,8 @@ var pokemonData = [
                 "Cross Poison"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Bite Fast"
+                "Air Slash",
+                "Bite"
             ]
         },
         "stats": {
@@ -8628,8 +8628,8 @@ var pokemonData = [
                 "Cross Poison"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Bite Fast"
+                "Air Slash",
+                "Bite"
             ]
         },
         "stats": {
@@ -8651,8 +8651,8 @@ var pokemonData = [
                 "Bubble Beam"
             ],
             "quick": [
-                "Bubble Fast",
-                "Spark Fast"
+                "Bubble",
+                "Spark"
             ]
         },
         "stats": {
@@ -8675,9 +8675,9 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Charge Beam Fast",
-                "Spark Fast"
+                "Water Gun",
+                "Charge Beam",
+                "Spark"
             ]
         },
         "stats": {
@@ -8699,7 +8699,7 @@ var pokemonData = [
                 "Thunder Punch"
             ],
             "quick": [
-                "Thunder Shock Fast"
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -8720,8 +8720,8 @@ var pokemonData = [
                 "Signal Beam"
             ],
             "quick": [
-                "Pound Fast",
-                "Zen Headbutt Fast"
+                "Pound",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -8742,8 +8742,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Pound Fast",
-                "Feint Attack Fast"
+                "Pound",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -8765,8 +8765,8 @@ var pokemonData = [
                 "Dazzling Gleam"
             ],
             "quick": [
-                "Hidden Power Fast",
-                "Peck Fast"
+                "Hidden Power",
+                "Peck"
             ]
         },
         "stats": {
@@ -8787,8 +8787,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Extrasensory Fast",
-                "Hidden Power Fast"
+                "Extrasensory",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -8810,8 +8810,8 @@ var pokemonData = [
                 "Drill Peck"
             ],
             "quick": [
-                "Peck Fast",
-                "Quick Attack Fast"
+                "Peck",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -8833,8 +8833,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Feint Attack Fast"
+                "Air Slash",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -8856,8 +8856,8 @@ var pokemonData = [
                 "Discharge"
             ],
             "quick": [
-                "Tackle Fast",
-                "Thunder Shock Fast"
+                "Tackle",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -8878,8 +8878,8 @@ var pokemonData = [
                 "Discharge"
             ],
             "quick": [
-                "Tackle Fast",
-                "Thunder Shock Fast"
+                "Tackle",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -8900,8 +8900,8 @@ var pokemonData = [
                 "Discharge"
             ],
             "quick": [
-                "Tackle Fast",
-                "Charge Beam Fast"
+                "Tackle",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -8922,8 +8922,8 @@ var pokemonData = [
                 "Discharge"
             ],
             "quick": [
-                "Tackle Fast",
-                "Charge Beam Fast"
+                "Tackle",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -8946,8 +8946,8 @@ var pokemonData = [
                 "Thunder Punch"
             ],
             "quick": [
-                "Charge Beam Fast",
-                "Volt Switch Fast"
+                "Charge Beam",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -8970,8 +8970,8 @@ var pokemonData = [
                 "Thunder Punch"
             ],
             "quick": [
-                "Charge Beam Fast",
-                "Volt Switch Fast"
+                "Charge Beam",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -8995,8 +8995,8 @@ var pokemonData = [
                 "Thunder Punch"
             ],
             "quick": [
-                "Charge Beam Fast",
-                "Volt Switch Fast"
+                "Charge Beam",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -9017,9 +9017,9 @@ var pokemonData = [
                 "Dazzling Gleam"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Acid Fast",
-                "Bullet Seed Fast"
+                "Razor Leaf",
+                "Acid",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -9040,9 +9040,9 @@ var pokemonData = [
                 "Dazzling Gleam"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Acid Fast",
-                "Bullet Seed Fast"
+                "Razor Leaf",
+                "Acid",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -9063,8 +9063,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bubble Fast"
+                "Tackle",
+                "Bubble"
             ]
         },
         "stats": {
@@ -9086,8 +9086,8 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Bubble Fast"
+                "Rock Smash",
+                "Bubble"
             ]
         },
         "stats": {
@@ -9110,8 +9110,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Counter Fast"
+                "Rock Throw",
+                "Counter"
             ]
         },
         "stats": {
@@ -9133,8 +9133,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Counter Fast"
+                "Rock Throw",
+                "Counter"
             ]
         },
         "stats": {
@@ -9156,8 +9156,8 @@ var pokemonData = [
                 "Weather Ball Water"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Bubble Fast"
+                "Mud Shot",
+                "Bubble"
             ]
         },
         "stats": {
@@ -9179,8 +9179,8 @@ var pokemonData = [
                 "Weather Ball Water"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Bubble Fast"
+                "Mud Shot",
+                "Bubble"
             ]
         },
         "stats": {
@@ -9201,8 +9201,8 @@ var pokemonData = [
                 "Seed Bomb"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bullet Seed Fast"
+                "Tackle",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -9224,8 +9224,8 @@ var pokemonData = [
                 "Seed Bomb"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bullet Seed Fast"
+                "Tackle",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -9247,8 +9247,8 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bullet Seed Fast"
+                "Tackle",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -9270,8 +9270,8 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bullet Seed Fast"
+                "Tackle",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -9294,9 +9294,9 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Infestation Fast",
-                "Bullet Seed Fast",
-                "Fairy Wind Fast"
+                "Infestation",
+                "Bullet Seed",
+                "Fairy Wind"
             ]
         },
         "stats": {
@@ -9319,9 +9319,9 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Infestation Fast",
-                "Bullet Seed Fast",
-                "Fairy Wind Fast"
+                "Infestation",
+                "Bullet Seed",
+                "Fairy Wind"
             ]
         },
         "stats": {
@@ -9343,8 +9343,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Scratch Fast",
-                "Astonish Fast"
+                "Scratch",
+                "Astonish"
             ]
         },
         "stats": {
@@ -9365,8 +9365,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Scratch Fast",
-                "Astonish Fast"
+                "Scratch",
+                "Astonish"
             ]
         },
         "stats": {
@@ -9387,8 +9387,8 @@ var pokemonData = [
                 "Seed Bomb"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Cut Fast"
+                "Razor Leaf",
+                "Cut"
             ]
         },
         "stats": {
@@ -9410,8 +9410,8 @@ var pokemonData = [
                 "Leaf Storm"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Bullet Seed Fast"
+                "Razor Leaf",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -9432,8 +9432,8 @@ var pokemonData = [
                 "Silver Wind"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Wing Attack Fast"
+                "Quick Attack",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -9455,8 +9455,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Mud Shot Fast"
+                "Water Gun",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -9478,8 +9478,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Mud Shot Fast"
+                "Water Gun",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -9502,8 +9502,8 @@ var pokemonData = [
                 "Acid Spray"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Mud Shot Fast"
+                "Water Gun",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -9526,8 +9526,8 @@ var pokemonData = [
                 "Acid Spray"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Mud Shot Fast"
+                "Water Gun",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -9550,8 +9550,8 @@ var pokemonData = [
                 "Psychic Fangs"
             ],
             "quick": [
-                "Confusion Fast",
-                "Zen Headbutt Fast"
+                "Confusion",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -9571,8 +9571,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Snarl Fast"
+                "Feint Attack",
+                "Snarl"
             ]
         },
         "stats": {
@@ -9593,8 +9593,8 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Peck Fast",
-                "Feint Attack Fast"
+                "Peck",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -9616,8 +9616,8 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Peck Fast",
-                "Feint Attack Fast"
+                "Peck",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -9639,9 +9639,9 @@ var pokemonData = [
                 "Sludge Wave"
             ],
             "quick": [
-                "Hex Fast",
-                "Confusion Fast",
-                "Acid Fast"
+                "Hex",
+                "Confusion",
+                "Acid"
             ]
         },
         "stats": {
@@ -9663,9 +9663,9 @@ var pokemonData = [
                 "Sludge Wave"
             ],
             "quick": [
-                "Hex Fast",
-                "Confusion Fast",
-                "Acid Fast"
+                "Hex",
+                "Confusion",
+                "Acid"
             ]
         },
         "stats": {
@@ -9687,8 +9687,8 @@ var pokemonData = [
                 "Fire Blast"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Confusion Fast"
+                "Water Gun",
+                "Confusion"
             ]
         },
         "stats": {
@@ -9710,8 +9710,8 @@ var pokemonData = [
                 "Fire Blast"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Confusion Fast"
+                "Water Gun",
+                "Confusion"
             ]
         },
         "stats": {
@@ -9733,8 +9733,8 @@ var pokemonData = [
                 "Ominous Wind"
             ],
             "quick": [
-                "Astonish Fast",
-                "Hex Fast"
+                "Astonish",
+                "Hex"
             ]
         },
         "stats": {
@@ -9755,8 +9755,8 @@ var pokemonData = [
                 "Ominous Wind"
             ],
             "quick": [
-                "Astonish Fast",
-                "Hex Fast"
+                "Astonish",
+                "Hex"
             ]
         },
         "stats": {
@@ -9775,7 +9775,7 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Hidden Power Fast"
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -9794,9 +9794,9 @@ var pokemonData = [
                 "Mirror Coat"
             ],
             "quick": [
-                "Counter Fast",
-                "Splash Fast",
-                "Charm Fast"
+                "Counter",
+                "Splash",
+                "Charm"
             ]
         },
         "stats": {
@@ -9815,9 +9815,9 @@ var pokemonData = [
                 "Mirror Coat"
             ],
             "quick": [
-                "Counter Fast",
-                "Splash Fast",
-                "Charm Fast"
+                "Counter",
+                "Splash",
+                "Charm"
             ]
         },
         "stats": {
@@ -9839,9 +9839,9 @@ var pokemonData = [
                 "Psychic Fangs"
             ],
             "quick": [
-                "Tackle Fast",
-                "Confusion Fast",
-                "Double Kick Fast"
+                "Tackle",
+                "Confusion",
+                "Double Kick"
             ]
         },
         "stats": {
@@ -9864,9 +9864,9 @@ var pokemonData = [
                 "Psychic Fangs"
             ],
             "quick": [
-                "Tackle Fast",
-                "Confusion Fast",
-                "Double Kick Fast"
+                "Tackle",
+                "Confusion",
+                "Double Kick"
             ]
         },
         "stats": {
@@ -9888,8 +9888,8 @@ var pokemonData = [
                 "Sand Tomb"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bug Bite Fast"
+                "Tackle",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -9910,8 +9910,8 @@ var pokemonData = [
                 "Sand Tomb"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bug Bite Fast"
+                "Tackle",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -9934,8 +9934,8 @@ var pokemonData = [
                 "Mirror Shot"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Struggle Bug Fast"
+                "Bug Bite",
+                "Struggle Bug"
             ]
         },
         "stats": {
@@ -9959,8 +9959,8 @@ var pokemonData = [
                 "Mirror Shot"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Struggle Bug Fast"
+                "Bug Bite",
+                "Struggle Bug"
             ]
         },
         "stats": {
@@ -9982,9 +9982,9 @@ var pokemonData = [
                 "Drill Run"
             ],
             "quick": [
-                "Bite Fast",
-                "Astonish Fast",
-                "Rollout Fast"
+                "Bite",
+                "Astonish",
+                "Rollout"
             ]
         },
         "stats": {
@@ -10005,8 +10005,8 @@ var pokemonData = [
                 "Night Slash"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Wing Attack Fast"
+                "Fury Cutter",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -10028,8 +10028,8 @@ var pokemonData = [
                 "Night Slash"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Wing Attack Fast"
+                "Fury Cutter",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -10052,9 +10052,9 @@ var pokemonData = [
                 "Psychic Fangs"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Dragon Tail Fast",
-                "Thunder Fang Fast"
+                "Iron Tail",
+                "Dragon Tail",
+                "Thunder Fang"
             ]
         },
         "stats": {
@@ -10077,9 +10077,9 @@ var pokemonData = [
                 "Psychic Fangs"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Dragon Tail Fast",
-                "Thunder Fang Fast"
+                "Iron Tail",
+                "Dragon Tail",
+                "Thunder Fang"
             ]
         },
         "stats": {
@@ -10102,9 +10102,9 @@ var pokemonData = [
                 "Psychic Fangs"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Dragon Tail Fast",
-                "Thunder Fang Fast"
+                "Iron Tail",
+                "Dragon Tail",
+                "Thunder Fang"
             ]
         },
         "stats": {
@@ -10126,8 +10126,8 @@ var pokemonData = [
                 "Brick Break"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bite Fast"
+                "Tackle",
+                "Bite"
             ]
         },
         "stats": {
@@ -10148,8 +10148,8 @@ var pokemonData = [
                 "Brick Break"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bite Fast"
+                "Tackle",
+                "Bite"
             ]
         },
         "stats": {
@@ -10170,9 +10170,9 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Bite Fast",
-                "Snarl Fast",
-                "Charm Fast"
+                "Bite",
+                "Snarl",
+                "Charm"
             ]
         },
         "stats": {
@@ -10193,9 +10193,9 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Bite Fast",
-                "Snarl Fast",
-                "Charm Fast"
+                "Bite",
+                "Snarl",
+                "Charm"
             ]
         },
         "stats": {
@@ -10218,8 +10218,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Poison Jab Fast"
+                "Poison Sting",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -10243,8 +10243,8 @@ var pokemonData = [
                 "Fell Stinger"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Water Gun Fast"
+                "Poison Sting",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -10266,8 +10266,8 @@ var pokemonData = [
                 "Night Slash"
             ],
             "quick": [
-                "Bullet Punch Fast",
-                "Fury Cutter Fast"
+                "Bullet Punch",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -10289,8 +10289,8 @@ var pokemonData = [
                 "Night Slash"
             ],
             "quick": [
-                "Bullet Punch Fast",
-                "Fury Cutter Fast"
+                "Bullet Punch",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -10312,8 +10312,8 @@ var pokemonData = [
                 "Night Slash"
             ],
             "quick": [
-                "Bullet Punch Fast",
-                "Fury Cutter Fast"
+                "Bullet Punch",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -10335,8 +10335,8 @@ var pokemonData = [
                 "Gyro Ball"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Rock Throw Fast"
+                "Struggle Bug",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -10358,8 +10358,8 @@ var pokemonData = [
                 "Gyro Ball"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Rock Throw Fast"
+                "Struggle Bug",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -10382,8 +10382,8 @@ var pokemonData = [
                 "Rock Blast"
             ],
             "quick": [
-                "Counter Fast",
-                "Struggle Bug Fast"
+                "Counter",
+                "Struggle Bug"
             ]
         },
         "stats": {
@@ -10405,8 +10405,8 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Poison Jab Fast"
+                "Rock Smash",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -10428,8 +10428,8 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Poison Jab Fast"
+                "Rock Smash",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -10451,8 +10451,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Ice Shard Fast",
-                "Feint Attack Fast"
+                "Ice Shard",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -10474,8 +10474,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Ice Shard Fast",
-                "Feint Attack Fast"
+                "Ice Shard",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -10497,8 +10497,8 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Scratch Fast",
-                "Lick Fast"
+                "Scratch",
+                "Lick"
             ]
         },
         "stats": {
@@ -10519,8 +10519,8 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Scratch Fast",
-                "Lick Fast"
+                "Scratch",
+                "Lick"
             ]
         },
         "stats": {
@@ -10541,9 +10541,9 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Counter Fast",
-                "Shadow Claw Fast"
+                "Metal Claw",
+                "Counter",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -10564,9 +10564,9 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Counter Fast",
-                "Shadow Claw Fast"
+                "Metal Claw",
+                "Counter",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -10587,8 +10587,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Ember Fast",
-                "Rock Throw Fast"
+                "Ember",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -10610,9 +10610,9 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Ember Fast",
-                "Rock Throw Fast",
-                "Incinerate Fast"
+                "Ember",
+                "Rock Throw",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -10634,8 +10634,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Tackle Fast",
-                "Powder Snow Fast"
+                "Tackle",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -10657,8 +10657,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Tackle Fast",
-                "Powder Snow Fast"
+                "Tackle",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -10680,8 +10680,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Ice Shard Fast",
-                "Powder Snow Fast"
+                "Ice Shard",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -10703,8 +10703,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Ice Shard Fast",
-                "Powder Snow Fast"
+                "Ice Shard",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -10726,8 +10726,8 @@ var pokemonData = [
                 "Bubble Beam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bubble Fast"
+                "Tackle",
+                "Bubble"
             ]
         },
         "stats": {
@@ -10749,8 +10749,8 @@ var pokemonData = [
                 "Rock Blast"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Mud Shot Fast"
+                "Water Gun",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -10773,9 +10773,9 @@ var pokemonData = [
                 "Octazooka"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Mud Shot Fast",
-                "Lock On Fast"
+                "Water Gun",
+                "Mud Shot",
+                "Lock On"
             ]
         },
         "stats": {
@@ -10796,7 +10796,7 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Present Fast"
+                "Present"
             ]
         },
         "stats": {
@@ -10818,7 +10818,7 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Present Fast"
+                "Present"
             ]
         },
         "stats": {
@@ -10841,9 +10841,9 @@ var pokemonData = [
                 "Bubble Beam"
             ],
             "quick": [
-                "Bubble Fast",
-                "Wing Attack Fast",
-                "Bullet Seed Fast"
+                "Bubble",
+                "Wing Attack",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -10865,8 +10865,8 @@ var pokemonData = [
                 "Flash Cannon"
             ],
             "quick": [
-                "Steel Wing Fast",
-                "Air Slash Fast"
+                "Steel Wing",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -10888,8 +10888,8 @@ var pokemonData = [
                 "Flash Cannon"
             ],
             "quick": [
-                "Steel Wing Fast",
-                "Air Slash Fast"
+                "Steel Wing",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -10911,8 +10911,8 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Ember Fast"
+                "Feint Attack",
+                "Ember"
             ]
         },
         "stats": {
@@ -10934,8 +10934,8 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Ember Fast"
+                "Feint Attack",
+                "Ember"
             ]
         },
         "stats": {
@@ -10958,8 +10958,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Snarl Fast",
-                "Fire Fang Fast"
+                "Snarl",
+                "Fire Fang"
             ]
         },
         "stats": {
@@ -10982,8 +10982,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Snarl Fast",
-                "Fire Fang Fast"
+                "Snarl",
+                "Fire Fang"
             ]
         },
         "stats": {
@@ -11006,8 +11006,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Snarl Fast",
-                "Fire Fang Fast"
+                "Snarl",
+                "Fire Fang"
             ]
         },
         "stats": {
@@ -11030,8 +11030,8 @@ var pokemonData = [
                 "Octazooka"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Dragon Breath Fast"
+                "Waterfall",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -11054,8 +11054,8 @@ var pokemonData = [
                 "Octazooka"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Dragon Breath Fast"
+                "Waterfall",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -11077,8 +11077,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Rock Smash Fast"
+                "Tackle",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -11100,10 +11100,10 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Counter Fast",
-                "Mud Slap Fast",
-                "Charm Fast"
+                "Tackle",
+                "Counter",
+                "Mud Slap",
+                "Charm"
             ]
         },
         "stats": {
@@ -11125,9 +11125,9 @@ var pokemonData = [
                 "Tri Attack"
             ],
             "quick": [
-                "Hidden Power Fast",
-                "Charge Beam Fast",
-                "Lock On Fast"
+                "Hidden Power",
+                "Charge Beam",
+                "Lock On"
             ]
         },
         "stats": {
@@ -11149,9 +11149,9 @@ var pokemonData = [
                 "Tri Attack"
             ],
             "quick": [
-                "Hidden Power Fast",
-                "Charge Beam Fast",
-                "Lock On Fast"
+                "Hidden Power",
+                "Charge Beam",
+                "Lock On"
             ]
         },
         "stats": {
@@ -11172,8 +11172,8 @@ var pokemonData = [
                 "Megahorn"
             ],
             "quick": [
-                "Tackle Fast",
-                "Zen Headbutt Fast"
+                "Tackle",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -11194,8 +11194,8 @@ var pokemonData = [
                 "Megahorn"
             ],
             "quick": [
-                "Tackle Fast",
-                "Zen Headbutt Fast"
+                "Tackle",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -11216,8 +11216,8 @@ var pokemonData = [
                 "Low Sweep"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Tackle Fast"
+                "Rock Smash",
+                "Tackle"
             ]
         },
         "stats": {
@@ -11238,8 +11238,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Counter Fast"
+                "Rock Smash",
+                "Counter"
             ]
         },
         "stats": {
@@ -11260,8 +11260,8 @@ var pokemonData = [
                 "Psyshock"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Pound Fast"
+                "Powder Snow",
+                "Pound"
             ]
         },
         "stats": {
@@ -11283,8 +11283,8 @@ var pokemonData = [
                 "Discharge"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Low Kick Fast"
+                "Thunder Shock",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -11305,8 +11305,8 @@ var pokemonData = [
                 "Flame Burst"
             ],
             "quick": [
-                "Ember Fast",
-                "Karate Chop Fast"
+                "Ember",
+                "Karate Chop"
             ]
         },
         "stats": {
@@ -11329,9 +11329,9 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Zen Headbutt Fast",
-                "Rollout Fast"
+                "Tackle",
+                "Zen Headbutt",
+                "Rollout"
             ]
         },
         "stats": {
@@ -11352,8 +11352,8 @@ var pokemonData = [
                 "Dazzling Gleam"
             ],
             "quick": [
-                "Pound Fast",
-                "Zen Headbutt Fast"
+                "Pound",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -11375,8 +11375,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Volt Switch Fast"
+                "Thunder Shock",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -11398,8 +11398,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Volt Switch Fast"
+                "Thunder Shock",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -11422,8 +11422,8 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Fire Spin Fast",
-                "Fire Fang Fast"
+                "Fire Spin",
+                "Fire Fang"
             ]
         },
         "stats": {
@@ -11446,8 +11446,8 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Fire Spin Fast",
-                "Fire Fang Fast"
+                "Fire Spin",
+                "Fire Fang"
             ]
         },
         "stats": {
@@ -11469,9 +11469,9 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Extrasensory Fast",
-                "Snarl Fast",
-                "Ice Fang Fast"
+                "Extrasensory",
+                "Snarl",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -11493,9 +11493,9 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Extrasensory Fast",
-                "Snarl Fast",
-                "Ice Fang Fast"
+                "Extrasensory",
+                "Snarl",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -11516,8 +11516,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Bite Fast",
-                "Rock Smash Fast"
+                "Bite",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -11539,8 +11539,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Bite Fast",
-                "Rock Smash Fast"
+                "Bite",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -11562,8 +11562,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Bite Fast",
-                "Rock Smash Fast"
+                "Bite",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -11585,8 +11585,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Bite Fast",
-                "Rock Smash Fast"
+                "Bite",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -11608,8 +11608,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Bite Fast",
-                "Iron Tail Fast"
+                "Bite",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -11631,8 +11631,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Bite Fast",
-                "Iron Tail Fast"
+                "Bite",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -11654,8 +11654,8 @@ var pokemonData = [
                 "Futuresight"
             ],
             "quick": [
-                "Extrasensory Fast",
-                "Dragon Tail Fast"
+                "Extrasensory",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -11677,8 +11677,8 @@ var pokemonData = [
                 "Futuresight"
             ],
             "quick": [
-                "Extrasensory Fast",
-                "Dragon Tail Fast"
+                "Extrasensory",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -11700,10 +11700,10 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Extrasensory Fast",
-                "Steel Wing Fast",
-                "Hidden Power Fast",
-                "Incinerate Fast"
+                "Extrasensory",
+                "Steel Wing",
+                "Hidden Power",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -11725,10 +11725,10 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Extrasensory Fast",
-                "Steel Wing Fast",
-                "Hidden Power Fast",
-                "Incinerate Fast"
+                "Extrasensory",
+                "Steel Wing",
+                "Hidden Power",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -11752,8 +11752,8 @@ var pokemonData = [
                 "Leaf Storm"
             ],
             "quick": [
-                "Confusion Fast",
-                "Charge Beam Fast"
+                "Confusion",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -11775,8 +11775,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Pound Fast",
-                "Bullet Seed Fast"
+                "Pound",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -11797,8 +11797,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Bullet Seed Fast"
+                "Quick Attack",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -11820,8 +11820,8 @@ var pokemonData = [
                 "Dragon Claw"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Bullet Seed Fast"
+                "Fury Cutter",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -11842,8 +11842,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Scratch Fast",
-                "Ember Fast"
+                "Scratch",
+                "Ember"
             ]
         },
         "stats": {
@@ -11864,8 +11864,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Scratch Fast",
-                "Ember Fast"
+                "Scratch",
+                "Ember"
             ]
         },
         "stats": {
@@ -11886,8 +11886,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Peck Fast",
-                "Ember Fast"
+                "Peck",
+                "Ember"
             ]
         },
         "stats": {
@@ -11909,8 +11909,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Peck Fast",
-                "Ember Fast"
+                "Peck",
+                "Ember"
             ]
         },
         "stats": {
@@ -11933,8 +11933,8 @@ var pokemonData = [
                 "Blaze Kick"
             ],
             "quick": [
-                "Counter Fast",
-                "Fire Spin Fast"
+                "Counter",
+                "Fire Spin"
             ]
         },
         "stats": {
@@ -11957,8 +11957,8 @@ var pokemonData = [
                 "Blaze Kick"
             ],
             "quick": [
-                "Counter Fast",
-                "Fire Spin Fast"
+                "Counter",
+                "Fire Spin"
             ]
         },
         "stats": {
@@ -11980,8 +11980,8 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Tackle Fast",
-                "Water Gun Fast"
+                "Tackle",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -12002,8 +12002,8 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Tackle Fast",
-                "Water Gun Fast"
+                "Tackle",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -12024,8 +12024,8 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Water Gun Fast"
+                "Mud Shot",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -12047,8 +12047,8 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Water Gun Fast"
+                "Mud Shot",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -12071,8 +12071,8 @@ var pokemonData = [
                 "Muddy Water"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Water Gun Fast"
+                "Mud Shot",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -12095,8 +12095,8 @@ var pokemonData = [
                 "Muddy Water"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Water Gun Fast"
+                "Mud Shot",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -12118,8 +12118,8 @@ var pokemonData = [
                 "Poison Fang"
             ],
             "quick": [
-                "Tackle Fast",
-                "Snarl Fast"
+                "Tackle",
+                "Snarl"
             ]
         },
         "stats": {
@@ -12140,8 +12140,8 @@ var pokemonData = [
                 "Poison Fang"
             ],
             "quick": [
-                "Tackle Fast",
-                "Snarl Fast"
+                "Tackle",
+                "Snarl"
             ]
         },
         "stats": {
@@ -12162,10 +12162,10 @@ var pokemonData = [
                 "Poison Fang"
             ],
             "quick": [
-                "Bite Fast",
-                "Fire Fang Fast",
-                "Thunder Fang Fast",
-                "Ice Fang Fast"
+                "Bite",
+                "Fire Fang",
+                "Thunder Fang",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -12186,10 +12186,10 @@ var pokemonData = [
                 "Poison Fang"
             ],
             "quick": [
-                "Bite Fast",
-                "Fire Fang Fast",
-                "Thunder Fang Fast",
-                "Ice Fang Fast"
+                "Bite",
+                "Fire Fang",
+                "Thunder Fang",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -12210,8 +12210,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast"
+                "Tackle",
+                "Take Down"
             ]
         },
         "stats": {
@@ -12233,8 +12233,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast"
+                "Tackle",
+                "Take Down"
             ]
         },
         "stats": {
@@ -12256,8 +12256,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Tackle Fast",
-                "Rock Smash Fast"
+                "Tackle",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -12278,8 +12278,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Tackle Fast",
-                "Rock Smash Fast"
+                "Tackle",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -12300,8 +12300,8 @@ var pokemonData = [
                 "Gunk Shot"
             ],
             "quick": [
-                "Snarl Fast",
-                "Lick Fast"
+                "Snarl",
+                "Lick"
             ]
         },
         "stats": {
@@ -12323,8 +12323,8 @@ var pokemonData = [
                 "Gunk Shot"
             ],
             "quick": [
-                "Snarl Fast",
-                "Lick Fast"
+                "Snarl",
+                "Lick"
             ]
         },
         "stats": {
@@ -12346,8 +12346,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Shadow Claw Fast",
-                "Tackle Fast"
+                "Shadow Claw",
+                "Tackle"
             ]
         },
         "stats": {
@@ -12368,8 +12368,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Shadow Claw Fast",
-                "Tackle Fast"
+                "Shadow Claw",
+                "Tackle"
             ]
         },
         "stats": {
@@ -12388,8 +12388,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bug Bite Fast"
+                "Tackle",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -12408,8 +12408,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Bug Bite Fast"
+                "Poison Sting",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -12430,8 +12430,8 @@ var pokemonData = [
                 "Bug Buzz"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Infestation Fast"
+                "Struggle Bug",
+                "Infestation"
             ]
         },
         "stats": {
@@ -12451,8 +12451,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Bug Bite Fast"
+                "Poison Sting",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -12473,8 +12473,8 @@ var pokemonData = [
                 "Bug Buzz"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Confusion Fast"
+                "Struggle Bug",
+                "Confusion"
             ]
         },
         "stats": {
@@ -12495,8 +12495,8 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Razor Leaf Fast"
+                "Water Gun",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -12518,8 +12518,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Bubble Fast",
-                "Razor Leaf Fast"
+                "Bubble",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -12544,8 +12544,8 @@ var pokemonData = [
                 "Leaf Storm"
             ],
             "quick": [
-                "Bubble Fast",
-                "Razor Leaf Fast"
+                "Bubble",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -12567,8 +12567,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Bullet Seed Fast",
-                "Quick Attack Fast"
+                "Bullet Seed",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -12589,8 +12589,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Bullet Seed Fast",
-                "Quick Attack Fast"
+                "Bullet Seed",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -12611,8 +12611,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Feint Attack Fast"
+                "Razor Leaf",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -12634,8 +12634,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Feint Attack Fast"
+                "Razor Leaf",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -12658,9 +12658,9 @@ var pokemonData = [
                 "Leaf Tornado"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Feint Attack Fast",
-                "Snarl Fast"
+                "Razor Leaf",
+                "Feint Attack",
+                "Snarl"
             ]
         },
         "stats": {
@@ -12683,9 +12683,9 @@ var pokemonData = [
                 "Leaf Tornado"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Feint Attack Fast",
-                "Snarl Fast"
+                "Razor Leaf",
+                "Feint Attack",
+                "Snarl"
             ]
         },
         "stats": {
@@ -12705,8 +12705,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Peck Fast",
-                "Quick Attack Fast"
+                "Peck",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -12728,8 +12728,8 @@ var pokemonData = [
                 "Sky Attack"
             ],
             "quick": [
-                "Wing Attack Fast",
-                "Steel Wing Fast"
+                "Wing Attack",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -12751,8 +12751,8 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Quick Attack Fast"
+                "Water Gun",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -12775,8 +12775,8 @@ var pokemonData = [
                 "Weather Ball Water"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Wing Attack Fast"
+                "Water Gun",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -12798,8 +12798,8 @@ var pokemonData = [
                 "Shadow Sneak"
             ],
             "quick": [
-                "Confusion Fast",
-                "Charge Beam Fast"
+                "Confusion",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -12821,8 +12821,8 @@ var pokemonData = [
                 "Shadow Sneak"
             ],
             "quick": [
-                "Confusion Fast",
-                "Charge Beam Fast"
+                "Confusion",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -12844,8 +12844,8 @@ var pokemonData = [
                 "Shadow Sneak"
             ],
             "quick": [
-                "Confusion Fast",
-                "Charge Beam Fast"
+                "Confusion",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -12867,8 +12867,8 @@ var pokemonData = [
                 "Shadow Sneak"
             ],
             "quick": [
-                "Confusion Fast",
-                "Charge Beam Fast"
+                "Confusion",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -12890,9 +12890,9 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Confusion Fast",
-                "Charge Beam Fast",
-                "Charm Fast"
+                "Confusion",
+                "Charge Beam",
+                "Charm"
             ]
         },
         "stats": {
@@ -12914,9 +12914,9 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Confusion Fast",
-                "Charge Beam Fast",
-                "Charm Fast"
+                "Confusion",
+                "Charge Beam",
+                "Charm"
             ]
         },
         "stats": {
@@ -12938,8 +12938,8 @@ var pokemonData = [
                 "Signal Beam"
             ],
             "quick": [
-                "Bubble Fast",
-                "Bug Bite Fast"
+                "Bubble",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -12963,8 +12963,8 @@ var pokemonData = [
                 "Lunge"
             ],
             "quick": [
-                "Infestation Fast",
-                "Air Slash Fast"
+                "Infestation",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -12986,8 +12986,8 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bullet Seed Fast"
+                "Tackle",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -13008,8 +13008,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Counter Fast",
-                "Bullet Seed Fast"
+                "Counter",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -13031,7 +13031,7 @@ var pokemonData = [
                 "Brick Break"
             ],
             "quick": [
-                "Yawn Fast"
+                "Yawn"
             ]
         },
         "stats": {
@@ -13052,8 +13052,8 @@ var pokemonData = [
                 "Brick Break"
             ],
             "quick": [
-                "Scratch Fast",
-                "Counter Fast"
+                "Scratch",
+                "Counter"
             ]
         },
         "stats": {
@@ -13074,7 +13074,7 @@ var pokemonData = [
                 "Earthquake"
             ],
             "quick": [
-                "Yawn Fast"
+                "Yawn"
             ]
         },
         "stats": {
@@ -13095,8 +13095,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Scratch Fast",
-                "Bug Bite Fast"
+                "Scratch",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -13118,8 +13118,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Metal Claw Fast"
+                "Fury Cutter",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -13141,8 +13141,8 @@ var pokemonData = [
                 "Dig"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Shadow Claw Fast"
+                "Bug Bite",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -13164,8 +13164,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Pound Fast",
-                "Astonish Fast"
+                "Pound",
+                "Astonish"
             ]
         },
         "stats": {
@@ -13186,8 +13186,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Pound Fast",
-                "Astonish Fast"
+                "Pound",
+                "Astonish"
             ]
         },
         "stats": {
@@ -13208,8 +13208,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Bite Fast",
-                "Rock Smash Fast"
+                "Bite",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -13230,8 +13230,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Bite Fast",
-                "Rock Smash Fast"
+                "Bite",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -13252,8 +13252,8 @@ var pokemonData = [
                 "Fire Blast"
             ],
             "quick": [
-                "Bite Fast",
-                "Astonish Fast"
+                "Bite",
+                "Astonish"
             ]
         },
         "stats": {
@@ -13274,8 +13274,8 @@ var pokemonData = [
                 "Fire Blast"
             ],
             "quick": [
-                "Bite Fast",
-                "Astonish Fast"
+                "Bite",
+                "Astonish"
             ]
         },
         "stats": {
@@ -13296,8 +13296,8 @@ var pokemonData = [
                 "Cross Chop"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Tackle Fast"
+                "Rock Smash",
+                "Tackle"
             ]
         },
         "stats": {
@@ -13318,8 +13318,8 @@ var pokemonData = [
                 "Cross Chop"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Tackle Fast"
+                "Rock Smash",
+                "Tackle"
             ]
         },
         "stats": {
@@ -13341,8 +13341,8 @@ var pokemonData = [
                 "Super Power"
             ],
             "quick": [
-                "Counter Fast",
-                "Bullet Punch Fast"
+                "Counter",
+                "Bullet Punch"
             ]
         },
         "stats": {
@@ -13364,8 +13364,8 @@ var pokemonData = [
                 "Super Power"
             ],
             "quick": [
-                "Counter Fast",
-                "Bullet Punch Fast"
+                "Counter",
+                "Bullet Punch"
             ]
         },
         "stats": {
@@ -13386,8 +13386,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Splash Fast",
-                "Bubble Fast"
+                "Splash",
+                "Bubble"
             ]
         },
         "stats": {
@@ -13409,8 +13409,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Spark Fast"
+                "Rock Throw",
+                "Spark"
             ]
         },
         "stats": {
@@ -13431,8 +13431,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Spark Fast"
+                "Rock Throw",
+                "Spark"
             ]
         },
         "stats": {
@@ -13453,8 +13453,8 @@ var pokemonData = [
                 "Wild Charge"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Tackle Fast"
+                "Feint Attack",
+                "Tackle"
             ]
         },
         "stats": {
@@ -13475,9 +13475,9 @@ var pokemonData = [
                 "Wild Charge"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Zen Headbutt Fast",
-                "Charm Fast"
+                "Feint Attack",
+                "Zen Headbutt",
+                "Charm"
             ]
         },
         "stats": {
@@ -13498,8 +13498,8 @@ var pokemonData = [
                 "Shadow Sneak"
             ],
             "quick": [
-                "Shadow Claw Fast",
-                "Feint Attack Fast"
+                "Shadow Claw",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -13521,8 +13521,8 @@ var pokemonData = [
                 "Shadow Sneak"
             ],
             "quick": [
-                "Shadow Claw Fast",
-                "Feint Attack Fast"
+                "Shadow Claw",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -13545,11 +13545,11 @@ var pokemonData = [
                 "Power Up Punch"
             ],
             "quick": [
-                "Bite Fast",
-                "Astonish Fast",
-                "Ice Fang Fast",
-                "Fire Fang Fast",
-                "Fairy Wind Fast"
+                "Bite",
+                "Astonish",
+                "Ice Fang",
+                "Fire Fang",
+                "Fairy Wind"
             ]
         },
         "stats": {
@@ -13572,11 +13572,11 @@ var pokemonData = [
                 "Power Up Punch"
             ],
             "quick": [
-                "Bite Fast",
-                "Astonish Fast",
-                "Ice Fang Fast",
-                "Fire Fang Fast",
-                "Fairy Wind Fast"
+                "Bite",
+                "Astonish",
+                "Ice Fang",
+                "Fire Fang",
+                "Fairy Wind"
             ]
         },
         "stats": {
@@ -13598,8 +13598,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Metal Claw Fast"
+                "Tackle",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -13621,8 +13621,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Metal Claw Fast"
+                "Tackle",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -13645,8 +13645,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Iron Tail Fast"
+                "Metal Claw",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -13669,8 +13669,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Iron Tail Fast"
+                "Metal Claw",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -13693,9 +13693,9 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Iron Tail Fast",
-                "Smack Down Fast"
+                "Dragon Tail",
+                "Iron Tail",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -13718,9 +13718,9 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Iron Tail Fast",
-                "Smack Down Fast"
+                "Dragon Tail",
+                "Iron Tail",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -13742,9 +13742,9 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Iron Tail Fast",
-                "Smack Down Fast"
+                "Dragon Tail",
+                "Iron Tail",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -13766,8 +13766,8 @@ var pokemonData = [
                 "Low Sweep"
             ],
             "quick": [
-                "Confusion Fast",
-                "Rock Smash Fast"
+                "Confusion",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -13790,8 +13790,8 @@ var pokemonData = [
                 "Power Up Punch"
             ],
             "quick": [
-                "Psycho Cut Fast",
-                "Counter Fast"
+                "Psycho Cut",
+                "Counter"
             ]
         },
         "stats": {
@@ -13813,8 +13813,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Spark Fast"
+                "Quick Attack",
+                "Spark"
             ]
         },
         "stats": {
@@ -13835,8 +13835,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Spark Fast"
+                "Quick Attack",
+                "Spark"
             ]
         },
         "stats": {
@@ -13859,9 +13859,9 @@ var pokemonData = [
                 "Psychic Fangs"
             ],
             "quick": [
-                "Snarl Fast",
-                "Charge Beam Fast",
-                "Thunder Fang Fast"
+                "Snarl",
+                "Charge Beam",
+                "Thunder Fang"
             ]
         },
         "stats": {
@@ -13884,9 +13884,9 @@ var pokemonData = [
                 "Psychic Fangs"
             ],
             "quick": [
-                "Snarl Fast",
-                "Charge Beam Fast",
-                "Thunder Fang Fast"
+                "Snarl",
+                "Charge Beam",
+                "Thunder Fang"
             ]
         },
         "stats": {
@@ -13909,9 +13909,9 @@ var pokemonData = [
                 "Psychic Fangs"
             ],
             "quick": [
-                "Snarl Fast",
-                "Charge Beam Fast",
-                "Thunder Fang Fast"
+                "Snarl",
+                "Charge Beam",
+                "Thunder Fang"
             ]
         },
         "stats": {
@@ -13933,8 +13933,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Spark Fast",
-                "Quick Attack Fast"
+                "Spark",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -13956,8 +13956,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Spark Fast",
-                "Quick Attack Fast"
+                "Spark",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -13978,8 +13978,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Tackle Fast"
+                "Struggle Bug",
+                "Tackle"
             ]
         },
         "stats": {
@@ -14000,8 +14000,8 @@ var pokemonData = [
                 "Dazzling Gleam"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Tackle Fast"
+                "Struggle Bug",
+                "Tackle"
             ]
         },
         "stats": {
@@ -14022,8 +14022,8 @@ var pokemonData = [
                 "Dazzling Gleam"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Razor Leaf Fast"
+                "Poison Jab",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -14045,8 +14045,8 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Pound Fast",
-                "Rock Smash Fast"
+                "Pound",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -14068,8 +14068,8 @@ var pokemonData = [
                 "Acid Spray"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Infestation Fast"
+                "Rock Smash",
+                "Infestation"
             ]
         },
         "stats": {
@@ -14090,8 +14090,8 @@ var pokemonData = [
                 "Poison Fang"
             ],
             "quick": [
-                "Bite Fast",
-                "Snarl Fast"
+                "Bite",
+                "Snarl"
             ]
         },
         "stats": {
@@ -14113,8 +14113,8 @@ var pokemonData = [
                 "Poison Fang"
             ],
             "quick": [
-                "Bite Fast",
-                "Snarl Fast"
+                "Bite",
+                "Snarl"
             ]
         },
         "stats": {
@@ -14136,8 +14136,8 @@ var pokemonData = [
                 "Poison Fang"
             ],
             "quick": [
-                "Bite Fast",
-                "Waterfall Fast"
+                "Bite",
+                "Waterfall"
             ]
         },
         "stats": {
@@ -14159,8 +14159,8 @@ var pokemonData = [
                 "Poison Fang"
             ],
             "quick": [
-                "Bite Fast",
-                "Waterfall Fast"
+                "Bite",
+                "Waterfall"
             ]
         },
         "stats": {
@@ -14182,8 +14182,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Splash Fast",
-                "Water Gun Fast"
+                "Splash",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -14204,8 +14204,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Water Gun Fast"
+                "Zen Headbutt",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -14226,8 +14226,8 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Ember Fast",
-                "Tackle Fast"
+                "Ember",
+                "Tackle"
             ]
         },
         "stats": {
@@ -14249,8 +14249,8 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Ember Fast",
-                "Tackle Fast"
+                "Ember",
+                "Tackle"
             ]
         },
         "stats": {
@@ -14273,9 +14273,9 @@ var pokemonData = [
                 "Earth Power"
             ],
             "quick": [
-                "Ember Fast",
-                "Rock Smash Fast",
-                "Incinerate Fast"
+                "Ember",
+                "Rock Smash",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -14298,9 +14298,9 @@ var pokemonData = [
                 "Earth Power"
             ],
             "quick": [
-                "Ember Fast",
-                "Rock Smash Fast",
-                "Incinerate Fast"
+                "Ember",
+                "Rock Smash",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -14322,8 +14322,8 @@ var pokemonData = [
                 "Earthquake"
             ],
             "quick": [
-                "Fire Spin Fast",
-                "Ember Fast"
+                "Fire Spin",
+                "Ember"
             ]
         },
         "stats": {
@@ -14344,8 +14344,8 @@ var pokemonData = [
                 "Mirror Coat"
             ],
             "quick": [
-                "Splash Fast",
-                "Zen Headbutt Fast"
+                "Splash",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -14366,8 +14366,8 @@ var pokemonData = [
                 "Mirror Coat"
             ],
             "quick": [
-                "Charge Beam Fast",
-                "Extrasensory Fast"
+                "Charge Beam",
+                "Extrasensory"
             ]
         },
         "stats": {
@@ -14388,8 +14388,8 @@ var pokemonData = [
                 "Icy Wind"
             ],
             "quick": [
-                "Sucker Punch Fast",
-                "Psycho Cut Fast"
+                "Sucker Punch",
+                "Psycho Cut"
             ]
         },
         "stats": {
@@ -14410,8 +14410,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Struggle Bug Fast"
+                "Mud Shot",
+                "Struggle Bug"
             ]
         },
         "stats": {
@@ -14432,8 +14432,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Struggle Bug Fast"
+                "Mud Shot",
+                "Struggle Bug"
             ]
         },
         "stats": {
@@ -14454,8 +14454,8 @@ var pokemonData = [
                 "Bug Buzz"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Dragon Breath Fast"
+                "Mud Shot",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -14477,8 +14477,8 @@ var pokemonData = [
                 "Bug Buzz"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Dragon Breath Fast"
+                "Mud Shot",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -14500,8 +14500,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Dragon Tail Fast"
+                "Mud Shot",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -14523,8 +14523,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Dragon Tail Fast"
+                "Mud Shot",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -14547,8 +14547,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Sucker Punch Fast"
+                "Poison Sting",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -14570,8 +14570,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Sucker Punch Fast"
+                "Poison Sting",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -14593,8 +14593,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Sucker Punch Fast"
+                "Poison Jab",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -14617,8 +14617,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Sucker Punch Fast"
+                "Poison Jab",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -14640,8 +14640,8 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Peck Fast",
-                "Astonish Fast"
+                "Peck",
+                "Astonish"
             ]
         },
         "stats": {
@@ -14663,8 +14663,8 @@ var pokemonData = [
                 "Dragon Pulse"
             ],
             "quick": [
-                "Peck Fast",
-                "Dragon Breath Fast"
+                "Peck",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -14686,8 +14686,8 @@ var pokemonData = [
                 "Dragon Pulse"
             ],
             "quick": [
-                "Peck Fast",
-                "Dragon Breath Fast"
+                "Peck",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -14709,8 +14709,8 @@ var pokemonData = [
                 "Dig"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Shadow Claw Fast"
+                "Fury Cutter",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -14731,8 +14731,8 @@ var pokemonData = [
                 "Wrap"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Iron Tail Fast"
+                "Poison Jab",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -14753,8 +14753,8 @@ var pokemonData = [
                 "Moonblast"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Confusion Fast"
+                "Rock Throw",
+                "Confusion"
             ]
         },
         "stats": {
@@ -14776,8 +14776,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Confusion Fast"
+                "Rock Throw",
+                "Confusion"
             ]
         },
         "stats": {
@@ -14799,8 +14799,8 @@ var pokemonData = [
                 "Mud Bomb"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Mud Shot Fast"
+                "Water Gun",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -14822,8 +14822,8 @@ var pokemonData = [
                 "Mud Bomb"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Mud Shot Fast"
+                "Water Gun",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -14845,8 +14845,8 @@ var pokemonData = [
                 "Aqua Jet"
             ],
             "quick": [
-                "Bubble Fast",
-                "Rock Smash Fast"
+                "Bubble",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -14868,8 +14868,8 @@ var pokemonData = [
                 "Crabhammer"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Snarl Fast"
+                "Waterfall",
+                "Snarl"
             ]
         },
         "stats": {
@@ -14891,8 +14891,8 @@ var pokemonData = [
                 "Dig"
             ],
             "quick": [
-                "Confusion Fast",
-                "Extrasensory Fast"
+                "Confusion",
+                "Extrasensory"
             ]
         },
         "stats": {
@@ -14918,9 +14918,9 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Extrasensory Fast",
-                "Confusion Fast",
-                "Mud Slap Fast"
+                "Extrasensory",
+                "Confusion",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -14942,8 +14942,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Acid Fast",
-                "Infestation Fast"
+                "Acid",
+                "Infestation"
             ]
         },
         "stats": {
@@ -14965,8 +14965,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Acid Fast",
-                "Infestation Fast"
+                "Acid",
+                "Infestation"
             ]
         },
         "stats": {
@@ -14988,9 +14988,9 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Acid Fast",
-                "Infestation Fast",
-                "Bullet Seed Fast"
+                "Acid",
+                "Infestation",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -15012,9 +15012,9 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Acid Fast",
-                "Infestation Fast",
-                "Bullet Seed Fast"
+                "Acid",
+                "Infestation",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -15036,8 +15036,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Scratch Fast"
+                "Struggle Bug",
+                "Scratch"
             ]
         },
         "stats": {
@@ -15059,8 +15059,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Scratch Fast"
+                "Struggle Bug",
+                "Scratch"
             ]
         },
         "stats": {
@@ -15082,8 +15082,8 @@ var pokemonData = [
                 "Rock Blast"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Struggle Bug Fast"
+                "Fury Cutter",
+                "Struggle Bug"
             ]
         },
         "stats": {
@@ -15105,8 +15105,8 @@ var pokemonData = [
                 "Rock Blast"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Struggle Bug Fast"
+                "Fury Cutter",
+                "Struggle Bug"
             ]
         },
         "stats": {
@@ -15126,8 +15126,8 @@ var pokemonData = [
                 "Mirror Coat"
             ],
             "quick": [
-                "Splash Fast",
-                "Tackle Fast"
+                "Splash",
+                "Tackle"
             ]
         },
         "stats": {
@@ -15148,8 +15148,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Dragon Tail Fast"
+                "Waterfall",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -15169,8 +15169,8 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Tackle Fast",
-                "Hex Fast"
+                "Tackle",
+                "Hex"
             ]
         },
         "stats": {
@@ -15192,8 +15192,8 @@ var pokemonData = [
                 "Weather Ball Normal"
             ],
             "quick": [
-                "Tackle Fast",
-                "Hex Fast"
+                "Tackle",
+                "Hex"
             ]
         },
         "stats": {
@@ -15214,8 +15214,8 @@ var pokemonData = [
                 "Weather Ball Water"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Tackle Fast"
+                "Water Gun",
+                "Tackle"
             ]
         },
         "stats": {
@@ -15236,8 +15236,8 @@ var pokemonData = [
                 "Weather Ball Ice"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Tackle Fast"
+                "Powder Snow",
+                "Tackle"
             ]
         },
         "stats": {
@@ -15258,8 +15258,8 @@ var pokemonData = [
                 "Weather Ball Fire"
             ],
             "quick": [
-                "Ember Fast",
-                "Tackle Fast"
+                "Ember",
+                "Tackle"
             ]
         },
         "stats": {
@@ -15283,8 +15283,8 @@ var pokemonData = [
                 "Shadow Sneak"
             ],
             "quick": [
-                "Lick Fast",
-                "Sucker Punch Fast"
+                "Lick",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -15305,8 +15305,8 @@ var pokemonData = [
                 "Shadow Sneak"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Astonish Fast"
+                "Feint Attack",
+                "Astonish"
             ]
         },
         "stats": {
@@ -15327,8 +15327,8 @@ var pokemonData = [
                 "Shadow Sneak"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Astonish Fast"
+                "Feint Attack",
+                "Astonish"
             ]
         },
         "stats": {
@@ -15349,8 +15349,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Hex Fast",
-                "Shadow Claw Fast"
+                "Hex",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -15371,8 +15371,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Hex Fast",
-                "Shadow Claw Fast"
+                "Hex",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -15393,8 +15393,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Hex Fast",
-                "Shadow Claw Fast"
+                "Hex",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -15415,8 +15415,8 @@ var pokemonData = [
                 "Shadow Sneak"
             ],
             "quick": [
-                "Hex Fast",
-                "Astonish Fast"
+                "Hex",
+                "Astonish"
             ]
         },
         "stats": {
@@ -15437,8 +15437,8 @@ var pokemonData = [
                 "Shadow Sneak"
             ],
             "quick": [
-                "Hex Fast",
-                "Astonish Fast"
+                "Hex",
+                "Astonish"
             ]
         },
         "stats": {
@@ -15459,8 +15459,8 @@ var pokemonData = [
                 "Fire Punch"
             ],
             "quick": [
-                "Hex Fast",
-                "Feint Attack Fast"
+                "Hex",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -15481,8 +15481,8 @@ var pokemonData = [
                 "Fire Punch"
             ],
             "quick": [
-                "Hex Fast",
-                "Feint Attack Fast"
+                "Hex",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -15503,8 +15503,8 @@ var pokemonData = [
                 "Leaf Blade"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Razor Leaf Fast"
+                "Air Slash",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -15527,8 +15527,8 @@ var pokemonData = [
                 "Psyshock"
             ],
             "quick": [
-                "Extrasensory Fast",
-                "Astonish Fast"
+                "Extrasensory",
+                "Astonish"
             ]
         },
         "stats": {
@@ -15550,8 +15550,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Psycho Cut Fast",
-                "Snarl Fast"
+                "Psycho Cut",
+                "Snarl"
             ]
         },
         "stats": {
@@ -15573,8 +15573,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Psycho Cut Fast",
-                "Snarl Fast"
+                "Psycho Cut",
+                "Snarl"
             ]
         },
         "stats": {
@@ -15596,8 +15596,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Psycho Cut Fast",
-                "Snarl Fast"
+                "Psycho Cut",
+                "Snarl"
             ]
         },
         "stats": {
@@ -15616,8 +15616,8 @@ var pokemonData = [
                 "Mirror Coat"
             ],
             "quick": [
-                "Splash Fast",
-                "Counter Fast"
+                "Splash",
+                "Counter"
             ]
         },
         "stats": {
@@ -15638,8 +15638,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Hex Fast"
+                "Powder Snow",
+                "Hex"
             ]
         },
         "stats": {
@@ -15660,8 +15660,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Ice Shard Fast",
-                "Frost Breath Fast"
+                "Ice Shard",
+                "Frost Breath"
             ]
         },
         "stats": {
@@ -15682,8 +15682,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Rock Smash Fast"
+                "Water Gun",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -15705,8 +15705,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Rock Smash Fast"
+                "Water Gun",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -15728,8 +15728,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Powder Snow Fast"
+                "Water Gun",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -15751,8 +15751,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Powder Snow Fast"
+                "Water Gun",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -15774,8 +15774,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Frost Breath Fast"
+                "Waterfall",
+                "Frost Breath"
             ]
         },
         "stats": {
@@ -15797,8 +15797,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Frost Breath Fast"
+                "Waterfall",
+                "Frost Breath"
             ]
         },
         "stats": {
@@ -15820,7 +15820,7 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Water Gun Fast"
+                "Water Gun"
             ]
         },
         "stats": {
@@ -15841,8 +15841,8 @@ var pokemonData = [
                 "Aqua Tail"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Bite Fast"
+                "Water Gun",
+                "Bite"
             ]
         },
         "stats": {
@@ -15863,8 +15863,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Confusion Fast"
+                "Water Gun",
+                "Confusion"
             ]
         },
         "stats": {
@@ -15885,8 +15885,8 @@ var pokemonData = [
                 "Hydro Pump"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Zen Headbutt Fast"
+                "Water Gun",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -15908,8 +15908,8 @@ var pokemonData = [
                 "Aqua Jet"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Splash Fast"
+                "Water Gun",
+                "Splash"
             ]
         },
         "stats": {
@@ -15930,8 +15930,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Bite Fast",
-                "Ember Fast"
+                "Bite",
+                "Ember"
             ]
         },
         "stats": {
@@ -15952,8 +15952,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Bite Fast",
-                "Ember Fast"
+                "Bite",
+                "Ember"
             ]
         },
         "stats": {
@@ -15974,8 +15974,8 @@ var pokemonData = [
                 "Twister"
             ],
             "quick": [
-                "Ember Fast",
-                "Dragon Breath Fast"
+                "Ember",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -15996,8 +15996,8 @@ var pokemonData = [
                 "Twister"
             ],
             "quick": [
-                "Ember Fast",
-                "Dragon Breath Fast"
+                "Ember",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -16018,9 +16018,9 @@ var pokemonData = [
                 "Draco Meteor"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Fire Fang Fast",
-                "Bite Fast"
+                "Dragon Tail",
+                "Fire Fang",
+                "Bite"
             ]
         },
         "stats": {
@@ -16042,9 +16042,9 @@ var pokemonData = [
                 "Draco Meteor"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Fire Fang Fast",
-                "Bite Fast"
+                "Dragon Tail",
+                "Fire Fang",
+                "Bite"
             ]
         },
         "stats": {
@@ -16064,7 +16064,7 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Take Down Fast"
+                "Take Down"
             ]
         },
         "stats": {
@@ -16084,7 +16084,7 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Take Down Fast"
+                "Take Down"
             ]
         },
         "stats": {
@@ -16106,8 +16106,8 @@ var pokemonData = [
                 "Psyshock"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Metal Claw Fast"
+                "Zen Headbutt",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -16129,8 +16129,8 @@ var pokemonData = [
                 "Psyshock"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Metal Claw Fast"
+                "Zen Headbutt",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -16152,8 +16152,8 @@ var pokemonData = [
                 "Earthquake"
             ],
             "quick": [
-                "Bullet Punch Fast",
-                "Zen Headbutt Fast"
+                "Bullet Punch",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -16175,8 +16175,8 @@ var pokemonData = [
                 "Earthquake"
             ],
             "quick": [
-                "Bullet Punch Fast",
-                "Zen Headbutt Fast"
+                "Bullet Punch",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -16198,9 +16198,9 @@ var pokemonData = [
                 "Focus Blast"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Rock Smash Fast",
-                "Lock On Fast"
+                "Rock Throw",
+                "Rock Smash",
+                "Lock On"
             ]
         },
         "stats": {
@@ -16221,9 +16221,9 @@ var pokemonData = [
                 "Focus Blast"
             ],
             "quick": [
-                "Frost Breath Fast",
-                "Rock Smash Fast",
-                "Lock On Fast"
+                "Frost Breath",
+                "Rock Smash",
+                "Lock On"
             ]
         },
         "stats": {
@@ -16244,9 +16244,9 @@ var pokemonData = [
                 "Focus Blast"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Rock Smash Fast",
-                "Lock On Fast"
+                "Metal Claw",
+                "Rock Smash",
+                "Lock On"
             ]
         },
         "stats": {
@@ -16267,9 +16267,9 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Zen Headbutt Fast",
-                "Charm Fast"
+                "Dragon Breath",
+                "Zen Headbutt",
+                "Charm"
             ]
         },
         "stats": {
@@ -16291,9 +16291,9 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Zen Headbutt Fast",
-                "Charm Fast"
+                "Dragon Breath",
+                "Zen Headbutt",
+                "Charm"
             ]
         },
         "stats": {
@@ -16315,9 +16315,9 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Zen Headbutt Fast",
-                "Charm Fast"
+                "Dragon Breath",
+                "Zen Headbutt",
+                "Charm"
             ]
         },
         "stats": {
@@ -16339,8 +16339,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Zen Headbutt Fast"
+                "Dragon Breath",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -16362,8 +16362,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Zen Headbutt Fast"
+                "Dragon Breath",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -16385,8 +16385,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Zen Headbutt Fast"
+                "Dragon Breath",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -16409,7 +16409,7 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Waterfall Fast"
+                "Waterfall"
             ]
         },
         "stats": {
@@ -16430,8 +16430,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Dragon Tail Fast"
+                "Mud Shot",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -16452,8 +16452,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Dragon Tail Fast"
+                "Air Slash",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -16475,8 +16475,8 @@ var pokemonData = [
                 "Doom Desire"
             ],
             "quick": [
-                "Confusion Fast",
-                "Charge Beam Fast"
+                "Confusion",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -16498,8 +16498,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Charge Beam Fast"
+                "Zen Headbutt",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -16520,8 +16520,8 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Poison Jab Fast"
+                "Zen Headbutt",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -16542,8 +16542,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Counter Fast"
+                "Zen Headbutt",
+                "Counter"
             ]
         },
         "stats": {
@@ -16564,8 +16564,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Charge Beam Fast"
+                "Zen Headbutt",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -16586,8 +16586,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Charge Beam Fast"
+                "Zen Headbutt",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -16608,8 +16608,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Razor Leaf Fast"
+                "Tackle",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -16630,8 +16630,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Razor Leaf Fast"
+                "Tackle",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -16652,8 +16652,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Bite Fast",
-                "Razor Leaf Fast"
+                "Bite",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -16674,8 +16674,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Bite Fast",
-                "Razor Leaf Fast"
+                "Bite",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -16697,8 +16697,8 @@ var pokemonData = [
                 "Sand Tomb"
             ],
             "quick": [
-                "Bite Fast",
-                "Razor Leaf Fast"
+                "Bite",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -16721,8 +16721,8 @@ var pokemonData = [
                 "Sand Tomb"
             ],
             "quick": [
-                "Bite Fast",
-                "Razor Leaf Fast"
+                "Bite",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -16744,8 +16744,8 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Ember Fast",
-                "Scratch Fast"
+                "Ember",
+                "Scratch"
             ]
         },
         "stats": {
@@ -16766,8 +16766,8 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Ember Fast",
-                "Scratch Fast"
+                "Ember",
+                "Scratch"
             ]
         },
         "stats": {
@@ -16788,8 +16788,8 @@ var pokemonData = [
                 "Low Sweep"
             ],
             "quick": [
-                "Ember Fast",
-                "Rock Smash Fast"
+                "Ember",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -16811,8 +16811,8 @@ var pokemonData = [
                 "Low Sweep"
             ],
             "quick": [
-                "Ember Fast",
-                "Rock Smash Fast"
+                "Ember",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -16834,8 +16834,8 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Fire Spin Fast",
-                "Rock Smash Fast"
+                "Fire Spin",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -16857,8 +16857,8 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Fire Spin Fast",
-                "Rock Smash Fast"
+                "Fire Spin",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -16880,8 +16880,8 @@ var pokemonData = [
                 "Icy Wind"
             ],
             "quick": [
-                "Bubble Fast",
-                "Pound Fast"
+                "Bubble",
+                "Pound"
             ]
         },
         "stats": {
@@ -16902,8 +16902,8 @@ var pokemonData = [
                 "Icy Wind"
             ],
             "quick": [
-                "Bubble Fast",
-                "Metal Claw Fast"
+                "Bubble",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -16925,8 +16925,8 @@ var pokemonData = [
                 "Drill Peck"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Metal Claw Fast"
+                "Waterfall",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -16947,8 +16947,8 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Tackle Fast",
-                "Quick Attack Fast"
+                "Tackle",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -16969,8 +16969,8 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Tackle Fast",
-                "Quick Attack Fast"
+                "Tackle",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -16992,8 +16992,8 @@ var pokemonData = [
                 "Heat Wave"
             ],
             "quick": [
-                "Wing Attack Fast",
-                "Quick Attack Fast"
+                "Wing Attack",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -17015,8 +17015,8 @@ var pokemonData = [
                 "Heat Wave"
             ],
             "quick": [
-                "Wing Attack Fast",
-                "Quick Attack Fast"
+                "Wing Attack",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -17038,8 +17038,8 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Wing Attack Fast",
-                "Quick Attack Fast"
+                "Wing Attack",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -17061,8 +17061,8 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Wing Attack Fast",
-                "Quick Attack Fast"
+                "Wing Attack",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -17084,8 +17084,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast"
+                "Tackle",
+                "Take Down"
             ]
         },
         "stats": {
@@ -17106,8 +17106,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast"
+                "Tackle",
+                "Take Down"
             ]
         },
         "stats": {
@@ -17128,8 +17128,8 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Take Down Fast"
+                "Water Gun",
+                "Take Down"
             ]
         },
         "stats": {
@@ -17151,8 +17151,8 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Take Down Fast"
+                "Water Gun",
+                "Take Down"
             ]
         },
         "stats": {
@@ -17172,8 +17172,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Bug Bite Fast"
+                "Struggle Bug",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -17194,8 +17194,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Fury Cutter Fast"
+                "Struggle Bug",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -17216,8 +17216,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Tackle Fast",
-                "Spark Fast"
+                "Tackle",
+                "Spark"
             ]
         },
         "stats": {
@@ -17238,8 +17238,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Tackle Fast",
-                "Spark Fast"
+                "Tackle",
+                "Spark"
             ]
         },
         "stats": {
@@ -17260,8 +17260,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Spark Fast",
-                "Bite Fast"
+                "Spark",
+                "Bite"
             ]
         },
         "stats": {
@@ -17282,8 +17282,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Spark Fast",
-                "Bite Fast"
+                "Spark",
+                "Bite"
             ]
         },
         "stats": {
@@ -17304,9 +17304,9 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Spark Fast",
-                "Snarl Fast",
-                "Hidden Power Fast"
+                "Spark",
+                "Snarl",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -17327,9 +17327,9 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Spark Fast",
-                "Snarl Fast",
-                "Hidden Power Fast"
+                "Spark",
+                "Snarl",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -17349,8 +17349,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Hidden Power Fast",
-                "Razor Leaf Fast"
+                "Hidden Power",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -17374,8 +17374,8 @@ var pokemonData = [
                 "Leaf Storm"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Razor Leaf Fast"
+                "Poison Jab",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -17397,8 +17397,8 @@ var pokemonData = [
                 "Bulldoze"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Take Down Fast"
+                "Zen Headbutt",
+                "Take Down"
             ]
         },
         "stats": {
@@ -17419,8 +17419,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Smack Down Fast"
+                "Zen Headbutt",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -17441,8 +17441,8 @@ var pokemonData = [
                 "Heavy Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Iron Tail Fast"
+                "Tackle",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -17464,8 +17464,8 @@ var pokemonData = [
                 "Flash Cannon"
             ],
             "quick": [
-                "Smack Down Fast",
-                "Iron Tail Fast"
+                "Smack Down",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -17485,8 +17485,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bug Bite Fast"
+                "Tackle",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -17505,8 +17505,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bug Bite Fast"
+                "Tackle",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -17528,8 +17528,8 @@ var pokemonData = [
                 "Bug Buzz"
             ],
             "quick": [
-                "Confusion Fast",
-                "Bug Bite Fast"
+                "Confusion",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -17551,8 +17551,8 @@ var pokemonData = [
                 "Bug Buzz"
             ],
             "quick": [
-                "Confusion Fast",
-                "Bug Bite Fast"
+                "Confusion",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -17574,8 +17574,8 @@ var pokemonData = [
                 "Bug Buzz"
             ],
             "quick": [
-                "Confusion Fast",
-                "Bug Bite Fast"
+                "Confusion",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -17597,8 +17597,8 @@ var pokemonData = [
                 "Bug Buzz"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Bug Bite Fast"
+                "Air Slash",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -17618,7 +17618,7 @@ var pokemonData = [
                 "Bug Buzz"
             ],
             "quick": [
-                "Bug Bite Fast"
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -17642,10 +17642,10 @@ var pokemonData = [
                 "Signal Beam"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Poison Sting Fast",
-                "Fury Cutter Fast",
-                "Air Slash Fast"
+                "Bug Bite",
+                "Poison Sting",
+                "Fury Cutter",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -17667,8 +17667,8 @@ var pokemonData = [
                 "Thunder Punch"
             ],
             "quick": [
-                "Spark Fast",
-                "Volt Switch Fast"
+                "Spark",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -17689,8 +17689,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Quick Attack Fast"
+                "Water Gun",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -17711,8 +17711,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Waterfall Fast"
+                "Water Gun",
+                "Waterfall"
             ]
         },
         "stats": {
@@ -17733,8 +17733,8 @@ var pokemonData = [
                 "Seed Bomb"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bullet Seed Fast"
+                "Tackle",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -17755,8 +17755,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Bullet Seed Fast"
+                "Razor Leaf",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -17778,8 +17778,8 @@ var pokemonData = [
                 "Weather Ball Fire"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Bullet Seed Fast"
+                "Razor Leaf",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -17800,8 +17800,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Hidden Power Fast"
+                "Mud Slap",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -17822,8 +17822,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Hidden Power Fast"
+                "Mud Slap",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -17845,8 +17845,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Scratch Fast",
-                "Astonish Fast"
+                "Scratch",
+                "Astonish"
             ]
         },
         "stats": {
@@ -17867,8 +17867,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Scratch Fast",
-                "Astonish Fast"
+                "Scratch",
+                "Astonish"
             ]
         },
         "stats": {
@@ -17889,8 +17889,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Hex Fast",
-                "Astonish Fast"
+                "Hex",
+                "Astonish"
             ]
         },
         "stats": {
@@ -17912,8 +17912,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Hex Fast",
-                "Astonish Fast"
+                "Hex",
+                "Astonish"
             ]
         },
         "stats": {
@@ -17934,8 +17934,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Pound Fast",
-                "Quick Attack Fast"
+                "Pound",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -17956,9 +17956,9 @@ var pokemonData = [
                 "Focus Blast"
             ],
             "quick": [
-                "Pound Fast",
-                "Low Kick Fast",
-                "Double Kick Fast"
+                "Pound",
+                "Low Kick",
+                "Double Kick"
             ]
         },
         "stats": {
@@ -17979,9 +17979,9 @@ var pokemonData = [
                 "Focus Blast"
             ],
             "quick": [
-                "Pound Fast",
-                "Low Kick Fast",
-                "Double Kick Fast"
+                "Pound",
+                "Low Kick",
+                "Double Kick"
             ]
         },
         "stats": {
@@ -18003,8 +18003,8 @@ var pokemonData = [
                 "Dazzling Gleam"
             ],
             "quick": [
-                "Sucker Punch Fast",
-                "Hex Fast"
+                "Sucker Punch",
+                "Hex"
             ]
         },
         "stats": {
@@ -18025,8 +18025,8 @@ var pokemonData = [
                 "Dazzling Gleam"
             ],
             "quick": [
-                "Sucker Punch Fast",
-                "Hex Fast"
+                "Sucker Punch",
+                "Hex"
             ]
         },
         "stats": {
@@ -18048,8 +18048,8 @@ var pokemonData = [
                 "Sky Attack"
             ],
             "quick": [
-                "Peck Fast",
-                "Snarl Fast"
+                "Peck",
+                "Snarl"
             ]
         },
         "stats": {
@@ -18072,8 +18072,8 @@ var pokemonData = [
                 "Sky Attack"
             ],
             "quick": [
-                "Peck Fast",
-                "Snarl Fast"
+                "Peck",
+                "Snarl"
             ]
         },
         "stats": {
@@ -18095,8 +18095,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Scratch Fast",
-                "Quick Attack Fast"
+                "Scratch",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -18117,8 +18117,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Scratch Fast",
-                "Shadow Claw Fast"
+                "Scratch",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -18139,8 +18139,8 @@ var pokemonData = [
                 "Psyshock"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Astonish Fast"
+                "Zen Headbutt",
+                "Astonish"
             ]
         },
         "stats": {
@@ -18161,8 +18161,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Scratch Fast",
-                "Bite Fast"
+                "Scratch",
+                "Bite"
             ]
         },
         "stats": {
@@ -18184,8 +18184,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Scratch Fast",
-                "Bite Fast"
+                "Scratch",
+                "Bite"
             ]
         },
         "stats": {
@@ -18207,8 +18207,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Bite Fast"
+                "Poison Jab",
+                "Bite"
             ]
         },
         "stats": {
@@ -18230,8 +18230,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Bite Fast"
+                "Poison Jab",
+                "Bite"
             ]
         },
         "stats": {
@@ -18254,8 +18254,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Tackle Fast",
-                "Confusion Fast"
+                "Tackle",
+                "Confusion"
             ]
         },
         "stats": {
@@ -18280,8 +18280,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Confusion Fast"
+                "Feint Attack",
+                "Confusion"
             ]
         },
         "stats": {
@@ -18303,8 +18303,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Counter Fast"
+                "Rock Throw",
+                "Counter"
             ]
         },
         "stats": {
@@ -18325,8 +18325,8 @@ var pokemonData = [
                 "Psyshock"
             ],
             "quick": [
-                "Confusion Fast",
-                "Pound Fast"
+                "Confusion",
+                "Pound"
             ]
         },
         "stats": {
@@ -18346,8 +18346,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Pound Fast",
-                "Zen Headbutt Fast"
+                "Pound",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -18368,8 +18368,8 @@ var pokemonData = [
                 "Heat Wave"
             ],
             "quick": [
-                "Peck Fast",
-                "Steel Wing Fast"
+                "Peck",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -18391,8 +18391,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Sucker Punch Fast"
+                "Feint Attack",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -18414,8 +18414,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Take Down Fast",
-                "Mud Shot Fast"
+                "Take Down",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -18437,8 +18437,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Take Down Fast",
-                "Mud Shot Fast"
+                "Take Down",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -18460,8 +18460,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Take Down Fast",
-                "Mud Shot Fast"
+                "Take Down",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -18483,8 +18483,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Take Down Fast",
-                "Mud Shot Fast"
+                "Take Down",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -18507,8 +18507,8 @@ var pokemonData = [
                 "Sand Tomb"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Mud Shot Fast"
+                "Dragon Tail",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -18531,8 +18531,8 @@ var pokemonData = [
                 "Sand Tomb"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Mud Shot Fast"
+                "Dragon Tail",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -18554,8 +18554,8 @@ var pokemonData = [
                 "Bulldoze"
             ],
             "quick": [
-                "Tackle Fast",
-                "Lick Fast"
+                "Tackle",
+                "Lick"
             ]
         },
         "stats": {
@@ -18576,8 +18576,8 @@ var pokemonData = [
                 "Cross Chop"
             ],
             "quick": [
-                "Counter Fast",
-                "Quick Attack Fast"
+                "Counter",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -18600,8 +18600,8 @@ var pokemonData = [
                 "Aura Sphere"
             ],
             "quick": [
-                "Counter Fast",
-                "Bullet Punch Fast"
+                "Counter",
+                "Bullet Punch"
             ]
         },
         "stats": {
@@ -18623,8 +18623,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bite Fast"
+                "Tackle",
+                "Bite"
             ]
         },
         "stats": {
@@ -18645,8 +18645,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bite Fast"
+                "Tackle",
+                "Bite"
             ]
         },
         "stats": {
@@ -18669,10 +18669,10 @@ var pokemonData = [
                 "Weather Ball Rock"
             ],
             "quick": [
-                "Fire Fang Fast",
-                "Bite Fast",
-                "Thunder Fang Fast",
-                "Ice Fang Fast"
+                "Fire Fang",
+                "Bite",
+                "Thunder Fang",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -18695,10 +18695,10 @@ var pokemonData = [
                 "Weather Ball Rock"
             ],
             "quick": [
-                "Fire Fang Fast",
-                "Bite Fast",
-                "Thunder Fang Fast",
-                "Ice Fang Fast"
+                "Fire Fang",
+                "Bite",
+                "Thunder Fang",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -18719,8 +18719,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Infestation Fast"
+                "Poison Sting",
+                "Infestation"
             ]
         },
         "stats": {
@@ -18742,8 +18742,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Infestation Fast"
+                "Poison Sting",
+                "Infestation"
             ]
         },
         "stats": {
@@ -18766,10 +18766,10 @@ var pokemonData = [
                 "Fell Stinger"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Infestation Fast",
-                "Bite Fast",
-                "Ice Fang Fast"
+                "Poison Sting",
+                "Infestation",
+                "Bite",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -18792,10 +18792,10 @@ var pokemonData = [
                 "Fell Stinger"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Infestation Fast",
-                "Bite Fast",
-                "Ice Fang Fast"
+                "Poison Sting",
+                "Infestation",
+                "Bite",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -18817,8 +18817,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Poison Jab Fast"
+                "Poison Sting",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -18840,8 +18840,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Counter Fast"
+                "Poison Jab",
+                "Counter"
             ]
         },
         "stats": {
@@ -18863,8 +18863,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Bite Fast",
-                "Vine Whip Fast"
+                "Bite",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -18885,8 +18885,8 @@ var pokemonData = [
                 "Silver Wind"
             ],
             "quick": [
-                "Pound Fast",
-                "Water Gun Fast"
+                "Pound",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -18907,8 +18907,8 @@ var pokemonData = [
                 "Silver Wind"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Water Gun Fast"
+                "Waterfall",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -18929,8 +18929,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Bubble Fast",
-                "Tackle Fast"
+                "Bubble",
+                "Tackle"
             ]
         },
         "stats": {
@@ -18952,8 +18952,8 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Ice Shard Fast"
+                "Powder Snow",
+                "Ice Shard"
             ]
         },
         "stats": {
@@ -18975,8 +18975,8 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Ice Shard Fast"
+                "Powder Snow",
+                "Ice Shard"
             ]
         },
         "stats": {
@@ -18999,8 +18999,8 @@ var pokemonData = [
                 "Weather Ball Ice"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Razor Leaf Fast"
+                "Powder Snow",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -19023,8 +19023,8 @@ var pokemonData = [
                 "Weather Ball Ice"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Razor Leaf Fast"
+                "Powder Snow",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -19047,8 +19047,8 @@ var pokemonData = [
                 "Weather Ball Ice"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Razor Leaf Fast"
+                "Powder Snow",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -19070,9 +19070,9 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Ice Shard Fast",
-                "Feint Attack Fast",
-                "Snarl Fast"
+                "Ice Shard",
+                "Feint Attack",
+                "Snarl"
             ]
         },
         "stats": {
@@ -19094,9 +19094,9 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Ice Shard Fast",
-                "Feint Attack Fast",
-                "Snarl Fast"
+                "Ice Shard",
+                "Feint Attack",
+                "Snarl"
             ]
         },
         "stats": {
@@ -19119,8 +19119,8 @@ var pokemonData = [
                 "Mirror Shot"
             ],
             "quick": [
-                "Spark Fast",
-                "Charge Beam Fast"
+                "Spark",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -19143,8 +19143,8 @@ var pokemonData = [
                 "Mirror Shot"
             ],
             "quick": [
-                "Spark Fast",
-                "Charge Beam Fast"
+                "Spark",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -19167,8 +19167,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Lick Fast",
-                "Zen Headbutt Fast"
+                "Lick",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -19191,8 +19191,8 @@ var pokemonData = [
                 "Super Power"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Smack Down Fast"
+                "Mud Slap",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -19216,8 +19216,8 @@ var pokemonData = [
                 "Super Power"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Smack Down Fast"
+                "Mud Slap",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -19241,8 +19241,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Infestation Fast"
+                "Vine Whip",
+                "Infestation"
             ]
         },
         "stats": {
@@ -19265,8 +19265,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Infestation Fast"
+                "Vine Whip",
+                "Infestation"
             ]
         },
         "stats": {
@@ -19288,8 +19288,8 @@ var pokemonData = [
                 "Ice Punch"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Low Kick Fast"
+                "Thunder Shock",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -19311,8 +19311,8 @@ var pokemonData = [
                 "Ice Punch"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Low Kick Fast"
+                "Thunder Shock",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -19334,8 +19334,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Fire Spin Fast",
-                "Karate Chop Fast"
+                "Fire Spin",
+                "Karate Chop"
             ]
         },
         "stats": {
@@ -19357,8 +19357,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Fire Spin Fast",
-                "Karate Chop Fast"
+                "Fire Spin",
+                "Karate Chop"
             ]
         },
         "stats": {
@@ -19380,9 +19380,9 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Hidden Power Fast",
-                "Charm Fast"
+                "Air Slash",
+                "Hidden Power",
+                "Charm"
             ]
         },
         "stats": {
@@ -19404,8 +19404,8 @@ var pokemonData = [
                 "Bug Buzz"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Wing Attack Fast"
+                "Bug Bite",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -19427,8 +19427,8 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Quick Attack Fast"
+                "Razor Leaf",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -19449,8 +19449,8 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Ice Shard Fast",
-                "Frost Breath Fast"
+                "Ice Shard",
+                "Frost Breath"
             ]
         },
         "stats": {
@@ -19472,8 +19472,8 @@ var pokemonData = [
                 "Sand Tomb"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Wing Attack Fast"
+                "Fury Cutter",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -19496,8 +19496,8 @@ var pokemonData = [
                 "Sand Tomb"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Wing Attack Fast"
+                "Fury Cutter",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -19519,8 +19519,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Powder Snow Fast"
+                "Mud Slap",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -19542,8 +19542,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Powder Snow Fast"
+                "Mud Slap",
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -19566,9 +19566,9 @@ var pokemonData = [
                 "Blizzard"
             ],
             "quick": [
-                "Hidden Power Fast",
-                "Charge Beam Fast",
-                "Lock On Fast"
+                "Hidden Power",
+                "Charge Beam",
+                "Lock On"
             ]
         },
         "stats": {
@@ -19590,9 +19590,9 @@ var pokemonData = [
                 "Blizzard"
             ],
             "quick": [
-                "Hidden Power Fast",
-                "Charge Beam Fast",
-                "Lock On Fast"
+                "Hidden Power",
+                "Charge Beam",
+                "Lock On"
             ]
         },
         "stats": {
@@ -19613,9 +19613,9 @@ var pokemonData = [
                 "Leaf Blade"
             ],
             "quick": [
-                "Confusion Fast",
-                "Low Kick Fast",
-                "Charm Fast"
+                "Confusion",
+                "Low Kick",
+                "Charm"
             ]
         },
         "stats": {
@@ -19637,9 +19637,9 @@ var pokemonData = [
                 "Leaf Blade"
             ],
             "quick": [
-                "Confusion Fast",
-                "Low Kick Fast",
-                "Charm Fast"
+                "Confusion",
+                "Low Kick",
+                "Charm"
             ]
         },
         "stats": {
@@ -19661,8 +19661,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Spark Fast"
+                "Rock Throw",
+                "Spark"
             ]
         },
         "stats": {
@@ -19684,8 +19684,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Rock Throw Fast",
-                "Spark Fast"
+                "Rock Throw",
+                "Spark"
             ]
         },
         "stats": {
@@ -19707,8 +19707,8 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Hex Fast",
-                "Astonish Fast"
+                "Hex",
+                "Astonish"
             ]
         },
         "stats": {
@@ -19729,8 +19729,8 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Hex Fast",
-                "Astonish Fast"
+                "Hex",
+                "Astonish"
             ]
         },
         "stats": {
@@ -19751,8 +19751,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Hex Fast"
+                "Powder Snow",
+                "Hex"
             ]
         },
         "stats": {
@@ -19774,8 +19774,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Astonish Fast",
-                "Air Slash Fast"
+                "Astonish",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -19797,8 +19797,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Astonish Fast",
-                "Thunder Shock Fast"
+                "Astonish",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -19820,8 +19820,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Astonish Fast",
-                "Thunder Shock Fast"
+                "Astonish",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -19843,8 +19843,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Astonish Fast",
-                "Thunder Shock Fast"
+                "Astonish",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -19866,8 +19866,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Astonish Fast",
-                "Thunder Shock Fast"
+                "Astonish",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -19889,8 +19889,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Astonish Fast",
-                "Thunder Shock Fast"
+                "Astonish",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -19912,8 +19912,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Confusion Fast",
-                "Extrasensory Fast"
+                "Confusion",
+                "Extrasensory"
             ]
         },
         "stats": {
@@ -19934,8 +19934,8 @@ var pokemonData = [
                 "Blizzard"
             ],
             "quick": [
-                "Confusion Fast",
-                "Extrasensory Fast"
+                "Confusion",
+                "Extrasensory"
             ]
         },
         "stats": {
@@ -19956,8 +19956,8 @@ var pokemonData = [
                 "Fire Blast"
             ],
             "quick": [
-                "Confusion Fast",
-                "Extrasensory Fast"
+                "Confusion",
+                "Extrasensory"
             ]
         },
         "stats": {
@@ -19978,8 +19978,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Metal Claw Fast"
+                "Dragon Breath",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -20002,8 +20002,8 @@ var pokemonData = [
                 "Aqua Tail"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Dragon Tail Fast"
+                "Dragon Breath",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -20026,8 +20026,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Fire Spin Fast",
-                "Bug Bite Fast"
+                "Fire Spin",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -20049,8 +20049,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Hidden Power Fast"
+                "Zen Headbutt",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -20071,8 +20071,8 @@ var pokemonData = [
                 "Shadow Sneak"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Shadow Claw Fast"
+                "Dragon Breath",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20094,8 +20094,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Shadow Claw Fast"
+                "Dragon Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20117,8 +20117,8 @@ var pokemonData = [
                 "Futuresight"
             ],
             "quick": [
-                "Psycho Cut Fast",
-                "Confusion Fast"
+                "Psycho Cut",
+                "Confusion"
             ]
         },
         "stats": {
@@ -20139,8 +20139,8 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Bubble Fast"
+                "Waterfall",
+                "Bubble"
             ]
         },
         "stats": {
@@ -20161,8 +20161,8 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Bubble Fast"
+                "Waterfall",
+                "Bubble"
             ]
         },
         "stats": {
@@ -20183,8 +20183,8 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Snarl Fast",
-                "Feint Attack Fast"
+                "Snarl",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -20206,8 +20206,8 @@ var pokemonData = [
                 "Seed Flare"
             ],
             "quick": [
-                "Hidden Power Fast",
-                "Zen Headbutt Fast"
+                "Hidden Power",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -20229,8 +20229,8 @@ var pokemonData = [
                 "Seed Flare"
             ],
             "quick": [
-                "Hidden Power Fast",
-                "Zen Headbutt Fast"
+                "Hidden Power",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -20252,8 +20252,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20274,8 +20274,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20296,8 +20296,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20318,8 +20318,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20340,8 +20340,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20362,8 +20362,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20384,8 +20384,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20406,8 +20406,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20428,8 +20428,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20450,8 +20450,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20472,8 +20472,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20494,8 +20494,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20516,8 +20516,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20538,8 +20538,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20560,8 +20560,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20582,8 +20582,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20604,8 +20604,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20626,8 +20626,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Shadow Claw Fast"
+                "Iron Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -20649,8 +20649,8 @@ var pokemonData = [
                 "V Create"
             ],
             "quick": [
-                "Confusion Fast",
-                "Quick Attack Fast"
+                "Confusion",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -20672,8 +20672,8 @@ var pokemonData = [
                 "Wrap"
             ],
             "quick": [
-                "Tackle Fast",
-                "Vine Whip Fast"
+                "Tackle",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -20694,8 +20694,8 @@ var pokemonData = [
                 "Wrap"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Vine Whip Fast"
+                "Iron Tail",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -20716,8 +20716,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Iron Tail Fast",
-                "Vine Whip Fast"
+                "Iron Tail",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -20738,8 +20738,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Ember Fast"
+                "Tackle",
+                "Ember"
             ]
         },
         "stats": {
@@ -20760,8 +20760,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Tackle Fast",
-                "Ember Fast"
+                "Tackle",
+                "Ember"
             ]
         },
         "stats": {
@@ -20784,8 +20784,8 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Ember Fast"
+                "Low Kick",
+                "Ember"
             ]
         },
         "stats": {
@@ -20807,8 +20807,8 @@ var pokemonData = [
                 "Night Slash"
             ],
             "quick": [
-                "Tackle Fast",
-                "Water Gun Fast"
+                "Tackle",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -20829,8 +20829,8 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Water Gun Fast"
+                "Fury Cutter",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -20852,8 +20852,8 @@ var pokemonData = [
                 "Razor Shell"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Waterfall Fast"
+                "Fury Cutter",
+                "Waterfall"
             ]
         },
         "stats": {
@@ -20874,8 +20874,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bite Fast"
+                "Tackle",
+                "Bite"
             ]
         },
         "stats": {
@@ -20896,8 +20896,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bite Fast"
+                "Tackle",
+                "Bite"
             ]
         },
         "stats": {
@@ -20918,8 +20918,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Bite Fast"
+                "Low Kick",
+                "Bite"
             ]
         },
         "stats": {
@@ -20940,8 +20940,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Bite Fast"
+                "Low Kick",
+                "Bite"
             ]
         },
         "stats": {
@@ -20962,8 +20962,8 @@ var pokemonData = [
                 "Dig"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast"
+                "Tackle",
+                "Take Down"
             ]
         },
         "stats": {
@@ -20984,8 +20984,8 @@ var pokemonData = [
                 "Dig"
             ],
             "quick": [
-                "Lick Fast",
-                "Take Down Fast"
+                "Lick",
+                "Take Down"
             ]
         },
         "stats": {
@@ -21006,9 +21006,9 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Lick Fast",
-                "Take Down Fast",
-                "Ice Fang Fast"
+                "Lick",
+                "Take Down",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -21029,8 +21029,8 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Scratch Fast",
-                "Sucker Punch Fast"
+                "Scratch",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -21051,8 +21051,8 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Scratch Fast",
-                "Sucker Punch Fast"
+                "Scratch",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -21074,8 +21074,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Charm Fast",
-                "Snarl Fast"
+                "Charm",
+                "Snarl"
             ]
         },
         "stats": {
@@ -21097,8 +21097,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Charm Fast",
-                "Snarl Fast"
+                "Charm",
+                "Snarl"
             ]
         },
         "stats": {
@@ -21119,8 +21119,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Scratch Fast",
-                "Vine Whip Fast"
+                "Scratch",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -21141,8 +21141,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Bite Fast",
-                "Vine Whip Fast"
+                "Bite",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -21163,8 +21163,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Scratch Fast",
-                "Fire Spin Fast"
+                "Scratch",
+                "Fire Spin"
             ]
         },
         "stats": {
@@ -21185,8 +21185,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Bite Fast",
-                "Fire Spin Fast"
+                "Bite",
+                "Fire Spin"
             ]
         },
         "stats": {
@@ -21207,8 +21207,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Scratch Fast",
-                "Water Gun Fast"
+                "Scratch",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -21229,8 +21229,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Bite Fast",
-                "Water Gun Fast"
+                "Bite",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -21251,8 +21251,8 @@ var pokemonData = [
                 "Psyshock"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Charge Beam Fast"
+                "Zen Headbutt",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -21273,8 +21273,8 @@ var pokemonData = [
                 "Psyshock"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Charge Beam Fast"
+                "Zen Headbutt",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -21295,8 +21295,8 @@ var pokemonData = [
                 "Air Cutter"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Air Slash Fast"
+                "Quick Attack",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -21318,8 +21318,8 @@ var pokemonData = [
                 "Sky Attack"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Steel Wing Fast"
+                "Air Slash",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -21341,8 +21341,8 @@ var pokemonData = [
                 "Sky Attack"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Steel Wing Fast"
+                "Air Slash",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -21364,8 +21364,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Spark Fast"
+                "Quick Attack",
+                "Spark"
             ]
         },
         "stats": {
@@ -21386,8 +21386,8 @@ var pokemonData = [
                 "Wild Charge"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Spark Fast"
+                "Low Kick",
+                "Spark"
             ]
         },
         "stats": {
@@ -21408,8 +21408,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Tackle Fast",
-                "Smack Down Fast"
+                "Tackle",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -21430,8 +21430,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Smack Down Fast"
+                "Mud Slap",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -21453,8 +21453,8 @@ var pokemonData = [
                 "Heavy Slam"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Smack Down Fast"
+                "Mud Slap",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -21475,8 +21475,8 @@ var pokemonData = [
                 "Psyshock"
             ],
             "quick": [
-                "Confusion Fast",
-                "Air Slash Fast"
+                "Confusion",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -21499,8 +21499,8 @@ var pokemonData = [
                 "Psychic Fangs"
             ],
             "quick": [
-                "Confusion Fast",
-                "Air Slash Fast"
+                "Confusion",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -21522,8 +21522,8 @@ var pokemonData = [
                 "Drill Run"
             ],
             "quick": [
-                "Scratch Fast",
-                "Mud Slap Fast"
+                "Scratch",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -21545,9 +21545,9 @@ var pokemonData = [
                 "Iron Head"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Mud Slap Fast",
-                "Mud Shot Fast"
+                "Metal Claw",
+                "Mud Slap",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -21569,8 +21569,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Pound Fast",
-                "Zen Headbutt Fast"
+                "Pound",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -21591,8 +21591,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Pound Fast"
+                "Low Kick",
+                "Pound"
             ]
         },
         "stats": {
@@ -21613,8 +21613,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Poison Jab Fast"
+                "Low Kick",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -21635,8 +21635,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Counter Fast",
-                "Poison Jab Fast"
+                "Counter",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -21657,8 +21657,8 @@ var pokemonData = [
                 "Sludge Wave"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Bubble Fast"
+                "Mud Shot",
+                "Bubble"
             ]
         },
         "stats": {
@@ -21679,8 +21679,8 @@ var pokemonData = [
                 "Sludge Wave"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Bubble Fast"
+                "Mud Shot",
+                "Bubble"
             ]
         },
         "stats": {
@@ -21702,8 +21702,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Bubble Fast"
+                "Mud Shot",
+                "Bubble"
             ]
         },
         "stats": {
@@ -21725,8 +21725,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Zen Headbutt Fast"
+                "Low Kick",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -21747,8 +21747,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Poison Jab Fast"
+                "Low Kick",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -21769,8 +21769,8 @@ var pokemonData = [
                 "Silver Wind"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Bug Bite Fast"
+                "Struggle Bug",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -21792,8 +21792,8 @@ var pokemonData = [
                 "Silver Wind"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Bug Bite Fast"
+                "Struggle Bug",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -21816,8 +21816,8 @@ var pokemonData = [
                 "Leaf Storm"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Bug Bite Fast"
+                "Razor Leaf",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -21839,8 +21839,8 @@ var pokemonData = [
                 "Gyro Ball"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Poison Sting Fast"
+                "Bug Bite",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -21862,8 +21862,8 @@ var pokemonData = [
                 "Gyro Ball"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Poison Sting Fast"
+                "Bug Bite",
+                "Poison Sting"
             ]
         },
         "stats": {
@@ -21886,8 +21886,8 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Poison Jab Fast"
+                "Bug Bite",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -21909,8 +21909,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Charm Fast",
-                "Razor Leaf Fast"
+                "Charm",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -21932,8 +21932,8 @@ var pokemonData = [
                 "Moonblast"
             ],
             "quick": [
-                "Charm Fast",
-                "Razor Leaf Fast"
+                "Charm",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -21954,8 +21954,8 @@ var pokemonData = [
                 "Seed Bomb"
             ],
             "quick": [
-                "Charm Fast",
-                "Hidden Power Fast"
+                "Charm",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -21976,8 +21976,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Charm Fast",
-                "Hidden Power Fast"
+                "Charm",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -21998,8 +21998,8 @@ var pokemonData = [
                 "Muddy Water"
             ],
             "quick": [
-                "Tackle Fast",
-                "Water Gun Fast"
+                "Tackle",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -22020,8 +22020,8 @@ var pokemonData = [
                 "Bulldoze"
             ],
             "quick": [
-                "Bite Fast",
-                "Mud Slap Fast"
+                "Bite",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -22043,8 +22043,8 @@ var pokemonData = [
                 "Bulldoze"
             ],
             "quick": [
-                "Bite Fast",
-                "Mud Slap Fast"
+                "Bite",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -22066,8 +22066,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Snarl Fast",
-                "Mud Slap Fast"
+                "Snarl",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -22088,8 +22088,8 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Ice Fang Fast"
+                "Tackle",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -22109,8 +22109,8 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Ice Fang Fast"
+                "Tackle",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -22130,8 +22130,8 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Tackle Fast",
-                "Fire Fang Fast"
+                "Tackle",
+                "Fire Fang"
             ]
         },
         "stats": {
@@ -22151,8 +22151,8 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Tackle Fast",
-                "Fire Fang Fast"
+                "Tackle",
+                "Fire Fang"
             ]
         },
         "stats": {
@@ -22174,9 +22174,9 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Tackle Fast",
-                "Fire Fang Fast",
-                "Incinerate Fast"
+                "Tackle",
+                "Fire Fang",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -22198,8 +22198,8 @@ var pokemonData = [
                 "Ice Punch"
             ],
             "quick": [
-                "Tackle Fast",
-                "Ice Fang Fast"
+                "Tackle",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -22221,8 +22221,8 @@ var pokemonData = [
                 "Ice Punch"
             ],
             "quick": [
-                "Tackle Fast",
-                "Ice Fang Fast"
+                "Tackle",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -22245,9 +22245,9 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Tackle Fast",
-                "Fire Fang Fast",
-                "Incinerate Fast"
+                "Tackle",
+                "Fire Fang",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -22269,8 +22269,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Bullet Seed Fast",
-                "Poison Jab Fast"
+                "Bullet Seed",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -22291,8 +22291,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Cut Fast",
-                "Smack Down Fast"
+                "Cut",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -22314,8 +22314,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Smack Down Fast"
+                "Fury Cutter",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -22337,8 +22337,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Feint Attack Fast"
+                "Rock Smash",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -22360,8 +22360,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Counter Fast",
-                "Snarl Fast"
+                "Counter",
+                "Snarl"
             ]
         },
         "stats": {
@@ -22384,8 +22384,8 @@ var pokemonData = [
                 "Signal Beam"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Zen Headbutt Fast"
+                "Air Slash",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -22406,7 +22406,7 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Astonish Fast"
+                "Astonish"
             ]
         },
         "stats": {
@@ -22427,7 +22427,7 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Astonish Fast"
+                "Astonish"
             ]
         },
         "stats": {
@@ -22449,8 +22449,8 @@ var pokemonData = [
                 "Ominous Wind"
             ],
             "quick": [
-                "Astonish Fast",
-                "Zen Headbutt Fast"
+                "Astonish",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -22471,8 +22471,8 @@ var pokemonData = [
                 "Ominous Wind"
             ],
             "quick": [
-                "Astonish Fast",
-                "Zen Headbutt Fast"
+                "Astonish",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -22493,9 +22493,9 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Astonish Fast",
-                "Zen Headbutt Fast",
-                "Shadow Claw Fast"
+                "Astonish",
+                "Zen Headbutt",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -22516,9 +22516,9 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Astonish Fast",
-                "Zen Headbutt Fast",
-                "Shadow Claw Fast"
+                "Astonish",
+                "Zen Headbutt",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -22539,8 +22539,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Bite Fast"
+                "Water Gun",
+                "Bite"
             ]
         },
         "stats": {
@@ -22562,8 +22562,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Rock Throw Fast"
+                "Water Gun",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -22585,8 +22585,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Wing Attack Fast"
+                "Quick Attack",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -22608,8 +22608,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Steel Wing Fast",
-                "Wing Attack Fast"
+                "Steel Wing",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -22631,8 +22631,8 @@ var pokemonData = [
                 "Gunk Shot"
             ],
             "quick": [
-                "Pound Fast",
-                "Take Down Fast"
+                "Pound",
+                "Take Down"
             ]
         },
         "stats": {
@@ -22654,8 +22654,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Infestation Fast",
-                "Take Down Fast"
+                "Infestation",
+                "Take Down"
             ]
         },
         "stats": {
@@ -22676,8 +22676,8 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Scratch Fast",
-                "Feint Attack Fast"
+                "Scratch",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -22698,8 +22698,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Shadow Claw Fast",
-                "Snarl Fast"
+                "Shadow Claw",
+                "Snarl"
             ]
         },
         "stats": {
@@ -22720,8 +22720,8 @@ var pokemonData = [
                 "Aqua Tail"
             ],
             "quick": [
-                "Pound Fast",
-                "Charm Fast"
+                "Pound",
+                "Charm"
             ]
         },
         "stats": {
@@ -22742,8 +22742,8 @@ var pokemonData = [
                 "Aqua Tail"
             ],
             "quick": [
-                "Pound Fast",
-                "Charm Fast"
+                "Pound",
+                "Charm"
             ]
         },
         "stats": {
@@ -22764,8 +22764,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Pound Fast",
-                "Confusion Fast"
+                "Pound",
+                "Confusion"
             ]
         },
         "stats": {
@@ -22786,8 +22786,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Pound Fast",
-                "Confusion Fast"
+                "Pound",
+                "Confusion"
             ]
         },
         "stats": {
@@ -22808,8 +22808,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Charm Fast",
-                "Confusion Fast"
+                "Charm",
+                "Confusion"
             ]
         },
         "stats": {
@@ -22830,8 +22830,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Hidden Power Fast",
-                "Zen Headbutt Fast"
+                "Hidden Power",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -22852,8 +22852,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Hidden Power Fast",
-                "Zen Headbutt Fast"
+                "Hidden Power",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -22874,8 +22874,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Hidden Power Fast",
-                "Zen Headbutt Fast"
+                "Hidden Power",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -22896,8 +22896,8 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Wing Attack Fast"
+                "Water Gun",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -22919,8 +22919,8 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Wing Attack Fast"
+                "Water Gun",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -22942,8 +22942,8 @@ var pokemonData = [
                 "Hurricane"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Air Slash Fast"
+                "Water Gun",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -22965,8 +22965,8 @@ var pokemonData = [
                 "Hurricane"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Air Slash Fast"
+                "Water Gun",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -22988,8 +22988,8 @@ var pokemonData = [
                 "Signal Beam"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Astonish Fast"
+                "Powder Snow",
+                "Astonish"
             ]
         },
         "stats": {
@@ -23010,8 +23010,8 @@ var pokemonData = [
                 "Signal Beam"
             ],
             "quick": [
-                "Frost Breath Fast",
-                "Astonish Fast"
+                "Frost Breath",
+                "Astonish"
             ]
         },
         "stats": {
@@ -23032,8 +23032,8 @@ var pokemonData = [
                 "Signal Beam"
             ],
             "quick": [
-                "Frost Breath Fast",
-                "Astonish Fast"
+                "Frost Breath",
+                "Astonish"
             ]
         },
         "stats": {
@@ -23054,8 +23054,8 @@ var pokemonData = [
                 "Wild Charge"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast"
+                "Tackle",
+                "Take Down"
             ]
         },
         "stats": {
@@ -23078,8 +23078,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Take Down Fast"
+                "Feint Attack",
+                "Take Down"
             ]
         },
         "stats": {
@@ -23101,8 +23101,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Quick Attack Fast"
+                "Thunder Shock",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -23125,8 +23125,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Peck Fast",
-                "Fury Cutter Fast"
+                "Peck",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -23148,8 +23148,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Counter Fast",
-                "Bug Bite Fast"
+                "Counter",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -23171,8 +23171,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Astonish Fast",
-                "Feint Attack Fast"
+                "Astonish",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -23194,8 +23194,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Astonish Fast",
-                "Feint Attack Fast"
+                "Astonish",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -23217,8 +23217,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Astonish Fast",
-                "Feint Attack Fast"
+                "Astonish",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -23240,8 +23240,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Astonish Fast",
-                "Feint Attack Fast"
+                "Astonish",
+                "Feint Attack"
             ]
         },
         "stats": {
@@ -23263,8 +23263,8 @@ var pokemonData = [
                 "Ominous Wind"
             ],
             "quick": [
-                "Bubble Fast",
-                "Hex Fast"
+                "Bubble",
+                "Hex"
             ]
         },
         "stats": {
@@ -23286,8 +23286,8 @@ var pokemonData = [
                 "Bubble Beam"
             ],
             "quick": [
-                "Bubble Fast",
-                "Hex Fast"
+                "Bubble",
+                "Hex"
             ]
         },
         "stats": {
@@ -23309,8 +23309,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Hidden Power Fast"
+                "Waterfall",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -23331,8 +23331,8 @@ var pokemonData = [
                 "Discharge"
             ],
             "quick": [
-                "Charge Beam Fast",
-                "Sucker Punch Fast"
+                "Charge Beam",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -23356,8 +23356,8 @@ var pokemonData = [
                 "Lunge"
             ],
             "quick": [
-                "Volt Switch Fast",
-                "Fury Cutter Fast"
+                "Volt Switch",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -23379,8 +23379,8 @@ var pokemonData = [
                 "Iron Head"
             ],
             "quick": [
-                "Tackle Fast",
-                "Metal Claw Fast"
+                "Tackle",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -23404,8 +23404,8 @@ var pokemonData = [
                 "Mirror Shot"
             ],
             "quick": [
-                "Bullet Seed Fast",
-                "Metal Claw Fast"
+                "Bullet Seed",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -23427,8 +23427,8 @@ var pokemonData = [
                 "Zap Cannon"
             ],
             "quick": [
-                "Volt Switch Fast",
-                "Charge Beam Fast"
+                "Volt Switch",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -23449,8 +23449,8 @@ var pokemonData = [
                 "Zap Cannon"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Charge Beam Fast"
+                "Thunder Shock",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -23472,8 +23472,8 @@ var pokemonData = [
                 "Mirror Shot"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Charge Beam Fast"
+                "Thunder Shock",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -23492,8 +23492,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Tackle Fast",
-                "Spark Fast"
+                "Tackle",
+                "Spark"
             ]
         },
         "stats": {
@@ -23514,8 +23514,8 @@ var pokemonData = [
                 "Discharge"
             ],
             "quick": [
-                "Acid Fast",
-                "Spark Fast"
+                "Acid",
+                "Spark"
             ]
         },
         "stats": {
@@ -23537,8 +23537,8 @@ var pokemonData = [
                 "Dragon Claw"
             ],
             "quick": [
-                "Acid Fast",
-                "Spark Fast"
+                "Acid",
+                "Spark"
             ]
         },
         "stats": {
@@ -23559,8 +23559,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Confusion Fast",
-                "Astonish Fast"
+                "Confusion",
+                "Astonish"
             ]
         },
         "stats": {
@@ -23581,8 +23581,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Confusion Fast",
-                "Astonish Fast"
+                "Confusion",
+                "Astonish"
             ]
         },
         "stats": {
@@ -23603,8 +23603,8 @@ var pokemonData = [
                 "Heat Wave"
             ],
             "quick": [
-                "Astonish Fast",
-                "Ember Fast"
+                "Astonish",
+                "Ember"
             ]
         },
         "stats": {
@@ -23626,8 +23626,8 @@ var pokemonData = [
                 "Heat Wave"
             ],
             "quick": [
-                "Astonish Fast",
-                "Ember Fast"
+                "Astonish",
+                "Ember"
             ]
         },
         "stats": {
@@ -23650,9 +23650,9 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Hex Fast",
-                "Fire Spin Fast",
-                "Incinerate Fast"
+                "Hex",
+                "Fire Spin",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -23674,8 +23674,8 @@ var pokemonData = [
                 "Dragon Pulse"
             ],
             "quick": [
-                "Scratch Fast",
-                "Iron Tail Fast"
+                "Scratch",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -23696,8 +23696,8 @@ var pokemonData = [
                 "Night Slash"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Iron Tail Fast"
+                "Dragon Tail",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -23719,8 +23719,8 @@ var pokemonData = [
                 "Earthquake"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Counter Fast"
+                "Dragon Tail",
+                "Counter"
             ]
         },
         "stats": {
@@ -23741,8 +23741,8 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Charm Fast"
+                "Powder Snow",
+                "Charm"
             ]
         },
         "stats": {
@@ -23763,8 +23763,8 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Charm Fast"
+                "Powder Snow",
+                "Charm"
             ]
         },
         "stats": {
@@ -23786,8 +23786,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Ice Shard Fast",
-                "Frost Breath Fast"
+                "Ice Shard",
+                "Frost Breath"
             ]
         },
         "stats": {
@@ -23808,8 +23808,8 @@ var pokemonData = [
                 "Signal Beam"
             ],
             "quick": [
-                "Acid Fast",
-                "Infestation Fast"
+                "Acid",
+                "Infestation"
             ]
         },
         "stats": {
@@ -23831,8 +23831,8 @@ var pokemonData = [
                 "Focus Blast"
             ],
             "quick": [
-                "Acid Fast",
-                "Infestation Fast"
+                "Acid",
+                "Infestation"
             ]
         },
         "stats": {
@@ -23854,8 +23854,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Metal Claw Fast"
+                "Mud Shot",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -23878,8 +23878,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Metal Claw Fast"
+                "Mud Shot",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -23901,8 +23901,8 @@ var pokemonData = [
                 "Muddy Water"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Mud Shot Fast"
+                "Thunder Shock",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -23924,8 +23924,8 @@ var pokemonData = [
                 "Muddy Water"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Mud Shot Fast"
+                "Thunder Shock",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -23947,8 +23947,8 @@ var pokemonData = [
                 "Focus Blast"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Pound Fast"
+                "Low Kick",
+                "Pound"
             ]
         },
         "stats": {
@@ -23969,8 +23969,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Poison Jab Fast"
+                "Low Kick",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -23991,8 +23991,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Bite Fast"
+                "Dragon Tail",
+                "Bite"
             ]
         },
         "stats": {
@@ -24013,8 +24013,8 @@ var pokemonData = [
                 "Night Shade"
             ],
             "quick": [
-                "Astonish Fast",
-                "Mud Slap Fast"
+                "Astonish",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -24036,8 +24036,8 @@ var pokemonData = [
                 "Earth Power"
             ],
             "quick": [
-                "Astonish Fast",
-                "Mud Slap Fast"
+                "Astonish",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -24059,8 +24059,8 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Scratch Fast",
-                "Fury Cutter Fast"
+                "Scratch",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -24083,8 +24083,8 @@ var pokemonData = [
                 "Focus Blast"
             ],
             "quick": [
-                "Snarl Fast",
-                "Metal Claw Fast"
+                "Snarl",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -24107,8 +24107,8 @@ var pokemonData = [
                 "Earthquake"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Mud Shot Fast"
+                "Zen Headbutt",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -24129,8 +24129,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Peck Fast",
-                "Wing Attack Fast"
+                "Peck",
+                "Wing Attack"
             ]
         },
         "stats": {
@@ -24153,8 +24153,8 @@ var pokemonData = [
                 "Ominous Wind"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Zen Headbutt Fast"
+                "Air Slash",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -24177,8 +24177,8 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Steel Wing Fast",
-                "Air Slash Fast"
+                "Steel Wing",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -24200,8 +24200,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Air Slash Fast"
+                "Feint Attack",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -24224,8 +24224,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Snarl Fast",
-                "Air Slash Fast"
+                "Snarl",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -24247,8 +24247,8 @@ var pokemonData = [
                 "Power Up Punch"
             ],
             "quick": [
-                "Lick Fast",
-                "Fire Spin Fast"
+                "Lick",
+                "Fire Spin"
             ]
         },
         "stats": {
@@ -24269,8 +24269,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Metal Claw Fast"
+                "Bug Bite",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -24292,8 +24292,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Dragon Breath Fast"
+                "Tackle",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -24315,8 +24315,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Bite Fast",
-                "Dragon Breath Fast"
+                "Bite",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -24338,8 +24338,8 @@ var pokemonData = [
                 "Flash Cannon"
             ],
             "quick": [
-                "Bite Fast",
-                "Dragon Breath Fast"
+                "Bite",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -24361,8 +24361,8 @@ var pokemonData = [
                 "Flame Wheel"
             ],
             "quick": [
-                "Ember Fast",
-                "Bug Bite Fast"
+                "Ember",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -24385,8 +24385,8 @@ var pokemonData = [
                 "Hurricane"
             ],
             "quick": [
-                "Fire Spin Fast",
-                "Bug Bite Fast"
+                "Fire Spin",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -24408,9 +24408,9 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Zen Headbutt Fast",
-                "Double Kick Fast"
+                "Metal Claw",
+                "Zen Headbutt",
+                "Double Kick"
             ]
         },
         "stats": {
@@ -24432,9 +24432,9 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Smack Down Fast",
-                "Zen Headbutt Fast",
-                "Double Kick Fast"
+                "Smack Down",
+                "Zen Headbutt",
+                "Double Kick"
             ]
         },
         "stats": {
@@ -24456,9 +24456,9 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Zen Headbutt Fast",
-                "Double Kick Fast"
+                "Quick Attack",
+                "Zen Headbutt",
+                "Double Kick"
             ]
         },
         "stats": {
@@ -24481,8 +24481,8 @@ var pokemonData = [
                 "Hurricane"
             ],
             "quick": [
-                "Bite Fast",
-                "Air Slash Fast"
+                "Bite",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -24504,8 +24504,8 @@ var pokemonData = [
                 "Hurricane"
             ],
             "quick": [
-                "Astonish Fast",
-                "Gust Fast"
+                "Astonish",
+                "Gust"
             ]
         },
         "stats": {
@@ -24527,8 +24527,8 @@ var pokemonData = [
                 "Thunder Punch"
             ],
             "quick": [
-                "Astonish Fast",
-                "Thunder Shock Fast"
+                "Astonish",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -24551,8 +24551,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Bite Fast",
-                "Volt Switch Fast"
+                "Bite",
+                "Volt Switch"
             ]
         },
         "stats": {
@@ -24575,8 +24575,8 @@ var pokemonData = [
                 "Stone Edge"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Fire Fang Fast"
+                "Dragon Breath",
+                "Fire Fang"
             ]
         },
         "stats": {
@@ -24599,8 +24599,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Charge Beam Fast"
+                "Dragon Breath",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -24623,8 +24623,8 @@ var pokemonData = [
                 "Focus Blast"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Rock Throw Fast"
+                "Mud Shot",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -24647,8 +24647,8 @@ var pokemonData = [
                 "Super Power"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Extrasensory Fast"
+                "Mud Shot",
+                "Extrasensory"
             ]
         },
         "stats": {
@@ -24671,8 +24671,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Shadow Claw Fast"
+                "Dragon Tail",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -24694,8 +24694,8 @@ var pokemonData = [
                 "Draco Meteor"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Steel Wing Fast"
+                "Dragon Breath",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -24718,8 +24718,8 @@ var pokemonData = [
                 "Focus Blast"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Steel Wing Fast"
+                "Dragon Breath",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -24742,8 +24742,8 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Low Kick Fast"
+                "Poison Jab",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -24766,8 +24766,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Low Kick Fast"
+                "Quick Attack",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -24790,8 +24790,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Confusion Fast"
+                "Quick Attack",
+                "Confusion"
             ]
         },
         "stats": {
@@ -24814,8 +24814,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Low Kick Fast"
+                "Quick Attack",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -24837,8 +24837,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Fury Cutter Fast"
+                "Metal Claw",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -24860,8 +24860,8 @@ var pokemonData = [
                 "Ice Beam"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Fury Cutter Fast"
+                "Metal Claw",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -24883,8 +24883,8 @@ var pokemonData = [
                 "Gunk Shot"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Fury Cutter Fast"
+                "Metal Claw",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -24906,8 +24906,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Fury Cutter Fast"
+                "Metal Claw",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -24929,8 +24929,8 @@ var pokemonData = [
                 "Zap Cannon"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Fury Cutter Fast"
+                "Metal Claw",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -24952,8 +24952,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Take Down Fast",
-                "Vine Whip Fast"
+                "Take Down",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -24974,8 +24974,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Vine Whip Fast"
+                "Low Kick",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -24997,9 +24997,9 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Vine Whip Fast",
-                "Smack Down Fast"
+                "Low Kick",
+                "Vine Whip",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -25021,8 +25021,8 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Scratch Fast",
-                "Ember Fast"
+                "Scratch",
+                "Ember"
             ]
         },
         "stats": {
@@ -25043,8 +25043,8 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Scratch Fast",
-                "Ember Fast"
+                "Scratch",
+                "Ember"
             ]
         },
         "stats": {
@@ -25066,9 +25066,9 @@ var pokemonData = [
                 "Fire Blast"
             ],
             "quick": [
-                "Scratch Fast",
-                "Fire Spin Fast",
-                "Zen Headbutt Fast"
+                "Scratch",
+                "Fire Spin",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -25090,8 +25090,8 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Pound Fast",
-                "Bubble Fast"
+                "Pound",
+                "Bubble"
             ]
         },
         "stats": {
@@ -25112,8 +25112,8 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Pound Fast",
-                "Bubble Fast"
+                "Pound",
+                "Bubble"
             ]
         },
         "stats": {
@@ -25135,8 +25135,8 @@ var pokemonData = [
                 "Hydro Pump"
             ],
             "quick": [
-                "Feint Attack Fast",
-                "Bubble Fast"
+                "Feint Attack",
+                "Bubble"
             ]
         },
         "stats": {
@@ -25158,8 +25158,8 @@ var pokemonData = [
                 "Earthquake"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Quick Attack Fast"
+                "Mud Slap",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -25181,8 +25181,8 @@ var pokemonData = [
                 "Fire Punch"
             ],
             "quick": [
-                "Mud Shot Fast",
-                "Quick Attack Fast"
+                "Mud Shot",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -25204,8 +25204,8 @@ var pokemonData = [
                 "Swift"
             ],
             "quick": [
-                "Peck Fast",
-                "Quick Attack Fast"
+                "Peck",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -25227,9 +25227,9 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Peck Fast",
-                "Ember Fast",
-                "Steel Wing Fast"
+                "Peck",
+                "Ember",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -25252,9 +25252,9 @@ var pokemonData = [
                 "Hurricane"
             ],
             "quick": [
-                "Peck Fast",
-                "Fire Spin Fast",
-                "Steel Wing Fast"
+                "Peck",
+                "Fire Spin",
+                "Steel Wing"
             ]
         },
         "stats": {
@@ -25274,8 +25274,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Tackle Fast"
+                "Bug Bite",
+                "Tackle"
             ]
         },
         "stats": {
@@ -25294,8 +25294,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Tackle Fast"
+                "Bug Bite",
+                "Tackle"
             ]
         },
         "stats": {
@@ -25317,9 +25317,9 @@ var pokemonData = [
                 "Hurricane"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Gust Fast",
-                "Struggle Bug Fast"
+                "Bug Bite",
+                "Gust",
+                "Struggle Bug"
             ]
         },
         "stats": {
@@ -25341,9 +25341,9 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Fire Fang Fast",
-                "Tackle Fast",
-                "Ember Fast"
+                "Fire Fang",
+                "Tackle",
+                "Ember"
             ]
         },
         "stats": {
@@ -25366,9 +25366,9 @@ var pokemonData = [
                 "Overheat"
             ],
             "quick": [
-                "Fire Fang Fast",
-                "Take Down Fast",
-                "Ember Fast"
+                "Fire Fang",
+                "Take Down",
+                "Ember"
             ]
         },
         "stats": {
@@ -25391,8 +25391,8 @@ var pokemonData = [
                 "Overheat"
             ],
             "quick": [
-                "Fire Fang Fast",
-                "Take Down Fast"
+                "Fire Fang",
+                "Take Down"
             ]
         },
         "stats": {
@@ -25415,8 +25415,8 @@ var pokemonData = [
                 "Overheat"
             ],
             "quick": [
-                "Fire Fang Fast",
-                "Take Down Fast"
+                "Fire Fang",
+                "Take Down"
             ]
         },
         "stats": {
@@ -25438,8 +25438,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Tackle Fast"
+                "Vine Whip",
+                "Tackle"
             ]
         },
         "stats": {
@@ -25460,8 +25460,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Tackle Fast"
+                "Vine Whip",
+                "Tackle"
             ]
         },
         "stats": {
@@ -25483,10 +25483,10 @@ var pokemonData = [
                 "Disarming Voice"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Tackle Fast",
-                "Razor Leaf Fast",
-                "Fairy Wind Fast"
+                "Vine Whip",
+                "Tackle",
+                "Razor Leaf",
+                "Fairy Wind"
             ]
         },
         "stats": {
@@ -25507,8 +25507,8 @@ var pokemonData = [
                 "Seed Bomb"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Rock Smash Fast"
+                "Zen Headbutt",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -25530,9 +25530,9 @@ var pokemonData = [
                 "Seed Bomb"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Rock Smash Fast",
-                "Vine Whip Fast"
+                "Zen Headbutt",
+                "Rock Smash",
+                "Vine Whip"
             ]
         },
         "stats": {
@@ -25553,8 +25553,8 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Tackle Fast"
+                "Low Kick",
+                "Tackle"
             ]
         },
         "stats": {
@@ -25576,9 +25576,9 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Low Kick Fast",
-                "Snarl Fast",
-                "Bullet Punch Fast"
+                "Low Kick",
+                "Snarl",
+                "Bullet Punch"
             ]
         },
         "stats": {
@@ -25600,9 +25600,9 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Take Down Fast",
-                "Bite Fast",
-                "Sucker Punch Fast"
+                "Take Down",
+                "Bite",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -25623,8 +25623,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Confusion Fast",
-                "Scratch Fast"
+                "Confusion",
+                "Scratch"
             ]
         },
         "stats": {
@@ -25645,8 +25645,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Confusion Fast",
-                "Charm Fast"
+                "Confusion",
+                "Charm"
             ]
         },
         "stats": {
@@ -25667,8 +25667,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Confusion Fast",
-                "Sucker Punch Fast"
+                "Confusion",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -25688,8 +25688,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Charm Fast",
-                "Charge Beam Fast"
+                "Charm",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -25711,8 +25711,8 @@ var pokemonData = [
                 "Draining Kiss"
             ],
             "quick": [
-                "Charm Fast",
-                "Charge Beam Fast"
+                "Charm",
+                "Charge Beam"
             ]
         },
         "stats": {
@@ -25732,7 +25732,7 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Tackle Fast"
+                "Tackle"
             ]
         },
         "stats": {
@@ -25754,9 +25754,9 @@ var pokemonData = [
                 "Draining Kiss"
             ],
             "quick": [
-                "Tackle Fast",
-                "Charm Fast",
-                "Fairy Wind Fast"
+                "Tackle",
+                "Charm",
+                "Fairy Wind"
             ]
         },
         "stats": {
@@ -25776,8 +25776,8 @@ var pokemonData = [
                 "Night Slash"
             ],
             "quick": [
-                "Peck Fast",
-                "Tackle Fast"
+                "Peck",
+                "Tackle"
             ]
         },
         "stats": {
@@ -25800,8 +25800,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Peck Fast",
-                "Psycho Cut Fast"
+                "Peck",
+                "Psycho Cut"
             ]
         },
         "stats": {
@@ -25823,8 +25823,8 @@ var pokemonData = [
                 "Dig"
             ],
             "quick": [
-                "Scratch Fast",
-                "Mud Slap Fast"
+                "Scratch",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -25847,9 +25847,9 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Mud Slap Fast",
-                "Fury Cutter Fast"
+                "Water Gun",
+                "Mud Slap",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -25872,8 +25872,8 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Acid Fast"
+                "Water Gun",
+                "Acid"
             ]
         },
         "stats": {
@@ -25896,9 +25896,9 @@ var pokemonData = [
                 "Gunk Shot"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Acid Fast",
-                "Dragon Tail Fast"
+                "Water Gun",
+                "Acid",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -25920,8 +25920,8 @@ var pokemonData = [
                 "Aqua Jet"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Smack Down Fast"
+                "Water Gun",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -25943,8 +25943,8 @@ var pokemonData = [
                 "Crabhammer"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Smack Down Fast"
+                "Water Gun",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -25965,8 +25965,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Thunder Shock Fast"
+                "Quick Attack",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -25989,9 +25989,9 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Volt Switch Fast",
-                "Mud Slap Fast"
+                "Quick Attack",
+                "Volt Switch",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -26013,8 +26013,8 @@ var pokemonData = [
                 "Dragon Claw"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Tackle Fast"
+                "Dragon Tail",
+                "Tackle"
             ]
         },
         "stats": {
@@ -26037,9 +26037,9 @@ var pokemonData = [
                 "Earthquake"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Charm Fast",
-                "Rock Throw Fast"
+                "Dragon Tail",
+                "Charm",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -26062,8 +26062,8 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Frost Breath Fast"
+                "Powder Snow",
+                "Frost Breath"
             ]
         },
         "stats": {
@@ -26087,9 +26087,9 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Frost Breath Fast",
-                "Rock Throw Fast"
+                "Powder Snow",
+                "Frost Breath",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -26111,8 +26111,8 @@ var pokemonData = [
                 "Draining Kiss"
             ],
             "quick": [
-                "Charm Fast",
-                "Quick Attack Fast"
+                "Charm",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -26134,9 +26134,9 @@ var pokemonData = [
                 "Power Up Punch"
             ],
             "quick": [
-                "Wing Attack Fast",
-                "Low Kick Fast",
-                "Poison Jab Fast"
+                "Wing Attack",
+                "Low Kick",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -26157,8 +26157,8 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Tackle Fast",
-                "Thunder Shock Fast"
+                "Tackle",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -26180,8 +26180,8 @@ var pokemonData = [
                 "Power Gem"
             ],
             "quick": [
-                "Tackle Fast",
-                "Rock Throw Fast"
+                "Tackle",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -26203,8 +26203,8 @@ var pokemonData = [
                 "Muddy Water"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Tackle Fast"
+                "Water Gun",
+                "Tackle"
             ]
         },
         "stats": {
@@ -26226,8 +26226,8 @@ var pokemonData = [
                 "Water Pulse"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Tackle Fast"
+                "Water Gun",
+                "Tackle"
             ]
         },
         "stats": {
@@ -26249,8 +26249,8 @@ var pokemonData = [
                 "Power Whip"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Dragon Breath Fast"
+                "Water Gun",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -26272,8 +26272,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Astonish Fast",
-                "Tackle Fast"
+                "Astonish",
+                "Tackle"
             ]
         },
         "stats": {
@@ -26295,8 +26295,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Astonish Fast",
-                "Tackle Fast"
+                "Astonish",
+                "Tackle"
             ]
         },
         "stats": {
@@ -26318,8 +26318,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Shadow Claw Fast",
-                "Sucker Punch Fast"
+                "Shadow Claw",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -26341,8 +26341,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Astonish Fast",
-                "Razor Leaf Fast"
+                "Astonish",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -26364,8 +26364,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Astonish Fast",
-                "Razor Leaf Fast"
+                "Astonish",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -26387,8 +26387,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Astonish Fast",
-                "Razor Leaf Fast"
+                "Astonish",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -26410,8 +26410,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Astonish Fast",
-                "Razor Leaf Fast"
+                "Astonish",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -26434,8 +26434,8 @@ var pokemonData = [
                 "Fire Blast"
             ],
             "quick": [
-                "Hex Fast",
-                "Razor Leaf Fast"
+                "Hex",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -26458,8 +26458,8 @@ var pokemonData = [
                 "Fire Blast"
             ],
             "quick": [
-                "Hex Fast",
-                "Razor Leaf Fast"
+                "Hex",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -26482,8 +26482,8 @@ var pokemonData = [
                 "Fire Blast"
             ],
             "quick": [
-                "Hex Fast",
-                "Razor Leaf Fast"
+                "Hex",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -26506,8 +26506,8 @@ var pokemonData = [
                 "Fire Blast"
             ],
             "quick": [
-                "Hex Fast",
-                "Razor Leaf Fast"
+                "Hex",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -26529,8 +26529,8 @@ var pokemonData = [
                 "Mirror Coat"
             ],
             "quick": [
-                "Bite Fast",
-                "Tackle Fast"
+                "Bite",
+                "Tackle"
             ]
         },
         "stats": {
@@ -26553,8 +26553,8 @@ var pokemonData = [
                 "Mirror Coat"
             ],
             "quick": [
-                "Bite Fast",
-                "Ice Fang Fast"
+                "Bite",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -26575,8 +26575,8 @@ var pokemonData = [
                 "Heat Wave"
             ],
             "quick": [
-                "Wing Attack Fast",
-                "Bite Fast"
+                "Wing Attack",
+                "Bite"
             ]
         },
         "stats": {
@@ -26599,8 +26599,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Bite Fast"
+                "Air Slash",
+                "Bite"
             ]
         },
         "stats": {
@@ -26624,8 +26624,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Tackle Fast",
-                "Zen Headbutt Fast"
+                "Tackle",
+                "Zen Headbutt"
             ]
         },
         "stats": {
@@ -26648,9 +26648,9 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Sucker Punch Fast",
-                "Snarl Fast",
-                "Gust Fast"
+                "Sucker Punch",
+                "Snarl",
+                "Gust"
             ]
         },
         "stats": {
@@ -26672,8 +26672,8 @@ var pokemonData = [
                 "Power Gem"
             ],
             "quick": [
-                "Tackle Fast",
-                "Rock Throw Fast"
+                "Tackle",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -26695,8 +26695,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Confusion Fast",
-                "Astonish Fast"
+                "Confusion",
+                "Astonish"
             ]
         },
         "stats": {
@@ -26718,8 +26718,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Confusion Fast",
-                "Astonish Fast"
+                "Confusion",
+                "Astonish"
             ]
         },
         "stats": {
@@ -26742,9 +26742,9 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Incinerate Fast",
-                "Water Gun Fast",
-                "Take Down Fast"
+                "Incinerate",
+                "Water Gun",
+                "Take Down"
             ]
         },
         "stats": {
@@ -26765,8 +26765,8 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Tackle Fast",
-                "Razor Leaf Fast"
+                "Tackle",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -26788,8 +26788,8 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Peck Fast",
-                "Razor Leaf Fast"
+                "Peck",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -26811,8 +26811,8 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Astonish Fast",
-                "Razor Leaf Fast"
+                "Astonish",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -26834,8 +26834,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Scratch Fast",
-                "Ember Fast"
+                "Scratch",
+                "Ember"
             ]
         },
         "stats": {
@@ -26856,8 +26856,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Bite Fast",
-                "Ember Fast"
+                "Bite",
+                "Ember"
             ]
         },
         "stats": {
@@ -26878,9 +26878,9 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Snarl Fast",
-                "Fire Fang Fast",
-                "Double Kick Fast"
+                "Snarl",
+                "Fire Fang",
+                "Double Kick"
             ]
         },
         "stats": {
@@ -26902,8 +26902,8 @@ var pokemonData = [
                 "Aqua Tail"
             ],
             "quick": [
-                "Pound Fast",
-                "Water Gun Fast"
+                "Pound",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -26924,8 +26924,8 @@ var pokemonData = [
                 "Disarming Voice"
             ],
             "quick": [
-                "Charm Fast",
-                "Water Gun Fast"
+                "Charm",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -26946,8 +26946,8 @@ var pokemonData = [
                 "Moonblast"
             ],
             "quick": [
-                "Charm Fast",
-                "Waterfall Fast"
+                "Charm",
+                "Waterfall"
             ]
         },
         "stats": {
@@ -26969,8 +26969,8 @@ var pokemonData = [
                 "Sky Attack"
             ],
             "quick": [
-                "Peck Fast",
-                "Rock Smash Fast"
+                "Peck",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -26992,8 +26992,8 @@ var pokemonData = [
                 "Sky Attack"
             ],
             "quick": [
-                "Peck Fast",
-                "Rock Smash Fast"
+                "Peck",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -27015,9 +27015,9 @@ var pokemonData = [
                 "Flash Cannon"
             ],
             "quick": [
-                "Peck Fast",
-                "Rock Smash Fast",
-                "Bullet Seed Fast"
+                "Peck",
+                "Rock Smash",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -27039,8 +27039,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bite Fast"
+                "Tackle",
+                "Bite"
             ]
         },
         "stats": {
@@ -27061,8 +27061,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Take Down Fast",
-                "Bite Fast"
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -27083,8 +27083,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Spark Fast"
+                "Bug Bite",
+                "Spark"
             ]
         },
         "stats": {
@@ -27105,8 +27105,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Spark Fast"
+                "Bug Bite",
+                "Spark"
             ]
         },
         "stats": {
@@ -27128,9 +27128,9 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Spark Fast",
-                "Mud Slap Fast"
+                "Bug Bite",
+                "Spark",
+                "Mud Slap"
             ]
         },
         "stats": {
@@ -27152,8 +27152,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Bubble Fast"
+                "Rock Smash",
+                "Bubble"
             ]
         },
         "stats": {
@@ -27175,8 +27175,8 @@ var pokemonData = [
                 "Ice Punch"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Bubble Fast"
+                "Rock Smash",
+                "Bubble"
             ]
         },
         "stats": {
@@ -27198,8 +27198,8 @@ var pokemonData = [
                 "Hurricane"
             ],
             "quick": [
-                "Pound Fast",
-                "Air Slash Fast"
+                "Pound",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -27221,8 +27221,8 @@ var pokemonData = [
                 "Hurricane"
             ],
             "quick": [
-                "Pound Fast",
-                "Air Slash Fast"
+                "Pound",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -27244,8 +27244,8 @@ var pokemonData = [
                 "Hurricane"
             ],
             "quick": [
-                "Pound Fast",
-                "Air Slash Fast"
+                "Pound",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -27267,8 +27267,8 @@ var pokemonData = [
                 "Hurricane"
             ],
             "quick": [
-                "Pound Fast",
-                "Air Slash Fast"
+                "Pound",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -27289,8 +27289,8 @@ var pokemonData = [
                 "Bug Buzz"
             ],
             "quick": [
-                "Fairy Wind Fast",
-                "Struggle Bug Fast"
+                "Fairy Wind",
+                "Struggle Bug"
             ]
         },
         "stats": {
@@ -27311,8 +27311,8 @@ var pokemonData = [
                 "Bug Buzz"
             ],
             "quick": [
-                "Fairy Wind Fast",
-                "Struggle Bug Fast"
+                "Fairy Wind",
+                "Struggle Bug"
             ]
         },
         "stats": {
@@ -27334,8 +27334,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Tackle Fast",
-                "Rock Throw Fast"
+                "Tackle",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -27356,8 +27356,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Sucker Punch Fast",
-                "Rock Throw Fast"
+                "Sucker Punch",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -27378,9 +27378,9 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Sucker Punch Fast",
-                "Counter Fast",
-                "Rock Throw Fast"
+                "Sucker Punch",
+                "Counter",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -27401,8 +27401,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Counter Fast",
-                "Rock Throw Fast"
+                "Counter",
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -27423,9 +27423,9 @@ var pokemonData = [
                 "Aqua Tail"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Waterfall Fast",
-                "Iron Tail Fast"
+                "Water Gun",
+                "Waterfall",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -27446,9 +27446,9 @@ var pokemonData = [
                 "Aqua Tail"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Waterfall Fast",
-                "Iron Tail Fast"
+                "Water Gun",
+                "Waterfall",
+                "Iron Tail"
             ]
         },
         "stats": {
@@ -27469,8 +27469,8 @@ var pokemonData = [
                 "Sludge Wave"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Bite Fast"
+                "Poison Sting",
+                "Bite"
             ]
         },
         "stats": {
@@ -27492,8 +27492,8 @@ var pokemonData = [
                 "Sludge Wave"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Bite Fast"
+                "Poison Jab",
+                "Bite"
             ]
         },
         "stats": {
@@ -27515,8 +27515,8 @@ var pokemonData = [
                 "Earthquake"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Rock Smash Fast"
+                "Mud Slap",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -27538,8 +27538,8 @@ var pokemonData = [
                 "Heavy Slam"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Rock Smash Fast"
+                "Mud Slap",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -27560,8 +27560,8 @@ var pokemonData = [
                 "Mirror Coat"
             ],
             "quick": [
-                "Infestation Fast",
-                "Bug Bite Fast"
+                "Infestation",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -27583,8 +27583,8 @@ var pokemonData = [
                 "Mirror Coat"
             ],
             "quick": [
-                "Infestation Fast",
-                "Bug Bite Fast"
+                "Infestation",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -27606,8 +27606,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Fury Cutter Fast"
+                "Razor Leaf",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -27629,8 +27629,8 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Fury Cutter Fast"
+                "Razor Leaf",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -27651,7 +27651,7 @@ var pokemonData = [
                 "Seed Bomb"
             ],
             "quick": [
-                "Astonish Fast"
+                "Astonish"
             ]
         },
         "stats": {
@@ -27674,7 +27674,7 @@ var pokemonData = [
                 "Sludge Bomb"
             ],
             "quick": [
-                "Astonish Fast"
+                "Astonish"
             ]
         },
         "stats": {
@@ -27696,8 +27696,8 @@ var pokemonData = [
                 "Dragon Pulse"
             ],
             "quick": [
-                "Ember Fast",
-                "Poison Jab Fast"
+                "Ember",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -27720,8 +27720,8 @@ var pokemonData = [
                 "Sludge Wave"
             ],
             "quick": [
-                "Incinerate Fast",
-                "Poison Jab Fast"
+                "Incinerate",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -27743,8 +27743,8 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast"
+                "Tackle",
+                "Take Down"
             ]
         },
         "stats": {
@@ -27766,9 +27766,9 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Tackle Fast",
-                "Low Kick Fast",
-                "Shadow Claw Fast"
+                "Tackle",
+                "Low Kick",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -27789,8 +27789,8 @@ var pokemonData = [
                 "Draining Kiss"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Charm Fast"
+                "Razor Leaf",
+                "Charm"
             ]
         },
         "stats": {
@@ -27811,8 +27811,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Charm Fast"
+                "Razor Leaf",
+                "Charm"
             ]
         },
         "stats": {
@@ -27834,9 +27834,9 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Charm Fast",
-                "Magical Leaf Fast"
+                "Razor Leaf",
+                "Charm",
+                "Magical Leaf"
             ]
         },
         "stats": {
@@ -27857,8 +27857,8 @@ var pokemonData = [
                 "Draining Kiss"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Hidden Power Fast"
+                "Vine Whip",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -27879,9 +27879,9 @@ var pokemonData = [
                 "Futuresight"
             ],
             "quick": [
-                "Confusion Fast",
-                "Zen Headbutt Fast",
-                "Yawn Fast"
+                "Confusion",
+                "Zen Headbutt",
+                "Yawn"
             ]
         },
         "stats": {
@@ -27903,9 +27903,9 @@ var pokemonData = [
                 "Super Power"
             ],
             "quick": [
-                "Counter Fast",
-                "Rock Smash Fast",
-                "Take Down Fast"
+                "Counter",
+                "Rock Smash",
+                "Take Down"
             ]
         },
         "stats": {
@@ -27924,7 +27924,7 @@ var pokemonData = [
                 "Bug Buzz"
             ],
             "quick": [
-                "Struggle Bug Fast"
+                "Struggle Bug"
             ]
         },
         "stats": {
@@ -27946,10 +27946,10 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Fury Cutter Fast",
-                "Metal Claw Fast",
-                "Waterfall Fast",
-                "Shadow Claw Fast"
+                "Fury Cutter",
+                "Metal Claw",
+                "Waterfall",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -27971,8 +27971,8 @@ var pokemonData = [
                 "Earth Power"
             ],
             "quick": [
-                "Astonish Fast",
-                "Mud Shot Fast"
+                "Astonish",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -27994,8 +27994,8 @@ var pokemonData = [
                 "Earth Power"
             ],
             "quick": [
-                "Astonish Fast",
-                "Mud Shot Fast"
+                "Astonish",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -28015,7 +28015,7 @@ var pokemonData = [
                 "Mirror Coat"
             ],
             "quick": [
-                "Counter Fast"
+                "Counter"
             ]
         },
         "stats": {
@@ -28036,8 +28036,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast"
+                "Tackle",
+                "Take Down"
             ]
         },
         "stats": {
@@ -28059,9 +28059,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28083,9 +28083,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28107,9 +28107,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28131,9 +28131,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28155,9 +28155,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28179,9 +28179,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28203,9 +28203,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28227,9 +28227,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28251,9 +28251,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28275,9 +28275,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28299,9 +28299,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28323,9 +28323,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28347,9 +28347,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28371,9 +28371,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28395,9 +28395,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28419,9 +28419,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28443,9 +28443,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28467,9 +28467,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Bite Fast"
+                "Tackle",
+                "Take Down",
+                "Bite"
             ]
         },
         "stats": {
@@ -28490,8 +28490,8 @@ var pokemonData = [
                 "Acrobatics"
             ],
             "quick": [
-                "Rollout Fast",
-                "Take Down Fast"
+                "Rollout",
+                "Take Down"
             ]
         },
         "stats": {
@@ -28513,8 +28513,8 @@ var pokemonData = [
                 "Acrobatics"
             ],
             "quick": [
-                "Rollout Fast",
-                "Take Down Fast"
+                "Rollout",
+                "Take Down"
             ]
         },
         "stats": {
@@ -28536,8 +28536,8 @@ var pokemonData = [
                 "Acrobatics"
             ],
             "quick": [
-                "Rollout Fast",
-                "Take Down Fast"
+                "Rollout",
+                "Take Down"
             ]
         },
         "stats": {
@@ -28559,8 +28559,8 @@ var pokemonData = [
                 "Acrobatics"
             ],
             "quick": [
-                "Rollout Fast",
-                "Take Down Fast"
+                "Rollout",
+                "Take Down"
             ]
         },
         "stats": {
@@ -28582,8 +28582,8 @@ var pokemonData = [
                 "Acrobatics"
             ],
             "quick": [
-                "Rollout Fast",
-                "Take Down Fast"
+                "Rollout",
+                "Take Down"
             ]
         },
         "stats": {
@@ -28605,8 +28605,8 @@ var pokemonData = [
                 "Acrobatics"
             ],
             "quick": [
-                "Rollout Fast",
-                "Take Down Fast"
+                "Rollout",
+                "Take Down"
             ]
         },
         "stats": {
@@ -28628,8 +28628,8 @@ var pokemonData = [
                 "Acrobatics"
             ],
             "quick": [
-                "Rollout Fast",
-                "Take Down Fast"
+                "Rollout",
+                "Take Down"
             ]
         },
         "stats": {
@@ -28651,8 +28651,8 @@ var pokemonData = [
                 "Acrobatics"
             ],
             "quick": [
-                "Rollout Fast",
-                "Take Down Fast"
+                "Rollout",
+                "Take Down"
             ]
         },
         "stats": {
@@ -28674,8 +28674,8 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Rollout Fast",
-                "Yawn Fast"
+                "Rollout",
+                "Yawn"
             ]
         },
         "stats": {
@@ -28696,8 +28696,8 @@ var pokemonData = [
                 "Dragon Pulse"
             ],
             "quick": [
-                "Ember Fast",
-                "Fire Spin Fast"
+                "Ember",
+                "Fire Spin"
             ]
         },
         "stats": {
@@ -28719,8 +28719,8 @@ var pokemonData = [
                 "Gyro Ball"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Spark Fast"
+                "Thunder Shock",
+                "Spark"
             ]
         },
         "stats": {
@@ -28742,8 +28742,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Shadow Claw Fast",
-                "Charm Fast"
+                "Shadow Claw",
+                "Charm"
             ]
         },
         "stats": {
@@ -28765,9 +28765,9 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Confusion Fast",
-                "Bite Fast"
+                "Water Gun",
+                "Confusion",
+                "Bite"
             ]
         },
         "stats": {
@@ -28789,8 +28789,8 @@ var pokemonData = [
                 "Fly"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Extrasensory Fast"
+                "Dragon Breath",
+                "Extrasensory"
             ]
         },
         "stats": {
@@ -28812,8 +28812,8 @@ var pokemonData = [
                 "Heavy Slam"
             ],
             "quick": [
-                "Astonish Fast",
-                "Shadow Claw Fast"
+                "Astonish",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -28835,8 +28835,8 @@ var pokemonData = [
                 "Dragon Pulse"
             ],
             "quick": [
-                "Tackle Fast",
-                "Dragon Tail Fast"
+                "Tackle",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -28857,8 +28857,8 @@ var pokemonData = [
                 "Dragon Pulse"
             ],
             "quick": [
-                "Tackle Fast",
-                "Dragon Tail Fast"
+                "Tackle",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -28880,8 +28880,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Poison Jab Fast",
-                "Dragon Tail Fast"
+                "Poison Jab",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -28904,8 +28904,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Volt Switch Fast",
-                "Quick Attack Fast"
+                "Volt Switch",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -28928,8 +28928,8 @@ var pokemonData = [
                 "Futuresight"
             ],
             "quick": [
-                "Confusion Fast",
-                "Astonish Fast"
+                "Confusion",
+                "Astonish"
             ]
         },
         "stats": {
@@ -28952,8 +28952,8 @@ var pokemonData = [
                 "Solar Beam"
             ],
             "quick": [
-                "Bullet Seed Fast",
-                "Rock Smash Fast"
+                "Bullet Seed",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -28976,8 +28976,8 @@ var pokemonData = [
                 "Hydro Pump"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Hidden Power Fast"
+                "Water Gun",
+                "Hidden Power"
             ]
         },
         "stats": {
@@ -28997,7 +28997,7 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Splash Fast"
+                "Splash"
             ]
         },
         "stats": {
@@ -29016,7 +29016,7 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Splash Fast"
+                "Splash"
             ]
         },
         "stats": {
@@ -29038,8 +29038,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Zen Headbutt Fast",
-                "Fire Spin Fast"
+                "Zen Headbutt",
+                "Fire Spin"
             ]
         },
         "stats": {
@@ -29062,8 +29062,8 @@ var pokemonData = [
                 "Futuresight"
             ],
             "quick": [
-                "Confusion Fast",
-                "Air Slash Fast"
+                "Confusion",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -29086,9 +29086,9 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Acid Fast",
-                "Pound Fast",
-                "Poison Jab Fast"
+                "Acid",
+                "Pound",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -29111,8 +29111,8 @@ var pokemonData = [
                 "Super Power"
             ],
             "quick": [
-                "Counter Fast",
-                "Poison Jab Fast"
+                "Counter",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -29135,8 +29135,8 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Low Kick Fast"
+                "Bug Bite",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -29159,8 +29159,8 @@ var pokemonData = [
                 "Dazzling Gleam"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Spark Fast"
+                "Thunder Shock",
+                "Spark"
             ]
         },
         "stats": {
@@ -29182,8 +29182,8 @@ var pokemonData = [
                 "Bulldoze"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Smack Down Fast"
+                "Air Slash",
+                "Smack Down"
             ]
         },
         "stats": {
@@ -29206,8 +29206,8 @@ var pokemonData = [
                 "Aerial Ace"
             ],
             "quick": [
-                "Air Slash Fast",
-                "Razor Leaf Fast"
+                "Air Slash",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -29465,7 +29465,7 @@ var pokemonData = [
                 "Thunderbolt"
             ],
             "quick": [
-                "Thunder Shock Fast"
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -29488,7 +29488,7 @@ var pokemonData = [
                 "Super Power"
             ],
             "quick": [
-                "Thunder Shock Fast"
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -29508,8 +29508,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Scratch Fast",
-                "Razor Leaf Fast"
+                "Scratch",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -29529,8 +29529,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Scratch Fast",
-                "Razor Leaf Fast"
+                "Scratch",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -29551,8 +29551,8 @@ var pokemonData = [
                 "Earth Power"
             ],
             "quick": [
-                "Scratch Fast",
-                "Razor Leaf Fast"
+                "Scratch",
+                "Razor Leaf"
             ]
         },
         "stats": {
@@ -29572,8 +29572,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Tackle Fast",
-                "Ember Fast"
+                "Tackle",
+                "Ember"
             ]
         },
         "stats": {
@@ -29593,8 +29593,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Tackle Fast",
-                "Ember Fast"
+                "Tackle",
+                "Ember"
             ]
         },
         "stats": {
@@ -29615,8 +29615,8 @@ var pokemonData = [
                 "Focus Blast"
             ],
             "quick": [
-                "Tackle Fast",
-                "Ember Fast"
+                "Tackle",
+                "Ember"
             ]
         },
         "stats": {
@@ -29636,8 +29636,8 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Pound Fast",
-                "Water Gun Fast"
+                "Pound",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -29657,8 +29657,8 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Pound Fast",
-                "Water Gun Fast"
+                "Pound",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -29679,8 +29679,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Pound Fast",
-                "Water Gun Fast"
+                "Pound",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -29700,9 +29700,9 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bite Fast",
-                "Bullet Seed Fast"
+                "Tackle",
+                "Bite",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -29722,9 +29722,9 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Tackle Fast",
-                "Bite Fast",
-                "Bullet Seed Fast"
+                "Tackle",
+                "Bite",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -29744,8 +29744,8 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Peck Fast",
-                "Air Slash Fast"
+                "Peck",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -29765,8 +29765,8 @@ var pokemonData = [
                 "Brave Bird"
             ],
             "quick": [
-                "Peck Fast",
-                "Air Slash Fast"
+                "Peck",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -29787,8 +29787,8 @@ var pokemonData = [
                 "Iron Head"
             ],
             "quick": [
-                "Steel Wing Fast",
-                "Air Slash Fast"
+                "Steel Wing",
+                "Air Slash"
             ]
         },
         "stats": {
@@ -29808,7 +29808,7 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Struggle Bug Fast"
+                "Struggle Bug"
             ]
         },
         "stats": {
@@ -29828,8 +29828,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Confusion Fast"
+                "Struggle Bug",
+                "Confusion"
             ]
         },
         "stats": {
@@ -29850,8 +29850,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Struggle Bug Fast",
-                "Confusion Fast"
+                "Struggle Bug",
+                "Confusion"
             ]
         },
         "stats": {
@@ -29872,8 +29872,8 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Snarl Fast"
+                "Quick Attack",
+                "Snarl"
             ]
         },
         "stats": {
@@ -29893,8 +29893,8 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Quick Attack Fast",
-                "Snarl Fast"
+                "Quick Attack",
+                "Snarl"
             ]
         },
         "stats": {
@@ -29914,8 +29914,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Bullet Seed Fast"
+                "Razor Leaf",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -29935,8 +29935,8 @@ var pokemonData = [
                 "Grass Knot"
             ],
             "quick": [
-                "Razor Leaf Fast",
-                "Bullet Seed Fast"
+                "Razor Leaf",
+                "Bullet Seed"
             ]
         },
         "stats": {
@@ -29957,8 +29957,8 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast"
+                "Tackle",
+                "Take Down"
             ]
         },
         "stats": {
@@ -29979,9 +29979,9 @@ var pokemonData = [
                 "Body Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast",
-                "Double Kick Fast"
+                "Tackle",
+                "Take Down",
+                "Double Kick"
             ]
         },
         "stats": {
@@ -30001,8 +30001,8 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Water Gun Fast",
-                "Bite Fast"
+                "Water Gun",
+                "Bite"
             ]
         },
         "stats": {
@@ -30023,8 +30023,8 @@ var pokemonData = [
                 "Rock Blast"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Bite Fast"
+                "Waterfall",
+                "Bite"
             ]
         },
         "stats": {
@@ -30045,8 +30045,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Spark Fast",
-                "Bite Fast"
+                "Spark",
+                "Bite"
             ]
         },
         "stats": {
@@ -30066,8 +30066,8 @@ var pokemonData = [
                 "Thunder"
             ],
             "quick": [
-                "Spark Fast",
-                "Bite Fast"
+                "Spark",
+                "Bite"
             ]
         },
         "stats": {
@@ -30087,8 +30087,8 @@ var pokemonData = [
                 "Rock Slide"
             ],
             "quick": [
-                "Smack Down Fast",
-                "Tackle Fast"
+                "Smack Down",
+                "Tackle"
             ]
         },
         "stats": {
@@ -30109,8 +30109,8 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Smack Down Fast",
-                "Incinerate Fast"
+                "Smack Down",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -30132,8 +30132,8 @@ var pokemonData = [
                 "Flame Charge"
             ],
             "quick": [
-                "Smack Down Fast",
-                "Incinerate Fast"
+                "Smack Down",
+                "Incinerate"
             ]
         },
         "stats": {
@@ -30153,7 +30153,7 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Astonish Fast"
+                "Astonish"
             ]
         },
         "stats": {
@@ -30176,8 +30176,8 @@ var pokemonData = [
                 "Seed Bomb"
             ],
             "quick": [
-                "Bullet Seed Fast",
-                "Dragon Breath Fast"
+                "Bullet Seed",
+                "Dragon Breath"
             ]
         },
         "stats": {
@@ -30200,8 +30200,8 @@ var pokemonData = [
                 "Seed Bomb"
             ],
             "quick": [
-                "Bullet Seed Fast",
-                "Astonish Fast"
+                "Bullet Seed",
+                "Astonish"
             ]
         },
         "stats": {
@@ -30223,8 +30223,8 @@ var pokemonData = [
                 "Earth Power"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Mud Shot Fast"
+                "Mud Slap",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -30245,8 +30245,8 @@ var pokemonData = [
                 "Earth Power"
             ],
             "quick": [
-                "Mud Slap Fast",
-                "Mud Shot Fast"
+                "Mud Slap",
+                "Mud Shot"
             ]
         },
         "stats": {
@@ -30267,8 +30267,8 @@ var pokemonData = [
                 "Hydro Pump"
             ],
             "quick": [
-                "Peck Fast",
-                "Water Gun Fast"
+                "Peck",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -30290,9 +30290,9 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Bite Fast",
-                "Peck Fast"
+                "Waterfall",
+                "Bite",
+                "Peck"
             ]
         },
         "stats": {
@@ -30313,9 +30313,9 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Waterfall Fast",
-                "Bite Fast",
-                "Peck Fast"
+                "Waterfall",
+                "Bite",
+                "Peck"
             ]
         },
         "stats": {
@@ -30334,7 +30334,7 @@ var pokemonData = [
                 "Power Up Punch"
             ],
             "quick": [
-                "Acid Fast"
+                "Acid"
             ]
         },
         "stats": {
@@ -30357,9 +30357,9 @@ var pokemonData = [
                 "Power Up Punch"
             ],
             "quick": [
-                "Acid Fast",
-                "Spark Fast",
-                "Poison Jab Fast"
+                "Acid",
+                "Spark",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -30381,8 +30381,8 @@ var pokemonData = [
                 "Crunch"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Ember Fast"
+                "Bug Bite",
+                "Ember"
             ]
         },
         "stats": {
@@ -30405,8 +30405,8 @@ var pokemonData = [
                 "Lunge"
             ],
             "quick": [
-                "Bug Bite Fast",
-                "Ember Fast"
+                "Bug Bite",
+                "Ember"
             ]
         },
         "stats": {
@@ -30428,7 +30428,7 @@ var pokemonData = [
                 "Ice Punch"
             ],
             "quick": [
-                "Rock Smash Fast"
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -30450,8 +30450,8 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Waterfall Fast"
+                "Rock Smash",
+                "Waterfall"
             ]
         },
         "stats": {
@@ -30472,8 +30472,8 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Astonish Fast",
-                "Sucker Punch Fast"
+                "Astonish",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -30494,9 +30494,9 @@ var pokemonData = [
                 "Psychic"
             ],
             "quick": [
-                "Astonish Fast",
-                "Sucker Punch Fast",
-                "Hex Fast"
+                "Astonish",
+                "Sucker Punch",
+                "Hex"
             ]
         },
         "stats": {
@@ -30517,8 +30517,8 @@ var pokemonData = [
                 "Dazzling Gleam"
             ],
             "quick": [
-                "Confusion Fast",
-                "Charm Fast"
+                "Confusion",
+                "Charm"
             ]
         },
         "stats": {
@@ -30539,8 +30539,8 @@ var pokemonData = [
                 "Dazzling Gleam"
             ],
             "quick": [
-                "Confusion Fast",
-                "Charm Fast"
+                "Confusion",
+                "Charm"
             ]
         },
         "stats": {
@@ -30562,9 +30562,9 @@ var pokemonData = [
                 "Power Whip"
             ],
             "quick": [
-                "Confusion Fast",
-                "Charm Fast",
-                "Psycho Cut Fast"
+                "Confusion",
+                "Charm",
+                "Psycho Cut"
             ]
         },
         "stats": {
@@ -30586,8 +30586,8 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Bite Fast",
-                "Sucker Punch Fast"
+                "Bite",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -30609,8 +30609,8 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Bite Fast",
-                "Sucker Punch Fast"
+                "Bite",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -30633,9 +30633,9 @@ var pokemonData = [
                 "Power Up Punch"
             ],
             "quick": [
-                "Bite Fast",
-                "Sucker Punch Fast",
-                "Low Kick Fast"
+                "Bite",
+                "Sucker Punch",
+                "Low Kick"
             ]
         },
         "stats": {
@@ -30658,8 +30658,8 @@ var pokemonData = [
                 "Gunk Shot"
             ],
             "quick": [
-                "Counter Fast",
-                "Lick Fast"
+                "Counter",
+                "Lick"
             ]
         },
         "stats": {
@@ -30682,8 +30682,8 @@ var pokemonData = [
                 "Gunk Shot"
             ],
             "quick": [
-                "Counter Fast",
-                "Lick Fast"
+                "Counter",
+                "Lick"
             ]
         },
         "stats": {
@@ -30706,8 +30706,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Shadow Claw Fast"
+                "Metal Claw",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -30729,8 +30729,8 @@ var pokemonData = [
                 "Foul Play"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Shadow Claw Fast"
+                "Metal Claw",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -30752,8 +30752,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Astonish Fast",
-                "Hex Fast"
+                "Astonish",
+                "Hex"
             ]
         },
         "stats": {
@@ -30775,8 +30775,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Astonish Fast",
-                "Hex Fast"
+                "Astonish",
+                "Hex"
             ]
         },
         "stats": {
@@ -30798,8 +30798,8 @@ var pokemonData = [
                 "Night Slash"
             ],
             "quick": [
-                "Counter Fast",
-                "Fury Cutter Fast"
+                "Counter",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -30821,8 +30821,8 @@ var pokemonData = [
                 "Night Slash"
             ],
             "quick": [
-                "Counter Fast",
-                "Fury Cutter Fast"
+                "Counter",
+                "Fury Cutter"
             ]
         },
         "stats": {
@@ -30844,9 +30844,9 @@ var pokemonData = [
                 "Icy Wind"
             ],
             "quick": [
-                "Confusion Fast",
-                "Zen Headbutt Fast",
-                "Ice Shard Fast"
+                "Confusion",
+                "Zen Headbutt",
+                "Ice Shard"
             ]
         },
         "stats": {
@@ -30869,9 +30869,9 @@ var pokemonData = [
                 "Icy Wind"
             ],
             "quick": [
-                "Confusion Fast",
-                "Zen Headbutt Fast",
-                "Ice Shard Fast"
+                "Confusion",
+                "Zen Headbutt",
+                "Ice Shard"
             ]
         },
         "stats": {
@@ -30893,8 +30893,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Astonish Fast",
-                "Shadow Claw Fast"
+                "Astonish",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -30916,8 +30916,8 @@ var pokemonData = [
                 "Rock Tomb"
             ],
             "quick": [
-                "Astonish Fast",
-                "Shadow Claw Fast"
+                "Astonish",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -30937,8 +30937,8 @@ var pokemonData = [
                 "Dazzling Gleam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Charm Fast"
+                "Tackle",
+                "Charm"
             ]
         },
         "stats": {
@@ -30959,8 +30959,8 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Tackle Fast",
-                "Charm Fast"
+                "Tackle",
+                "Charm"
             ]
         },
         "stats": {
@@ -30981,8 +30981,8 @@ var pokemonData = [
                 "Megahorn"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Counter Fast"
+                "Rock Smash",
+                "Counter"
             ]
         },
         "stats": {
@@ -31003,9 +31003,9 @@ var pokemonData = [
                 "Bubble Beam"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Water Gun Fast",
-                "Poison Jab Fast"
+                "Thunder Shock",
+                "Water Gun",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -31025,8 +31025,8 @@ var pokemonData = [
                 "Bug Buzz"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Struggle Bug Fast"
+                "Powder Snow",
+                "Struggle Bug"
             ]
         },
         "stats": {
@@ -31049,8 +31049,8 @@ var pokemonData = [
                 "Hurricane"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Bug Bite Fast"
+                "Powder Snow",
+                "Bug Bite"
             ]
         },
         "stats": {
@@ -31072,7 +31072,7 @@ var pokemonData = [
                 "Stomp"
             ],
             "quick": [
-                "Rock Throw Fast"
+                "Rock Throw"
             ]
         },
         "stats": {
@@ -31093,7 +31093,7 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Powder Snow Fast"
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -31114,7 +31114,7 @@ var pokemonData = [
                 "Surf"
             ],
             "quick": [
-                "Powder Snow Fast"
+                "Powder Snow"
             ]
         },
         "stats": {
@@ -31135,7 +31135,7 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Extrasensory Fast"
+                "Extrasensory"
             ]
         },
         "stats": {
@@ -31157,7 +31157,7 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Extrasensory Fast"
+                "Extrasensory"
             ]
         },
         "stats": {
@@ -31180,8 +31180,8 @@ var pokemonData = [
                 "Wild Charge"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Bite Fast"
+                "Thunder Shock",
+                "Bite"
             ]
         },
         "stats": {
@@ -31203,8 +31203,8 @@ var pokemonData = [
                 "Play Rough"
             ],
             "quick": [
-                "Tackle Fast",
-                "Rock Smash Fast"
+                "Tackle",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -31226,8 +31226,8 @@ var pokemonData = [
                 "Heavy Slam"
             ],
             "quick": [
-                "Tackle Fast",
-                "Rock Smash Fast"
+                "Tackle",
+                "Rock Smash"
             ]
         },
         "stats": {
@@ -31248,8 +31248,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Thunder Shock Fast"
+                "Dragon Tail",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -31271,8 +31271,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Thunder Shock Fast"
+                "Powder Snow",
+                "Thunder Shock"
             ]
         },
         "stats": {
@@ -31294,8 +31294,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Dragon Breath Fast",
-                "Water Gun Fast"
+                "Dragon Breath",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -31317,8 +31317,8 @@ var pokemonData = [
                 "Ancient Power"
             ],
             "quick": [
-                "Powder Snow Fast",
-                "Water Gun Fast"
+                "Powder Snow",
+                "Water Gun"
             ]
         },
         "stats": {
@@ -31340,8 +31340,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Metal Claw Fast"
+                "Dragon Tail",
+                "Metal Claw"
             ]
         },
         "stats": {
@@ -31361,8 +31361,8 @@ var pokemonData = [
                 "Struggle"
             ],
             "quick": [
-                "Astonish Fast",
-                "Quick Attack Fast"
+                "Astonish",
+                "Quick Attack"
             ]
         },
         "stats": {
@@ -31384,8 +31384,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Astonish Fast",
-                "Dragon Tail Fast"
+                "Astonish",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -31407,8 +31407,8 @@ var pokemonData = [
                 "Outrage"
             ],
             "quick": [
-                "Hex Fast",
-                "Dragon Tail Fast"
+                "Hex",
+                "Dragon Tail"
             ]
         },
         "stats": {
@@ -31431,10 +31431,10 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Snarl Fast",
-                "Quick Attack Fast",
-                "Fire Fang Fast"
+                "Metal Claw",
+                "Snarl",
+                "Quick Attack",
+                "Fire Fang"
             ]
         },
         "stats": {
@@ -31457,10 +31457,10 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Snarl Fast",
-                "Quick Attack Fast",
-                "Fire Fang Fast"
+                "Metal Claw",
+                "Snarl",
+                "Quick Attack",
+                "Fire Fang"
             ]
         },
         "stats": {
@@ -31483,10 +31483,10 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Snarl Fast",
-                "Quick Attack Fast",
-                "Fire Fang Fast"
+                "Metal Claw",
+                "Snarl",
+                "Quick Attack",
+                "Fire Fang"
             ]
         },
         "stats": {
@@ -31508,10 +31508,10 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Snarl Fast",
-                "Quick Attack Fast",
-                "Ice Fang Fast"
+                "Metal Claw",
+                "Snarl",
+                "Quick Attack",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -31534,10 +31534,10 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Snarl Fast",
-                "Quick Attack Fast",
-                "Ice Fang Fast"
+                "Metal Claw",
+                "Snarl",
+                "Quick Attack",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -31560,10 +31560,10 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Metal Claw Fast",
-                "Snarl Fast",
-                "Quick Attack Fast",
-                "Ice Fang Fast"
+                "Metal Claw",
+                "Snarl",
+                "Quick Attack",
+                "Ice Fang"
             ]
         },
         "stats": {
@@ -31585,8 +31585,8 @@ var pokemonData = [
                 "Hyper Beam"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Poison Jab Fast"
+                "Dragon Tail",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -31608,8 +31608,8 @@ var pokemonData = [
                 "Flamethrower"
             ],
             "quick": [
-                "Dragon Tail Fast",
-                "Poison Jab Fast"
+                "Dragon Tail",
+                "Poison Jab"
             ]
         },
         "stats": {
@@ -31631,8 +31631,8 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Counter Fast"
+                "Rock Smash",
+                "Counter"
             ]
         },
         "stats": {
@@ -31653,8 +31653,8 @@ var pokemonData = [
                 "Close Combat"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Counter Fast"
+                "Rock Smash",
+                "Counter"
             ]
         },
         "stats": {
@@ -31676,9 +31676,9 @@ var pokemonData = [
                 "Aqua Jet"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Counter Fast",
-                "Waterfall Fast"
+                "Rock Smash",
+                "Counter",
+                "Waterfall"
             ]
         },
         "stats": {
@@ -31701,9 +31701,9 @@ var pokemonData = [
                 "Payback"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Counter Fast",
-                "Sucker Punch Fast"
+                "Rock Smash",
+                "Counter",
+                "Sucker Punch"
             ]
         },
         "stats": {
@@ -31725,8 +31725,8 @@ var pokemonData = [
                 "Dark Pulse"
             ],
             "quick": [
-                "Vine Whip Fast",
-                "Bite Fast"
+                "Vine Whip",
+                "Bite"
             ]
         },
         "stats": {
@@ -31748,8 +31748,8 @@ var pokemonData = [
                 "Zap Cannon"
             ],
             "quick": [
-                "Thunder Shock Fast",
-                "Lock On Fast"
+                "Thunder Shock",
+                "Lock On"
             ]
         },
         "stats": {
@@ -31770,7 +31770,7 @@ var pokemonData = [
                 "Dragon Pulse"
             ],
             "quick": [
-                "Bite Fast"
+                "Bite"
             ]
         },
         "stats": {
@@ -31791,8 +31791,8 @@ var pokemonData = [
                 "Bulldoze"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast"
+                "Tackle",
+                "Take Down"
             ]
         },
         "stats": {
@@ -31813,8 +31813,8 @@ var pokemonData = [
                 "Bulldoze"
             ],
             "quick": [
-                "Tackle Fast",
-                "Take Down Fast"
+                "Tackle",
+                "Take Down"
             ]
         },
         "stats": {
@@ -31836,8 +31836,8 @@ var pokemonData = [
                 "Avalanche"
             ],
             "quick": [
-                "Confusion Fast",
-                "Take Down Fast"
+                "Confusion",
+                "Take Down"
             ]
         },
         "stats": {
@@ -31859,8 +31859,8 @@ var pokemonData = [
                 "Energy Ball"
             ],
             "quick": [
-                "Pound Fast",
-                "Confusion Fast"
+                "Pound",
+                "Confusion"
             ]
         },
         "stats": {
@@ -31883,8 +31883,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Confusion Fast",
-                "Take Down Fast"
+                "Confusion",
+                "Take Down"
             ]
         },
         "stats": {
@@ -31906,9 +31906,9 @@ var pokemonData = [
                 "X Scissor"
             ],
             "quick": [
-                "Rock Smash Fast",
-                "Poison Jab Fast",
-                "Shadow Claw Fast"
+                "Rock Smash",
+                "Poison Jab",
+                "Shadow Claw"
             ]
         },
         "stats": {
@@ -31932,8 +31932,8 @@ var pokemonData = [
                 "Shadow Ball"
             ],
             "quick": [
-                "Poison Sting Fast",
-                "Poison Jab Fast"
+                "Poison Sting",
+                "Poison Jab"
             ]
         },
         "stats": {

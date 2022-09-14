@@ -5,7 +5,7 @@ def format_name(name):
     return name.replace('_', ' ').title()
 
 def format_move(name):
-    return format_name(name)
+    return format_name(name).removesuffix(' Fast')
 
 def format_type(name):
     return name.removeprefix('POKEMON_TYPE_').title()

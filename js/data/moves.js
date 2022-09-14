@@ -665,224 +665,224 @@ var moveData = [
         "type": "Normal"
     },
     {
-        "name": "Fury Cutter Fast",
+        "name": "Fury Cutter",
         "power": 3.0,
         "durationMs": 400,
         "energyDelta": 6,
         "type": "Bug"
     },
     {
-        "name": "Bug Bite Fast",
+        "name": "Bug Bite",
         "power": 5.0,
         "durationMs": 500,
         "energyDelta": 6,
         "type": "Bug"
     },
     {
-        "name": "Bite Fast",
+        "name": "Bite",
         "power": 6.0,
         "durationMs": 500,
         "energyDelta": 4,
         "type": "Dark"
     },
     {
-        "name": "Sucker Punch Fast",
+        "name": "Sucker Punch",
         "power": 7.0,
         "durationMs": 700,
         "energyDelta": 8,
         "type": "Dark"
     },
     {
-        "name": "Dragon Breath Fast",
+        "name": "Dragon Breath",
         "power": 6.0,
         "durationMs": 500,
         "energyDelta": 4,
         "type": "Dragon"
     },
     {
-        "name": "Thunder Shock Fast",
+        "name": "Thunder Shock",
         "power": 5.0,
         "durationMs": 600,
         "energyDelta": 8,
         "type": "Electric"
     },
     {
-        "name": "Spark Fast",
+        "name": "Spark",
         "power": 6.0,
         "durationMs": 700,
         "energyDelta": 9,
         "type": "Electric"
     },
     {
-        "name": "Low Kick Fast",
+        "name": "Low Kick",
         "power": 6.0,
         "durationMs": 600,
         "energyDelta": 6,
         "type": "Fighting"
     },
     {
-        "name": "Karate Chop Fast",
+        "name": "Karate Chop",
         "power": 8.0,
         "durationMs": 800,
         "energyDelta": 10,
         "type": "Fighting"
     },
     {
-        "name": "Ember Fast",
+        "name": "Ember",
         "power": 10.0,
         "durationMs": 1000,
         "energyDelta": 10,
         "type": "Fire"
     },
     {
-        "name": "Wing Attack Fast",
+        "name": "Wing Attack",
         "power": 8.0,
         "durationMs": 800,
         "energyDelta": 9,
         "type": "Flying"
     },
     {
-        "name": "Peck Fast",
+        "name": "Peck",
         "power": 10.0,
         "durationMs": 1000,
         "energyDelta": 10,
         "type": "Flying"
     },
     {
-        "name": "Lick Fast",
+        "name": "Lick",
         "power": 5.0,
         "durationMs": 500,
         "energyDelta": 6,
         "type": "Ghost"
     },
     {
-        "name": "Shadow Claw Fast",
+        "name": "Shadow Claw",
         "power": 9.0,
         "durationMs": 700,
         "energyDelta": 6,
         "type": "Ghost"
     },
     {
-        "name": "Vine Whip Fast",
+        "name": "Vine Whip",
         "power": 7.0,
         "durationMs": 600,
         "energyDelta": 6,
         "type": "Grass"
     },
     {
-        "name": "Razor Leaf Fast",
+        "name": "Razor Leaf",
         "power": 13.0,
         "durationMs": 1000,
         "energyDelta": 7,
         "type": "Grass"
     },
     {
-        "name": "Mud Shot Fast",
+        "name": "Mud Shot",
         "power": 5.0,
         "durationMs": 600,
         "energyDelta": 7,
         "type": "Ground"
     },
     {
-        "name": "Ice Shard Fast",
+        "name": "Ice Shard",
         "power": 12.0,
         "durationMs": 1200,
         "energyDelta": 12,
         "type": "Ice"
     },
     {
-        "name": "Frost Breath Fast",
+        "name": "Frost Breath",
         "power": 10.0,
         "durationMs": 900,
         "energyDelta": 8,
         "type": "Ice"
     },
     {
-        "name": "Quick Attack Fast",
+        "name": "Quick Attack",
         "power": 8.0,
         "durationMs": 800,
         "energyDelta": 10,
         "type": "Normal"
     },
     {
-        "name": "Scratch Fast",
+        "name": "Scratch",
         "power": 6.0,
         "durationMs": 500,
         "energyDelta": 4,
         "type": "Normal"
     },
     {
-        "name": "Tackle Fast",
+        "name": "Tackle",
         "power": 5.0,
         "durationMs": 500,
         "energyDelta": 5,
         "type": "Normal"
     },
     {
-        "name": "Pound Fast",
+        "name": "Pound",
         "power": 7.0,
         "durationMs": 600,
         "energyDelta": 6,
         "type": "Normal"
     },
     {
-        "name": "Cut Fast",
+        "name": "Cut",
         "power": 5.0,
         "durationMs": 500,
         "energyDelta": 5,
         "type": "Normal"
     },
     {
-        "name": "Poison Jab Fast",
+        "name": "Poison Jab",
         "power": 10.0,
         "durationMs": 800,
         "energyDelta": 7,
         "type": "Poison"
     },
     {
-        "name": "Acid Fast",
+        "name": "Acid",
         "power": 9.0,
         "durationMs": 800,
         "energyDelta": 8,
         "type": "Poison"
     },
     {
-        "name": "Psycho Cut Fast",
+        "name": "Psycho Cut",
         "power": 5.0,
         "durationMs": 600,
         "energyDelta": 8,
         "type": "Psychic"
     },
     {
-        "name": "Rock Throw Fast",
+        "name": "Rock Throw",
         "power": 12.0,
         "durationMs": 900,
         "energyDelta": 7,
         "type": "Rock"
     },
     {
-        "name": "Metal Claw Fast",
+        "name": "Metal Claw",
         "power": 8.0,
         "durationMs": 700,
         "energyDelta": 7,
         "type": "Steel"
     },
     {
-        "name": "Bullet Punch Fast",
+        "name": "Bullet Punch",
         "power": 9.0,
         "durationMs": 900,
         "energyDelta": 10,
         "type": "Steel"
     },
     {
-        "name": "Water Gun Fast",
+        "name": "Water Gun",
         "power": 5.0,
         "durationMs": 500,
         "energyDelta": 5,
         "type": "Water"
     },
     {
-        "name": "Splash Fast",
+        "name": "Splash",
         "power": 0,
         "durationMs": 1730,
         "energyDelta": 20,
@@ -896,84 +896,84 @@ var moveData = [
         "type": "Water"
     },
     {
-        "name": "Mud Slap Fast",
+        "name": "Mud Slap",
         "power": 18.0,
         "durationMs": 1400,
         "energyDelta": 12,
         "type": "Ground"
     },
     {
-        "name": "Zen Headbutt Fast",
+        "name": "Zen Headbutt",
         "power": 12.0,
         "durationMs": 1100,
         "energyDelta": 10,
         "type": "Psychic"
     },
     {
-        "name": "Confusion Fast",
+        "name": "Confusion",
         "power": 20.0,
         "durationMs": 1600,
         "energyDelta": 15,
         "type": "Psychic"
     },
     {
-        "name": "Poison Sting Fast",
+        "name": "Poison Sting",
         "power": 5.0,
         "durationMs": 600,
         "energyDelta": 7,
         "type": "Poison"
     },
     {
-        "name": "Bubble Fast",
+        "name": "Bubble",
         "power": 12.0,
         "durationMs": 1200,
         "energyDelta": 14,
         "type": "Water"
     },
     {
-        "name": "Feint Attack Fast",
+        "name": "Feint Attack",
         "power": 10.0,
         "durationMs": 900,
         "energyDelta": 9,
         "type": "Dark"
     },
     {
-        "name": "Steel Wing Fast",
+        "name": "Steel Wing",
         "power": 11.0,
         "durationMs": 800,
         "energyDelta": 6,
         "type": "Steel"
     },
     {
-        "name": "Fire Fang Fast",
+        "name": "Fire Fang",
         "power": 12.0,
         "durationMs": 900,
         "energyDelta": 8,
         "type": "Fire"
     },
     {
-        "name": "Rock Smash Fast",
+        "name": "Rock Smash",
         "power": 15.0,
         "durationMs": 1300,
         "energyDelta": 10,
         "type": "Fighting"
     },
     {
-        "name": "Transform Fast",
+        "name": "Transform",
         "power": 0,
         "durationMs": 2230,
         "energyDelta": 0,
         "type": "Normal"
     },
     {
-        "name": "Counter Fast",
+        "name": "Counter",
         "power": 12.0,
         "durationMs": 900,
         "energyDelta": 8,
         "type": "Fighting"
     },
     {
-        "name": "Powder Snow Fast",
+        "name": "Powder Snow",
         "power": 6.0,
         "durationMs": 1000,
         "energyDelta": 15,
@@ -1008,14 +1008,14 @@ var moveData = [
         "type": "Ice"
     },
     {
-        "name": "Charge Beam Fast",
+        "name": "Charge Beam",
         "power": 8.0,
         "durationMs": 1100,
         "energyDelta": 15,
         "type": "Electric"
     },
     {
-        "name": "Volt Switch Fast",
+        "name": "Volt Switch",
         "power": 14.0,
         "durationMs": 1600,
         "energyDelta": 21,
@@ -1036,7 +1036,7 @@ var moveData = [
         "type": "Electric"
     },
     {
-        "name": "Dragon Tail Fast",
+        "name": "Dragon Tail",
         "power": 15.0,
         "durationMs": 1100,
         "energyDelta": 9,
@@ -1050,7 +1050,7 @@ var moveData = [
         "type": "Ice"
     },
     {
-        "name": "Air Slash Fast",
+        "name": "Air Slash",
         "power": 14.0,
         "durationMs": 1200,
         "energyDelta": 10,
@@ -1085,14 +1085,14 @@ var moveData = [
         "type": "Rock"
     },
     {
-        "name": "Infestation Fast",
+        "name": "Infestation",
         "power": 10.0,
         "durationMs": 1100,
         "energyDelta": 14,
         "type": "Bug"
     },
     {
-        "name": "Struggle Bug Fast",
+        "name": "Struggle Bug",
         "power": 15.0,
         "durationMs": 1500,
         "energyDelta": 15,
@@ -1106,14 +1106,14 @@ var moveData = [
         "type": "Bug"
     },
     {
-        "name": "Astonish Fast",
+        "name": "Astonish",
         "power": 8.0,
         "durationMs": 1100,
         "energyDelta": 14,
         "type": "Ghost"
     },
     {
-        "name": "Hex Fast",
+        "name": "Hex",
         "power": 10.0,
         "durationMs": 1200,
         "energyDelta": 16,
@@ -1127,7 +1127,7 @@ var moveData = [
         "type": "Ghost"
     },
     {
-        "name": "Iron Tail Fast",
+        "name": "Iron Tail",
         "power": 15.0,
         "durationMs": 1100,
         "energyDelta": 7,
@@ -1148,7 +1148,7 @@ var moveData = [
         "type": "Steel"
     },
     {
-        "name": "Fire Spin Fast",
+        "name": "Fire Spin",
         "power": 14.0,
         "durationMs": 1100,
         "energyDelta": 10,
@@ -1162,7 +1162,7 @@ var moveData = [
         "type": "Fire"
     },
     {
-        "name": "Bullet Seed Fast",
+        "name": "Bullet Seed",
         "power": 8.0,
         "durationMs": 1100,
         "energyDelta": 14,
@@ -1183,7 +1183,7 @@ var moveData = [
         "type": "Grass"
     },
     {
-        "name": "Extrasensory Fast",
+        "name": "Extrasensory",
         "power": 12.0,
         "durationMs": 1100,
         "energyDelta": 12,
@@ -1211,7 +1211,7 @@ var moveData = [
         "type": "Dragon"
     },
     {
-        "name": "Snarl Fast",
+        "name": "Snarl",
         "power": 12.0,
         "durationMs": 1100,
         "energyDelta": 14,
@@ -1232,21 +1232,21 @@ var moveData = [
         "type": "Dark"
     },
     {
-        "name": "Hidden Power Fast",
+        "name": "Hidden Power",
         "power": 15.0,
         "durationMs": 1500,
         "energyDelta": 15,
         "type": "Normal"
     },
     {
-        "name": "Take Down Fast",
+        "name": "Take Down",
         "power": 8.0,
         "durationMs": 1200,
         "energyDelta": 10,
         "type": "Normal"
     },
     {
-        "name": "Waterfall Fast",
+        "name": "Waterfall",
         "power": 16.0,
         "durationMs": 1200,
         "energyDelta": 8,
@@ -1274,7 +1274,7 @@ var moveData = [
         "type": "Steel"
     },
     {
-        "name": "Yawn Fast",
+        "name": "Yawn",
         "power": 0,
         "durationMs": 1700,
         "energyDelta": 15,
@@ -1302,7 +1302,7 @@ var moveData = [
         "type": "Ground"
     },
     {
-        "name": "Present Fast",
+        "name": "Present",
         "power": 5.0,
         "durationMs": 1300,
         "energyDelta": 20,
@@ -1344,7 +1344,7 @@ var moveData = [
         "type": "Grass"
     },
     {
-        "name": "Smack Down Fast",
+        "name": "Smack Down",
         "power": 16.0,
         "durationMs": 1200,
         "energyDelta": 8,
@@ -1505,7 +1505,7 @@ var moveData = [
         "type": "Fighting"
     },
     {
-        "name": "Charm Fast",
+        "name": "Charm",
         "power": 20.0,
         "durationMs": 1500,
         "energyDelta": 11,
@@ -1540,21 +1540,21 @@ var moveData = [
         "type": "Psychic"
     },
     {
-        "name": "Lock On Fast",
+        "name": "Lock On",
         "power": 1.0,
         "durationMs": 300,
         "energyDelta": 6,
         "type": "Normal"
     },
     {
-        "name": "Thunder Fang Fast",
+        "name": "Thunder Fang",
         "power": 12.0,
         "durationMs": 1200,
         "energyDelta": 16,
         "type": "Electric"
     },
     {
-        "name": "Ice Fang Fast",
+        "name": "Ice Fang",
         "power": 12.0,
         "durationMs": 1500,
         "energyDelta": 20,
@@ -1680,14 +1680,14 @@ var moveData = [
         "type": "Normal"
     },
     {
-        "name": "Gust Fast",
+        "name": "Gust",
         "power": 25.0,
         "durationMs": 2000,
         "energyDelta": 20,
         "type": "Flying"
     },
     {
-        "name": "Incinerate Fast",
+        "name": "Incinerate",
         "power": 29.0,
         "durationMs": 2300,
         "energyDelta": 20,
@@ -1701,7 +1701,7 @@ var moveData = [
         "type": "Flying"
     },
     {
-        "name": "Fairy Wind Fast",
+        "name": "Fairy Wind",
         "power": 9.0,
         "durationMs": 970,
         "energyDelta": 13,
@@ -1722,14 +1722,14 @@ var moveData = [
         "type": "Psychic"
     },
     {
-        "name": "Double Kick Fast",
+        "name": "Double Kick",
         "power": 10.0,
         "durationMs": 1000,
         "energyDelta": 13,
         "type": "Fighting"
     },
     {
-        "name": "Magical Leaf Fast",
+        "name": "Magical Leaf",
         "power": 16.0,
         "durationMs": 1400,
         "energyDelta": 16,
@@ -1806,7 +1806,7 @@ var moveData = [
         "type": "Dark"
     },
     {
-        "name": "Rollout Fast",
+        "name": "Rollout",
         "power": 14.0,
         "durationMs": 1400,
         "energyDelta": 18,

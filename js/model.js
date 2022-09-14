@@ -11,8 +11,31 @@ function buildModel(staticData) {
                 'large': 200
             }[this.gridSize.toLowerCase()];
             this.grid = buildGrid(size, size);
-            this.grid.populate(() => buildPokemon(this.selectedPokemon, staticData));
+            this.grid.populate(() => buildPokemon(model, staticData));
             this.counters = [];
+        },
+        validate() {
+            if (!model.selectedPokemon.size) {
+                throw Error('No pokemon have been selected');
+            }
+            model.selectedPokemon.forEach(pokemonName => {
+                const moveExclusions = model.moveExclusions[pokemonName];
+                if (moveExclusions && moveExclusions.size) {
+                    const pokemon = staticData.getPokemonByName(pokemonName),
+                        quickMoveSet = new Set(pokemon.moves.quick),
+                        chargeMoveSet = new Set(pokemon.moves.charge);
+                    moveExclusions.forEach(mx => {
+                        quickMoveSet.delete(mx);
+                        chargeMoveSet.delete(mx);
+                    });
+                    if (!quickMoveSet.size) {
+                        throw Error(`${pokemonName} has no quick moves selected`);
+                    }
+                    if (!chargeMoveSet.size) {
+                        throw Error(`${pokemonName} has no charge moves selected`);
+                    }
+                }
+            });
         },
         tick(tMsDelta) {
             this.ts += tMsDelta;
@@ -20,6 +43,7 @@ function buildModel(staticData) {
         },
         ts: 0,
         selectedPokemon: new Set(['Charmander', 'Squirtle', 'Bulbasaur']),
+        moveExclusions: {},
         weather: '',
         gridSize: 'small',
         counters: []

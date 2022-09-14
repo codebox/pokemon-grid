@@ -98,21 +98,27 @@ function buildView(model, staticData) {
     }
 
     function buildPokemonSelectionListItem(pokemon) {
+        const moveExclusions = model.moveExclusions[pokemon.name] || new Set();
+
+        function buildCheckboxForMove(move) {
+            const isChecked = !moveExclusions.has(move);
+            return `<li><label><input type='checkbox' data-move="${move}" class="moveCheckbox" ${isChecked ? 'checked' : ''}>${move}</label></li>`;
+        }
         const li = document.createElement('li');
 
         li.innerHTML = `
             <div class="pokemonListItemTop">                
-                <label><input type="checkbox"> ${pokemon.name}</label>
+                <label><input type="checkbox" class="pokemonCheckbox">${pokemon.name}</label>
                 <div class="pokemonListItemShowDetails">&#8964;</div>
             </div>
             <div class="pokemonListItemDetails">
                 <h3>Quick Moves</h3>
                 <ul class="pokemonListItemDetailsQuickMoves">
-                    ${pokemon.moves.quick.map(m => "<li><label><input type='checkbox'>" + m + "</label></li>").join("")}
+                    ${pokemon.moves.quick.map(buildCheckboxForMove).join("")}
                 </ul>
                 <h3>Charge Moves</h3>
                 <ul class="pokemonListItemDetailsChargeMoves">
-                    ${pokemon.moves.charge.map(m => "<li><label><input type='checkbox'>" + m + "</label></li>").join("")}
+                    ${pokemon.moves.charge.map(buildCheckboxForMove).join("")}
                 </ul>
             </div>
         `;
@@ -123,7 +129,11 @@ function buildView(model, staticData) {
             if (e.target.classList.contains('pokemonListItemShowDetails')) {
                 li.classList.toggle('expanded');
             } else if (e.target.tagName === 'INPUT') {
-                trigger(e.target.checked ? 'pokemonSelected' : 'pokemonDeselected', pokemon.name);
+                if (e.target.classList.contains('pokemonCheckbox')) {
+                    trigger(e.target.checked ? 'pokemonSelected' : 'pokemonDeselected', pokemon.name);
+                } else if (e.target.classList.contains('moveCheckbox')) {
+                    trigger(e.target.checked ? 'moveSelected' : 'moveDeselected', {'pokemon': pokemon.name, 'move': e.target.dataset.move});
+                }
             }
         });
 
