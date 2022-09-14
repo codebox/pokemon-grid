@@ -15,14 +15,13 @@
     </div>
     <p id="info"></p>
     <canvas id="graph" width="600px" height="150px"></canvas>
-    <button id="stopGo"></button>
     <p id="stats"></p>
     <div id="settings">
-        <input id="pokemonFilter">
-        <ul id="pokemonSelectionList">
+        <h2>Pokemon/Moves</h2>
+        <input id="pokemonFilter" placeholder="Pokemon Search">
+        <ul id="pokemonSelectionList"></ul>
 
-        </ul>
-        <label>Weather</label>
+        <h2>Weather</h2>
         <ul id="weatherList">
             <li id="noWeather">None</li>
             <li>Sunny/clear</li>
@@ -33,13 +32,15 @@
             <li>Fog</li>
             <li>Snow</li>
         </ul>
-        <label>Grid Size</label>
+
+        <h2>Grid Size</h2>
         <ul id="gridSizeList">
             <li>Small</li>
             <li>Medium</li>
             <li>Large</li>
         </ul>
     </div>
+    <button id="stopGo"></button>
     <script src="js/data/moves.js"></script>
     <script src="js/data/types.js"></script>
     <script src="js/data/pokemon.js"></script>

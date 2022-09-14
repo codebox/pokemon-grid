@@ -56,7 +56,7 @@ function buildView(model, staticData) {
     elPokemonFilter.onkeyup = e => {
         const filter = elPokemonFilter.value;
         [ ...elSelectionList.children].forEach(li => {
-            li.style.display = li.innerHTML.toLowerCase().indexOf(filter.toLowerCase()) >= 0 ? '' : 'none';
+            li.style.display = li.dataset.pokemon.toLowerCase().indexOf(filter.toLowerCase()) >= 0 ? '' : 'none';
         });
     };
     elWeatherList.onclick = e => {

@@ -90,7 +90,7 @@ p {
 }
 #pokemonSelectionList > li {
     padding: 2px 0;
-    border: 1px solid #626262;
+    border-bottom: 1px solid #626262;
 }
 #pokemonSelectionList li.expanded .pokemonListItemDetails {
     display: inherit;
@@ -107,4 +107,17 @@ p {
 }
 .pokemonListItemDetailsQuickMoves, .pokemonListItemDetailsChargedMoves {
     margin-bottom: 4px ! important;
+}
+h2 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+#settings ul {
+    border: 1px solid black;
+}
+#settings .pokemonListItemDetails ul {
+    border: none;
+}
+#pokemonFilter {
+    margin-bottom: 5px;
 }
