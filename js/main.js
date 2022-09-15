@@ -33,6 +33,10 @@ function start() {
     view.on('pokemonDeselected', event => {
         model.selectedPokemon.delete(event.data);
     });
+    view.on('pokemonReselected', event => {
+        model.selectedPokemon = new Set(event.data);
+        view.updateSelection();
+    });
     view.on('moveSelected', event => {
         const {pokemon, move} = event.data;
         if (model.moveExclusions[pokemon]) {

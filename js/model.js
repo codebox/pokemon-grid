@@ -8,7 +8,8 @@ function buildModel(staticData) {
             const size = {
                 'small': 50,
                 'medium': 100,
-                'large': 200
+                'large': 200,
+                'maximum': 600
             }[this.gridSize.toLowerCase()];
             this.grid = buildGrid(size, size);
             this.grid.populate(() => buildPokemon(model, staticData));

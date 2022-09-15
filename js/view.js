@@ -11,6 +11,10 @@ function buildView(model, staticData) {
         elNoWeather = document.getElementById('noWeather'),
         elPokemonFilter = document.getElementById('pokemonFilter'),
         elSelectionList = document.getElementById('pokemonSelectionList'),
+        elSelectAllPokemon = document.getElementById('selectAllPokemon'),
+        elSelectNoPokemon = document.getElementById('selectNoPokemon'),
+        elSelectFiveRandom = document.getElementById('selectFiveRandom'),
+        elSelectTenRandom = document.getElementById('selectTenRandom'),
         ctxGrid = elCanvasGrid.getContext('2d'),
         ctxGraph = elCanvasGraph.getContext('2d'),
         rect = elCanvasGrid.getBoundingClientRect();
@@ -37,6 +41,16 @@ function buildView(model, staticData) {
         "Steel": "B7B7CE",
         "Water": "6390F0"
     };
+
+    function doSelection(fnSelection) {
+        const visiblePokemon = [ ...elSelectionList.children].filter(li => li.style.display !== 'none').map(li => li.dataset.pokemon),
+            selected = fnSelection(visiblePokemon);
+        trigger('pokemonReselected', selected);
+    }
+    elSelectAllPokemon.onclick = () => doSelection(a => a);
+    elSelectNoPokemon.onclick = () => doSelection(_ => []);
+    elSelectFiveRandom.onclick = () => doSelection(a => pickN(5));
+    elSelectTenRandom.onclick = () => doSelection(a => pickN(10));
 
     elStopGo.onclick = () => trigger('stopGoClick');
     elGridSizeList.onclick = e => {
@@ -97,6 +111,7 @@ function buildView(model, staticData) {
         eventTarget.dispatchEvent(event);
     }
 
+    const pokemonToCheckboxLookup = {};
     function buildPokemonSelectionListItem(pokemon) {
         const moveExclusions = model.moveExclusions[pokemon.name] || new Set();
 
@@ -123,6 +138,7 @@ function buildView(model, staticData) {
             </div>
         `;
 
+        li.querySelector('input').dataset.pokemon = pokemon.name;
         li.dataset.pokemon = pokemon.name;
 
         li.addEventListener('click', e => {
@@ -222,6 +238,9 @@ function buildView(model, staticData) {
             } else {
                 elStopGo.innerHTML = 'Go';
             }
+        },
+        updateSelection() {
+            [...elSelectionList.querySelectorAll('input')].forEach(chk => chk.checked = model.selectedPokemon.has(chk.dataset.pokemon));
         }
     };
 }

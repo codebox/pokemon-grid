@@ -121,3 +121,20 @@ h2 {
 #pokemonFilter {
     margin-bottom: 5px;
 }
+#pokemonSelection ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+    margin: 5px 0;
+}
+#pokemonSelection ul li{
+    display: inline-block;
+    margin: 0 5px;
+    color: #006BB7;
+    text-decoration: underline;
+    font-size: 0.8em;
+}
+#pokemonSelection ul li:hover {
+    background-color: inherit;
+}

@@ -1,5 +1,18 @@
+function shuffleArray(array) {
+    let i = array.length,  r;
+
+    while (i) {
+        r = Math.floor(Math.random() * i--);
+        [array[i], array[r]] = [array[r], array[i]];
+    }
+
+    return array;
+}
 function pickOne(arr) {
     return arr[Math.floor(arr.length * Math.random())];
+}
+function pickN(arr, n) {
+    return shuffleArray(arr).slice(0, n);
 }
 
 function deepFreeze(obj) {

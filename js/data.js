@@ -1,13 +1,21 @@
 function buildStaticData() {
+    const nameToPokemonLookup = {},
+        nameToMoveLookup = {};
     return {
         getAllPokemon() {
             return pokemonData;
         },
         getPokemonByName(name) {
-            return pokemonData.find(p => p.name.toLowerCase() === name.toLowerCase());
+            if (!nameToPokemonLookup[name]) {
+                nameToPokemonLookup[name] = pokemonData.find(p => p.name.toLowerCase() === name.toLowerCase());
+            }
+            return nameToPokemonLookup[name];
         },
         getMoveByName(name) {
-            return moveData.find(p => p.name === name);
+            if (!nameToMoveLookup[name]) {
+                nameToMoveLookup[name] = moveData.find(p => p.name === name);
+            }
+            return nameToMoveLookup[name];
         },
         getTypeEffectivenessMultiplier(moveType, pokemonType) {
             return typeEffectiveness[moveType][pokemonType];
