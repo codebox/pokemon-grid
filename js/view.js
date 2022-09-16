@@ -64,8 +64,8 @@ function buildView(model, staticData) {
         trigger('gridSizeChanged', e.target.innerHTML);
     }
     elCanvasGrid.onmousemove = e => {
-        const x = e.clientX - rect.left,
-            y = e.clientY - rect.top,
+        const x = e.pageX - rect.left,
+            y = e.pageY - rect.top,
             px = Math.floor(x/cellWidth),
             py = Math.floor(y/cellHeight);
         trigger('gridOnMouseMove', {x: px, y: py});
