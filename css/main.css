@@ -34,6 +34,7 @@ p {
 }
 .box {
     width: 1em;
+    min-width: 1em;
     height: 1em;
     display: inline-block;
 }
@@ -77,12 +78,22 @@ p {
     flex-grow: 1;
 }
 .pokemonListItemShowDetails {
-    flex: 0 0 10px;
-    line-height: 5px;
-    font-size: 25px;
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    transform: rotate(135deg);
+    margin-right: 15px;
+    margin-left: 10px;
     transition-duration: 0.4s;
-    transition-property: transform;
-    margin-right: 5px;
+    transition-property: transform, top;
+}
+.pokemonListItemShowDetails span {
+    border: 1px solid green;
+    align-items: center;
 }
 .pokemonListItemDetails {
     display: none;
@@ -96,7 +107,8 @@ p {
     display: inherit;
 }
 #pokemonSelectionList li.expanded .pokemonListItemShowDetails {
-    transform: rotate(180deg);
+    transform: rotate(315deg);
+    top: 10px;
 }
 .pokemonListItemDetails h3 {
     border-top: 1px dotted grey;
@@ -121,20 +133,20 @@ h2 {
 #pokemonFilter {
     margin-bottom: 5px;
 }
-#pokemonSelection ul {
+#pokemonSelectionLinks ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     border: none;
     margin: 5px 0;
 }
-#pokemonSelection ul li{
+#pokemonSelectionLinks ul li{
     display: inline-block;
     margin: 0 5px;
     color: #006BB7;
     text-decoration: underline;
     font-size: 0.8em;
 }
-#pokemonSelection ul li:hover {
+#pokemonSelectionLinks ul li:hover {
     background-color: inherit;
 }

@@ -796,7 +796,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Rattata (ALOLA form)",
+        "name": "Rattata (Alola form)",
         "moves": {
             "charge": [
                 "Crunch",
@@ -819,7 +819,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Rattata (ALOLA form)",
+        "name": "Shadow Rattata (Alola form)",
         "moves": {
             "charge": [
                 "Crunch",
@@ -886,7 +886,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Raticate (ALOLA form)",
+        "name": "Raticate (Alola form)",
         "moves": {
             "charge": [
                 "Crunch",
@@ -909,7 +909,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Raticate (ALOLA form)",
+        "name": "Shadow Raticate (Alola form)",
         "moves": {
             "charge": [
                 "Crunch",
@@ -1118,7 +1118,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Pikachu (COSTUME_2020 form)",
+        "name": "Pikachu (Costume 2020 form)",
         "moves": {
             "charge": [
                 "Discharge",
@@ -1141,7 +1141,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Pikachu (FLYING_5TH_ANNIV form)",
+        "name": "Pikachu (Flying 5Th Anniv form)",
         "moves": {
             "charge": [
                 "Discharge",
@@ -1165,7 +1165,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Pikachu (FLYING_OKINAWA form)",
+        "name": "Pikachu (Flying Okinawa form)",
         "moves": {
             "charge": [
                 "Discharge",
@@ -1188,7 +1188,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Pikachu (KARIYUSHI form)",
+        "name": "Pikachu (Kariyushi form)",
         "moves": {
             "charge": [
                 "Discharge",
@@ -1235,7 +1235,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Pikachu (POP_STAR form)",
+        "name": "Pikachu (Pop Star form)",
         "moves": {
             "charge": [
                 "Draining Kiss",
@@ -1257,7 +1257,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Pikachu (ROCK_STAR form)",
+        "name": "Pikachu (Rock Star form)",
         "moves": {
             "charge": [
                 "Meteor Mash",
@@ -1279,7 +1279,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Pikachu (VS_2019 form)",
+        "name": "Pikachu (Vs 2019 form)",
         "moves": {
             "charge": [
                 "Flying Press",
@@ -1301,7 +1301,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Raichu (ALOLA form)",
+        "name": "Raichu (Alola form)",
         "moves": {
             "charge": [
                 "Psychic",
@@ -1352,7 +1352,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Sandshrew (ALOLA form)",
+        "name": "Sandshrew (Alola form)",
         "moves": {
             "charge": [
                 "Blizzard",
@@ -1375,7 +1375,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Sandshrew (ALOLA form)",
+        "name": "Shadow Sandshrew (Alola form)",
         "moves": {
             "charge": [
                 "Blizzard",
@@ -1444,7 +1444,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Sandslash (ALOLA form)",
+        "name": "Sandslash (Alola form)",
         "moves": {
             "charge": [
                 "Blizzard",
@@ -1469,7 +1469,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Sandslash (ALOLA form)",
+        "name": "Shadow Sandslash (Alola form)",
         "moves": {
             "charge": [
                 "Blizzard",
@@ -1871,7 +1871,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Vulpix (ALOLA form)",
+        "name": "Vulpix (Alola form)",
         "moves": {
             "charge": [
                 "Dark Pulse",
@@ -1894,7 +1894,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Vulpix (ALOLA form)",
+        "name": "Shadow Vulpix (Alola form)",
         "moves": {
             "charge": [
                 "Dark Pulse",
@@ -1963,7 +1963,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Ninetales (ALOLA form)",
+        "name": "Ninetales (Alola form)",
         "moves": {
             "charge": [
                 "Dazzling Gleam",
@@ -1989,7 +1989,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Ninetales (ALOLA form)",
+        "name": "Shadow Ninetales (Alola form)",
         "moves": {
             "charge": [
                 "Dazzling Gleam",
@@ -2498,7 +2498,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Diglett (ALOLA form)",
+        "name": "Diglett (Alola form)",
         "moves": {
             "charge": [
                 "Dig",
@@ -2521,7 +2521,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Diglett (ALOLA form)",
+        "name": "Shadow Diglett (Alola form)",
         "moves": {
             "charge": [
                 "Dig",
@@ -2632,7 +2632,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Dugtrio (ALOLA form)",
+        "name": "Dugtrio (Alola form)",
         "moves": {
             "charge": [
                 "Earthquake",
@@ -2655,7 +2655,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Dugtrio (ALOLA form)",
+        "name": "Shadow Dugtrio (Alola form)",
         "moves": {
             "charge": [
                 "Earthquake",
@@ -2722,7 +2722,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Meowth (ALOLA form)",
+        "name": "Meowth (Alola form)",
         "moves": {
             "charge": [
                 "Night Slash",
@@ -2744,7 +2744,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Meowth (ALOLA form)",
+        "name": "Shadow Meowth (Alola form)",
         "moves": {
             "charge": [
                 "Night Slash",
@@ -2766,7 +2766,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Meowth (GALARIAN form)",
+        "name": "Meowth (Galarian form)",
         "moves": {
             "charge": [
                 "Night Slash",
@@ -2788,7 +2788,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Meowth (GALARIAN form)",
+        "name": "Shadow Meowth (Galarian form)",
         "moves": {
             "charge": [
                 "Night Slash",
@@ -2856,7 +2856,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Persian (ALOLA form)",
+        "name": "Persian (Alola form)",
         "moves": {
             "charge": [
                 "Foul Play",
@@ -2879,7 +2879,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Persian (ALOLA form)",
+        "name": "Shadow Persian (Alola form)",
         "moves": {
             "charge": [
                 "Foul Play",
@@ -3091,7 +3091,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Growlithe (HISUIAN form)",
+        "name": "Growlithe (Hisuian form)",
         "moves": {
             "charge": [
                 "Rock Slide",
@@ -3114,7 +3114,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Growlithe (HISUIAN form)",
+        "name": "Shadow Growlithe (Hisuian form)",
         "moves": {
             "charge": [
                 "Rock Slide",
@@ -3181,7 +3181,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arcanine (HISUIAN form)",
+        "name": "Arcanine (Hisuian form)",
         "moves": {
             "charge": [
                 "Rock Slide",
@@ -3206,7 +3206,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Arcanine (HISUIAN form)",
+        "name": "Shadow Arcanine (Hisuian form)",
         "moves": {
             "charge": [
                 "Rock Slide",
@@ -3935,7 +3935,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Geodude (ALOLA form)",
+        "name": "Geodude (Alola form)",
         "moves": {
             "charge": [
                 "Rock Slide",
@@ -3958,7 +3958,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Geodude (ALOLA form)",
+        "name": "Shadow Geodude (Alola form)",
         "moves": {
             "charge": [
                 "Rock Slide",
@@ -4027,7 +4027,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Graveler (ALOLA form)",
+        "name": "Graveler (Alola form)",
         "moves": {
             "charge": [
                 "Thunderbolt",
@@ -4050,7 +4050,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Graveler (ALOLA form)",
+        "name": "Shadow Graveler (Alola form)",
         "moves": {
             "charge": [
                 "Thunderbolt",
@@ -4121,7 +4121,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Golem (ALOLA form)",
+        "name": "Golem (Alola form)",
         "moves": {
             "charge": [
                 "Stone Edge",
@@ -4145,7 +4145,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Golem (ALOLA form)",
+        "name": "Shadow Golem (Alola form)",
         "moves": {
             "charge": [
                 "Stone Edge",
@@ -4217,7 +4217,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Ponyta (GALARIAN form)",
+        "name": "Ponyta (Galarian form)",
         "moves": {
             "charge": [
                 "Play Rough",
@@ -4239,7 +4239,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Ponyta (GALARIAN form)",
+        "name": "Shadow Ponyta (Galarian form)",
         "moves": {
             "charge": [
                 "Play Rough",
@@ -4307,7 +4307,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Rapidash (GALARIAN form)",
+        "name": "Rapidash (Galarian form)",
         "moves": {
             "charge": [
                 "Play Rough",
@@ -4332,7 +4332,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Rapidash (GALARIAN form)",
+        "name": "Shadow Rapidash (Galarian form)",
         "moves": {
             "charge": [
                 "Play Rough",
@@ -4407,7 +4407,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Slowpoke (GALARIAN form)",
+        "name": "Slowpoke (Galarian form)",
         "moves": {
             "charge": [
                 "Surf",
@@ -4429,7 +4429,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Slowpoke (GALARIAN form)",
+        "name": "Shadow Slowpoke (Galarian form)",
         "moves": {
             "charge": [
                 "Surf",
@@ -4497,7 +4497,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Slowbro (GALARIAN form)",
+        "name": "Slowbro (Galarian form)",
         "moves": {
             "charge": [
                 "Focus Blast",
@@ -4520,7 +4520,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Slowbro (GALARIAN form)",
+        "name": "Shadow Slowbro (Galarian form)",
         "moves": {
             "charge": [
                 "Focus Blast",
@@ -4708,7 +4708,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Farfetchd (GALARIAN form)",
+        "name": "Farfetchd (Galarian form)",
         "moves": {
             "charge": [
                 "Brick Break",
@@ -4730,7 +4730,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Farfetchd (GALARIAN form)",
+        "name": "Shadow Farfetchd (Galarian form)",
         "moves": {
             "charge": [
                 "Brick Break",
@@ -4898,7 +4898,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Grimer (ALOLA form)",
+        "name": "Grimer (Alola form)",
         "moves": {
             "charge": [
                 "Crunch",
@@ -4921,7 +4921,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Grimer (ALOLA form)",
+        "name": "Shadow Grimer (Alola form)",
         "moves": {
             "charge": [
                 "Crunch",
@@ -4988,7 +4988,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Muk (ALOLA form)",
+        "name": "Muk (Alola form)",
         "moves": {
             "charge": [
                 "Dark Pulse",
@@ -5013,7 +5013,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Muk (ALOLA form)",
+        "name": "Shadow Muk (Alola form)",
         "moves": {
             "charge": [
                 "Dark Pulse",
@@ -5531,7 +5531,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Voltorb (HISUIAN form)",
+        "name": "Voltorb (Hisuian form)",
         "moves": {
             "charge": [
                 "Swift",
@@ -5554,7 +5554,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Voltorb (HISUIAN form)",
+        "name": "Shadow Voltorb (Hisuian form)",
         "moves": {
             "charge": [
                 "Swift",
@@ -5623,7 +5623,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Electrode (HISUIAN form)",
+        "name": "Electrode (Hisuian form)",
         "moves": {
             "charge": [
                 "Swift",
@@ -5646,7 +5646,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Electrode (HISUIAN form)",
+        "name": "Shadow Electrode (Hisuian form)",
         "moves": {
             "charge": [
                 "Swift",
@@ -5763,7 +5763,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Exeggutor (ALOLA form)",
+        "name": "Exeggutor (Alola form)",
         "moves": {
             "charge": [
                 "Seed Bomb",
@@ -5787,7 +5787,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Exeggutor (ALOLA form)",
+        "name": "Shadow Exeggutor (Alola form)",
         "moves": {
             "charge": [
                 "Seed Bomb",
@@ -5905,7 +5905,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Marowak (ALOLA form)",
+        "name": "Marowak (Alola form)",
         "moves": {
             "charge": [
                 "Bone Club",
@@ -5931,7 +5931,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Marowak (ALOLA form)",
+        "name": "Shadow Marowak (Alola form)",
         "moves": {
             "charge": [
                 "Bone Club",
@@ -6172,7 +6172,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Weezing (GALARIAN form)",
+        "name": "Weezing (Galarian form)",
         "moves": {
             "charge": [
                 "Sludge",
@@ -6197,7 +6197,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Weezing (GALARIAN form)",
+        "name": "Shadow Weezing (Galarian form)",
         "moves": {
             "charge": [
                 "Sludge",
@@ -6690,7 +6690,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Mr Mime (GALARIAN form)",
+        "name": "Mr Mime (Galarian form)",
         "moves": {
             "charge": [
                 "Psybeam",
@@ -6713,7 +6713,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Mr Mime (GALARIAN form)",
+        "name": "Shadow Mr Mime (Galarian form)",
         "moves": {
             "charge": [
                 "Psybeam",
@@ -7690,7 +7690,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Articuno (GALARIAN form)",
+        "name": "Articuno (Galarian form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -7713,7 +7713,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Articuno (GALARIAN form)",
+        "name": "Shadow Articuno (Galarian form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -7786,7 +7786,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Zapdos (GALARIAN form)",
+        "name": "Zapdos (Galarian form)",
         "moves": {
             "charge": [
                 "Close Combat",
@@ -7808,7 +7808,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Zapdos (GALARIAN form)",
+        "name": "Shadow Zapdos (Galarian form)",
         "moves": {
             "charge": [
                 "Close Combat",
@@ -7880,7 +7880,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Moltres (GALARIAN form)",
+        "name": "Moltres (Galarian form)",
         "moves": {
             "charge": [
                 "Payback",
@@ -7903,7 +7903,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Moltres (GALARIAN form)",
+        "name": "Shadow Moltres (Galarian form)",
         "moves": {
             "charge": [
                 "Payback",
@@ -9928,7 +9928,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Slowking (GALARIAN form)",
+        "name": "Slowking (Galarian form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -9952,7 +9952,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Slowking (GALARIAN form)",
+        "name": "Shadow Slowking (Galarian form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -10505,7 +10505,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Qwilfish (HISUIAN form)",
+        "name": "Qwilfish (Hisuian form)",
         "moves": {
             "charge": [
                 "Aqua Tail",
@@ -10694,7 +10694,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Sneasel (HISUIAN form)",
+        "name": "Sneasel (Hisuian form)",
         "moves": {
             "charge": [
                 "Aerial Ace",
@@ -10717,7 +10717,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Sneasel (HISUIAN form)",
+        "name": "Shadow Sneasel (Hisuian form)",
         "moves": {
             "charge": [
                 "Aerial Ace",
@@ -12522,7 +12522,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Zigzagoon (GALARIAN form)",
+        "name": "Zigzagoon (Galarian form)",
         "moves": {
             "charge": [
                 "Dig",
@@ -12545,7 +12545,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Zigzagoon (GALARIAN form)",
+        "name": "Shadow Zigzagoon (Galarian form)",
         "moves": {
             "charge": [
                 "Dig",
@@ -12612,7 +12612,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Linoone (GALARIAN form)",
+        "name": "Linoone (Galarian form)",
         "moves": {
             "charge": [
                 "Dig",
@@ -12635,7 +12635,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Linoone (GALARIAN form)",
+        "name": "Shadow Linoone (Galarian form)",
         "moves": {
             "charge": [
                 "Dig",
@@ -15537,7 +15537,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Castform (RAINY form)",
+        "name": "Castform (Rainy form)",
         "moves": {
             "charge": [
                 "Hydro Pump",
@@ -15559,7 +15559,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Castform (SNOWY form)",
+        "name": "Castform (Snowy form)",
         "moves": {
             "charge": [
                 "Blizzard",
@@ -15581,7 +15581,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Castform (SUNNY form)",
+        "name": "Castform (Sunny form)",
         "moves": {
             "charge": [
                 "Fire Blast",
@@ -16862,7 +16862,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Deoxys (ATTACK form)",
+        "name": "Deoxys (Attack form)",
         "moves": {
             "charge": [
                 "Psycho Boost",
@@ -16884,7 +16884,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Deoxys (DEFENSE form)",
+        "name": "Deoxys (Defense form)",
         "moves": {
             "charge": [
                 "Psycho Boost",
@@ -16928,7 +16928,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Deoxys (SPEED form)",
+        "name": "Deoxys (Speed form)",
         "moves": {
             "charge": [
                 "Psycho Boost",
@@ -17889,7 +17889,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Wormadam (PLANT form)",
+        "name": "Wormadam (Plant form)",
         "moves": {
             "charge": [
                 "Psybeam",
@@ -17912,7 +17912,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Wormadam (SANDY form)",
+        "name": "Wormadam (Sandy form)",
         "moves": {
             "charge": [
                 "Psybeam",
@@ -17935,7 +17935,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Wormadam (TRASH form)",
+        "name": "Wormadam (Trash form)",
         "moves": {
             "charge": [
                 "Psybeam",
@@ -18138,7 +18138,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Cherrim (SUNNY form)",
+        "name": "Cherrim (Sunny form)",
         "moves": {
             "charge": [
                 "Dazzling Gleam",
@@ -20156,7 +20156,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Rotom (FAN form)",
+        "name": "Rotom (Fan form)",
         "moves": {
             "charge": [
                 "Ominous Wind",
@@ -20179,7 +20179,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Rotom (FROST form)",
+        "name": "Rotom (Frost form)",
         "moves": {
             "charge": [
                 "Blizzard",
@@ -20202,7 +20202,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Rotom (HEAT form)",
+        "name": "Rotom (Heat form)",
         "moves": {
             "charge": [
                 "Overheat",
@@ -20225,7 +20225,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Rotom (MOW form)",
+        "name": "Rotom (Mow form)",
         "moves": {
             "charge": [
                 "Ominous Wind",
@@ -20271,7 +20271,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Rotom (WASH form)",
+        "name": "Rotom (Wash form)",
         "moves": {
             "charge": [
                 "Hydro Pump",
@@ -20476,7 +20476,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Giratina (ORIGIN form)",
+        "name": "Giratina (Origin form)",
         "moves": {
             "charge": [
                 "Dragon Pulse",
@@ -20612,7 +20612,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shaymin (SKY form)",
+        "name": "Shaymin (Sky form)",
         "moves": {
             "charge": [
                 "Energy Ball",
@@ -20636,7 +20636,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (BUG form)",
+        "name": "Arceus (Bug form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20658,7 +20658,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (DARK form)",
+        "name": "Arceus (Dark form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20680,7 +20680,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (DRAGON form)",
+        "name": "Arceus (Dragon form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20702,7 +20702,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (ELECTRIC form)",
+        "name": "Arceus (Electric form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20724,7 +20724,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (FAIRY form)",
+        "name": "Arceus (Fairy form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20746,7 +20746,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (FIGHTING form)",
+        "name": "Arceus (Fighting form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20768,7 +20768,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (FIRE form)",
+        "name": "Arceus (Fire form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20790,7 +20790,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (FLYING form)",
+        "name": "Arceus (Flying form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20812,7 +20812,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (GHOST form)",
+        "name": "Arceus (Ghost form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20834,7 +20834,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (GRASS form)",
+        "name": "Arceus (Grass form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20856,7 +20856,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (GROUND form)",
+        "name": "Arceus (Ground form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20878,7 +20878,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (ICE form)",
+        "name": "Arceus (Ice form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20922,7 +20922,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (POISON form)",
+        "name": "Arceus (Poison form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20944,7 +20944,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (PSYCHIC form)",
+        "name": "Arceus (Psychic form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20966,7 +20966,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (ROCK form)",
+        "name": "Arceus (Rock form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -20988,7 +20988,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (STEEL form)",
+        "name": "Arceus (Steel form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -21010,7 +21010,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Arceus (WATER form)",
+        "name": "Arceus (Water form)",
         "moves": {
             "charge": [
                 "Futuresight",
@@ -22476,7 +22476,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Darumaka (GALARIAN form)",
+        "name": "Darumaka (Galarian form)",
         "moves": {
             "charge": [
                 "Ice Punch",
@@ -22497,7 +22497,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Darumaka (GALARIAN form)",
+        "name": "Shadow Darumaka (Galarian form)",
         "moves": {
             "charge": [
                 "Ice Punch",
@@ -22584,7 +22584,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Darmanitan (GALARIAN_STANDARD form)",
+        "name": "Darmanitan (Galarian Standard form)",
         "moves": {
             "charge": [
                 "Overheat",
@@ -22607,7 +22607,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Darmanitan (GALARIAN_ZEN form)",
+        "name": "Darmanitan (Galarian Zen form)",
         "moves": {
             "charge": [
                 "Overheat",
@@ -22631,7 +22631,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Darmanitan (ZEN form)",
+        "name": "Darmanitan (Zen form)",
         "moves": {
             "charge": [
                 "Overheat",
@@ -22794,7 +22794,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Yamask (GALARIAN form)",
+        "name": "Yamask (Galarian form)",
         "moves": {
             "charge": [
                 "Night Shade",
@@ -22815,7 +22815,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Yamask (GALARIAN form)",
+        "name": "Shadow Yamask (Galarian form)",
         "moves": {
             "charge": [
                 "Night Shade",
@@ -24240,7 +24240,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Stunfisk (GALARIAN form)",
+        "name": "Stunfisk (Galarian form)",
         "moves": {
             "charge": [
                 "Earthquake",
@@ -24264,7 +24264,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Shadow Stunfisk (GALARIAN form)",
+        "name": "Shadow Stunfisk (Galarian form)",
         "moves": {
             "charge": [
                 "Earthquake",
@@ -24539,7 +24539,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Braviary (HISUIAN form)",
+        "name": "Braviary (Hisuian form)",
         "moves": {
             "charge": [
                 "Dazzling Gleam",
@@ -24894,7 +24894,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Tornadus (THERIAN form)",
+        "name": "Tornadus (Therian form)",
         "moves": {
             "charge": [
                 "Heat Wave",
@@ -24941,7 +24941,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Thundurus (THERIAN form)",
+        "name": "Thundurus (Therian form)",
         "moves": {
             "charge": [
                 "Sludge Wave",
@@ -25037,7 +25037,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Landorus (THERIAN form)",
+        "name": "Landorus (Therian form)",
         "moves": {
             "charge": [
                 "Earthquake",
@@ -25061,7 +25061,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Kyurem (BLACK form)",
+        "name": "Kyurem (Black form)",
         "moves": {
             "charge": [
                 "Iron Head",
@@ -25108,7 +25108,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Kyurem (WHITE form)",
+        "name": "Kyurem (White form)",
         "moves": {
             "charge": [
                 "Dragon Pulse",
@@ -25180,7 +25180,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Meloetta (ARIA form)",
+        "name": "Meloetta (Aria form)",
         "moves": {
             "charge": [
                 "Psyshock",
@@ -25204,7 +25204,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Meloetta (PIROUETTE form)",
+        "name": "Meloetta (Pirouette form)",
         "moves": {
             "charge": [
                 "Close Combat",
@@ -25251,7 +25251,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Genesect (BURN form)",
+        "name": "Genesect (Burn form)",
         "moves": {
             "charge": [
                 "X Scissor",
@@ -25275,7 +25275,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Genesect (CHILL form)",
+        "name": "Genesect (Chill form)",
         "moves": {
             "charge": [
                 "X Scissor",
@@ -25299,7 +25299,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Genesect (DOUSE form)",
+        "name": "Genesect (Douse form)",
         "moves": {
             "charge": [
                 "X Scissor",
@@ -25347,7 +25347,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Genesect (SHOCK form)",
+        "name": "Genesect (Shock form)",
         "moves": {
             "charge": [
                 "X Scissor",
@@ -25810,7 +25810,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Pyroar (FEMALE form)",
+        "name": "Pyroar (Female form)",
         "moves": {
             "charge": [
                 "Flame Charge",
@@ -26065,7 +26065,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Meowstic (FEMALE form)",
+        "name": "Meowstic (Female form)",
         "moves": {
             "charge": [
                 "Psychic",
@@ -26786,7 +26786,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Pumpkaboo (AVERAGE form)",
+        "name": "Pumpkaboo (Average form)",
         "moves": {
             "charge": [
                 "Grass Knot",
@@ -26809,7 +26809,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Pumpkaboo (LARGE form)",
+        "name": "Pumpkaboo (Large form)",
         "moves": {
             "charge": [
                 "Grass Knot",
@@ -26832,7 +26832,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Pumpkaboo (SUPER form)",
+        "name": "Pumpkaboo (Super form)",
         "moves": {
             "charge": [
                 "Grass Knot",
@@ -26879,7 +26879,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Gourgeist (AVERAGE form)",
+        "name": "Gourgeist (Average form)",
         "moves": {
             "charge": [
                 "Seed Bomb",
@@ -26903,7 +26903,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Gourgeist (LARGE form)",
+        "name": "Gourgeist (Large form)",
         "moves": {
             "charge": [
                 "Seed Bomb",
@@ -26927,7 +26927,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Gourgeist (SUPER form)",
+        "name": "Gourgeist (Super form)",
         "moves": {
             "charge": [
                 "Seed Bomb",
@@ -27140,7 +27140,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Hoopa (UNBOUND form)",
+        "name": "Hoopa (Unbound form)",
         "moves": {
             "charge": [
                 "Shadow Ball",
@@ -27643,7 +27643,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Oricorio (PAU form)",
+        "name": "Oricorio (Pau form)",
         "moves": {
             "charge": [
                 "Aerial Ace",
@@ -27666,7 +27666,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Oricorio (POMPOM form)",
+        "name": "Oricorio (Pompom form)",
         "moves": {
             "charge": [
                 "Aerial Ace",
@@ -27689,7 +27689,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Oricorio (SENSU form)",
+        "name": "Oricorio (Sensu form)",
         "moves": {
             "charge": [
                 "Aerial Ace",
@@ -27800,7 +27800,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Lycanroc (DUSK form)",
+        "name": "Lycanroc (Dusk form)",
         "moves": {
             "charge": [
                 "Stone Edge",
@@ -27823,7 +27823,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Lycanroc (MIDNIGHT form)",
+        "name": "Lycanroc (Midnight form)",
         "moves": {
             "charge": [
                 "Stone Edge",
@@ -27868,7 +27868,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Wishiwashi (SCHOOL form)",
+        "name": "Wishiwashi (School form)",
         "moves": {
             "charge": [
                 "Brine",
@@ -28481,7 +28481,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (BUG form)",
+        "name": "Silvally (Bug form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28505,7 +28505,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (DARK form)",
+        "name": "Silvally (Dark form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28529,7 +28529,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (DRAGON form)",
+        "name": "Silvally (Dragon form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28553,7 +28553,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (ELECTRIC form)",
+        "name": "Silvally (Electric form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28577,7 +28577,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (FAIRY form)",
+        "name": "Silvally (Fairy form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28601,7 +28601,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (FIGHTING form)",
+        "name": "Silvally (Fighting form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28625,7 +28625,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (FIRE form)",
+        "name": "Silvally (Fire form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28649,7 +28649,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (FLYING form)",
+        "name": "Silvally (Flying form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28673,7 +28673,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (GHOST form)",
+        "name": "Silvally (Ghost form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28697,7 +28697,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (GRASS form)",
+        "name": "Silvally (Grass form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28721,7 +28721,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (GROUND form)",
+        "name": "Silvally (Ground form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28745,7 +28745,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (ICE form)",
+        "name": "Silvally (Ice form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28793,7 +28793,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (POISON form)",
+        "name": "Silvally (Poison form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28817,7 +28817,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (PSYCHIC form)",
+        "name": "Silvally (Psychic form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28841,7 +28841,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (ROCK form)",
+        "name": "Silvally (Rock form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28865,7 +28865,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (STEEL form)",
+        "name": "Silvally (Steel form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28889,7 +28889,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Silvally (WATER form)",
+        "name": "Silvally (Water form)",
         "moves": {
             "charge": [
                 "Tri Attack",
@@ -28936,7 +28936,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Minior (BLUE form)",
+        "name": "Minior (Blue form)",
         "moves": {
             "charge": [
                 "Power Gem",
@@ -28959,7 +28959,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Minior (GREEN form)",
+        "name": "Minior (Green form)",
         "moves": {
             "charge": [
                 "Power Gem",
@@ -28982,7 +28982,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Minior (INDIGO form)",
+        "name": "Minior (Indigo form)",
         "moves": {
             "charge": [
                 "Power Gem",
@@ -29005,7 +29005,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Minior (ORANGE form)",
+        "name": "Minior (Orange form)",
         "moves": {
             "charge": [
                 "Power Gem",
@@ -29028,7 +29028,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Minior (RED form)",
+        "name": "Minior (Red form)",
         "moves": {
             "charge": [
                 "Power Gem",
@@ -29051,7 +29051,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Minior (VIOLET form)",
+        "name": "Minior (Violet form)",
         "moves": {
             "charge": [
                 "Power Gem",
@@ -29074,7 +29074,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Minior (YELLOW form)",
+        "name": "Minior (Yellow form)",
         "moves": {
             "charge": [
                 "Power Gem",
@@ -29672,7 +29672,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Necrozma (DAWN_WINGS form)",
+        "name": "Necrozma (Dawn Wings form)",
         "moves": {
             "charge": [
                 "Struggle"
@@ -29692,7 +29692,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Necrozma (DUSK_MANE form)",
+        "name": "Necrozma (Dusk Mane form)",
         "moves": {
             "charge": [
                 "Struggle"
@@ -29731,7 +29731,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Necrozma (ULTRA form)",
+        "name": "Necrozma (Ultra form)",
         "moves": {
             "charge": [
                 "Struggle"
@@ -31539,7 +31539,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Eiscue (NOICE form)",
+        "name": "Eiscue (Noice form)",
         "moves": {
             "charge": [
                 "Icy Wind",
@@ -31582,7 +31582,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Indeedee (FEMALE form)",
+        "name": "Indeedee (Female form)",
         "moves": {
             "charge": [
                 "Psybeam",
@@ -31881,7 +31881,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Zacian (CROWNED_SWORD form)",
+        "name": "Zacian (Crowned Sword form)",
         "moves": {
             "charge": [
                 "Play Rough",
@@ -31907,7 +31907,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Zacian (HERO form)",
+        "name": "Zacian (Hero form)",
         "moves": {
             "charge": [
                 "Play Rough",
@@ -31958,7 +31958,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Zamazenta (CROWNED_SHIELD form)",
+        "name": "Zamazenta (Crowned Shield form)",
         "moves": {
             "charge": [
                 "Moonblast",
@@ -31984,7 +31984,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Zamazenta (HERO form)",
+        "name": "Zamazenta (Hero form)",
         "moves": {
             "charge": [
                 "Moonblast",
@@ -32009,7 +32009,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Eternatus (ETERNAMAX form)",
+        "name": "Eternatus (Eternamax form)",
         "moves": {
             "charge": [
                 "Cross Poison",
@@ -32100,7 +32100,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Urshifu (RAPID_STRIKE form)",
+        "name": "Urshifu (Rapid Strike form)",
         "moves": {
             "charge": [
                 "Brick Break",
@@ -32125,7 +32125,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Urshifu (SINGLE_STRIKE form)",
+        "name": "Urshifu (Single Strike form)",
         "moves": {
             "charge": [
                 "Brick Break",
@@ -32260,7 +32260,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Calyrex (ICE_RIDER form)",
+        "name": "Calyrex (Ice Rider form)",
         "moves": {
             "charge": [
                 "Psyshock",
@@ -32307,7 +32307,7 @@ var pokemonData = [
         ]
     },
     {
-        "name": "Calyrex (SHADOW_RIDER form)",
+        "name": "Calyrex (Shadow Rider form)",
         "moves": {
             "charge": [
                 "Psyshock",

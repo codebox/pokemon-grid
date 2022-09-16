@@ -81,7 +81,7 @@ def dedupe_forms(all_pokemon):
         form = p['form']
         del p['form']
         if form != 'NORMAL':
-            p['name'] = '{} ({} form)'.format(p['name'], form)
+            p['name'] = '{} ({} form)'.format(p['name'], format_name(form))
 
     return all_pokemon
 

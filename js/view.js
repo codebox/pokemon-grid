@@ -10,13 +10,10 @@ function buildView(model, staticData) {
         elWeatherList = document.getElementById('weatherList'),
         elNoWeather = document.getElementById('noWeather'),
         elPokemonFilter = document.getElementById('pokemonFilter'),
+        elPokemonSelectionLinks = document.getElementById('pokemonSelectionLinks'),
         elSelectionList = document.getElementById('pokemonSelectionList'),
         elSelectAllPokemon = document.getElementById('selectAllPokemon'),
         elSelectNoPokemon = document.getElementById('selectNoPokemon'),
-        elSelectFiveRandom = document.getElementById('selectFiveRandom'),
-        elSelectTenRandom = document.getElementById('selectTenRandom'),
-        elSelectFiftyRandom = document.getElementById('selectFiftyRandom'),
-        elSelectHundredRandom = document.getElementById('selectHundredRandom'),
         ctxGrid = elCanvasGrid.getContext('2d'),
         ctxGraph = elCanvasGraph.getContext('2d'),
         rect = elCanvasGrid.getBoundingClientRect();
@@ -51,10 +48,11 @@ function buildView(model, staticData) {
     }
     elSelectAllPokemon.onclick = () => doSelection(a => a);
     elSelectNoPokemon.onclick = () => doSelection(_ => []);
-    elSelectFiveRandom.onclick = () => doSelection(a => pickN(a, 5));
-    elSelectTenRandom.onclick = () => doSelection(a => pickN(a, 10));
-    elSelectFiftyRandom.onclick = () => doSelection(a => pickN(a, 50));
-    elSelectHundredRandom.onclick = () => doSelection(a => pickN(a, 100));
+    [...elPokemonSelectionLinks.querySelectorAll('.selectRandom')].forEach(li => {
+        const count = li.dataset.count;
+        li.innerHTML = `${count} random`;
+        li.onclick = () => doSelection(a => pickN(a, count));
+    })
 
     elStopGo.onclick = () => trigger('stopGoClick');
     elGridSizeList.onclick = e => {
@@ -68,7 +66,9 @@ function buildView(model, staticData) {
             y = e.pageY - rect.top,
             px = Math.floor(x/cellWidth),
             py = Math.floor(y/cellHeight);
-        trigger('gridOnMouseMove', {x: px, y: py});
+        if (px < model.grid.width && px >= 0 && py < model.grid.height && py >= 0){
+            trigger('gridOnMouseMove', {x: px, y: py});
+        }
     }
     elCanvasGrid.onmouseleave = () => trigger('gridOnMouseLeave');
     elPokemonFilter.onkeyup = e => {
@@ -128,7 +128,7 @@ function buildView(model, staticData) {
         li.innerHTML = `
             <div class="pokemonListItemTop">                
                 <label><input type="checkbox" class="pokemonCheckbox">${pokemon.name}</label>
-                <div class="pokemonListItemShowDetails">&#8964;</div>
+                <div class="pokemonListItemShowDetails triangle_down"></div>
             </div>
             <div class="pokemonListItemDetails">
                 <h3>Quick Moves</h3>
@@ -240,6 +240,9 @@ function buildView(model, staticData) {
                 cellHeight = elCanvasGrid.height / model.grid.height;
                 elStopGo.innerHTML = 'Stop';
             } else {
+                elList.innerHTML = '';
+                ctxGrid.clearRect(0, 0, elCanvasGrid.width, elCanvasGrid.height);
+                ctxGraph.clearRect(0, 0, elCanvasGraph.width, elCanvasGraph.height);
                 elStopGo.innerHTML = 'Go';
             }
         },
