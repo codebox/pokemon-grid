@@ -15,6 +15,8 @@ function buildView(model, staticData) {
         elSelectNoPokemon = document.getElementById('selectNoPokemon'),
         elSelectFiveRandom = document.getElementById('selectFiveRandom'),
         elSelectTenRandom = document.getElementById('selectTenRandom'),
+        elSelectFiftyRandom = document.getElementById('selectFiftyRandom'),
+        elSelectHundredRandom = document.getElementById('selectHundredRandom'),
         ctxGrid = elCanvasGrid.getContext('2d'),
         ctxGraph = elCanvasGraph.getContext('2d'),
         rect = elCanvasGrid.getBoundingClientRect();
@@ -49,8 +51,10 @@ function buildView(model, staticData) {
     }
     elSelectAllPokemon.onclick = () => doSelection(a => a);
     elSelectNoPokemon.onclick = () => doSelection(_ => []);
-    elSelectFiveRandom.onclick = () => doSelection(a => pickN(5));
-    elSelectTenRandom.onclick = () => doSelection(a => pickN(10));
+    elSelectFiveRandom.onclick = () => doSelection(a => pickN(a, 5));
+    elSelectTenRandom.onclick = () => doSelection(a => pickN(a, 10));
+    elSelectFiftyRandom.onclick = () => doSelection(a => pickN(a, 50));
+    elSelectHundredRandom.onclick = () => doSelection(a => pickN(a, 100));
 
     elStopGo.onclick = () => trigger('stopGoClick');
     elGridSizeList.onclick = e => {
