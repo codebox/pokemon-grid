@@ -28,24 +28,24 @@ export function buildView(model) {
     let cellWidth, cellHeight;
 
     const typeColours = {
-        "Bug": "A6B91A",
-        "Dark": "705746",
-        "Dragon": "6F35FC",
-        "Electric": "F7D02C",
-        "Fairy": "D685AD",
-        "Fighting": "C22E28",
-        "Fire": "EE8130",
-        "Flying": "A98FF3",
-        "Ghost": "735797",
-        "Grass": "7AC74C",
-        "Ground": "E2BF65",
-        "Ice": "96D9D6",
-        "Normal": "A8A77A",
-        "Poison": "A33EA1",
-        "Psychic": "F95587",
-        "Rock": "B6A136",
-        "Steel": "B7B7CE",
-        "Water": "6390F0"
+        "Bug": [67, 75, 41],
+        "Dark": [24,23,36],
+        "Dragon": [257,97,60],
+        "Electric": [48,93,57],
+        "Fairy": [330,50,68],
+        "Fighting": [2,66,46],
+        "Fire": [26,85,56],
+        "Flying": [256,81,76],
+        "Ghost": [266,27,47],
+        "Grass": [98,52,54],
+        "Ground": [43,68,64],
+        "Ice": [177,47,72],
+        "Normal": [59,21,57],
+        "Poison": [301,45,44],
+        "Psychic": [342,93,65],
+        "Rock": [50,54,46],
+        "Steel": [240,19,76],
+        "Water": [221,82,66]
     };
 
     function doSelection(fnSelection) {
@@ -100,7 +100,8 @@ export function buildView(model) {
     }
 
     function getPokemonColour(pokemon) {
-        return typeColours[pokemon.types[0]];
+        const [h,s,l] = typeColours[pokemon.types[0]];
+        return `hsl(${h},${s}%,${l}%)`;
     }
     const getPokemonNameColour = (() => {
         const nameColours = {};
@@ -201,14 +202,14 @@ export function buildView(model) {
         updateGrid() {
             ctxGrid.clearRect(0,0, elCanvasGrid.width, elCanvasGrid.height);
             model.grid.forEachPokemon(pokemon => {
-                ctxGrid.fillStyle = `#${getPokemonColour(pokemon)}`;
+                ctxGrid.fillStyle = getPokemonColour(pokemon);
                 ctxGrid.fillRect(pokemon.x * cellWidth, pokemon.y * cellHeight, cellWidth, cellHeight);
             });
         },
         updateList(pokemonCounts) {
             elList.innerHTML = '';
             const arr = Object.keys(pokemonCounts).sort(function(p1,p2){return pokemonCounts[p2]-pokemonCounts[p1]})
-            elList.innerHTML = arr.map(name => `<li><div style="background-color: #${getPokemonNameColour(name)}" class="box"></div><span class="listName">${name}</span><span class="listCount">${pokemonCounts[name]}</span></li>`).join('');
+            elList.innerHTML = arr.map(name => `<li><div style="background-color: ${getPokemonNameColour(name)}" class="box"></div><span class="listName">${name}</span><span class="listCount">${pokemonCounts[name]}</span></li>`).join('');
         },
         updateStats(gameTimeMs, battlesInProgress, battlesFinished, battlesDrawn) {
             elStats.innerHTML = `Time: ${formatTime(gameTimeMs)} Battles: ${battlesInProgress} in progress, ${battlesFinished} finished, ${battlesDrawn} drawn`;
