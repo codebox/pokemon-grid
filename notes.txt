@@ -4,7 +4,6 @@ https://gamepress.gg/pokemongo/damage-mechanics
 
 
 Code changes
-    Use js modules
     Cache battle outcomes
     More optimisations
     Web workers, wasm?
@@ -19,6 +18,7 @@ Code changes
     allow :type=dark searches
     reset grid/list properly (old grid appears for a second after starting new one)
     add surrounding page structure
+    more states - paused, completed
 
 DONE
     Download game master JSON https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json

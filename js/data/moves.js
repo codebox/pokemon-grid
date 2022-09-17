@@ -1,4 +1,4 @@
-var moveData = [
+export const moveData = [
     {
         "name": "Wrap",
         "power": 60.0,

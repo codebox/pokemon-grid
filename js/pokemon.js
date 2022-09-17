@@ -1,4 +1,7 @@
-function buildPokemon(model, staticData) {
+import {staticData} from './data.js';
+import {pickOne} from './utils.js';
+
+export function buildPokemon(model) {
     function filterMoves(pokemonName, allMoves) {
         return allMoves.filter(m => !(model.moveExclusions[pokemonName] || new Set()).has(m));
     }

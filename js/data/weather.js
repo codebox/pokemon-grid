@@ -1,4 +1,4 @@
-var weatherBoost = {
+export const weatherBoost = {
     "Sunny/clear": new Set(['Grass', 'Ground', 'Fire']),
     "Rainy": new Set(['Water', 'Electric', 'Bug']),
     "Partly cloudy": new Set(['Normal', 'Rock']),

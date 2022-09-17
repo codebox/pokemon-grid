@@ -1,4 +1,4 @@
-function buildGrid(width, height) {
+export function buildGrid(width, height) {
     let allPokemon;
 
     return {

@@ -1,4 +1,8 @@
-function buildView(model, staticData) {
+import {staticData} from './data.js';
+import {STATE_RUNNING, STATE_STOPPED} from './model.js';
+import {pickN, formatTime} from './utils.js';
+
+export function buildView(model) {
     const elCanvasGrid = document.getElementById('grid'),
         elCanvasGraph = document.getElementById('graph'),
         elInfo = document.getElementById('info'),

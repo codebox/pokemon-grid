@@ -1,8 +1,13 @@
-var STATE_STOPPED = 'stopped',
+import {staticData} from './data.js';
+import {buildBattles} from './battle.js';
+import {buildGrid} from './grid.js';
+import {buildPokemon} from './pokemon.js';
+
+export const STATE_STOPPED = 'stopped',
     STATE_PAUSED = 'paused',
     STATE_RUNNING = 'running';
 
-function buildModel(staticData) {
+export function buildModel() {
     const model = {
         populateGrid() {
             const size = {

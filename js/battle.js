@@ -1,4 +1,6 @@
-function buildBattles(model, staticData) {
+import {staticData} from './data.js';
+
+export function buildBattles(model) {
     let allBattles = [];
 
     function getTypeEffectivenessMultiplier(moveType, pokemonTypes) {

@@ -1,4 +1,4 @@
-const cpmLookup = {
+export const cpmLookup = {
     1: 0.094,
     1.5: 0.1351374318,
     2: 0.16639787,

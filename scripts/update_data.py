@@ -1,6 +1,7 @@
 import requests, json, datetime
 datafile = 'https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json'
 ts_file = 'https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/timestamp.txt'
+js_out_dir = '../js/modules/data'
 
 def format_name(name):
     return name.replace('_', ' ').title()
@@ -102,21 +103,21 @@ data = requests.get(datafile).json()
 ts = requests.get(ts_file).text
 ts_date = datetime.date.fromtimestamp(int(ts)/1000).isoformat()
 
-with open('../js/data/gmDate.js', 'w') as f:
-    f.write('var gameMasterDate = "{}";'.format(ts_date))
+with open(js_out_dir + '/gmDate.js', 'w') as f:
+    f.write('export const gameMasterDate = "{}";'.format(ts_date))
 
 pokemon_settings = filter_json(data, 'pokemonSettings')
 pokemon_lists = [filter_pokemon_props(pks) for pks in pokemon_settings]
 pokemon = [p for pokemon_list in pokemon_lists if pokemon_list for p in pokemon_list]
 unique_pokemon = dedupe_forms(pokemon)
 
-with open('../js/data/pokemon.js', 'w') as f:
-    f.write('var pokemonData = {};'.format(json.dumps(unique_pokemon, indent=4)))
+with open(js_out_dir + '/pokemon.js', 'w') as f:
+    f.write('export const pokemonData = {};'.format(json.dumps(unique_pokemon, indent=4)))
 
 moves = [filter_move_props(mv) for mv in filter_json(data, 'moveSettings')]
-with open('../js/data/moves.js', 'w') as f:
-    f.write('var moveData = {};'.format(json.dumps(moves, indent=4)))
+with open(js_out_dir + '/moves.js', 'w') as f:
+    f.write('export const moveData = {};'.format(json.dumps(moves, indent=4)))
 
 types = {format_type(tp['attackType']): process_types(tp) for tp in filter_json(data, 'typeEffective')}
-with open('../js/data/types.js', 'w') as f:
-    f.write('var typeEffectiveness = {};'.format(json.dumps(types, indent=4)))
+with open(js_out_dir + '/types.js', 'w') as f:
+    f.write('export const typeEffectiveness = {};'.format(json.dumps(types, indent=4)))

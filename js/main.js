@@ -1,10 +1,14 @@
+import {buildView} from './view.js';
+import {buildModel, STATE_RUNNING, STATE_STOPPED} from './model.js';
+import {staticData} from './data.js';
+import {pickOne} from './utils.js';
+
 window.onload = start
 
 function start() {
     const
-        staticData = buildStaticData(),
         model = buildModel(staticData),
-        view = buildView(model, staticData);
+        view = buildView(model);
 
     view.on('stopGoClick', () => {
         if (model.state === STATE_RUNNING) {

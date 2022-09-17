@@ -1,4 +1,4 @@
-var typeEffectiveness = {
+export const typeEffectiveness = {
     "Bug": {
         "Normal": 1.0,
         "Fighting": 0.625,

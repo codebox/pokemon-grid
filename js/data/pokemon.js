@@ -1,4 +1,4 @@
-var pokemonData = [
+export const pokemonData = [
     {
         "name": "Bulbasaur",
         "moves": {

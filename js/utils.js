@@ -1,4 +1,4 @@
-function shuffleArray(array) {
+export function shuffleArray(array) {
     let i = array.length,  r;
 
     while (i) {
@@ -8,14 +8,14 @@ function shuffleArray(array) {
 
     return array;
 }
-function pickOne(arr) {
+export function pickOne(arr) {
     return arr[Math.floor(arr.length * Math.random())];
 }
-function pickN(arr, n) {
+export function pickN(arr, n) {
     return shuffleArray(arr).slice(0, n);
 }
 
-function deepFreeze(obj) {
+export function deepFreeze(obj) {
     Object.getOwnPropertyNames(obj).forEach(propName => {
         const value = obj[propName];
         if (value && typeof value === "object") {
@@ -24,10 +24,10 @@ function deepFreeze(obj) {
     });
 }
 
-function zeroPad(num, width) {
+export function zeroPad(num, width) {
     return String(num).padStart(2, '0');
 }
-function formatTime(ms) {
+export function formatTime(ms) {
     const SECONDS_PER_HOUR = 60 * 60,
         SECONDS_PER_MINUTE = 60,
         totalSecs = Math.floor(ms / 1000),

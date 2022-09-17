@@ -1,1 +1,1 @@
-var gameMasterDate = "2022-09-14";
+export const gameMasterDate = "2022-09-14";
