@@ -1,5 +1,6 @@
-import requests, json
+import requests, json, datetime
 datafile = 'https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json'
+ts_file = 'https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/timestamp.txt'
 
 def format_name(name):
     return name.replace('_', ' ').title()
@@ -98,6 +99,11 @@ def process_types(t):
     return dict(zip([format_type(t) for t in ['POKEMON_TYPE_NORMAL', 'POKEMON_TYPE_FIGHTING', 'POKEMON_TYPE_FLYING', 'POKEMON_TYPE_POISON', 'POKEMON_TYPE_GROUND', 'POKEMON_TYPE_ROCK', 'POKEMON_TYPE_BUG', 'POKEMON_TYPE_GHOST', 'POKEMON_TYPE_STEEL', 'POKEMON_TYPE_FIRE', 'POKEMON_TYPE_WATER', 'POKEMON_TYPE_GRASS', 'POKEMON_TYPE_ELECTRIC', 'POKEMON_TYPE_PSYCHIC', 'POKEMON_TYPE_ICE', 'POKEMON_TYPE_DRAGON', 'POKEMON_TYPE_DARK', 'POKEMON_TYPE_FAIRY']], t['attackScalar']))
 
 data = requests.get(datafile).json()
+ts = requests.get(ts_file).text
+ts_date = datetime.date.fromtimestamp(int(ts)/1000).isoformat()
+
+with open('../js/data/gmDate.js', 'w') as f:
+    f.write('var gameMasterDate = "{}";'.format(ts_date))
 
 pokemon_settings = filter_json(data, 'pokemonSettings')
 pokemon_lists = [filter_pokemon_props(pks) for pks in pokemon_settings]
