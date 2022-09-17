@@ -11,6 +11,10 @@ canvas {
 div.box {
     border: 1px solid black;
 }
+#grid {
+    width: 600px;
+    height: 600px;
+}
 p {
     min-height: 24px;
     margin: 0;
@@ -181,13 +185,33 @@ button {
     border-left: 1px solid black;
     border-right: 1px solid black;
     background-color: white;
-    height: 100%;
     padding: 20px;
     box-shadow:  0 0 10px 5px #888;
+    height: 100%;
 }
 html, body {
     height: 100%;
     background-color: #ccc;
     padding: 0;
     margin: 0;
+}
+@media (max-width: 900px) {
+    #mainContainer {
+        max-height: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    #gridContainer{
+        width: 100%;
+    }
+    header {
+        text-align: center;
+    }
+    #appInfo {
+        justify-content: center;
+    }
+    #grid {
+        margin: 0 auto;
+    }
+
 }

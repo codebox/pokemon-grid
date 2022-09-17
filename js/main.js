@@ -10,10 +10,13 @@ function start() {
         model = buildModel(staticData),
         view = buildView(model);
 
-    view.on('stopGoClick', () => {
+    view.on('stopClick', () => {
         if (model.state === STATE_RUNNING) {
             setState(STATE_STOPPED);
-        } else {
+        }
+    });
+    view.on('goClick', () => {
+        if (model.state === STATE_STOPPED) {
             try {
                 model.validate();
                 setState(STATE_RUNNING);

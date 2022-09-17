@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -23,13 +24,14 @@
         <div id="mainContainer">
             <div id="gridContainer">
                 <canvas id="grid" width="600px" height="600px"></canvas>
+                <button id="stop">Stop</button>
                 <p id="info"></p>
                 <canvas id="graph" width="600px" height="150px"></canvas>
                 <p id="stats"></p>
             </div>
             <ul id="list"></ul>
         </div>
-        <button id="stopGo"></button>
+
         <div id="settings">
             <h2>Pokemon/Moves</h2>
             <input id="pokemonFilter" placeholder="Pokemon Search">
@@ -44,7 +46,7 @@
                 </ul>
             </div>
             <ul id="pokemonSelectionList"></ul>
-
+            <button id="go">Go</button>
             <h2>Weather</h2>
             <ul id="weatherList">
                 <li id="noWeather">None</li>

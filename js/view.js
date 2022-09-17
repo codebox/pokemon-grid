@@ -8,7 +8,8 @@ export function buildView(model) {
         elInfo = document.getElementById('info'),
         elStats = document.getElementById('stats'),
         elList = document.getElementById('list'),
-        elStopGo = document.getElementById('stopGo'),
+        elStop = document.getElementById('stop'),
+        elGo = document.getElementById('go'),
         elSettings = document.getElementById('settings'),
         elGridSizeList = document.getElementById('gridSizeList'),
         elWeatherList = document.getElementById('weatherList'),
@@ -60,7 +61,9 @@ export function buildView(model) {
         li.onclick = () => doSelection(a => pickN(a, count));
     })
 
-    elStopGo.onclick = () => trigger('stopGoClick');
+    elGo.onclick = () => trigger('goClick');
+    elStop.onclick = () => trigger('stopClick');
+
     elGridSizeList.onclick = e => {
         [...elGridSizeList.children].forEach(el => {
            el.classList.toggle('selected', e.target === el);
@@ -241,16 +244,16 @@ export function buildView(model) {
             toggle(elList, state !== STATE_STOPPED);
             toggle(elStats, state !== STATE_STOPPED);
             toggle(elInfo, state !== STATE_STOPPED);
+            toggle(elStop, state !== STATE_STOPPED);
+            toggle(elGo, state !== STATE_RUNNING);
 
             if (state === STATE_RUNNING) {
                 cellWidth = elCanvasGrid.width / model.grid.width;
                 cellHeight = elCanvasGrid.height / model.grid.height;
-                elStopGo.innerHTML = 'Stop';
             } else {
                 elList.innerHTML = '';
                 ctxGrid.clearRect(0, 0, elCanvasGrid.width, elCanvasGrid.height);
                 ctxGraph.clearRect(0, 0, elCanvasGraph.width, elCanvasGraph.height);
-                elStopGo.innerHTML = 'Go';
             }
         },
         updateSelection() {
