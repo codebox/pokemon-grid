@@ -1,12 +1,9 @@
 https://pokemongohub.net/post/wiki/comprehensive-guide-moves-pokemon-go/
 https://twitter.com/matthen2/status/1543226572592783362
 https://gamepress.gg/pokemongo/damage-mechanics
+https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json
 
-
-Code changes
-    Cache battle outcomes
-    More optimisations
-    Web workers, wasm?
+TODO
     Vary colours according to pokemon as well as type
     Make all settings/selections bookmarkable
     add seedable rnd algorithm, include seed in url
@@ -14,13 +11,13 @@ Code changes
     select links should set moves as well
     update list to show if moves deselected for each pokemon
     add some explanatory text to settings page
-    allow -ve matches searches
-    allow :type=dark searches
     reset grid/list properly (old grid appears for a second after starting new one)
     add surrounding page structure
     more states - paused, completed
-
-DONE
-    Download game master JSON https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json
-    Remove duplicates from pokemon.js data
-    Break apart into separate files
+    update links to home page/source code
+    - - - -
+    Cache battle outcomes
+    More optimisations
+    Web workers, wasm?
+    allow -ve matches searches
+    allow :type=dark searches

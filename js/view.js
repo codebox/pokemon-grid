@@ -18,10 +18,12 @@ export function buildView(model) {
         elSelectionList = document.getElementById('pokemonSelectionList'),
         elSelectAllPokemon = document.getElementById('selectAllPokemon'),
         elSelectNoPokemon = document.getElementById('selectNoPokemon'),
+        elGameMasterDate = document.getElementById('gameMasterDate'),
         ctxGrid = elCanvasGrid.getContext('2d'),
         ctxGraph = elCanvasGraph.getContext('2d'),
         rect = elCanvasGrid.getBoundingClientRect();
 
+    elGameMasterDate.innerHTML = `Game Master File: ${staticData.gameMasterDate}`;
     let cellWidth, cellHeight;
 
     const typeColours = {
@@ -238,6 +240,7 @@ export function buildView(model) {
             toggle(elCanvasGraph, state !== STATE_STOPPED);
             toggle(elList, state !== STATE_STOPPED);
             toggle(elStats, state !== STATE_STOPPED);
+            toggle(elInfo, state !== STATE_STOPPED);
 
             if (state === STATE_RUNNING) {
                 cellWidth = elCanvasGrid.width / model.grid.width;
@@ -254,4 +257,7 @@ export function buildView(model) {
             [...elSelectionList.querySelectorAll('input')].forEach(chk => chk.checked = model.selectedPokemon.has(chk.dataset.pokemon));
         }
     };
+
+
+
 }

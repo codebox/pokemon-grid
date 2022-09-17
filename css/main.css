@@ -1,7 +1,10 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-#grid, #graph {
+header {
+    margin-bottom: 10px;
+}
+canvas {
     border: 1px solid black;
     cursor: crosshair;
 }
@@ -12,15 +15,17 @@ p {
     min-height: 24px;
     margin: 0;
 }
-#container {
+#mainContainer {
     display: flex;
     flex-direction: row;
+    flex-grow: 0;
+    max-height: 820px;
 }
 #list {
-    max-height: 600px;
-    overflow-y: scroll;
     margin: 0;
     padding: 0 0 0 10px;
+    max-height: inherit;
+    overflow-y: scroll;
 }
 #list li {
     display: flex;
@@ -147,6 +152,42 @@ h2 {
     text-decoration: underline;
     font-size: 0.8em;
 }
+#appInfo {
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+#appInfo a {
+    color: #006BB7;
+    text-decoration: underline;
+}
 #pokemonSelectionLinks ul li:hover {
     background-color: inherit;
+}
+h1 {
+    margin: 0;
+}
+button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+}
+#outerContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: white;
+    height: 100%;
+    padding: 20px;
+    box-shadow:  0 0 10px 5px #888;
+}
+html, body {
+    height: 100%;
+    background-color: #ccc;
+    padding: 0;
+    margin: 0;
 }

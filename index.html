@@ -9,48 +9,62 @@
     <title>Pokemon Battle Grid</title>
 </head>
 <body>
-    <div id="container">
-        <canvas id="grid" width="600px" height="600px"></canvas>
-        <ul id="list"></ul>
-    </div>
-    <p id="info"></p>
-    <canvas id="graph" width="600px" height="150px"></canvas>
-    <p id="stats"></p>
-    <div id="settings">
-        <h2>Pokemon/Moves</h2>
-        <input id="pokemonFilter" placeholder="Pokemon Search">
-        <div id="pokemonSelectionLinks">
-            <ul>
-                <li id="selectAllPokemon">Select All</li>
-                <li id="selectNoPokemon">Select None</li>
-                <li class="selectRandom" data-count="25"></li>
-                <li class="selectRandom" data-count="50"></li>
-                <li class="selectRandom" data-count="100"></li>
-                <li class="selectRandom" data-count="200"></li>
+    <div id="outerContainer">
+        <header>
+            <h1>Pokemon Go Battle Grid</h1>
+            <p id="appInfo">
+                <span id="gameMasterDate"></span>
+                <svg class="icon icon-tabler icon-tabler-pokeball" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none" stroke="none"/><circle cx="9" cy="9" r="9" transform="translate(3 3)"/><circle cx="12" cy="12" r="3"/><path d="M3 12h6m6 0h6"/></svg>
+                <a href="http://codebox.net">Project Home</a>
+                <svg class="icon icon-tabler icon-tabler-pokeball" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none" stroke="none"/><circle cx="9" cy="9" r="9" transform="translate(3 3)"/><circle cx="12" cy="12" r="3"/><path d="M3 12h6m6 0h6"/></svg>
+                <a href="http://codebox.net">Source Code</a>
+            </p>
+        </header>
+        <div id="mainContainer">
+            <div id="gridContainer">
+                <canvas id="grid" width="600px" height="600px"></canvas>
+                <p id="info"></p>
+                <canvas id="graph" width="600px" height="150px"></canvas>
+                <p id="stats"></p>
+            </div>
+            <ul id="list"></ul>
+        </div>
+        <button id="stopGo"></button>
+        <div id="settings">
+            <h2>Pokemon/Moves</h2>
+            <input id="pokemonFilter" placeholder="Pokemon Search">
+            <div id="pokemonSelectionLinks">
+                <ul>
+                    <li id="selectAllPokemon">Select All</li>
+                    <li id="selectNoPokemon">Select None</li>
+                    <li class="selectRandom" data-count="25"></li>
+                    <li class="selectRandom" data-count="50"></li>
+                    <li class="selectRandom" data-count="100"></li>
+                    <li class="selectRandom" data-count="200"></li>
+                </ul>
+            </div>
+            <ul id="pokemonSelectionList"></ul>
+
+            <h2>Weather</h2>
+            <ul id="weatherList">
+                <li id="noWeather">None</li>
+                <li>Sunny/clear</li>
+                <li>Partly cloudy</li>
+                <li>Cloudy</li>
+                <li>Windy</li>
+                <li>Rainy</li>
+                <li>Fog</li>
+                <li>Snow</li>
+            </ul>
+
+            <h2>Grid Size</h2>
+            <ul id="gridSizeList">
+                <li>Small</li>
+                <li>Medium</li>
+                <li>Large</li>
             </ul>
         </div>
-        <ul id="pokemonSelectionList"></ul>
-
-        <h2>Weather</h2>
-        <ul id="weatherList">
-            <li id="noWeather">None</li>
-            <li>Sunny/clear</li>
-            <li>Partly cloudy</li>
-            <li>Cloudy</li>
-            <li>Windy</li>
-            <li>Rainy</li>
-            <li>Fog</li>
-            <li>Snow</li>
-        </ul>
-
-        <h2>Grid Size</h2>
-        <ul id="gridSizeList">
-            <li>Small</li>
-            <li>Medium</li>
-            <li>Large</li>
-        </ul>
     </div>
-    <button id="stopGo"></button>
     <script type="module" src="js/main.js"></script>
 </body>
 </html>
