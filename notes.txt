@@ -4,7 +4,6 @@ https://gamepress.gg/pokemongo/damage-mechanics
 https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json
 
 TODO
-    Vary colours according to pokemon as well as type (type colours -> hsl, vary 'l' by small amount based on hash of pokemon name and moves)
     Make all settings/selections bookmarkable
     add seedable rnd algorithm, include seed in url
     populate gridSizeList from model

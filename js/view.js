@@ -1,6 +1,6 @@
 import {staticData} from './data.js';
 import {STATE_RUNNING, STATE_STOPPED} from './model.js';
-import {pickN, formatTime} from './utils.js';
+import {pickN, formatTime, hashString} from './utils.js';
 
 export function buildView(model) {
     const elCanvasGrid = document.getElementById('grid'),
@@ -21,8 +21,7 @@ export function buildView(model) {
         elSelectNoPokemon = document.getElementById('selectNoPokemon'),
         elGameMasterDate = document.getElementById('gameMasterDate'),
         ctxGrid = elCanvasGrid.getContext('2d'),
-        ctxGraph = elCanvasGraph.getContext('2d'),
-        rect = elCanvasGrid.getBoundingClientRect();
+        ctxGraph = elCanvasGraph.getContext('2d');
 
     elGameMasterDate.innerHTML = `Game Master File: ${staticData.gameMasterDate}`;
     let cellWidth, cellHeight;
@@ -71,8 +70,9 @@ export function buildView(model) {
         trigger('gridSizeChanged', e.target.innerHTML);
     }
     elCanvasGrid.onmousemove = e => {
-        const x = e.pageX - rect.left,
-            y = e.pageY - rect.top,
+        const rect = elCanvasGrid.getBoundingClientRect(),
+            x = e.clientX - rect.left,
+            y = e.clientY - rect.top,
             px = Math.floor(x/cellWidth),
             py = Math.floor(y/cellHeight);
         if (px < model.grid.width && px >= 0 && py < model.grid.height && py >= 0){
@@ -99,20 +99,38 @@ export function buildView(model) {
         }
     }
 
-    function getPokemonColour(pokemon) {
-        const [h,s,l] = typeColours[pokemon.types[0]];
-        return `hsl(${h},${s}%,${l}%)`;
-    }
-    const getPokemonNameColour = (() => {
-        const nameColours = {};
-        return name => {
-            if (!nameColours[name]) {
-                const pokemon = staticData.getPokemonByName(name);
-                nameColours[name] = getPokemonColour(pokemon);
+    const getPokemonColour = (() => {
+        const pokemonColours = {};
+        const variation = 0.2;
+        function ensureValidPercentage(v) {
+            return Math.max(0, Math.min(100, v));
+        }
+        return (pokemon) => {
+            const id = pokemon.id || pokemon.name;
+            if (!pokemonColours[id]) {
+                const [typeH, typeS, typeL] = typeColours[pokemon.types[0]],
+                    name = pokemon.name,
+                    moves = (pokemon.quickMove ? pokemon.quickMove.name : '') + (pokemon.chargeMove ? pokemon.chargeMove.name : ''),
+                    nameHash = hashString(name) % 100,
+                    adjustedL = ensureValidPercentage(typeL + (nameHash - 50) * variation);
+                let colour;
+                if (moves) {
+                    const moveHash = hashString(moves) % 100,
+                        adjustedS = ensureValidPercentage(typeS + (moveHash - 50)  * variation);
+                    colour = `hsl(${typeH},${adjustedS}%,${adjustedL}%)`;
+                } else {
+                    colour = `hsl(${typeH},${typeS}%,${adjustedL}%)`;
+                }
+                pokemonColours[id] = colour;
             }
-            return nameColours[name];
+            return pokemonColours[id];
         };
     })();
+
+    function getPokemonNameColour(name) {
+        const pokemon = staticData.getPokemonByName(name);
+        return getPokemonColour(pokemon);
+    }
 
     function toggle(el, visible) {
         el.style.display = visible ? '' : 'none';
@@ -229,7 +247,7 @@ export function buildView(model) {
             ctxGraph.clearRect(0, 0, elCanvasGraph.width, elCanvasGraph.height);
             Object.entries(graphPlots).forEach(([pokemonName, counts]) => {
                 const colour = getPokemonNameColour(pokemonName);
-                ctxGraph.strokeStyle = `#${colour}`;
+                ctxGraph.strokeStyle = colour;
                 ctxGraph.beginPath();
                 for (let x=0; x<counts.length-1; x++) {
                     ctxGraph.moveTo(x, graphTopMargin + (elCanvasGraph.height - graphTopMargin) * (1 - counts[x] / maxValue));
