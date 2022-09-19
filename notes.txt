@@ -10,7 +10,6 @@ TODO
     select links should set moves as well
     update list to show if moves deselected for each pokemon
     add some explanatory text to settings page
-    reset grid/list properly (old grid appears for a second after starting new one)
     add surrounding page structure
     more states - paused, completed
     update links to home page/source code
