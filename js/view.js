@@ -92,12 +92,15 @@ export function buildView(model) {
             [...elWeatherList.children].forEach(li => li.classList.toggle('selected', li === e.target));
         }
     }
-    elGridSizeList.onclick = e => {
-        if (e.target.nodeName === 'LI') {
-            trigger('gridSizeSelected', e.target.innerHTML);
-            [...elGridSizeList.children].forEach(li => li.classList.toggle('selected', li === e.target));
-        }
-    }
+
+    Object.keys(model.gridSizes).forEach(name => {
+        const li = document.createElement('li');
+        li.innerHTML = name;
+        elGridSizeList.appendChild(li);
+        li.addEventListener('click', () => {
+            trigger('gridSizeSelected', name);
+        });
+    });
 
     const getPokemonColour = (() => {
         const pokemonColours = {};

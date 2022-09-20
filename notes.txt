@@ -4,11 +4,10 @@ https://gamepress.gg/pokemongo/damage-mechanics
 https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json
 
 TODO
+    update list to show if moves deselected for each pokemon
     Make all settings/selections bookmarkable
     add seedable rnd algorithm, include seed in url
-    populate gridSizeList from model
     select links should set moves as well
-    update list to show if moves deselected for each pokemon
     add some explanatory text to settings page
     add surrounding page structure
     more states - paused, completed

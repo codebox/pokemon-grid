@@ -7,15 +7,18 @@ export const STATE_STOPPED = 'stopped',
     STATE_PAUSED = 'paused',
     STATE_RUNNING = 'running';
 
+const gridSizes = Object.freeze({
+    'small': 50,
+    'medium': 100,
+    'large': 200,
+    'maximum': 500
+});
+
 export function buildModel() {
     const model = {
+        gridSizes,
         populateGrid() {
-            const size = {
-                'small': 50,
-                'medium': 100,
-                'large': 200,
-                'maximum': 600
-            }[this.gridSize.toLowerCase()];
+            const size = gridSizes[this.gridSize.toLowerCase()];
             this.grid = buildGrid(size, size);
             this.grid.populate(() => buildPokemon(model, staticData));
             this.counters = [];
