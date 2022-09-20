@@ -168,6 +168,12 @@ h2 {
 #settings .pokemonListItemDetails ul {
     border: none;
 }
+#settings .pokemonListItemMoveSummary {
+    flex: 0 0 100px;
+    font-size: 0.8em;
+    text-align: right;
+    padding-right: 10px;
+}
 #pokemonFilter {
     margin-bottom: 5px;
 }

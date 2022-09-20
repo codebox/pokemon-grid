@@ -49,6 +49,7 @@ function start() {
         if (model.moveExclusions[pokemon]) {
             model.moveExclusions[pokemon].delete(move);
         }
+        view.updateMoves(pokemon);
     });
     view.on('moveDeselected', event => {
         const {pokemon, move} = event.data;
@@ -56,6 +57,7 @@ function start() {
             model.moveExclusions[pokemon] = new Set();
         }
         model.moveExclusions[pokemon].add(move);
+        view.updateMoves(pokemon);
     });
     view.on('gridSizeSelected', event => {
         model.gridSize = event.data;

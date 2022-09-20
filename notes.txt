@@ -4,7 +4,6 @@ https://gamepress.gg/pokemongo/damage-mechanics
 https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json
 
 TODO
-    update list to show if moves deselected for each pokemon
     Make all settings/selections bookmarkable
     add seedable rnd algorithm, include seed in url
     select links should set moves as well

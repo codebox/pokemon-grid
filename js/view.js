@@ -146,7 +146,6 @@ export function buildView(model) {
         eventTarget.dispatchEvent(event);
     }
 
-    const pokemonToCheckboxLookup = {};
     function buildPokemonSelectionListItem(pokemon) {
         const moveExclusions = model.moveExclusions[pokemon.name] || new Set();
 
@@ -159,6 +158,7 @@ export function buildView(model) {
         li.innerHTML = `
             <div class="pokemonListItemTop">                
                 <label><input type="checkbox" class="pokemonCheckbox">${pokemon.name}</label>
+                <div class="pokemonListItemMoveSummary"></div>
                 <div class="pokemonListItemShowDetails triangle_down"></div>
             </div>
             <div class="pokemonListItemDetails">
@@ -258,6 +258,21 @@ export function buildView(model) {
                 }
                 ctxGraph.stroke();
             });
+        },
+        updateMoves(pokemonName) {
+            const pokemonData = staticData.getPokemonByName(pokemonName),
+                pokemonMoveExclusions = model.moveExclusions[pokemonName] || new Set(),
+                li = [...elSelectionList.children].find(li => li.dataset.pokemon === pokemonName),
+                elMoveSummary = li.querySelector('.pokemonListItemMoveSummary'),
+                hasExclusions = pokemonMoveExclusions.size;
+
+            if (hasExclusions) {
+                const totalAvailableMoves = pokemonData.moves.charge.length + pokemonData.moves.quick.length,
+                    totalSelectedMoves = totalAvailableMoves - pokemonMoveExclusions.size;
+                elMoveSummary.innerHTML = `${totalSelectedMoves}/${totalAvailableMoves} moves`;
+            } else {
+                elMoveSummary.innerHTML = '';
+            }
         },
         updateForState(state) {
             toggle(elSettings, state === STATE_STOPPED);
