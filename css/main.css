@@ -49,6 +49,7 @@ p.infoText {
     display: flex;
     flex-direction: column;
     max-width: 100%;
+    gap: 5px;
 }
 #grid {
     max-width: 100%;
@@ -83,6 +84,7 @@ p.infoText {
 #settings {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 #settings ul{
     padding: 0;
@@ -165,6 +167,9 @@ h2 {
 #settings ul {
     border: 1px solid black;
 }
+#pokemonFilter {
+    padding: 4px;
+}
 #settings .pokemonListItemDetails ul {
     border: none;
 }
@@ -173,9 +178,6 @@ h2 {
     font-size: 0.8em;
     text-align: right;
     padding-right: 10px;
-}
-#pokemonFilter {
-    margin-bottom: 5px;
 }
 #pokemonSelectionLinks ul {
     display: flex;

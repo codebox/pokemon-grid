@@ -200,6 +200,7 @@ export function buildView(model) {
         },
         setInfoText(text) {
             elInfo.innerHTML = text;
+            toggle(elInfo, text);
         },
         updateGrid() {
             ctxGrid.clearRect(0,0, elCanvasGrid.width, elCanvasGrid.height);
