@@ -87,14 +87,14 @@ function start() {
     });
     view.on('pokemonReselected', event => {
         model.selectedPokemon = new Set(event.data);
-        view.updateSelection();
+        view.updateSettings();
     });
     view.on('moveSelected', event => {
         const {pokemon, move} = event.data;
         if (model.moveExclusions[pokemon]) {
             model.moveExclusions[pokemon].delete(move);
         }
-        view.updateMoves(pokemon);
+        view.updateSettings();
     });
     view.on('moveDeselected', event => {
         const {pokemon, move} = event.data;
@@ -102,7 +102,7 @@ function start() {
             model.moveExclusions[pokemon] = new Set();
         }
         model.moveExclusions[pokemon].add(move);
-        view.updateMoves(pokemon);
+        view.updateSettings();
     });
     view.on('gridSizeSelected', event => {
         model.gridSize = event.data;
@@ -198,10 +198,10 @@ function start() {
     model.gridSize = modelValues.gridSize || model.gridSize;
     if (modelValues.selectedPokemon.size) {
         model.selectedPokemon = modelValues.selectedPokemon;
-        view.selectSettingsUsingModel();
+        view.updateSettings();
         setState(STATE_RUNNING);
     } else {
-        view.selectSettingsUsingModel();
+        view.updateSettings();
         setState(STATE_STOPPED);
     }
 

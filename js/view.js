@@ -197,27 +197,7 @@ export function buildView(model) {
             });
         });
     }
-    function selectSettingsUsingModel() {
-        [...elSelectionList.children].forEach(li => {
-            const pokemonName = li.dataset.pokemon;
-            li.querySelector('input.pokemonCheckbox').checked = model.selectedPokemon.has(pokemonName);
-            [...li.querySelectorAll('input.moveCheckbox')].forEach(checkBox => {
-                checkBox.checked = !(model.moveExclusions[pokemonName] || new Set()).has(checkBox.dataset.move);
-            });
-        });
-
-        [...elWeatherList.children].forEach(li => {
-            const isSelected = li.innerHTML.toLowerCase() === model.weather.toLowerCase();
-            li.classList.toggle('selected', isSelected);
-        });
-
-        [...elGridSizeList.children].forEach(li => {
-            const isSelected = li.innerHTML.toLowerCase() === model.gridSize.toLowerCase();
-            li.classList.toggle('selected', isSelected);
-        });
-    }
     populateSettingsLists();
-    selectSettingsUsingModel();
 
     return {
         on(eventName, handler) {
@@ -266,21 +246,6 @@ export function buildView(model) {
                 ctxGraph.stroke();
             });
         },
-        updateMoves(pokemonName) {
-            const pokemonData = staticData.getPokemonByName(pokemonName),
-                pokemonMoveExclusions = model.moveExclusions[pokemonName] || new Set(),
-                li = [...elSelectionList.children].find(li => li.dataset.pokemon === pokemonName),
-                elMoveSummary = li.querySelector('.pokemonListItemMoveSummary'),
-                hasExclusions = pokemonMoveExclusions.size;
-
-            if (hasExclusions) {
-                const totalAvailableMoves = pokemonData.moves.charge.length + pokemonData.moves.quick.length,
-                    totalSelectedMoves = totalAvailableMoves - pokemonMoveExclusions.size;
-                elMoveSummary.innerHTML = `${totalSelectedMoves}/${totalAvailableMoves} moves`;
-            } else {
-                elMoveSummary.innerHTML = '';
-            }
-        },
         updateForState(state) {
             toggle(elSettings, state === STATE_STOPPED);
             toggle(elCanvasGrid, state !== STATE_STOPPED);
@@ -300,9 +265,36 @@ export function buildView(model) {
                 ctxGraph.clearRect(0, 0, elCanvasGraph.width, elCanvasGraph.height);
             }
         },
-        updateSelection() {
-            [...elSelectionList.querySelectorAll('input')].forEach(chk => chk.checked = model.selectedPokemon.has(chk.dataset.pokemon));
-        },
-        selectSettingsUsingModel
+        updateSettings() {
+            [...elSelectionList.children].forEach(li => {
+                const pokemonName = li.dataset.pokemon,
+                    elMoveSummary = li.querySelector('.pokemonListItemMoveSummary');
+                li.querySelector('input.pokemonCheckbox').checked = model.selectedPokemon.has(pokemonName);
+                let totalMoveCount = 0, selectedMoveCount = 0;
+                [...li.querySelectorAll('input.moveCheckbox')].forEach(checkBox => {
+                    const moveSelected = !(model.moveExclusions[pokemonName] || new Set()).has(checkBox.dataset.move);
+                    checkBox.checked = moveSelected;
+                    totalMoveCount++;
+                    if (moveSelected) {
+                        selectedMoveCount++;
+                    }
+                });
+                if (totalMoveCount > selectedMoveCount) {
+                    elMoveSummary.innerHTML = `${selectedMoveCount}/${totalMoveCount} moves`;
+                } else {
+                    elMoveSummary.innerHTML = '';
+                }
+            });
+
+            [...elWeatherList.children].forEach(li => {
+                const isSelected = li.innerHTML.toLowerCase() === model.weather.toLowerCase();
+                li.classList.toggle('selected', isSelected);
+            });
+
+            [...elGridSizeList.children].forEach(li => {
+                const isSelected = li.innerHTML.toLowerCase() === model.gridSize.toLowerCase();
+                li.classList.toggle('selected', isSelected);
+            });
+        }
     };
 }
