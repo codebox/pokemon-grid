@@ -1,7 +1,7 @@
 import requests, json, datetime
 datafile = 'https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json'
 ts_file = 'https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/timestamp.txt'
-js_out_dir = '../js/modules/data'
+js_out_dir = '../js/data'
 
 def format_name(name):
     return name.replace('_', ' ').title()
@@ -85,6 +85,8 @@ def dedupe_forms(all_pokemon):
         if form != 'NORMAL':
             p['name'] = '{} ({} form)'.format(p['name'], format_name(form))
 
+    for i,p in enumerate(all_pokemon):
+        p['id'] = i+1
     return all_pokemon
 
 def filter_move_props(m):

@@ -6,6 +6,7 @@ import {typeEffectiveness} from './data/types.js';
 import {weatherBoost} from './data/weather.js';
 
 const nameToPokemonLookup = {},
+    idToPokemonLookup = {},
     nameToMoveLookup = {};
 
 export const staticData = {
@@ -17,6 +18,12 @@ export const staticData = {
             nameToPokemonLookup[name] = pokemonData.find(p => p.name.toLowerCase() === name.toLowerCase());
         }
         return nameToPokemonLookup[name];
+    },
+    getPokemonById(id) {
+        if (!idToPokemonLookup[id]) {
+            idToPokemonLookup[id] = pokemonData.find(p => p.id === id);
+        }
+        return idToPokemonLookup[id];
     },
     getMoveByName(name) {
         if (!nameToMoveLookup[name]) {

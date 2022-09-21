@@ -20,7 +20,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 1
     },
     {
         "name": "Shadow Bulbasaur",
@@ -43,7 +44,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 2
     },
     {
         "name": "Ivysaur",
@@ -66,7 +68,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 3
     },
     {
         "name": "Shadow Ivysaur",
@@ -89,7 +92,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 4
     },
     {
         "name": "Venusaur",
@@ -113,7 +117,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 5
     },
     {
         "name": "Mega Venusaur",
@@ -137,7 +142,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 6
     },
     {
         "name": "Shadow Venusaur",
@@ -161,7 +167,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 7
     },
     {
         "name": "Charmander",
@@ -183,7 +190,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 8
     },
     {
         "name": "Shadow Charmander",
@@ -205,7 +213,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 9
     },
     {
         "name": "Charmeleon",
@@ -228,7 +237,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 10
     },
     {
         "name": "Shadow Charmeleon",
@@ -251,7 +261,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 11
     },
     {
         "name": "Charizard",
@@ -279,7 +290,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Flying"
-        ]
+        ],
+        "id": 12
     },
     {
         "name": "Shadow Charizard",
@@ -307,7 +319,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Flying"
-        ]
+        ],
+        "id": 13
     },
     {
         "name": "Squirtle",
@@ -329,7 +342,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 14
     },
     {
         "name": "Shadow Squirtle",
@@ -351,7 +365,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 15
     },
     {
         "name": "Wartortle",
@@ -373,7 +388,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 16
     },
     {
         "name": "Shadow Wartortle",
@@ -395,7 +411,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 17
     },
     {
         "name": "Blastoise",
@@ -419,7 +436,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 18
     },
     {
         "name": "Mega Blastoise",
@@ -443,7 +461,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 19
     },
     {
         "name": "Shadow Blastoise",
@@ -467,7 +486,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 20
     },
     {
         "name": "Caterpie",
@@ -487,7 +507,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 21
     },
     {
         "name": "Metapod",
@@ -507,7 +528,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 22
     },
     {
         "name": "Butterfree",
@@ -531,7 +553,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Flying"
-        ]
+        ],
+        "id": 23
     },
     {
         "name": "Weedle",
@@ -552,7 +575,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 24
     },
     {
         "name": "Shadow Weedle",
@@ -573,7 +597,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 25
     },
     {
         "name": "Kakuna",
@@ -594,7 +619,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 26
     },
     {
         "name": "Shadow Kakuna",
@@ -615,7 +641,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 27
     },
     {
         "name": "Beedrill",
@@ -641,7 +668,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 28
     },
     {
         "name": "Mega Beedrill",
@@ -667,7 +695,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 29
     },
     {
         "name": "Shadow Beedrill",
@@ -693,7 +722,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 30
     },
     {
         "name": "Pidgey",
@@ -716,7 +746,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 31
     },
     {
         "name": "Pidgeotto",
@@ -739,7 +770,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 32
     },
     {
         "name": "Pidgeot",
@@ -766,7 +798,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 33
     },
     {
         "name": "Mega Pidgeot",
@@ -793,7 +826,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 34
     },
     {
         "name": "Rattata (Alola form)",
@@ -816,7 +850,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Normal"
-        ]
+        ],
+        "id": 35
     },
     {
         "name": "Shadow Rattata (Alola form)",
@@ -839,7 +874,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Normal"
-        ]
+        ],
+        "id": 36
     },
     {
         "name": "Rattata",
@@ -861,7 +897,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 37
     },
     {
         "name": "Shadow Rattata",
@@ -883,7 +920,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 38
     },
     {
         "name": "Raticate (Alola form)",
@@ -906,7 +944,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Normal"
-        ]
+        ],
+        "id": 39
     },
     {
         "name": "Shadow Raticate (Alola form)",
@@ -929,7 +968,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Normal"
-        ]
+        ],
+        "id": 40
     },
     {
         "name": "Raticate",
@@ -951,7 +991,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 41
     },
     {
         "name": "Shadow Raticate",
@@ -973,7 +1014,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 42
     },
     {
         "name": "Spearow",
@@ -997,7 +1039,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 43
     },
     {
         "name": "Fearow",
@@ -1021,7 +1064,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 44
     },
     {
         "name": "Ekans",
@@ -1044,7 +1088,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 45
     },
     {
         "name": "Shadow Ekans",
@@ -1067,7 +1112,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 46
     },
     {
         "name": "Arbok",
@@ -1091,7 +1137,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 47
     },
     {
         "name": "Shadow Arbok",
@@ -1115,7 +1162,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 48
     },
     {
         "name": "Pikachu (Costume 2020 form)",
@@ -1138,7 +1186,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 49
     },
     {
         "name": "Pikachu (Flying 5Th Anniv form)",
@@ -1162,7 +1211,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 50
     },
     {
         "name": "Pikachu (Flying Okinawa form)",
@@ -1185,7 +1235,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 51
     },
     {
         "name": "Pikachu (Kariyushi form)",
@@ -1207,7 +1258,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 52
     },
     {
         "name": "Pikachu",
@@ -1232,7 +1284,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 53
     },
     {
         "name": "Pikachu (Pop Star form)",
@@ -1254,7 +1307,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 54
     },
     {
         "name": "Pikachu (Rock Star form)",
@@ -1276,7 +1330,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 55
     },
     {
         "name": "Pikachu (Vs 2019 form)",
@@ -1298,7 +1353,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 56
     },
     {
         "name": "Raichu (Alola form)",
@@ -1323,7 +1379,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Psychic"
-        ]
+        ],
+        "id": 57
     },
     {
         "name": "Raichu",
@@ -1349,7 +1406,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 58
     },
     {
         "name": "Sandshrew (Alola form)",
@@ -1372,7 +1430,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Steel"
-        ]
+        ],
+        "id": 59
     },
     {
         "name": "Shadow Sandshrew (Alola form)",
@@ -1395,7 +1454,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Steel"
-        ]
+        ],
+        "id": 60
     },
     {
         "name": "Sandshrew",
@@ -1418,7 +1478,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 61
     },
     {
         "name": "Shadow Sandshrew",
@@ -1441,7 +1502,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 62
     },
     {
         "name": "Sandslash (Alola form)",
@@ -1466,7 +1528,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Steel"
-        ]
+        ],
+        "id": 63
     },
     {
         "name": "Shadow Sandslash (Alola form)",
@@ -1491,7 +1554,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Steel"
-        ]
+        ],
+        "id": 64
     },
     {
         "name": "Sandslash",
@@ -1514,7 +1578,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 65
     },
     {
         "name": "Shadow Sandslash",
@@ -1537,7 +1602,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 66
     },
     {
         "name": "Nidoran Female",
@@ -1559,7 +1625,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 67
     },
     {
         "name": "Shadow Nidoran Female",
@@ -1581,7 +1648,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 68
     },
     {
         "name": "Nidorina",
@@ -1604,7 +1672,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 69
     },
     {
         "name": "Shadow Nidorina",
@@ -1627,7 +1696,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 70
     },
     {
         "name": "Nidoqueen",
@@ -1652,7 +1722,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Ground"
-        ]
+        ],
+        "id": 71
     },
     {
         "name": "Shadow Nidoqueen",
@@ -1677,7 +1748,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Ground"
-        ]
+        ],
+        "id": 72
     },
     {
         "name": "Nidoran Male",
@@ -1699,7 +1771,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 73
     },
     {
         "name": "Shadow Nidoran Male",
@@ -1721,7 +1794,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 74
     },
     {
         "name": "Nidorino",
@@ -1744,7 +1818,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 75
     },
     {
         "name": "Shadow Nidorino",
@@ -1767,7 +1842,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 76
     },
     {
         "name": "Nidoking",
@@ -1794,7 +1870,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Ground"
-        ]
+        ],
+        "id": 77
     },
     {
         "name": "Shadow Nidoking",
@@ -1821,7 +1898,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Ground"
-        ]
+        ],
+        "id": 78
     },
     {
         "name": "Clefairy",
@@ -1843,7 +1921,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 79
     },
     {
         "name": "Clefable",
@@ -1868,7 +1947,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 80
     },
     {
         "name": "Vulpix (Alola form)",
@@ -1891,7 +1971,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 81
     },
     {
         "name": "Shadow Vulpix (Alola form)",
@@ -1914,7 +1995,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 82
     },
     {
         "name": "Vulpix",
@@ -1937,7 +2019,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 83
     },
     {
         "name": "Shadow Vulpix",
@@ -1960,7 +2043,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 84
     },
     {
         "name": "Ninetales (Alola form)",
@@ -1986,7 +2070,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Fairy"
-        ]
+        ],
+        "id": 85
     },
     {
         "name": "Shadow Ninetales (Alola form)",
@@ -2012,7 +2097,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Fairy"
-        ]
+        ],
+        "id": 86
     },
     {
         "name": "Ninetales",
@@ -2039,7 +2125,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 87
     },
     {
         "name": "Shadow Ninetales",
@@ -2066,7 +2153,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 88
     },
     {
         "name": "Jigglypuff",
@@ -2091,7 +2179,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Fairy"
-        ]
+        ],
+        "id": 89
     },
     {
         "name": "Wigglytuff",
@@ -2116,7 +2205,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Fairy"
-        ]
+        ],
+        "id": 90
     },
     {
         "name": "Zubat",
@@ -2140,7 +2230,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Flying"
-        ]
+        ],
+        "id": 91
     },
     {
         "name": "Shadow Zubat",
@@ -2164,7 +2255,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Flying"
-        ]
+        ],
+        "id": 92
     },
     {
         "name": "Golbat",
@@ -2188,7 +2280,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Flying"
-        ]
+        ],
+        "id": 93
     },
     {
         "name": "Shadow Golbat",
@@ -2212,7 +2305,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Flying"
-        ]
+        ],
+        "id": 94
     },
     {
         "name": "Oddish",
@@ -2235,7 +2329,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 95
     },
     {
         "name": "Shadow Oddish",
@@ -2258,7 +2353,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 96
     },
     {
         "name": "Gloom",
@@ -2281,7 +2377,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 97
     },
     {
         "name": "Shadow Gloom",
@@ -2304,7 +2401,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 98
     },
     {
         "name": "Vileplume",
@@ -2328,7 +2426,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 99
     },
     {
         "name": "Shadow Vileplume",
@@ -2352,7 +2451,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 100
     },
     {
         "name": "Paras",
@@ -2375,7 +2475,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Grass"
-        ]
+        ],
+        "id": 101
     },
     {
         "name": "Parasect",
@@ -2399,7 +2500,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Grass"
-        ]
+        ],
+        "id": 102
     },
     {
         "name": "Venonat",
@@ -2422,7 +2524,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 103
     },
     {
         "name": "Shadow Venonat",
@@ -2445,7 +2548,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 104
     },
     {
         "name": "Venomoth",
@@ -2470,7 +2574,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 105
     },
     {
         "name": "Shadow Venomoth",
@@ -2495,7 +2600,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 106
     },
     {
         "name": "Diglett (Alola form)",
@@ -2518,7 +2624,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Steel"
-        ]
+        ],
+        "id": 107
     },
     {
         "name": "Shadow Diglett (Alola form)",
@@ -2541,7 +2648,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Steel"
-        ]
+        ],
+        "id": 108
     },
     {
         "name": "Diglett",
@@ -2563,7 +2671,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 109
     },
     {
         "name": "Shadow Diglett",
@@ -2585,7 +2694,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 110
     },
     {
         "name": "Dugtrio",
@@ -2607,7 +2717,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 111
     },
     {
         "name": "Shadow Dugtrio",
@@ -2629,7 +2740,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 112
     },
     {
         "name": "Dugtrio (Alola form)",
@@ -2652,7 +2764,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Steel"
-        ]
+        ],
+        "id": 113
     },
     {
         "name": "Shadow Dugtrio (Alola form)",
@@ -2675,7 +2788,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Steel"
-        ]
+        ],
+        "id": 114
     },
     {
         "name": "Dugtrio",
@@ -2697,7 +2811,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 115
     },
     {
         "name": "Shadow Dugtrio",
@@ -2719,7 +2834,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 116
     },
     {
         "name": "Meowth (Alola form)",
@@ -2741,7 +2857,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 117
     },
     {
         "name": "Shadow Meowth (Alola form)",
@@ -2763,7 +2880,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 118
     },
     {
         "name": "Meowth (Galarian form)",
@@ -2785,7 +2903,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 119
     },
     {
         "name": "Shadow Meowth (Galarian form)",
@@ -2807,7 +2926,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 120
     },
     {
         "name": "Meowth",
@@ -2830,7 +2950,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 121
     },
     {
         "name": "Shadow Meowth",
@@ -2853,7 +2974,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 122
     },
     {
         "name": "Persian (Alola form)",
@@ -2876,7 +2998,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 123
     },
     {
         "name": "Shadow Persian (Alola form)",
@@ -2899,7 +3022,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 124
     },
     {
         "name": "Persian",
@@ -2923,7 +3047,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 125
     },
     {
         "name": "Shadow Persian",
@@ -2947,7 +3072,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 126
     },
     {
         "name": "Psyduck",
@@ -2969,7 +3095,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 127
     },
     {
         "name": "Shadow Psyduck",
@@ -2991,7 +3118,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 128
     },
     {
         "name": "Golduck",
@@ -3016,7 +3144,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 129
     },
     {
         "name": "Shadow Golduck",
@@ -3041,7 +3170,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 130
     },
     {
         "name": "Mankey",
@@ -3063,7 +3193,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 131
     },
     {
         "name": "Primeape",
@@ -3088,7 +3219,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 132
     },
     {
         "name": "Growlithe (Hisuian form)",
@@ -3111,7 +3243,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Rock"
-        ]
+        ],
+        "id": 133
     },
     {
         "name": "Shadow Growlithe (Hisuian form)",
@@ -3134,7 +3267,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Rock"
-        ]
+        ],
+        "id": 134
     },
     {
         "name": "Growlithe",
@@ -3156,7 +3290,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 135
     },
     {
         "name": "Shadow Growlithe",
@@ -3178,7 +3313,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 136
     },
     {
         "name": "Arcanine (Hisuian form)",
@@ -3203,7 +3339,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Rock"
-        ]
+        ],
+        "id": 137
     },
     {
         "name": "Shadow Arcanine (Hisuian form)",
@@ -3228,7 +3365,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Rock"
-        ]
+        ],
+        "id": 138
     },
     {
         "name": "Arcanine",
@@ -3255,7 +3393,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 139
     },
     {
         "name": "Shadow Arcanine",
@@ -3282,7 +3421,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 140
     },
     {
         "name": "Poliwag",
@@ -3304,7 +3444,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 141
     },
     {
         "name": "Shadow Poliwag",
@@ -3326,7 +3467,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 142
     },
     {
         "name": "Poliwhirl",
@@ -3349,7 +3491,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 143
     },
     {
         "name": "Shadow Poliwhirl",
@@ -3372,7 +3515,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 144
     },
     {
         "name": "Poliwrath",
@@ -3399,7 +3543,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Fighting"
-        ]
+        ],
+        "id": 145
     },
     {
         "name": "Shadow Poliwrath",
@@ -3426,7 +3571,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Fighting"
-        ]
+        ],
+        "id": 146
     },
     {
         "name": "Abra",
@@ -3448,7 +3594,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 147
     },
     {
         "name": "Shadow Abra",
@@ -3470,7 +3617,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 148
     },
     {
         "name": "Kadabra",
@@ -3492,7 +3640,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 149
     },
     {
         "name": "Shadow Kadabra",
@@ -3514,7 +3663,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 150
     },
     {
         "name": "Alakazam",
@@ -3540,7 +3690,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 151
     },
     {
         "name": "Mega Alakazam",
@@ -3566,7 +3717,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 152
     },
     {
         "name": "Shadow Alakazam",
@@ -3592,7 +3744,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 153
     },
     {
         "name": "Machop",
@@ -3615,7 +3768,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 154
     },
     {
         "name": "Shadow Machop",
@@ -3638,7 +3792,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 155
     },
     {
         "name": "Machoke",
@@ -3661,7 +3816,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 156
     },
     {
         "name": "Shadow Machoke",
@@ -3684,7 +3840,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 157
     },
     {
         "name": "Machamp",
@@ -3712,7 +3869,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 158
     },
     {
         "name": "Shadow Machamp",
@@ -3740,7 +3898,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 159
     },
     {
         "name": "Bellsprout",
@@ -3763,7 +3922,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 160
     },
     {
         "name": "Shadow Bellsprout",
@@ -3786,7 +3946,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 161
     },
     {
         "name": "Weepinbell",
@@ -3810,7 +3971,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 162
     },
     {
         "name": "Shadow Weepinbell",
@@ -3834,7 +3996,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 163
     },
     {
         "name": "Victreebel",
@@ -3859,7 +4022,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 164
     },
     {
         "name": "Shadow Victreebel",
@@ -3884,7 +4048,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 165
     },
     {
         "name": "Tentacool",
@@ -3907,7 +4072,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Poison"
-        ]
+        ],
+        "id": 166
     },
     {
         "name": "Tentacruel",
@@ -3932,7 +4098,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Poison"
-        ]
+        ],
+        "id": 167
     },
     {
         "name": "Geodude (Alola form)",
@@ -3955,7 +4122,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Electric"
-        ]
+        ],
+        "id": 168
     },
     {
         "name": "Shadow Geodude (Alola form)",
@@ -3978,7 +4146,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Electric"
-        ]
+        ],
+        "id": 169
     },
     {
         "name": "Geodude",
@@ -4001,7 +4170,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Ground"
-        ]
+        ],
+        "id": 170
     },
     {
         "name": "Shadow Geodude",
@@ -4024,7 +4194,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Ground"
-        ]
+        ],
+        "id": 171
     },
     {
         "name": "Graveler (Alola form)",
@@ -4047,7 +4218,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Electric"
-        ]
+        ],
+        "id": 172
     },
     {
         "name": "Shadow Graveler (Alola form)",
@@ -4070,7 +4242,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Electric"
-        ]
+        ],
+        "id": 173
     },
     {
         "name": "Graveler",
@@ -4094,7 +4267,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Ground"
-        ]
+        ],
+        "id": 174
     },
     {
         "name": "Shadow Graveler",
@@ -4118,7 +4292,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Ground"
-        ]
+        ],
+        "id": 175
     },
     {
         "name": "Golem (Alola form)",
@@ -4142,7 +4317,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Electric"
-        ]
+        ],
+        "id": 176
     },
     {
         "name": "Shadow Golem (Alola form)",
@@ -4166,7 +4342,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Electric"
-        ]
+        ],
+        "id": 177
     },
     {
         "name": "Golem",
@@ -4190,7 +4367,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Ground"
-        ]
+        ],
+        "id": 178
     },
     {
         "name": "Shadow Golem",
@@ -4214,7 +4392,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Ground"
-        ]
+        ],
+        "id": 179
     },
     {
         "name": "Ponyta (Galarian form)",
@@ -4236,7 +4415,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 180
     },
     {
         "name": "Shadow Ponyta (Galarian form)",
@@ -4258,7 +4438,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 181
     },
     {
         "name": "Ponyta",
@@ -4281,7 +4462,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 182
     },
     {
         "name": "Shadow Ponyta",
@@ -4304,7 +4486,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 183
     },
     {
         "name": "Rapidash (Galarian form)",
@@ -4329,7 +4512,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fairy"
-        ]
+        ],
+        "id": 184
     },
     {
         "name": "Shadow Rapidash (Galarian form)",
@@ -4354,7 +4538,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fairy"
-        ]
+        ],
+        "id": 185
     },
     {
         "name": "Rapidash",
@@ -4379,7 +4564,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 186
     },
     {
         "name": "Shadow Rapidash",
@@ -4404,7 +4590,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 187
     },
     {
         "name": "Slowpoke (Galarian form)",
@@ -4426,7 +4613,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 188
     },
     {
         "name": "Shadow Slowpoke (Galarian form)",
@@ -4448,7 +4636,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 189
     },
     {
         "name": "Slowpoke",
@@ -4471,7 +4660,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Psychic"
-        ]
+        ],
+        "id": 190
     },
     {
         "name": "Shadow Slowpoke",
@@ -4494,7 +4684,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Psychic"
-        ]
+        ],
+        "id": 191
     },
     {
         "name": "Slowbro (Galarian form)",
@@ -4517,7 +4708,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Psychic"
-        ]
+        ],
+        "id": 192
     },
     {
         "name": "Shadow Slowbro (Galarian form)",
@@ -4540,7 +4732,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Psychic"
-        ]
+        ],
+        "id": 193
     },
     {
         "name": "Slowbro",
@@ -4563,7 +4756,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Psychic"
-        ]
+        ],
+        "id": 194
     },
     {
         "name": "Mega Slowbro",
@@ -4586,7 +4780,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Psychic"
-        ]
+        ],
+        "id": 195
     },
     {
         "name": "Shadow Slowbro",
@@ -4609,7 +4804,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Psychic"
-        ]
+        ],
+        "id": 196
     },
     {
         "name": "Magnemite",
@@ -4632,7 +4828,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Steel"
-        ]
+        ],
+        "id": 197
     },
     {
         "name": "Shadow Magnemite",
@@ -4655,7 +4852,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Steel"
-        ]
+        ],
+        "id": 198
     },
     {
         "name": "Magneton",
@@ -4680,7 +4878,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Steel"
-        ]
+        ],
+        "id": 199
     },
     {
         "name": "Shadow Magneton",
@@ -4705,7 +4904,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Steel"
-        ]
+        ],
+        "id": 200
     },
     {
         "name": "Farfetchd (Galarian form)",
@@ -4727,7 +4927,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 201
     },
     {
         "name": "Shadow Farfetchd (Galarian form)",
@@ -4749,7 +4950,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 202
     },
     {
         "name": "Farfetchd",
@@ -4773,7 +4975,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 203
     },
     {
         "name": "Shadow Farfetchd",
@@ -4797,7 +5000,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 204
     },
     {
         "name": "Doduo",
@@ -4821,7 +5025,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 205
     },
     {
         "name": "Dodrio",
@@ -4845,7 +5050,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 206
     },
     {
         "name": "Seel",
@@ -4869,7 +5075,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 207
     },
     {
         "name": "Dewgong",
@@ -4895,7 +5102,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ice"
-        ]
+        ],
+        "id": 208
     },
     {
         "name": "Grimer (Alola form)",
@@ -4918,7 +5126,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Dark"
-        ]
+        ],
+        "id": 209
     },
     {
         "name": "Shadow Grimer (Alola form)",
@@ -4941,7 +5150,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Dark"
-        ]
+        ],
+        "id": 210
     },
     {
         "name": "Grimer",
@@ -4963,7 +5173,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 211
     },
     {
         "name": "Shadow Grimer",
@@ -4985,7 +5196,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 212
     },
     {
         "name": "Muk (Alola form)",
@@ -5010,7 +5222,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Dark"
-        ]
+        ],
+        "id": 213
     },
     {
         "name": "Shadow Muk (Alola form)",
@@ -5035,7 +5248,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Dark"
-        ]
+        ],
+        "id": 214
     },
     {
         "name": "Muk",
@@ -5060,7 +5274,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 215
     },
     {
         "name": "Shadow Muk",
@@ -5085,7 +5300,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 216
     },
     {
         "name": "Shellder",
@@ -5107,7 +5323,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 217
     },
     {
         "name": "Shadow Shellder",
@@ -5129,7 +5346,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 218
     },
     {
         "name": "Cloyster",
@@ -5154,7 +5372,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ice"
-        ]
+        ],
+        "id": 219
     },
     {
         "name": "Shadow Cloyster",
@@ -5179,7 +5398,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ice"
-        ]
+        ],
+        "id": 220
     },
     {
         "name": "Gastly",
@@ -5204,7 +5424,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Poison"
-        ]
+        ],
+        "id": 221
     },
     {
         "name": "Haunter",
@@ -5230,7 +5451,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Poison"
-        ]
+        ],
+        "id": 222
     },
     {
         "name": "Gengar",
@@ -5259,7 +5481,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Poison"
-        ]
+        ],
+        "id": 223
     },
     {
         "name": "Mega Gengar",
@@ -5288,7 +5511,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Poison"
-        ]
+        ],
+        "id": 224
     },
     {
         "name": "Onix",
@@ -5313,7 +5537,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Ground"
-        ]
+        ],
+        "id": 225
     },
     {
         "name": "Shadow Onix",
@@ -5338,7 +5563,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Ground"
-        ]
+        ],
+        "id": 226
     },
     {
         "name": "Drowzee",
@@ -5360,7 +5586,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 227
     },
     {
         "name": "Shadow Drowzee",
@@ -5382,7 +5609,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 228
     },
     {
         "name": "Hypno",
@@ -5409,7 +5637,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 229
     },
     {
         "name": "Shadow Hypno",
@@ -5436,7 +5665,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 230
     },
     {
         "name": "Krabby",
@@ -5458,7 +5688,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 231
     },
     {
         "name": "Shadow Krabby",
@@ -5480,7 +5711,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 232
     },
     {
         "name": "Kingler",
@@ -5504,7 +5736,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 233
     },
     {
         "name": "Shadow Kingler",
@@ -5528,7 +5761,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 234
     },
     {
         "name": "Voltorb (Hisuian form)",
@@ -5551,7 +5785,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Grass"
-        ]
+        ],
+        "id": 235
     },
     {
         "name": "Shadow Voltorb (Hisuian form)",
@@ -5574,7 +5809,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Grass"
-        ]
+        ],
+        "id": 236
     },
     {
         "name": "Voltorb",
@@ -5597,7 +5833,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 237
     },
     {
         "name": "Shadow Voltorb",
@@ -5620,7 +5857,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 238
     },
     {
         "name": "Electrode (Hisuian form)",
@@ -5643,7 +5881,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Grass"
-        ]
+        ],
+        "id": 239
     },
     {
         "name": "Shadow Electrode (Hisuian form)",
@@ -5666,7 +5905,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Grass"
-        ]
+        ],
+        "id": 240
     },
     {
         "name": "Electrode",
@@ -5690,7 +5930,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 241
     },
     {
         "name": "Shadow Electrode",
@@ -5714,7 +5955,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 242
     },
     {
         "name": "Exeggcute",
@@ -5737,7 +5979,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Psychic"
-        ]
+        ],
+        "id": 243
     },
     {
         "name": "Shadow Exeggcute",
@@ -5760,7 +6003,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Psychic"
-        ]
+        ],
+        "id": 244
     },
     {
         "name": "Exeggutor (Alola form)",
@@ -5784,7 +6028,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Dragon"
-        ]
+        ],
+        "id": 245
     },
     {
         "name": "Shadow Exeggutor (Alola form)",
@@ -5808,7 +6053,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Dragon"
-        ]
+        ],
+        "id": 246
     },
     {
         "name": "Exeggutor",
@@ -5833,7 +6079,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Psychic"
-        ]
+        ],
+        "id": 247
     },
     {
         "name": "Shadow Exeggutor",
@@ -5858,7 +6105,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Psychic"
-        ]
+        ],
+        "id": 248
     },
     {
         "name": "Cubone",
@@ -5880,7 +6128,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 249
     },
     {
         "name": "Shadow Cubone",
@@ -5902,7 +6151,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 250
     },
     {
         "name": "Marowak (Alola form)",
@@ -5928,7 +6178,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Ghost"
-        ]
+        ],
+        "id": 251
     },
     {
         "name": "Shadow Marowak (Alola form)",
@@ -5954,7 +6205,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Ghost"
-        ]
+        ],
+        "id": 252
     },
     {
         "name": "Marowak",
@@ -5977,7 +6229,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 253
     },
     {
         "name": "Shadow Marowak",
@@ -6000,7 +6253,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 254
     },
     {
         "name": "Hitmonlee",
@@ -6025,7 +6279,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 255
     },
     {
         "name": "Shadow Hitmonlee",
@@ -6050,7 +6305,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 256
     },
     {
         "name": "Hitmonchan",
@@ -6076,7 +6332,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 257
     },
     {
         "name": "Shadow Hitmonchan",
@@ -6102,7 +6359,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 258
     },
     {
         "name": "Lickitung",
@@ -6125,7 +6383,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 259
     },
     {
         "name": "Koffing",
@@ -6147,7 +6406,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 260
     },
     {
         "name": "Shadow Koffing",
@@ -6169,7 +6429,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 261
     },
     {
         "name": "Weezing (Galarian form)",
@@ -6194,7 +6455,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Fairy"
-        ]
+        ],
+        "id": 262
     },
     {
         "name": "Shadow Weezing (Galarian form)",
@@ -6219,7 +6481,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Fairy"
-        ]
+        ],
+        "id": 263
     },
     {
         "name": "Weezing",
@@ -6242,7 +6505,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 264
     },
     {
         "name": "Shadow Weezing",
@@ -6265,7 +6529,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 265
     },
     {
         "name": "Rhyhorn",
@@ -6288,7 +6553,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Rock"
-        ]
+        ],
+        "id": 266
     },
     {
         "name": "Shadow Rhyhorn",
@@ -6311,7 +6577,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Rock"
-        ]
+        ],
+        "id": 267
     },
     {
         "name": "Rhydon",
@@ -6335,7 +6602,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Rock"
-        ]
+        ],
+        "id": 268
     },
     {
         "name": "Shadow Rhydon",
@@ -6359,7 +6627,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Rock"
-        ]
+        ],
+        "id": 269
     },
     {
         "name": "Chansey",
@@ -6381,7 +6650,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 270
     },
     {
         "name": "Tangela",
@@ -6404,7 +6674,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 271
     },
     {
         "name": "Shadow Tangela",
@@ -6427,7 +6698,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 272
     },
     {
         "name": "Kangaskhan",
@@ -6452,7 +6724,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 273
     },
     {
         "name": "Mega Kangaskhan",
@@ -6477,7 +6750,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 274
     },
     {
         "name": "Shadow Kangaskhan",
@@ -6502,7 +6776,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 275
     },
     {
         "name": "Horsea",
@@ -6524,7 +6799,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 276
     },
     {
         "name": "Shadow Horsea",
@@ -6546,7 +6822,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 277
     },
     {
         "name": "Seadra",
@@ -6569,7 +6846,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 278
     },
     {
         "name": "Shadow Seadra",
@@ -6592,7 +6870,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 279
     },
     {
         "name": "Goldeen",
@@ -6614,7 +6893,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 280
     },
     {
         "name": "Seaking",
@@ -6639,7 +6919,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 281
     },
     {
         "name": "Staryu",
@@ -6661,7 +6942,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 282
     },
     {
         "name": "Starmie",
@@ -6687,7 +6969,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Psychic"
-        ]
+        ],
+        "id": 283
     },
     {
         "name": "Mr Mime (Galarian form)",
@@ -6710,7 +6993,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Psychic"
-        ]
+        ],
+        "id": 284
     },
     {
         "name": "Shadow Mr Mime (Galarian form)",
@@ -6733,7 +7017,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Psychic"
-        ]
+        ],
+        "id": 285
     },
     {
         "name": "Mr Mime",
@@ -6756,7 +7041,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fairy"
-        ]
+        ],
+        "id": 286
     },
     {
         "name": "Shadow Mr Mime",
@@ -6779,7 +7065,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fairy"
-        ]
+        ],
+        "id": 287
     },
     {
         "name": "Scyther",
@@ -6804,7 +7091,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Flying"
-        ]
+        ],
+        "id": 288
     },
     {
         "name": "Shadow Scyther",
@@ -6829,7 +7117,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Flying"
-        ]
+        ],
+        "id": 289
     },
     {
         "name": "Jynx",
@@ -6855,7 +7144,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Psychic"
-        ]
+        ],
+        "id": 290
     },
     {
         "name": "Electabuzz",
@@ -6877,7 +7167,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 291
     },
     {
         "name": "Shadow Electabuzz",
@@ -6899,7 +7190,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 292
     },
     {
         "name": "Magmar",
@@ -6921,7 +7213,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 293
     },
     {
         "name": "Shadow Magmar",
@@ -6943,7 +7236,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 294
     },
     {
         "name": "Pinsir",
@@ -6968,7 +7262,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 295
     },
     {
         "name": "Shadow Pinsir",
@@ -6993,7 +7288,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 296
     },
     {
         "name": "Tauros",
@@ -7015,7 +7311,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 297
     },
     {
         "name": "Magikarp",
@@ -7034,7 +7331,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 298
     },
     {
         "name": "Shadow Magikarp",
@@ -7053,7 +7351,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 299
     },
     {
         "name": "Gyarados",
@@ -7081,7 +7380,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Flying"
-        ]
+        ],
+        "id": 300
     },
     {
         "name": "Mega Gyarados",
@@ -7109,7 +7409,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Dark"
-        ]
+        ],
+        "id": 301
     },
     {
         "name": "Shadow Gyarados",
@@ -7137,7 +7438,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Flying"
-        ]
+        ],
+        "id": 302
     },
     {
         "name": "Lapras",
@@ -7164,7 +7466,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ice"
-        ]
+        ],
+        "id": 303
     },
     {
         "name": "Shadow Lapras",
@@ -7191,7 +7494,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ice"
-        ]
+        ],
+        "id": 304
     },
     {
         "name": "Ditto",
@@ -7210,7 +7514,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 305
     },
     {
         "name": "Eevee",
@@ -7233,7 +7538,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 306
     },
     {
         "name": "Vaporeon",
@@ -7256,7 +7562,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 307
     },
     {
         "name": "Jolteon",
@@ -7280,7 +7587,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 308
     },
     {
         "name": "Flareon",
@@ -7305,7 +7613,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 309
     },
     {
         "name": "Porygon",
@@ -7332,7 +7641,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 310
     },
     {
         "name": "Shadow Porygon",
@@ -7359,7 +7669,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 311
     },
     {
         "name": "Omanyte",
@@ -7384,7 +7695,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Water"
-        ]
+        ],
+        "id": 312
     },
     {
         "name": "Shadow Omanyte",
@@ -7409,7 +7721,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Water"
-        ]
+        ],
+        "id": 313
     },
     {
         "name": "Omastar",
@@ -7434,7 +7747,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Water"
-        ]
+        ],
+        "id": 314
     },
     {
         "name": "Shadow Omastar",
@@ -7459,7 +7773,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Water"
-        ]
+        ],
+        "id": 315
     },
     {
         "name": "Kabuto",
@@ -7482,7 +7797,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Water"
-        ]
+        ],
+        "id": 316
     },
     {
         "name": "Shadow Kabuto",
@@ -7505,7 +7821,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Water"
-        ]
+        ],
+        "id": 317
     },
     {
         "name": "Kabutops",
@@ -7530,7 +7847,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Water"
-        ]
+        ],
+        "id": 318
     },
     {
         "name": "Shadow Kabutops",
@@ -7555,7 +7873,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Water"
-        ]
+        ],
+        "id": 319
     },
     {
         "name": "Aerodactyl",
@@ -7581,7 +7900,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Flying"
-        ]
+        ],
+        "id": 320
     },
     {
         "name": "Mega Aerodactyl",
@@ -7607,7 +7927,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Flying"
-        ]
+        ],
+        "id": 321
     },
     {
         "name": "Shadow Aerodactyl",
@@ -7633,7 +7954,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Flying"
-        ]
+        ],
+        "id": 322
     },
     {
         "name": "Snorlax",
@@ -7660,7 +7982,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 323
     },
     {
         "name": "Shadow Snorlax",
@@ -7687,7 +8010,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 324
     },
     {
         "name": "Articuno (Galarian form)",
@@ -7710,7 +8034,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Flying"
-        ]
+        ],
+        "id": 325
     },
     {
         "name": "Shadow Articuno (Galarian form)",
@@ -7733,7 +8058,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Flying"
-        ]
+        ],
+        "id": 326
     },
     {
         "name": "Articuno",
@@ -7758,7 +8084,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Flying"
-        ]
+        ],
+        "id": 327
     },
     {
         "name": "Shadow Articuno",
@@ -7783,7 +8110,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Flying"
-        ]
+        ],
+        "id": 328
     },
     {
         "name": "Zapdos (Galarian form)",
@@ -7805,7 +8133,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Flying"
-        ]
+        ],
+        "id": 329
     },
     {
         "name": "Shadow Zapdos (Galarian form)",
@@ -7827,7 +8156,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Flying"
-        ]
+        ],
+        "id": 330
     },
     {
         "name": "Zapdos",
@@ -7852,7 +8182,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Flying"
-        ]
+        ],
+        "id": 331
     },
     {
         "name": "Shadow Zapdos",
@@ -7877,7 +8208,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Flying"
-        ]
+        ],
+        "id": 332
     },
     {
         "name": "Moltres (Galarian form)",
@@ -7900,7 +8232,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Flying"
-        ]
+        ],
+        "id": 333
     },
     {
         "name": "Shadow Moltres (Galarian form)",
@@ -7923,7 +8256,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Flying"
-        ]
+        ],
+        "id": 334
     },
     {
         "name": "Moltres",
@@ -7948,7 +8282,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Flying"
-        ]
+        ],
+        "id": 335
     },
     {
         "name": "Shadow Moltres",
@@ -7973,7 +8308,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Flying"
-        ]
+        ],
+        "id": 336
     },
     {
         "name": "Dratini",
@@ -7995,7 +8331,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 337
     },
     {
         "name": "Shadow Dratini",
@@ -8017,7 +8354,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 338
     },
     {
         "name": "Dragonair",
@@ -8040,7 +8378,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 339
     },
     {
         "name": "Shadow Dragonair",
@@ -8063,7 +8402,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 340
     },
     {
         "name": "Dragonite",
@@ -8091,7 +8431,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Flying"
-        ]
+        ],
+        "id": 341
     },
     {
         "name": "Shadow Dragonite",
@@ -8119,7 +8460,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Flying"
-        ]
+        ],
+        "id": 342
     },
     {
         "name": "Mewtwo (A form)",
@@ -8143,7 +8485,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 343
     },
     {
         "name": "Shadow Mewtwo (A form)",
@@ -8167,7 +8510,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 344
     },
     {
         "name": "Mewtwo",
@@ -8194,7 +8538,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 345
     },
     {
         "name": "Shadow Mewtwo",
@@ -8221,7 +8566,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 346
     },
     {
         "name": "Mew",
@@ -8277,7 +8623,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 347
     },
     {
         "name": "Chikorita",
@@ -8299,7 +8646,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 348
     },
     {
         "name": "Shadow Chikorita",
@@ -8321,7 +8669,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 349
     },
     {
         "name": "Bayleef",
@@ -8343,7 +8692,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 350
     },
     {
         "name": "Shadow Bayleef",
@@ -8365,7 +8715,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 351
     },
     {
         "name": "Meganium",
@@ -8388,7 +8739,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 352
     },
     {
         "name": "Shadow Meganium",
@@ -8411,7 +8763,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 353
     },
     {
         "name": "Cyndaquil",
@@ -8433,7 +8786,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 354
     },
     {
         "name": "Shadow Cyndaquil",
@@ -8455,7 +8809,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 355
     },
     {
         "name": "Quilava",
@@ -8477,7 +8832,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 356
     },
     {
         "name": "Shadow Quilava",
@@ -8499,7 +8855,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 357
     },
     {
         "name": "Typhlosion",
@@ -8523,7 +8880,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 358
     },
     {
         "name": "Shadow Typhlosion",
@@ -8547,7 +8905,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 359
     },
     {
         "name": "Totodile",
@@ -8569,7 +8928,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 360
     },
     {
         "name": "Shadow Totodile",
@@ -8591,7 +8951,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 361
     },
     {
         "name": "Croconaw",
@@ -8613,7 +8974,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 362
     },
     {
         "name": "Shadow Croconaw",
@@ -8635,7 +8997,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 363
     },
     {
         "name": "Feraligatr",
@@ -8660,7 +9023,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 364
     },
     {
         "name": "Shadow Feraligatr",
@@ -8685,7 +9049,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 365
     },
     {
         "name": "Sentret",
@@ -8707,7 +9072,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 366
     },
     {
         "name": "Furret",
@@ -8729,7 +9095,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 367
     },
     {
         "name": "Hoothoot",
@@ -8752,7 +9119,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 368
     },
     {
         "name": "Noctowl",
@@ -8776,7 +9144,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 369
     },
     {
         "name": "Ledyba",
@@ -8799,7 +9168,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Flying"
-        ]
+        ],
+        "id": 370
     },
     {
         "name": "Ledian",
@@ -8823,7 +9193,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Flying"
-        ]
+        ],
+        "id": 371
     },
     {
         "name": "Spinarak",
@@ -8846,7 +9217,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 372
     },
     {
         "name": "Ariados",
@@ -8870,7 +9242,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 373
     },
     {
         "name": "Crobat",
@@ -8895,7 +9268,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Flying"
-        ]
+        ],
+        "id": 374
     },
     {
         "name": "Shadow Crobat",
@@ -8920,7 +9294,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Flying"
-        ]
+        ],
+        "id": 375
     },
     {
         "name": "Chinchou",
@@ -8943,7 +9318,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Electric"
-        ]
+        ],
+        "id": 376
     },
     {
         "name": "Lanturn",
@@ -8968,7 +9344,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Electric"
-        ]
+        ],
+        "id": 377
     },
     {
         "name": "Pichu",
@@ -8989,7 +9366,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 378
     },
     {
         "name": "Cleffa",
@@ -9013,7 +9391,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 379
     },
     {
         "name": "Igglybuff",
@@ -9037,7 +9416,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Fairy"
-        ]
+        ],
+        "id": 380
     },
     {
         "name": "Togepi",
@@ -9060,7 +9440,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 381
     },
     {
         "name": "Togetic",
@@ -9085,7 +9466,8 @@ export const pokemonData = [
         "types": [
             "Fairy",
             "Flying"
-        ]
+        ],
+        "id": 382
     },
     {
         "name": "Natu",
@@ -9108,7 +9490,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Flying"
-        ]
+        ],
+        "id": 383
     },
     {
         "name": "Xatu",
@@ -9131,7 +9514,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Flying"
-        ]
+        ],
+        "id": 384
     },
     {
         "name": "Mareep",
@@ -9153,7 +9537,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 385
     },
     {
         "name": "Shadow Mareep",
@@ -9175,7 +9560,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 386
     },
     {
         "name": "Flaaffy",
@@ -9197,7 +9583,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 387
     },
     {
         "name": "Shadow Flaaffy",
@@ -9219,7 +9606,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 388
     },
     {
         "name": "Ampharos",
@@ -9244,7 +9632,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 389
     },
     {
         "name": "Mega Ampharos",
@@ -9270,7 +9659,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Dragon"
-        ]
+        ],
+        "id": 390
     },
     {
         "name": "Shadow Ampharos",
@@ -9295,7 +9685,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 391
     },
     {
         "name": "Bellossom",
@@ -9318,7 +9709,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 392
     },
     {
         "name": "Shadow Bellossom",
@@ -9341,7 +9733,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 393
     },
     {
         "name": "Marill",
@@ -9364,7 +9757,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Fairy"
-        ]
+        ],
+        "id": 394
     },
     {
         "name": "Azumarill",
@@ -9387,7 +9781,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Fairy"
-        ]
+        ],
+        "id": 395
     },
     {
         "name": "Sudowoodo",
@@ -9410,7 +9805,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 396
     },
     {
         "name": "Shadow Sudowoodo",
@@ -9433,7 +9829,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 397
     },
     {
         "name": "Politoed",
@@ -9457,7 +9854,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 398
     },
     {
         "name": "Shadow Politoed",
@@ -9481,7 +9879,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 399
     },
     {
         "name": "Hoppip",
@@ -9504,7 +9903,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Flying"
-        ]
+        ],
+        "id": 400
     },
     {
         "name": "Shadow Hoppip",
@@ -9527,7 +9927,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Flying"
-        ]
+        ],
+        "id": 401
     },
     {
         "name": "Skiploom",
@@ -9550,7 +9951,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Flying"
-        ]
+        ],
+        "id": 402
     },
     {
         "name": "Shadow Skiploom",
@@ -9573,7 +9975,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Flying"
-        ]
+        ],
+        "id": 403
     },
     {
         "name": "Jumpluff",
@@ -9599,7 +10002,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Flying"
-        ]
+        ],
+        "id": 404
     },
     {
         "name": "Shadow Jumpluff",
@@ -9625,7 +10029,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Flying"
-        ]
+        ],
+        "id": 405
     },
     {
         "name": "Aipom",
@@ -9647,7 +10052,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 406
     },
     {
         "name": "Shadow Aipom",
@@ -9669,7 +10075,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 407
     },
     {
         "name": "Sunkern",
@@ -9691,7 +10098,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 408
     },
     {
         "name": "Sunflora",
@@ -9714,7 +10122,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 409
     },
     {
         "name": "Yanma",
@@ -9737,7 +10146,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Flying"
-        ]
+        ],
+        "id": 410
     },
     {
         "name": "Wooper",
@@ -9760,7 +10170,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ground"
-        ]
+        ],
+        "id": 411
     },
     {
         "name": "Shadow Wooper",
@@ -9783,7 +10194,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ground"
-        ]
+        ],
+        "id": 412
     },
     {
         "name": "Quagsire",
@@ -9807,7 +10219,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ground"
-        ]
+        ],
+        "id": 413
     },
     {
         "name": "Shadow Quagsire",
@@ -9831,7 +10244,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ground"
-        ]
+        ],
+        "id": 414
     },
     {
         "name": "Espeon",
@@ -9856,7 +10270,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 415
     },
     {
         "name": "Umbreon",
@@ -9879,7 +10294,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 416
     },
     {
         "name": "Murkrow",
@@ -9902,7 +10318,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Flying"
-        ]
+        ],
+        "id": 417
     },
     {
         "name": "Shadow Murkrow",
@@ -9925,7 +10342,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Flying"
-        ]
+        ],
+        "id": 418
     },
     {
         "name": "Slowking (Galarian form)",
@@ -9949,7 +10367,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Psychic"
-        ]
+        ],
+        "id": 419
     },
     {
         "name": "Shadow Slowking (Galarian form)",
@@ -9973,7 +10392,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Psychic"
-        ]
+        ],
+        "id": 420
     },
     {
         "name": "Slowking",
@@ -9996,7 +10416,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Psychic"
-        ]
+        ],
+        "id": 421
     },
     {
         "name": "Shadow Slowking",
@@ -10019,7 +10440,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Psychic"
-        ]
+        ],
+        "id": 422
     },
     {
         "name": "Misdreavus",
@@ -10041,7 +10463,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 423
     },
     {
         "name": "Shadow Misdreavus",
@@ -10063,7 +10486,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 424
     },
     {
         "name": "Unown",
@@ -10082,7 +10506,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 425
     },
     {
         "name": "Wobbuffet",
@@ -10103,7 +10528,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 426
     },
     {
         "name": "Shadow Wobbuffet",
@@ -10124,7 +10550,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 427
     },
     {
         "name": "Girafarig",
@@ -10149,7 +10576,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Psychic"
-        ]
+        ],
+        "id": 428
     },
     {
         "name": "Shadow Girafarig",
@@ -10174,7 +10602,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Psychic"
-        ]
+        ],
+        "id": 429
     },
     {
         "name": "Pineco",
@@ -10196,7 +10625,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 430
     },
     {
         "name": "Shadow Pineco",
@@ -10218,7 +10648,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 431
     },
     {
         "name": "Forretress",
@@ -10243,7 +10674,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Steel"
-        ]
+        ],
+        "id": 432
     },
     {
         "name": "Shadow Forretress",
@@ -10268,7 +10700,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Steel"
-        ]
+        ],
+        "id": 433
     },
     {
         "name": "Dunsparce",
@@ -10291,7 +10724,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 434
     },
     {
         "name": "Gligar",
@@ -10314,7 +10748,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Flying"
-        ]
+        ],
+        "id": 435
     },
     {
         "name": "Shadow Gligar",
@@ -10337,7 +10772,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Flying"
-        ]
+        ],
+        "id": 436
     },
     {
         "name": "Steelix",
@@ -10362,7 +10798,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Ground"
-        ]
+        ],
+        "id": 437
     },
     {
         "name": "Mega Steelix",
@@ -10387,7 +10824,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Ground"
-        ]
+        ],
+        "id": 438
     },
     {
         "name": "Shadow Steelix",
@@ -10412,7 +10850,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Ground"
-        ]
+        ],
+        "id": 439
     },
     {
         "name": "Snubbull",
@@ -10434,7 +10873,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 440
     },
     {
         "name": "Shadow Snubbull",
@@ -10456,7 +10896,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 441
     },
     {
         "name": "Granbull",
@@ -10479,7 +10920,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 442
     },
     {
         "name": "Shadow Granbull",
@@ -10502,7 +10944,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 443
     },
     {
         "name": "Qwilfish (Hisuian form)",
@@ -10527,7 +10970,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Poison"
-        ]
+        ],
+        "id": 444
     },
     {
         "name": "Qwilfish",
@@ -10552,7 +10996,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Poison"
-        ]
+        ],
+        "id": 445
     },
     {
         "name": "Scizor",
@@ -10575,7 +11020,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Steel"
-        ]
+        ],
+        "id": 446
     },
     {
         "name": "Mega Scizor",
@@ -10598,7 +11044,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Steel"
-        ]
+        ],
+        "id": 447
     },
     {
         "name": "Shadow Scizor",
@@ -10621,7 +11068,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Steel"
-        ]
+        ],
+        "id": 448
     },
     {
         "name": "Shuckle",
@@ -10644,7 +11092,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Rock"
-        ]
+        ],
+        "id": 449
     },
     {
         "name": "Shadow Shuckle",
@@ -10667,7 +11116,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Rock"
-        ]
+        ],
+        "id": 450
     },
     {
         "name": "Heracross",
@@ -10691,7 +11141,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Fighting"
-        ]
+        ],
+        "id": 451
     },
     {
         "name": "Sneasel (Hisuian form)",
@@ -10714,7 +11165,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Poison"
-        ]
+        ],
+        "id": 452
     },
     {
         "name": "Shadow Sneasel (Hisuian form)",
@@ -10737,7 +11189,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Poison"
-        ]
+        ],
+        "id": 453
     },
     {
         "name": "Sneasel",
@@ -10760,7 +11213,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Ice"
-        ]
+        ],
+        "id": 454
     },
     {
         "name": "Shadow Sneasel",
@@ -10783,7 +11237,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Ice"
-        ]
+        ],
+        "id": 455
     },
     {
         "name": "Teddiursa",
@@ -10805,7 +11260,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 456
     },
     {
         "name": "Shadow Teddiursa",
@@ -10827,7 +11283,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 457
     },
     {
         "name": "Ursaring",
@@ -10850,7 +11307,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 458
     },
     {
         "name": "Shadow Ursaring",
@@ -10873,7 +11331,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 459
     },
     {
         "name": "Slugma",
@@ -10895,7 +11354,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 460
     },
     {
         "name": "Magcargo",
@@ -10920,7 +11380,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Rock"
-        ]
+        ],
+        "id": 461
     },
     {
         "name": "Swinub",
@@ -10943,7 +11404,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Ground"
-        ]
+        ],
+        "id": 462
     },
     {
         "name": "Shadow Swinub",
@@ -10966,7 +11428,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Ground"
-        ]
+        ],
+        "id": 463
     },
     {
         "name": "Piloswine",
@@ -10989,7 +11452,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Ground"
-        ]
+        ],
+        "id": 464
     },
     {
         "name": "Shadow Piloswine",
@@ -11012,7 +11476,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Ground"
-        ]
+        ],
+        "id": 465
     },
     {
         "name": "Corsola",
@@ -11035,7 +11500,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Rock"
-        ]
+        ],
+        "id": 466
     },
     {
         "name": "Remoraid",
@@ -11057,7 +11523,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 467
     },
     {
         "name": "Octillery",
@@ -11082,7 +11549,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 468
     },
     {
         "name": "Delibird",
@@ -11104,7 +11572,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Flying"
-        ]
+        ],
+        "id": 469
     },
     {
         "name": "Shadow Delibird",
@@ -11126,7 +11595,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Flying"
-        ]
+        ],
+        "id": 470
     },
     {
         "name": "Mantine",
@@ -11151,7 +11621,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Flying"
-        ]
+        ],
+        "id": 471
     },
     {
         "name": "Skarmory",
@@ -11174,7 +11645,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Flying"
-        ]
+        ],
+        "id": 472
     },
     {
         "name": "Shadow Skarmory",
@@ -11197,7 +11669,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Flying"
-        ]
+        ],
+        "id": 473
     },
     {
         "name": "Houndour",
@@ -11220,7 +11693,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Fire"
-        ]
+        ],
+        "id": 474
     },
     {
         "name": "Shadow Houndour",
@@ -11243,7 +11717,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Fire"
-        ]
+        ],
+        "id": 475
     },
     {
         "name": "Houndoom",
@@ -11267,7 +11742,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Fire"
-        ]
+        ],
+        "id": 476
     },
     {
         "name": "Mega Houndoom",
@@ -11291,7 +11767,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Fire"
-        ]
+        ],
+        "id": 477
     },
     {
         "name": "Shadow Houndoom",
@@ -11315,7 +11792,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Fire"
-        ]
+        ],
+        "id": 478
     },
     {
         "name": "Kingdra",
@@ -11340,7 +11818,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Dragon"
-        ]
+        ],
+        "id": 479
     },
     {
         "name": "Shadow Kingdra",
@@ -11365,7 +11844,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Dragon"
-        ]
+        ],
+        "id": 480
     },
     {
         "name": "Phanpy",
@@ -11387,7 +11867,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 481
     },
     {
         "name": "Donphan",
@@ -11412,7 +11893,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 482
     },
     {
         "name": "Porygon2",
@@ -11436,7 +11918,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 483
     },
     {
         "name": "Shadow Porygon2",
@@ -11460,7 +11943,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 484
     },
     {
         "name": "Stantler",
@@ -11482,7 +11966,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 485
     },
     {
         "name": "Shadow Stantler",
@@ -11504,7 +11989,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 486
     },
     {
         "name": "Tyrogue",
@@ -11526,7 +12012,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 487
     },
     {
         "name": "Hitmontop",
@@ -11548,7 +12035,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 488
     },
     {
         "name": "Smoochum",
@@ -11572,7 +12060,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Psychic"
-        ]
+        ],
+        "id": 489
     },
     {
         "name": "Elekid",
@@ -11595,7 +12084,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 490
     },
     {
         "name": "Magby",
@@ -11618,7 +12108,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 491
     },
     {
         "name": "Miltank",
@@ -11643,7 +12134,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 492
     },
     {
         "name": "Blissey",
@@ -11665,7 +12157,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 493
     },
     {
         "name": "Raikou",
@@ -11688,7 +12181,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 494
     },
     {
         "name": "Shadow Raikou",
@@ -11711,7 +12205,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 495
     },
     {
         "name": "Entei",
@@ -11735,7 +12230,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 496
     },
     {
         "name": "Shadow Entei",
@@ -11759,7 +12255,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 497
     },
     {
         "name": "Suicune",
@@ -11784,7 +12281,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 498
     },
     {
         "name": "Shadow Suicune",
@@ -11809,7 +12307,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 499
     },
     {
         "name": "Larvitar",
@@ -11832,7 +12331,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Ground"
-        ]
+        ],
+        "id": 500
     },
     {
         "name": "Shadow Larvitar",
@@ -11855,7 +12355,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Ground"
-        ]
+        ],
+        "id": 501
     },
     {
         "name": "Pupitar",
@@ -11878,7 +12379,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Ground"
-        ]
+        ],
+        "id": 502
     },
     {
         "name": "Shadow Pupitar",
@@ -11901,7 +12403,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Ground"
-        ]
+        ],
+        "id": 503
     },
     {
         "name": "Tyranitar",
@@ -11925,7 +12428,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Dark"
-        ]
+        ],
+        "id": 504
     },
     {
         "name": "Shadow Tyranitar",
@@ -11949,7 +12453,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Dark"
-        ]
+        ],
+        "id": 505
     },
     {
         "name": "Lugia",
@@ -11973,7 +12478,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Flying"
-        ]
+        ],
+        "id": 506
     },
     {
         "name": "Shadow Lugia",
@@ -11997,7 +12503,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Flying"
-        ]
+        ],
+        "id": 507
     },
     {
         "name": "Ho Oh",
@@ -12024,7 +12531,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Flying"
-        ]
+        ],
+        "id": 508
     },
     {
         "name": "Shadow Ho Oh",
@@ -12051,7 +12559,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Flying"
-        ]
+        ],
+        "id": 509
     },
     {
         "name": "Celebi",
@@ -12077,7 +12586,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Grass"
-        ]
+        ],
+        "id": 510
     },
     {
         "name": "Treecko",
@@ -12099,7 +12609,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 511
     },
     {
         "name": "Grovyle",
@@ -12121,7 +12632,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 512
     },
     {
         "name": "Sceptile",
@@ -12145,7 +12657,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 513
     },
     {
         "name": "Torchic",
@@ -12167,7 +12680,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 514
     },
     {
         "name": "Shadow Torchic",
@@ -12189,7 +12703,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 515
     },
     {
         "name": "Combusken",
@@ -12212,7 +12727,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Fighting"
-        ]
+        ],
+        "id": 516
     },
     {
         "name": "Shadow Combusken",
@@ -12235,7 +12751,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Fighting"
-        ]
+        ],
+        "id": 517
     },
     {
         "name": "Blaziken",
@@ -12261,7 +12778,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Fighting"
-        ]
+        ],
+        "id": 518
     },
     {
         "name": "Shadow Blaziken",
@@ -12287,7 +12805,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Fighting"
-        ]
+        ],
+        "id": 519
     },
     {
         "name": "Mudkip",
@@ -12309,7 +12828,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 520
     },
     {
         "name": "Shadow Mudkip",
@@ -12331,7 +12851,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 521
     },
     {
         "name": "Marshtomp",
@@ -12354,7 +12875,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ground"
-        ]
+        ],
+        "id": 522
     },
     {
         "name": "Shadow Marshtomp",
@@ -12377,7 +12899,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ground"
-        ]
+        ],
+        "id": 523
     },
     {
         "name": "Swampert",
@@ -12402,7 +12925,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ground"
-        ]
+        ],
+        "id": 524
     },
     {
         "name": "Shadow Swampert",
@@ -12427,7 +12951,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ground"
-        ]
+        ],
+        "id": 525
     },
     {
         "name": "Poochyena",
@@ -12449,7 +12974,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 526
     },
     {
         "name": "Shadow Poochyena",
@@ -12471,7 +12997,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 527
     },
     {
         "name": "Mightyena",
@@ -12495,7 +13022,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 528
     },
     {
         "name": "Shadow Mightyena",
@@ -12519,7 +13047,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 529
     },
     {
         "name": "Zigzagoon (Galarian form)",
@@ -12542,7 +13071,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Normal"
-        ]
+        ],
+        "id": 530
     },
     {
         "name": "Shadow Zigzagoon (Galarian form)",
@@ -12565,7 +13095,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Normal"
-        ]
+        ],
+        "id": 531
     },
     {
         "name": "Zigzagoon",
@@ -12587,7 +13118,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 532
     },
     {
         "name": "Shadow Zigzagoon",
@@ -12609,7 +13141,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 533
     },
     {
         "name": "Linoone (Galarian form)",
@@ -12632,7 +13165,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Normal"
-        ]
+        ],
+        "id": 534
     },
     {
         "name": "Shadow Linoone (Galarian form)",
@@ -12655,7 +13189,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Normal"
-        ]
+        ],
+        "id": 535
     },
     {
         "name": "Linoone",
@@ -12677,7 +13212,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 536
     },
     {
         "name": "Shadow Linoone",
@@ -12699,7 +13235,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 537
     },
     {
         "name": "Wurmple",
@@ -12719,7 +13256,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 538
     },
     {
         "name": "Silcoon",
@@ -12739,7 +13277,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 539
     },
     {
         "name": "Beautifly",
@@ -12762,7 +13301,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Flying"
-        ]
+        ],
+        "id": 540
     },
     {
         "name": "Cascoon",
@@ -12782,7 +13322,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 541
     },
     {
         "name": "Dustox",
@@ -12805,7 +13346,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 542
     },
     {
         "name": "Lotad",
@@ -12827,7 +13369,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Grass"
-        ]
+        ],
+        "id": 543
     },
     {
         "name": "Lombre",
@@ -12850,7 +13393,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Grass"
-        ]
+        ],
+        "id": 544
     },
     {
         "name": "Ludicolo",
@@ -12876,7 +13420,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Grass"
-        ]
+        ],
+        "id": 545
     },
     {
         "name": "Seedot",
@@ -12898,7 +13443,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 546
     },
     {
         "name": "Shadow Seedot",
@@ -12920,7 +13466,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 547
     },
     {
         "name": "Nuzleaf",
@@ -12943,7 +13490,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Dark"
-        ]
+        ],
+        "id": 548
     },
     {
         "name": "Shadow Nuzleaf",
@@ -12966,7 +13514,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Dark"
-        ]
+        ],
+        "id": 549
     },
     {
         "name": "Shiftry",
@@ -12992,7 +13541,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Dark"
-        ]
+        ],
+        "id": 550
     },
     {
         "name": "Shadow Shiftry",
@@ -13018,7 +13568,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Dark"
-        ]
+        ],
+        "id": 551
     },
     {
         "name": "Taillow",
@@ -13039,7 +13590,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 552
     },
     {
         "name": "Swellow",
@@ -13062,7 +13614,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 553
     },
     {
         "name": "Wingull",
@@ -13085,7 +13638,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Flying"
-        ]
+        ],
+        "id": 554
     },
     {
         "name": "Pelipper",
@@ -13109,7 +13663,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Flying"
-        ]
+        ],
+        "id": 555
     },
     {
         "name": "Ralts",
@@ -13132,7 +13687,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fairy"
-        ]
+        ],
+        "id": 556
     },
     {
         "name": "Shadow Ralts",
@@ -13155,7 +13711,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fairy"
-        ]
+        ],
+        "id": 557
     },
     {
         "name": "Kirlia",
@@ -13178,7 +13735,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fairy"
-        ]
+        ],
+        "id": 558
     },
     {
         "name": "Shadow Kirlia",
@@ -13201,7 +13759,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fairy"
-        ]
+        ],
+        "id": 559
     },
     {
         "name": "Gardevoir",
@@ -13226,7 +13785,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fairy"
-        ]
+        ],
+        "id": 560
     },
     {
         "name": "Shadow Gardevoir",
@@ -13251,7 +13811,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fairy"
-        ]
+        ],
+        "id": 561
     },
     {
         "name": "Surskit",
@@ -13274,7 +13835,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Water"
-        ]
+        ],
+        "id": 562
     },
     {
         "name": "Masquerain",
@@ -13299,7 +13861,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Flying"
-        ]
+        ],
+        "id": 563
     },
     {
         "name": "Shroomish",
@@ -13321,7 +13884,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 564
     },
     {
         "name": "Breloom",
@@ -13345,7 +13909,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Fighting"
-        ]
+        ],
+        "id": 565
     },
     {
         "name": "Slakoth",
@@ -13366,7 +13931,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 566
     },
     {
         "name": "Vigoroth",
@@ -13388,7 +13954,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 567
     },
     {
         "name": "Slaking",
@@ -13410,7 +13977,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 568
     },
     {
         "name": "Nincada",
@@ -13433,7 +14001,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Ground"
-        ]
+        ],
+        "id": 569
     },
     {
         "name": "Ninjask",
@@ -13456,7 +14025,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Flying"
-        ]
+        ],
+        "id": 570
     },
     {
         "name": "Shedinja",
@@ -13480,7 +14050,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Ghost"
-        ]
+        ],
+        "id": 571
     },
     {
         "name": "Whismur",
@@ -13502,7 +14073,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 572
     },
     {
         "name": "Shadow Whismur",
@@ -13524,7 +14096,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 573
     },
     {
         "name": "Loudred",
@@ -13546,7 +14119,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 574
     },
     {
         "name": "Shadow Loudred",
@@ -13568,7 +14142,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 575
     },
     {
         "name": "Exploud",
@@ -13590,7 +14165,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 576
     },
     {
         "name": "Shadow Exploud",
@@ -13612,7 +14188,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 577
     },
     {
         "name": "Makuhita",
@@ -13634,7 +14211,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 578
     },
     {
         "name": "Shadow Makuhita",
@@ -13656,7 +14234,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 579
     },
     {
         "name": "Hariyama",
@@ -13679,7 +14258,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 580
     },
     {
         "name": "Shadow Hariyama",
@@ -13702,7 +14282,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 581
     },
     {
         "name": "Azurill",
@@ -13725,7 +14306,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Fairy"
-        ]
+        ],
+        "id": 582
     },
     {
         "name": "Nosepass",
@@ -13747,7 +14329,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 583
     },
     {
         "name": "Shadow Nosepass",
@@ -13769,7 +14352,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 584
     },
     {
         "name": "Skitty",
@@ -13791,7 +14375,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 585
     },
     {
         "name": "Delcatty",
@@ -13814,7 +14399,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 586
     },
     {
         "name": "Sableye",
@@ -13837,7 +14423,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Ghost"
-        ]
+        ],
+        "id": 587
     },
     {
         "name": "Shadow Sableye",
@@ -13860,7 +14447,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Ghost"
-        ]
+        ],
+        "id": 588
     },
     {
         "name": "Mawile",
@@ -13887,7 +14475,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Fairy"
-        ]
+        ],
+        "id": 589
     },
     {
         "name": "Shadow Mawile",
@@ -13914,7 +14503,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Fairy"
-        ]
+        ],
+        "id": 590
     },
     {
         "name": "Aron",
@@ -13937,7 +14527,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Rock"
-        ]
+        ],
+        "id": 591
     },
     {
         "name": "Shadow Aron",
@@ -13960,7 +14551,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Rock"
-        ]
+        ],
+        "id": 592
     },
     {
         "name": "Lairon",
@@ -13984,7 +14576,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Rock"
-        ]
+        ],
+        "id": 593
     },
     {
         "name": "Shadow Lairon",
@@ -14008,7 +14601,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Rock"
-        ]
+        ],
+        "id": 594
     },
     {
         "name": "Aggron",
@@ -14033,7 +14627,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Rock"
-        ]
+        ],
+        "id": 595
     },
     {
         "name": "Mega Aggron",
@@ -14057,7 +14652,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 596
     },
     {
         "name": "Shadow Aggron",
@@ -14082,7 +14678,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Rock"
-        ]
+        ],
+        "id": 597
     },
     {
         "name": "Meditite",
@@ -14105,7 +14702,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Psychic"
-        ]
+        ],
+        "id": 598
     },
     {
         "name": "Medicham",
@@ -14129,7 +14727,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Psychic"
-        ]
+        ],
+        "id": 599
     },
     {
         "name": "Electrike",
@@ -14151,7 +14750,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 600
     },
     {
         "name": "Shadow Electrike",
@@ -14173,7 +14773,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 601
     },
     {
         "name": "Manectric",
@@ -14198,7 +14799,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 602
     },
     {
         "name": "Mega Manectric",
@@ -14223,7 +14825,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 603
     },
     {
         "name": "Shadow Manectric",
@@ -14248,7 +14851,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 604
     },
     {
         "name": "Plusle",
@@ -14271,7 +14875,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 605
     },
     {
         "name": "Minun",
@@ -14294,7 +14899,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 606
     },
     {
         "name": "Volbeat",
@@ -14316,7 +14922,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 607
     },
     {
         "name": "Illumise",
@@ -14338,7 +14945,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 608
     },
     {
         "name": "Roselia",
@@ -14361,7 +14969,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 609
     },
     {
         "name": "Gulpin",
@@ -14383,7 +14992,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 610
     },
     {
         "name": "Swalot",
@@ -14406,7 +15016,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 611
     },
     {
         "name": "Carvanha",
@@ -14429,7 +15040,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Dark"
-        ]
+        ],
+        "id": 612
     },
     {
         "name": "Shadow Carvanha",
@@ -14452,7 +15064,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Dark"
-        ]
+        ],
+        "id": 613
     },
     {
         "name": "Sharpedo",
@@ -14475,7 +15088,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Dark"
-        ]
+        ],
+        "id": 614
     },
     {
         "name": "Shadow Sharpedo",
@@ -14498,7 +15112,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Dark"
-        ]
+        ],
+        "id": 615
     },
     {
         "name": "Wailmer",
@@ -14520,7 +15135,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 616
     },
     {
         "name": "Wailord",
@@ -14542,7 +15158,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 617
     },
     {
         "name": "Numel",
@@ -14565,7 +15182,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Ground"
-        ]
+        ],
+        "id": 618
     },
     {
         "name": "Shadow Numel",
@@ -14588,7 +15206,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Ground"
-        ]
+        ],
+        "id": 619
     },
     {
         "name": "Camerupt",
@@ -14613,7 +15232,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Ground"
-        ]
+        ],
+        "id": 620
     },
     {
         "name": "Shadow Camerupt",
@@ -14638,7 +15258,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Ground"
-        ]
+        ],
+        "id": 621
     },
     {
         "name": "Torkoal",
@@ -14660,7 +15281,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 622
     },
     {
         "name": "Spoink",
@@ -14682,7 +15304,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 623
     },
     {
         "name": "Grumpig",
@@ -14704,7 +15327,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 624
     },
     {
         "name": "Spinda",
@@ -14726,7 +15350,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 625
     },
     {
         "name": "Trapinch",
@@ -14748,7 +15373,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 626
     },
     {
         "name": "Shadow Trapinch",
@@ -14770,7 +15396,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 627
     },
     {
         "name": "Vibrava",
@@ -14793,7 +15420,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Dragon"
-        ]
+        ],
+        "id": 628
     },
     {
         "name": "Shadow Vibrava",
@@ -14816,7 +15444,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Dragon"
-        ]
+        ],
+        "id": 629
     },
     {
         "name": "Flygon",
@@ -14840,7 +15469,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Dragon"
-        ]
+        ],
+        "id": 630
     },
     {
         "name": "Shadow Flygon",
@@ -14864,7 +15494,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Dragon"
-        ]
+        ],
+        "id": 631
     },
     {
         "name": "Cacnea",
@@ -14887,7 +15518,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 632
     },
     {
         "name": "Shadow Cacnea",
@@ -14910,7 +15542,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 633
     },
     {
         "name": "Cacturne",
@@ -14934,7 +15567,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Dark"
-        ]
+        ],
+        "id": 634
     },
     {
         "name": "Shadow Cacturne",
@@ -14958,7 +15592,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Dark"
-        ]
+        ],
+        "id": 635
     },
     {
         "name": "Swablu",
@@ -14981,7 +15616,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 636
     },
     {
         "name": "Altaria",
@@ -15005,7 +15641,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Flying"
-        ]
+        ],
+        "id": 637
     },
     {
         "name": "Mega Altaria",
@@ -15029,7 +15666,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Fairy"
-        ]
+        ],
+        "id": 638
     },
     {
         "name": "Zangoose",
@@ -15051,7 +15689,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 639
     },
     {
         "name": "Seviper",
@@ -15073,7 +15712,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 640
     },
     {
         "name": "Lunatone",
@@ -15096,7 +15736,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Psychic"
-        ]
+        ],
+        "id": 641
     },
     {
         "name": "Solrock",
@@ -15119,7 +15760,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Psychic"
-        ]
+        ],
+        "id": 642
     },
     {
         "name": "Barboach",
@@ -15142,7 +15784,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ground"
-        ]
+        ],
+        "id": 643
     },
     {
         "name": "Whiscash",
@@ -15165,7 +15808,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ground"
-        ]
+        ],
+        "id": 644
     },
     {
         "name": "Corphish",
@@ -15187,7 +15831,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 645
     },
     {
         "name": "Crawdaunt",
@@ -15211,7 +15856,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Dark"
-        ]
+        ],
+        "id": 646
     },
     {
         "name": "Baltoy",
@@ -15234,7 +15880,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Psychic"
-        ]
+        ],
+        "id": 647
     },
     {
         "name": "Claydol",
@@ -15262,7 +15909,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Psychic"
-        ]
+        ],
+        "id": 648
     },
     {
         "name": "Lileep",
@@ -15285,7 +15933,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Grass"
-        ]
+        ],
+        "id": 649
     },
     {
         "name": "Shadow Lileep",
@@ -15308,7 +15957,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Grass"
-        ]
+        ],
+        "id": 650
     },
     {
         "name": "Cradily",
@@ -15332,7 +15982,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Grass"
-        ]
+        ],
+        "id": 651
     },
     {
         "name": "Shadow Cradily",
@@ -15356,7 +16007,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Grass"
-        ]
+        ],
+        "id": 652
     },
     {
         "name": "Anorith",
@@ -15379,7 +16031,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Bug"
-        ]
+        ],
+        "id": 653
     },
     {
         "name": "Shadow Anorith",
@@ -15402,7 +16055,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Bug"
-        ]
+        ],
+        "id": 654
     },
     {
         "name": "Armaldo",
@@ -15425,7 +16079,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Bug"
-        ]
+        ],
+        "id": 655
     },
     {
         "name": "Shadow Armaldo",
@@ -15448,7 +16103,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Bug"
-        ]
+        ],
+        "id": 656
     },
     {
         "name": "Feebas",
@@ -15468,7 +16124,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 657
     },
     {
         "name": "Milotic",
@@ -15490,7 +16147,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 658
     },
     {
         "name": "Castform",
@@ -15511,7 +16169,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 659
     },
     {
         "name": "Castform",
@@ -15534,7 +16193,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 660
     },
     {
         "name": "Castform (Rainy form)",
@@ -15556,7 +16216,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 661
     },
     {
         "name": "Castform (Snowy form)",
@@ -15578,7 +16239,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 662
     },
     {
         "name": "Castform (Sunny form)",
@@ -15600,7 +16262,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 663
     },
     {
         "name": "Kecleon",
@@ -15625,7 +16288,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 664
     },
     {
         "name": "Shuppet",
@@ -15647,7 +16311,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 665
     },
     {
         "name": "Shadow Shuppet",
@@ -15669,7 +16334,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 666
     },
     {
         "name": "Banette",
@@ -15691,7 +16357,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 667
     },
     {
         "name": "Mega Banette",
@@ -15713,7 +16380,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 668
     },
     {
         "name": "Shadow Banette",
@@ -15735,7 +16403,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 669
     },
     {
         "name": "Duskull",
@@ -15757,7 +16426,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 670
     },
     {
         "name": "Shadow Duskull",
@@ -15779,7 +16449,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 671
     },
     {
         "name": "Dusclops",
@@ -15801,7 +16472,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 672
     },
     {
         "name": "Shadow Dusclops",
@@ -15823,7 +16495,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 673
     },
     {
         "name": "Tropius",
@@ -15846,7 +16519,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Flying"
-        ]
+        ],
+        "id": 674
     },
     {
         "name": "Chimecho",
@@ -15869,7 +16543,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 675
     },
     {
         "name": "Absol",
@@ -15892,7 +16567,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 676
     },
     {
         "name": "Mega Absol",
@@ -15915,7 +16591,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 677
     },
     {
         "name": "Shadow Absol",
@@ -15938,7 +16615,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 678
     },
     {
         "name": "Wynaut",
@@ -15958,7 +16636,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 679
     },
     {
         "name": "Snorunt",
@@ -15980,7 +16659,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 680
     },
     {
         "name": "Glalie",
@@ -16002,7 +16682,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 681
     },
     {
         "name": "Spheal",
@@ -16025,7 +16706,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Water"
-        ]
+        ],
+        "id": 682
     },
     {
         "name": "Shadow Spheal",
@@ -16048,7 +16730,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Water"
-        ]
+        ],
+        "id": 683
     },
     {
         "name": "Sealeo",
@@ -16071,7 +16754,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Water"
-        ]
+        ],
+        "id": 684
     },
     {
         "name": "Shadow Sealeo",
@@ -16094,7 +16778,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Water"
-        ]
+        ],
+        "id": 685
     },
     {
         "name": "Walrein",
@@ -16119,7 +16804,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Water"
-        ]
+        ],
+        "id": 686
     },
     {
         "name": "Shadow Walrein",
@@ -16144,7 +16830,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Water"
-        ]
+        ],
+        "id": 687
     },
     {
         "name": "Clamperl",
@@ -16165,7 +16852,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 688
     },
     {
         "name": "Huntail",
@@ -16187,7 +16875,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 689
     },
     {
         "name": "Gorebyss",
@@ -16209,7 +16898,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 690
     },
     {
         "name": "Relicanth",
@@ -16232,7 +16922,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Rock"
-        ]
+        ],
+        "id": 691
     },
     {
         "name": "Luvdisc",
@@ -16254,7 +16945,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 692
     },
     {
         "name": "Bagon",
@@ -16276,7 +16968,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 693
     },
     {
         "name": "Shadow Bagon",
@@ -16298,7 +16991,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 694
     },
     {
         "name": "Shelgon",
@@ -16320,7 +17014,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 695
     },
     {
         "name": "Shadow Shelgon",
@@ -16342,7 +17037,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 696
     },
     {
         "name": "Salamence",
@@ -16367,7 +17063,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Flying"
-        ]
+        ],
+        "id": 697
     },
     {
         "name": "Shadow Salamence",
@@ -16392,7 +17089,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Flying"
-        ]
+        ],
+        "id": 698
     },
     {
         "name": "Beldum",
@@ -16412,7 +17110,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Psychic"
-        ]
+        ],
+        "id": 699
     },
     {
         "name": "Shadow Beldum",
@@ -16432,7 +17131,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Psychic"
-        ]
+        ],
+        "id": 700
     },
     {
         "name": "Metang",
@@ -16455,7 +17155,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Psychic"
-        ]
+        ],
+        "id": 701
     },
     {
         "name": "Shadow Metang",
@@ -16478,7 +17179,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Psychic"
-        ]
+        ],
+        "id": 702
     },
     {
         "name": "Metagross",
@@ -16502,7 +17204,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Psychic"
-        ]
+        ],
+        "id": 703
     },
     {
         "name": "Shadow Metagross",
@@ -16526,7 +17229,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Psychic"
-        ]
+        ],
+        "id": 704
     },
     {
         "name": "Regirock",
@@ -16550,7 +17254,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 705
     },
     {
         "name": "Regice",
@@ -16574,7 +17279,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 706
     },
     {
         "name": "Registeel",
@@ -16598,7 +17304,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 707
     },
     {
         "name": "Latias",
@@ -16623,7 +17330,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Psychic"
-        ]
+        ],
+        "id": 708
     },
     {
         "name": "Mega Latias",
@@ -16648,7 +17356,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Psychic"
-        ]
+        ],
+        "id": 709
     },
     {
         "name": "Shadow Latias",
@@ -16673,7 +17382,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Psychic"
-        ]
+        ],
+        "id": 710
     },
     {
         "name": "Latios",
@@ -16697,7 +17407,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Psychic"
-        ]
+        ],
+        "id": 711
     },
     {
         "name": "Mega Latios",
@@ -16721,7 +17432,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Psychic"
-        ]
+        ],
+        "id": 712
     },
     {
         "name": "Shadow Latios",
@@ -16745,7 +17457,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Psychic"
-        ]
+        ],
+        "id": 713
     },
     {
         "name": "Kyogre",
@@ -16767,7 +17480,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 714
     },
     {
         "name": "Groudon",
@@ -16790,7 +17504,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 715
     },
     {
         "name": "Rayquaza",
@@ -16814,7 +17529,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Flying"
-        ]
+        ],
+        "id": 716
     },
     {
         "name": "Jirachi",
@@ -16837,7 +17553,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Psychic"
-        ]
+        ],
+        "id": 717
     },
     {
         "name": "Deoxys",
@@ -16859,7 +17576,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 718
     },
     {
         "name": "Deoxys (Attack form)",
@@ -16881,7 +17599,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 719
     },
     {
         "name": "Deoxys (Defense form)",
@@ -16903,7 +17622,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 720
     },
     {
         "name": "Deoxys",
@@ -16925,7 +17645,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 721
     },
     {
         "name": "Deoxys (Speed form)",
@@ -16947,7 +17668,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 722
     },
     {
         "name": "Turtwig",
@@ -16969,7 +17691,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 723
     },
     {
         "name": "Shadow Turtwig",
@@ -16991,7 +17714,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 724
     },
     {
         "name": "Grotle",
@@ -17013,7 +17737,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 725
     },
     {
         "name": "Shadow Grotle",
@@ -17035,7 +17760,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 726
     },
     {
         "name": "Torterra",
@@ -17060,7 +17786,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Ground"
-        ]
+        ],
+        "id": 727
     },
     {
         "name": "Shadow Torterra",
@@ -17085,7 +17812,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Ground"
-        ]
+        ],
+        "id": 728
     },
     {
         "name": "Chimchar",
@@ -17107,7 +17835,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 729
     },
     {
         "name": "Shadow Chimchar",
@@ -17129,7 +17858,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 730
     },
     {
         "name": "Monferno",
@@ -17152,7 +17882,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Fighting"
-        ]
+        ],
+        "id": 731
     },
     {
         "name": "Shadow Monferno",
@@ -17175,7 +17906,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Fighting"
-        ]
+        ],
+        "id": 732
     },
     {
         "name": "Infernape",
@@ -17199,7 +17931,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Fighting"
-        ]
+        ],
+        "id": 733
     },
     {
         "name": "Shadow Infernape",
@@ -17223,7 +17956,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Fighting"
-        ]
+        ],
+        "id": 734
     },
     {
         "name": "Piplup",
@@ -17245,7 +17979,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 735
     },
     {
         "name": "Prinplup",
@@ -17267,7 +18002,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 736
     },
     {
         "name": "Empoleon",
@@ -17292,7 +18028,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Steel"
-        ]
+        ],
+        "id": 737
     },
     {
         "name": "Starly",
@@ -17314,7 +18051,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 738
     },
     {
         "name": "Shadow Starly",
@@ -17336,7 +18074,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 739
     },
     {
         "name": "Staravia",
@@ -17359,7 +18098,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 740
     },
     {
         "name": "Shadow Staravia",
@@ -17382,7 +18122,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 741
     },
     {
         "name": "Staraptor",
@@ -17406,7 +18147,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 742
     },
     {
         "name": "Shadow Staraptor",
@@ -17430,7 +18172,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 743
     },
     {
         "name": "Bidoof",
@@ -17456,7 +18199,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 744
     },
     {
         "name": "Shadow Bidoof",
@@ -17482,7 +18226,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 745
     },
     {
         "name": "Bibarel",
@@ -17505,7 +18250,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Water"
-        ]
+        ],
+        "id": 746
     },
     {
         "name": "Shadow Bibarel",
@@ -17528,7 +18274,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Water"
-        ]
+        ],
+        "id": 747
     },
     {
         "name": "Kricketot",
@@ -17548,7 +18295,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 748
     },
     {
         "name": "Kricketune",
@@ -17570,7 +18318,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 749
     },
     {
         "name": "Shinx",
@@ -17592,7 +18341,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 750
     },
     {
         "name": "Shadow Shinx",
@@ -17614,7 +18364,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 751
     },
     {
         "name": "Luxio",
@@ -17636,7 +18387,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 752
     },
     {
         "name": "Shadow Luxio",
@@ -17658,7 +18410,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 753
     },
     {
         "name": "Luxray",
@@ -17682,7 +18435,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 754
     },
     {
         "name": "Shadow Luxray",
@@ -17706,7 +18460,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 755
     },
     {
         "name": "Budew",
@@ -17728,7 +18483,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 756
     },
     {
         "name": "Roserade",
@@ -17755,7 +18511,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 757
     },
     {
         "name": "Cranidos",
@@ -17777,7 +18534,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 758
     },
     {
         "name": "Rampardos",
@@ -17799,7 +18557,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 759
     },
     {
         "name": "Shieldon",
@@ -17822,7 +18581,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Steel"
-        ]
+        ],
+        "id": 760
     },
     {
         "name": "Bastiodon",
@@ -17845,7 +18605,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Steel"
-        ]
+        ],
+        "id": 761
     },
     {
         "name": "Burmy",
@@ -17865,7 +18626,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 762
     },
     {
         "name": "Wormadam",
@@ -17886,7 +18648,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Grass"
-        ]
+        ],
+        "id": 763
     },
     {
         "name": "Wormadam (Plant form)",
@@ -17909,7 +18672,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Grass"
-        ]
+        ],
+        "id": 764
     },
     {
         "name": "Wormadam (Sandy form)",
@@ -17932,7 +18696,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Ground"
-        ]
+        ],
+        "id": 765
     },
     {
         "name": "Wormadam (Trash form)",
@@ -17955,7 +18720,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Steel"
-        ]
+        ],
+        "id": 766
     },
     {
         "name": "Mothim",
@@ -17978,7 +18744,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Flying"
-        ]
+        ],
+        "id": 767
     },
     {
         "name": "Combee",
@@ -17998,7 +18765,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Flying"
-        ]
+        ],
+        "id": 768
     },
     {
         "name": "Vespiquen",
@@ -18025,7 +18793,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Flying"
-        ]
+        ],
+        "id": 769
     },
     {
         "name": "Pachirisu",
@@ -18047,7 +18816,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 770
     },
     {
         "name": "Buizel",
@@ -18069,7 +18839,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 771
     },
     {
         "name": "Floatzel",
@@ -18091,7 +18862,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 772
     },
     {
         "name": "Cherubi",
@@ -18113,7 +18885,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 773
     },
     {
         "name": "Cherrim",
@@ -18135,7 +18908,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 774
     },
     {
         "name": "Cherrim (Sunny form)",
@@ -18158,7 +18932,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 775
     },
     {
         "name": "Shellos",
@@ -18180,7 +18955,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 776
     },
     {
         "name": "Gastrodon",
@@ -18203,7 +18979,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ground"
-        ]
+        ],
+        "id": 777
     },
     {
         "name": "Ambipom",
@@ -18225,7 +19002,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 778
     },
     {
         "name": "Shadow Ambipom",
@@ -18247,7 +19025,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 779
     },
     {
         "name": "Drifloon",
@@ -18270,7 +19049,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Flying"
-        ]
+        ],
+        "id": 780
     },
     {
         "name": "Drifblim",
@@ -18293,7 +19073,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Flying"
-        ]
+        ],
+        "id": 781
     },
     {
         "name": "Buneary",
@@ -18314,7 +19095,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 782
     },
     {
         "name": "Lopunny",
@@ -18337,7 +19119,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 783
     },
     {
         "name": "Mega Lopunny",
@@ -18361,7 +19144,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Fighting"
-        ]
+        ],
+        "id": 784
     },
     {
         "name": "Mismagius",
@@ -18383,7 +19167,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 785
     },
     {
         "name": "Shadow Mismagius",
@@ -18405,7 +19190,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 786
     },
     {
         "name": "Honchkrow",
@@ -18429,7 +19215,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Flying"
-        ]
+        ],
+        "id": 787
     },
     {
         "name": "Shadow Honchkrow",
@@ -18453,7 +19240,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Flying"
-        ]
+        ],
+        "id": 788
     },
     {
         "name": "Glameow",
@@ -18475,7 +19263,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 789
     },
     {
         "name": "Purugly",
@@ -18497,7 +19286,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 790
     },
     {
         "name": "Chingling",
@@ -18519,7 +19309,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 791
     },
     {
         "name": "Stunky",
@@ -18542,7 +19333,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Dark"
-        ]
+        ],
+        "id": 792
     },
     {
         "name": "Shadow Stunky",
@@ -18565,7 +19357,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Dark"
-        ]
+        ],
+        "id": 793
     },
     {
         "name": "Skuntank",
@@ -18588,7 +19381,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Dark"
-        ]
+        ],
+        "id": 794
     },
     {
         "name": "Shadow Skuntank",
@@ -18611,7 +19405,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Dark"
-        ]
+        ],
+        "id": 795
     },
     {
         "name": "Bronzor",
@@ -18635,7 +19430,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Psychic"
-        ]
+        ],
+        "id": 796
     },
     {
         "name": "Bronzong",
@@ -18661,7 +19457,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Psychic"
-        ]
+        ],
+        "id": 797
     },
     {
         "name": "Bonsly",
@@ -18683,7 +19480,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 798
     },
     {
         "name": "Mime Jr",
@@ -18706,7 +19504,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fairy"
-        ]
+        ],
+        "id": 799
     },
     {
         "name": "Happiny",
@@ -18726,7 +19525,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 800
     },
     {
         "name": "Chatot",
@@ -18749,7 +19549,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 801
     },
     {
         "name": "Spiritomb",
@@ -18772,7 +19573,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Dark"
-        ]
+        ],
+        "id": 802
     },
     {
         "name": "Gible",
@@ -18795,7 +19597,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Ground"
-        ]
+        ],
+        "id": 803
     },
     {
         "name": "Shadow Gible",
@@ -18818,7 +19621,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Ground"
-        ]
+        ],
+        "id": 804
     },
     {
         "name": "Gabite",
@@ -18841,7 +19645,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Ground"
-        ]
+        ],
+        "id": 805
     },
     {
         "name": "Shadow Gabite",
@@ -18864,7 +19669,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Ground"
-        ]
+        ],
+        "id": 806
     },
     {
         "name": "Garchomp",
@@ -18889,7 +19695,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Ground"
-        ]
+        ],
+        "id": 807
     },
     {
         "name": "Shadow Garchomp",
@@ -18914,7 +19721,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Ground"
-        ]
+        ],
+        "id": 808
     },
     {
         "name": "Munchlax",
@@ -18936,7 +19744,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 809
     },
     {
         "name": "Riolu",
@@ -18958,7 +19767,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 810
     },
     {
         "name": "Lucario",
@@ -18983,7 +19793,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Steel"
-        ]
+        ],
+        "id": 811
     },
     {
         "name": "Hippopotas",
@@ -19005,7 +19816,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 812
     },
     {
         "name": "Shadow Hippopotas",
@@ -19027,7 +19839,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 813
     },
     {
         "name": "Hippowdon",
@@ -19053,7 +19866,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 814
     },
     {
         "name": "Shadow Hippowdon",
@@ -19079,7 +19893,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 815
     },
     {
         "name": "Skorupi",
@@ -19102,7 +19917,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Bug"
-        ]
+        ],
+        "id": 816
     },
     {
         "name": "Shadow Skorupi",
@@ -19125,7 +19941,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Bug"
-        ]
+        ],
+        "id": 817
     },
     {
         "name": "Drapion",
@@ -19151,7 +19968,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Dark"
-        ]
+        ],
+        "id": 818
     },
     {
         "name": "Shadow Drapion",
@@ -19177,7 +19995,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Dark"
-        ]
+        ],
+        "id": 819
     },
     {
         "name": "Croagunk",
@@ -19200,7 +20019,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Fighting"
-        ]
+        ],
+        "id": 820
     },
     {
         "name": "Toxicroak",
@@ -19223,7 +20043,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Fighting"
-        ]
+        ],
+        "id": 821
     },
     {
         "name": "Carnivine",
@@ -19245,7 +20066,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 822
     },
     {
         "name": "Finneon",
@@ -19267,7 +20089,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 823
     },
     {
         "name": "Lumineon",
@@ -19289,7 +20112,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 824
     },
     {
         "name": "Mantyke",
@@ -19312,7 +20136,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Flying"
-        ]
+        ],
+        "id": 825
     },
     {
         "name": "Snover",
@@ -19335,7 +20160,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Ice"
-        ]
+        ],
+        "id": 826
     },
     {
         "name": "Shadow Snover",
@@ -19358,7 +20184,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Ice"
-        ]
+        ],
+        "id": 827
     },
     {
         "name": "Abomasnow",
@@ -19382,7 +20209,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Ice"
-        ]
+        ],
+        "id": 828
     },
     {
         "name": "Mega Abomasnow",
@@ -19406,7 +20234,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Ice"
-        ]
+        ],
+        "id": 829
     },
     {
         "name": "Shadow Abomasnow",
@@ -19430,7 +20259,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Ice"
-        ]
+        ],
+        "id": 830
     },
     {
         "name": "Weavile",
@@ -19454,7 +20284,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Ice"
-        ]
+        ],
+        "id": 831
     },
     {
         "name": "Shadow Weavile",
@@ -19478,7 +20309,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Ice"
-        ]
+        ],
+        "id": 832
     },
     {
         "name": "Magnezone",
@@ -19502,7 +20334,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Steel"
-        ]
+        ],
+        "id": 833
     },
     {
         "name": "Shadow Magnezone",
@@ -19526,7 +20359,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Steel"
-        ]
+        ],
+        "id": 834
     },
     {
         "name": "Lickilicky",
@@ -19550,7 +20384,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 835
     },
     {
         "name": "Rhyperior",
@@ -19576,7 +20411,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Rock"
-        ]
+        ],
+        "id": 836
     },
     {
         "name": "Shadow Rhyperior",
@@ -19602,7 +20438,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Rock"
-        ]
+        ],
+        "id": 837
     },
     {
         "name": "Tangrowth",
@@ -19626,7 +20463,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 838
     },
     {
         "name": "Shadow Tangrowth",
@@ -19650,7 +20488,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 839
     },
     {
         "name": "Electivire",
@@ -19674,7 +20513,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 840
     },
     {
         "name": "Shadow Electivire",
@@ -19698,7 +20538,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 841
     },
     {
         "name": "Magmortar",
@@ -19722,7 +20563,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 842
     },
     {
         "name": "Shadow Magmortar",
@@ -19746,7 +20588,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 843
     },
     {
         "name": "Togekiss",
@@ -19771,7 +20614,8 @@ export const pokemonData = [
         "types": [
             "Fairy",
             "Flying"
-        ]
+        ],
+        "id": 844
     },
     {
         "name": "Yanmega",
@@ -19794,7 +20638,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Flying"
-        ]
+        ],
+        "id": 845
     },
     {
         "name": "Leafeon",
@@ -19818,7 +20663,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 846
     },
     {
         "name": "Glaceon",
@@ -19842,7 +20688,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 847
     },
     {
         "name": "Gliscor",
@@ -19866,7 +20713,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Flying"
-        ]
+        ],
+        "id": 848
     },
     {
         "name": "Shadow Gliscor",
@@ -19890,7 +20738,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Flying"
-        ]
+        ],
+        "id": 849
     },
     {
         "name": "Mamoswine",
@@ -19914,7 +20763,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Ground"
-        ]
+        ],
+        "id": 850
     },
     {
         "name": "Shadow Mamoswine",
@@ -19938,7 +20788,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Ground"
-        ]
+        ],
+        "id": 851
     },
     {
         "name": "Porygon Z",
@@ -19963,7 +20814,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 852
     },
     {
         "name": "Shadow Porygon Z",
@@ -19988,7 +20840,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 853
     },
     {
         "name": "Gallade",
@@ -20013,7 +20866,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fighting"
-        ]
+        ],
+        "id": 854
     },
     {
         "name": "Shadow Gallade",
@@ -20038,7 +20892,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fighting"
-        ]
+        ],
+        "id": 855
     },
     {
         "name": "Probopass",
@@ -20061,7 +20916,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Steel"
-        ]
+        ],
+        "id": 856
     },
     {
         "name": "Shadow Probopass",
@@ -20084,7 +20940,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Steel"
-        ]
+        ],
+        "id": 857
     },
     {
         "name": "Dusknoir",
@@ -20107,7 +20964,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 858
     },
     {
         "name": "Shadow Dusknoir",
@@ -20130,7 +20988,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 859
     },
     {
         "name": "Froslass",
@@ -20153,7 +21012,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Ghost"
-        ]
+        ],
+        "id": 860
     },
     {
         "name": "Rotom (Fan form)",
@@ -20176,7 +21036,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Flying"
-        ]
+        ],
+        "id": 861
     },
     {
         "name": "Rotom (Frost form)",
@@ -20199,7 +21060,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Ice"
-        ]
+        ],
+        "id": 862
     },
     {
         "name": "Rotom (Heat form)",
@@ -20222,7 +21084,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Fire"
-        ]
+        ],
+        "id": 863
     },
     {
         "name": "Rotom (Mow form)",
@@ -20245,7 +21108,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Grass"
-        ]
+        ],
+        "id": 864
     },
     {
         "name": "Rotom",
@@ -20268,7 +21132,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Ghost"
-        ]
+        ],
+        "id": 865
     },
     {
         "name": "Rotom (Wash form)",
@@ -20291,7 +21156,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Water"
-        ]
+        ],
+        "id": 866
     },
     {
         "name": "Uxie",
@@ -20313,7 +21179,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 867
     },
     {
         "name": "Mesprit",
@@ -20335,7 +21202,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 868
     },
     {
         "name": "Azelf",
@@ -20357,7 +21225,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 869
     },
     {
         "name": "Dialga",
@@ -20380,7 +21249,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Dragon"
-        ]
+        ],
+        "id": 870
     },
     {
         "name": "Palkia",
@@ -20404,7 +21274,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Dragon"
-        ]
+        ],
+        "id": 871
     },
     {
         "name": "Heatran",
@@ -20428,7 +21299,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Steel"
-        ]
+        ],
+        "id": 872
     },
     {
         "name": "Regigigas",
@@ -20450,7 +21322,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 873
     },
     {
         "name": "Giratina",
@@ -20473,7 +21346,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Dragon"
-        ]
+        ],
+        "id": 874
     },
     {
         "name": "Giratina (Origin form)",
@@ -20496,7 +21370,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Dragon"
-        ]
+        ],
+        "id": 875
     },
     {
         "name": "Cresselia",
@@ -20519,7 +21394,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 876
     },
     {
         "name": "Phione",
@@ -20541,7 +21417,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 877
     },
     {
         "name": "Manaphy",
@@ -20563,7 +21440,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 878
     },
     {
         "name": "Darkrai",
@@ -20586,7 +21464,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 879
     },
     {
         "name": "Shaymin",
@@ -20609,7 +21488,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 880
     },
     {
         "name": "Shaymin (Sky form)",
@@ -20633,7 +21513,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Flying"
-        ]
+        ],
+        "id": 881
     },
     {
         "name": "Arceus (Bug form)",
@@ -20655,7 +21536,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 882
     },
     {
         "name": "Arceus (Dark form)",
@@ -20677,7 +21559,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 883
     },
     {
         "name": "Arceus (Dragon form)",
@@ -20699,7 +21582,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 884
     },
     {
         "name": "Arceus (Electric form)",
@@ -20721,7 +21605,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 885
     },
     {
         "name": "Arceus (Fairy form)",
@@ -20743,7 +21628,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 886
     },
     {
         "name": "Arceus (Fighting form)",
@@ -20765,7 +21651,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 887
     },
     {
         "name": "Arceus (Fire form)",
@@ -20787,7 +21674,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 888
     },
     {
         "name": "Arceus (Flying form)",
@@ -20809,7 +21697,8 @@ export const pokemonData = [
         },
         "types": [
             "Flying"
-        ]
+        ],
+        "id": 889
     },
     {
         "name": "Arceus (Ghost form)",
@@ -20831,7 +21720,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 890
     },
     {
         "name": "Arceus (Grass form)",
@@ -20853,7 +21743,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 891
     },
     {
         "name": "Arceus (Ground form)",
@@ -20875,7 +21766,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 892
     },
     {
         "name": "Arceus (Ice form)",
@@ -20897,7 +21789,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 893
     },
     {
         "name": "Arceus",
@@ -20919,7 +21812,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 894
     },
     {
         "name": "Arceus (Poison form)",
@@ -20941,7 +21835,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 895
     },
     {
         "name": "Arceus (Psychic form)",
@@ -20963,7 +21858,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 896
     },
     {
         "name": "Arceus (Rock form)",
@@ -20985,7 +21881,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 897
     },
     {
         "name": "Arceus (Steel form)",
@@ -21007,7 +21904,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 898
     },
     {
         "name": "Arceus (Water form)",
@@ -21029,7 +21927,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 899
     },
     {
         "name": "Victini",
@@ -21053,7 +21952,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fire"
-        ]
+        ],
+        "id": 900
     },
     {
         "name": "Snivy",
@@ -21075,7 +21975,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 901
     },
     {
         "name": "Servine",
@@ -21097,7 +21998,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 902
     },
     {
         "name": "Serperior",
@@ -21120,7 +22022,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 903
     },
     {
         "name": "Tepig",
@@ -21142,7 +22045,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 904
     },
     {
         "name": "Pignite",
@@ -21165,7 +22069,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Fighting"
-        ]
+        ],
+        "id": 905
     },
     {
         "name": "Emboar",
@@ -21190,7 +22095,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Fighting"
-        ]
+        ],
+        "id": 906
     },
     {
         "name": "Oshawott",
@@ -21212,7 +22118,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 907
     },
     {
         "name": "Dewott",
@@ -21234,7 +22141,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 908
     },
     {
         "name": "Samurott",
@@ -21258,7 +22166,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 909
     },
     {
         "name": "Patrat",
@@ -21280,7 +22189,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 910
     },
     {
         "name": "Shadow Patrat",
@@ -21302,7 +22212,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 911
     },
     {
         "name": "Watchog",
@@ -21324,7 +22235,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 912
     },
     {
         "name": "Shadow Watchog",
@@ -21346,7 +22258,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 913
     },
     {
         "name": "Lillipup",
@@ -21368,7 +22281,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 914
     },
     {
         "name": "Herdier",
@@ -21390,7 +22304,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 915
     },
     {
         "name": "Stoutland",
@@ -21413,7 +22328,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 916
     },
     {
         "name": "Purrloin",
@@ -21435,7 +22351,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 917
     },
     {
         "name": "Shadow Purrloin",
@@ -21457,7 +22374,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 918
     },
     {
         "name": "Liepard",
@@ -21480,7 +22398,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 919
     },
     {
         "name": "Shadow Liepard",
@@ -21503,7 +22422,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 920
     },
     {
         "name": "Pansage",
@@ -21525,7 +22445,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 921
     },
     {
         "name": "Simisage",
@@ -21547,7 +22468,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 922
     },
     {
         "name": "Pansear",
@@ -21569,7 +22491,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 923
     },
     {
         "name": "Simisear",
@@ -21591,7 +22514,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 924
     },
     {
         "name": "Panpour",
@@ -21613,7 +22537,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 925
     },
     {
         "name": "Simipour",
@@ -21635,7 +22560,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 926
     },
     {
         "name": "Munna",
@@ -21657,7 +22583,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 927
     },
     {
         "name": "Musharna",
@@ -21679,7 +22606,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 928
     },
     {
         "name": "Pidove",
@@ -21702,7 +22630,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 929
     },
     {
         "name": "Tranquill",
@@ -21725,7 +22654,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 930
     },
     {
         "name": "Unfezant",
@@ -21748,7 +22678,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 931
     },
     {
         "name": "Blitzle",
@@ -21770,7 +22701,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 932
     },
     {
         "name": "Zebstrika",
@@ -21792,7 +22724,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 933
     },
     {
         "name": "Roggenrola",
@@ -21814,7 +22747,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 934
     },
     {
         "name": "Boldore",
@@ -21836,7 +22770,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 935
     },
     {
         "name": "Gigalith",
@@ -21859,7 +22794,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 936
     },
     {
         "name": "Woobat",
@@ -21882,7 +22818,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Flying"
-        ]
+        ],
+        "id": 937
     },
     {
         "name": "Swoobat",
@@ -21906,7 +22843,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Flying"
-        ]
+        ],
+        "id": 938
     },
     {
         "name": "Drilbur",
@@ -21928,7 +22866,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 939
     },
     {
         "name": "Excadrill",
@@ -21953,7 +22892,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Steel"
-        ]
+        ],
+        "id": 940
     },
     {
         "name": "Audino",
@@ -21975,7 +22915,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 941
     },
     {
         "name": "Timburr",
@@ -21997,7 +22938,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 942
     },
     {
         "name": "Gurdurr",
@@ -22019,7 +22961,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 943
     },
     {
         "name": "Conkeldurr",
@@ -22041,7 +22984,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 944
     },
     {
         "name": "Tympole",
@@ -22063,7 +23007,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 945
     },
     {
         "name": "Palpitoad",
@@ -22086,7 +23031,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ground"
-        ]
+        ],
+        "id": 946
     },
     {
         "name": "Seismitoad",
@@ -22109,7 +23055,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ground"
-        ]
+        ],
+        "id": 947
     },
     {
         "name": "Throh",
@@ -22131,7 +23078,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 948
     },
     {
         "name": "Sawk",
@@ -22153,7 +23101,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 949
     },
     {
         "name": "Sewaddle",
@@ -22176,7 +23125,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Grass"
-        ]
+        ],
+        "id": 950
     },
     {
         "name": "Swadloon",
@@ -22199,7 +23149,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Grass"
-        ]
+        ],
+        "id": 951
     },
     {
         "name": "Leavanny",
@@ -22223,7 +23174,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Grass"
-        ]
+        ],
+        "id": 952
     },
     {
         "name": "Venipede",
@@ -22246,7 +23198,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 953
     },
     {
         "name": "Whirlipede",
@@ -22269,7 +23222,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 954
     },
     {
         "name": "Scolipede",
@@ -22293,7 +23247,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Poison"
-        ]
+        ],
+        "id": 955
     },
     {
         "name": "Cottonee",
@@ -22316,7 +23271,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Fairy"
-        ]
+        ],
+        "id": 956
     },
     {
         "name": "Whimsicott",
@@ -22339,7 +23295,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Fairy"
-        ]
+        ],
+        "id": 957
     },
     {
         "name": "Petilil",
@@ -22360,7 +23317,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 958
     },
     {
         "name": "Lilligant",
@@ -22382,7 +23340,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 959
     },
     {
         "name": "Basculin",
@@ -22404,7 +23363,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 960
     },
     {
         "name": "Sandile",
@@ -22427,7 +23387,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Dark"
-        ]
+        ],
+        "id": 961
     },
     {
         "name": "Krokorok",
@@ -22450,7 +23411,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Dark"
-        ]
+        ],
+        "id": 962
     },
     {
         "name": "Krookodile",
@@ -22473,7 +23435,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Dark"
-        ]
+        ],
+        "id": 963
     },
     {
         "name": "Darumaka (Galarian form)",
@@ -22494,7 +23457,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 964
     },
     {
         "name": "Shadow Darumaka (Galarian form)",
@@ -22515,7 +23479,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 965
     },
     {
         "name": "Darumaka",
@@ -22536,7 +23501,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 966
     },
     {
         "name": "Shadow Darumaka",
@@ -22557,7 +23523,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 967
     },
     {
         "name": "Darmanitan",
@@ -22581,7 +23548,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 968
     },
     {
         "name": "Darmanitan (Galarian Standard form)",
@@ -22604,7 +23572,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 969
     },
     {
         "name": "Darmanitan (Galarian Zen form)",
@@ -22628,7 +23597,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Fire"
-        ]
+        ],
+        "id": 970
     },
     {
         "name": "Darmanitan (Zen form)",
@@ -22653,7 +23623,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Psychic"
-        ]
+        ],
+        "id": 971
     },
     {
         "name": "Maractus",
@@ -22675,7 +23646,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 972
     },
     {
         "name": "Dwebble",
@@ -22698,7 +23670,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Rock"
-        ]
+        ],
+        "id": 973
     },
     {
         "name": "Crustle",
@@ -22721,7 +23694,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Rock"
-        ]
+        ],
+        "id": 974
     },
     {
         "name": "Scraggy",
@@ -22744,7 +23718,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Fighting"
-        ]
+        ],
+        "id": 975
     },
     {
         "name": "Scrafty",
@@ -22767,7 +23742,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Fighting"
-        ]
+        ],
+        "id": 976
     },
     {
         "name": "Sigilyph",
@@ -22791,7 +23767,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Flying"
-        ]
+        ],
+        "id": 977
     },
     {
         "name": "Yamask (Galarian form)",
@@ -22812,7 +23789,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Ghost"
-        ]
+        ],
+        "id": 978
     },
     {
         "name": "Shadow Yamask (Galarian form)",
@@ -22833,7 +23811,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Ghost"
-        ]
+        ],
+        "id": 979
     },
     {
         "name": "Yamask",
@@ -22855,7 +23834,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 980
     },
     {
         "name": "Shadow Yamask",
@@ -22877,7 +23857,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 981
     },
     {
         "name": "Cofagrigus",
@@ -22900,7 +23881,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 982
     },
     {
         "name": "Shadow Cofagrigus",
@@ -22923,7 +23905,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 983
     },
     {
         "name": "Tirtouga",
@@ -22946,7 +23929,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Rock"
-        ]
+        ],
+        "id": 984
     },
     {
         "name": "Carracosta",
@@ -22969,7 +23953,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Rock"
-        ]
+        ],
+        "id": 985
     },
     {
         "name": "Archen",
@@ -22992,7 +23977,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Flying"
-        ]
+        ],
+        "id": 986
     },
     {
         "name": "Archeops",
@@ -23015,7 +24001,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Flying"
-        ]
+        ],
+        "id": 987
     },
     {
         "name": "Trubbish",
@@ -23037,7 +24024,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 988
     },
     {
         "name": "Garbodor",
@@ -23060,7 +24048,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 989
     },
     {
         "name": "Zorua",
@@ -23082,7 +24071,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 990
     },
     {
         "name": "Zoroark",
@@ -23104,7 +24094,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 991
     },
     {
         "name": "Minccino",
@@ -23126,7 +24117,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 992
     },
     {
         "name": "Cinccino",
@@ -23148,7 +24140,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 993
     },
     {
         "name": "Gothita",
@@ -23170,7 +24163,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 994
     },
     {
         "name": "Gothorita",
@@ -23192,7 +24186,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 995
     },
     {
         "name": "Gothitelle",
@@ -23214,7 +24209,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 996
     },
     {
         "name": "Solosis",
@@ -23236,7 +24232,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 997
     },
     {
         "name": "Duosion",
@@ -23258,7 +24255,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 998
     },
     {
         "name": "Reuniclus",
@@ -23280,7 +24278,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 999
     },
     {
         "name": "Ducklett",
@@ -23303,7 +24302,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Flying"
-        ]
+        ],
+        "id": 1000
     },
     {
         "name": "Shadow Ducklett",
@@ -23326,7 +24326,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Flying"
-        ]
+        ],
+        "id": 1001
     },
     {
         "name": "Swanna",
@@ -23349,7 +24350,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Flying"
-        ]
+        ],
+        "id": 1002
     },
     {
         "name": "Shadow Swanna",
@@ -23372,7 +24374,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Flying"
-        ]
+        ],
+        "id": 1003
     },
     {
         "name": "Vanillite",
@@ -23394,7 +24397,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 1004
     },
     {
         "name": "Vanillish",
@@ -23416,7 +24420,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 1005
     },
     {
         "name": "Vanilluxe",
@@ -23438,7 +24443,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 1006
     },
     {
         "name": "Deerling",
@@ -23461,7 +24467,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Grass"
-        ]
+        ],
+        "id": 1007
     },
     {
         "name": "Sawsbuck",
@@ -23485,7 +24492,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Grass"
-        ]
+        ],
+        "id": 1008
     },
     {
         "name": "Emolga",
@@ -23508,7 +24516,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Flying"
-        ]
+        ],
+        "id": 1009
     },
     {
         "name": "Karrablast",
@@ -23531,7 +24540,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 1010
     },
     {
         "name": "Escavalier",
@@ -23555,7 +24565,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Steel"
-        ]
+        ],
+        "id": 1011
     },
     {
         "name": "Foongus",
@@ -23578,7 +24589,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 1012
     },
     {
         "name": "Shadow Foongus",
@@ -23601,7 +24613,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 1013
     },
     {
         "name": "Amoonguss",
@@ -23624,7 +24637,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 1014
     },
     {
         "name": "Shadow Amoonguss",
@@ -23647,7 +24661,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Poison"
-        ]
+        ],
+        "id": 1015
     },
     {
         "name": "Frillish",
@@ -23670,7 +24685,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ghost"
-        ]
+        ],
+        "id": 1016
     },
     {
         "name": "Jellicent",
@@ -23693,7 +24709,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ghost"
-        ]
+        ],
+        "id": 1017
     },
     {
         "name": "Alomomola",
@@ -23715,7 +24732,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1018
     },
     {
         "name": "Joltik",
@@ -23738,7 +24756,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Electric"
-        ]
+        ],
+        "id": 1019
     },
     {
         "name": "Galvantula",
@@ -23763,7 +24782,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Electric"
-        ]
+        ],
+        "id": 1020
     },
     {
         "name": "Ferroseed",
@@ -23786,7 +24806,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Steel"
-        ]
+        ],
+        "id": 1021
     },
     {
         "name": "Ferrothorn",
@@ -23811,7 +24832,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Steel"
-        ]
+        ],
+        "id": 1022
     },
     {
         "name": "Klink",
@@ -23833,7 +24855,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 1023
     },
     {
         "name": "Klang",
@@ -23855,7 +24878,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 1024
     },
     {
         "name": "Klinklang",
@@ -23878,7 +24902,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 1025
     },
     {
         "name": "Tynamo",
@@ -23898,7 +24923,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 1026
     },
     {
         "name": "Eelektrik",
@@ -23920,7 +24946,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 1027
     },
     {
         "name": "Eelektross",
@@ -23943,7 +24970,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 1028
     },
     {
         "name": "Elgyem",
@@ -23965,7 +24993,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 1029
     },
     {
         "name": "Beheeyem",
@@ -23987,7 +25016,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 1030
     },
     {
         "name": "Litwick",
@@ -24010,7 +25040,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Fire"
-        ]
+        ],
+        "id": 1031
     },
     {
         "name": "Lampent",
@@ -24033,7 +25064,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Fire"
-        ]
+        ],
+        "id": 1032
     },
     {
         "name": "Chandelure",
@@ -24058,7 +25090,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Fire"
-        ]
+        ],
+        "id": 1033
     },
     {
         "name": "Axew",
@@ -24080,7 +25113,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 1034
     },
     {
         "name": "Fraxure",
@@ -24102,7 +25136,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 1035
     },
     {
         "name": "Haxorus",
@@ -24125,7 +25160,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 1036
     },
     {
         "name": "Cubchoo",
@@ -24147,7 +25183,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 1037
     },
     {
         "name": "Beartic",
@@ -24169,7 +25206,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 1038
     },
     {
         "name": "Cryogonal",
@@ -24192,7 +25230,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 1039
     },
     {
         "name": "Shelmet",
@@ -24214,7 +25253,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 1040
     },
     {
         "name": "Accelgor",
@@ -24237,7 +25277,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 1041
     },
     {
         "name": "Stunfisk (Galarian form)",
@@ -24261,7 +25302,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Steel"
-        ]
+        ],
+        "id": 1042
     },
     {
         "name": "Shadow Stunfisk (Galarian form)",
@@ -24285,7 +25327,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Steel"
-        ]
+        ],
+        "id": 1043
     },
     {
         "name": "Stunfisk",
@@ -24308,7 +25351,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Electric"
-        ]
+        ],
+        "id": 1044
     },
     {
         "name": "Shadow Stunfisk",
@@ -24331,7 +25375,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Electric"
-        ]
+        ],
+        "id": 1045
     },
     {
         "name": "Mienfoo",
@@ -24353,7 +25398,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 1046
     },
     {
         "name": "Mienshao",
@@ -24375,7 +25421,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 1047
     },
     {
         "name": "Druddigon",
@@ -24397,7 +25444,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 1048
     },
     {
         "name": "Golett",
@@ -24420,7 +25468,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Ghost"
-        ]
+        ],
+        "id": 1049
     },
     {
         "name": "Golurk",
@@ -24443,7 +25492,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Ghost"
-        ]
+        ],
+        "id": 1050
     },
     {
         "name": "Pawniard",
@@ -24466,7 +25516,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Steel"
-        ]
+        ],
+        "id": 1051
     },
     {
         "name": "Bisharp",
@@ -24490,7 +25541,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Steel"
-        ]
+        ],
+        "id": 1052
     },
     {
         "name": "Bouffalant",
@@ -24513,7 +25565,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 1053
     },
     {
         "name": "Rufflet",
@@ -24536,7 +25589,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 1054
     },
     {
         "name": "Braviary (Hisuian form)",
@@ -24560,7 +25614,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Flying"
-        ]
+        ],
+        "id": 1055
     },
     {
         "name": "Braviary",
@@ -24584,7 +25639,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 1056
     },
     {
         "name": "Vullaby",
@@ -24607,7 +25663,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Flying"
-        ]
+        ],
+        "id": 1057
     },
     {
         "name": "Mandibuzz",
@@ -24631,7 +25688,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Flying"
-        ]
+        ],
+        "id": 1058
     },
     {
         "name": "Heatmor",
@@ -24653,7 +25711,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 1059
     },
     {
         "name": "Durant",
@@ -24676,7 +25735,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Steel"
-        ]
+        ],
+        "id": 1060
     },
     {
         "name": "Deino",
@@ -24699,7 +25759,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Dragon"
-        ]
+        ],
+        "id": 1061
     },
     {
         "name": "Zweilous",
@@ -24722,7 +25783,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Dragon"
-        ]
+        ],
+        "id": 1062
     },
     {
         "name": "Hydreigon",
@@ -24746,7 +25808,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Dragon"
-        ]
+        ],
+        "id": 1063
     },
     {
         "name": "Larvesta",
@@ -24769,7 +25832,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Fire"
-        ]
+        ],
+        "id": 1064
     },
     {
         "name": "Volcarona",
@@ -24793,7 +25857,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Fire"
-        ]
+        ],
+        "id": 1065
     },
     {
         "name": "Cobalion",
@@ -24818,7 +25883,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Fighting"
-        ]
+        ],
+        "id": 1066
     },
     {
         "name": "Terrakion",
@@ -24843,7 +25909,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Fighting"
-        ]
+        ],
+        "id": 1067
     },
     {
         "name": "Virizion",
@@ -24868,7 +25935,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Fighting"
-        ]
+        ],
+        "id": 1068
     },
     {
         "name": "Tornadus",
@@ -24891,7 +25959,8 @@ export const pokemonData = [
         },
         "types": [
             "Flying"
-        ]
+        ],
+        "id": 1069
     },
     {
         "name": "Tornadus (Therian form)",
@@ -24914,7 +25983,8 @@ export const pokemonData = [
         },
         "types": [
             "Flying"
-        ]
+        ],
+        "id": 1070
     },
     {
         "name": "Thundurus",
@@ -24938,7 +26008,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Flying"
-        ]
+        ],
+        "id": 1071
     },
     {
         "name": "Thundurus (Therian form)",
@@ -24962,7 +26033,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Flying"
-        ]
+        ],
+        "id": 1072
     },
     {
         "name": "Reshiram",
@@ -24986,7 +26058,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Fire"
-        ]
+        ],
+        "id": 1073
     },
     {
         "name": "Zekrom",
@@ -25010,7 +26083,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Electric"
-        ]
+        ],
+        "id": 1074
     },
     {
         "name": "Landorus",
@@ -25034,7 +26108,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Flying"
-        ]
+        ],
+        "id": 1075
     },
     {
         "name": "Landorus (Therian form)",
@@ -25058,7 +26133,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Flying"
-        ]
+        ],
+        "id": 1076
     },
     {
         "name": "Kyurem (Black form)",
@@ -25082,7 +26158,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Ice"
-        ]
+        ],
+        "id": 1077
     },
     {
         "name": "Kyurem",
@@ -25105,7 +26182,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Ice"
-        ]
+        ],
+        "id": 1078
     },
     {
         "name": "Kyurem (White form)",
@@ -25129,7 +26207,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Ice"
-        ]
+        ],
+        "id": 1079
     },
     {
         "name": "Keldeo",
@@ -25153,7 +26232,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Fighting"
-        ]
+        ],
+        "id": 1080
     },
     {
         "name": "Meloetta",
@@ -25177,7 +26257,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Psychic"
-        ]
+        ],
+        "id": 1081
     },
     {
         "name": "Meloetta (Aria form)",
@@ -25201,7 +26282,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Psychic"
-        ]
+        ],
+        "id": 1082
     },
     {
         "name": "Meloetta (Pirouette form)",
@@ -25225,7 +26307,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Fighting"
-        ]
+        ],
+        "id": 1083
     },
     {
         "name": "Genesect",
@@ -25248,7 +26331,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Steel"
-        ]
+        ],
+        "id": 1084
     },
     {
         "name": "Genesect (Burn form)",
@@ -25272,7 +26356,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Steel"
-        ]
+        ],
+        "id": 1085
     },
     {
         "name": "Genesect (Chill form)",
@@ -25296,7 +26381,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Steel"
-        ]
+        ],
+        "id": 1086
     },
     {
         "name": "Genesect (Douse form)",
@@ -25320,7 +26406,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Steel"
-        ]
+        ],
+        "id": 1087
     },
     {
         "name": "Genesect",
@@ -25344,7 +26431,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Steel"
-        ]
+        ],
+        "id": 1088
     },
     {
         "name": "Genesect (Shock form)",
@@ -25368,7 +26456,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Steel"
-        ]
+        ],
+        "id": 1089
     },
     {
         "name": "Chespin",
@@ -25390,7 +26479,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1090
     },
     {
         "name": "Quilladin",
@@ -25412,7 +26502,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1091
     },
     {
         "name": "Chesnaught",
@@ -25437,7 +26528,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Fighting"
-        ]
+        ],
+        "id": 1092
     },
     {
         "name": "Fennekin",
@@ -25459,7 +26551,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 1093
     },
     {
         "name": "Braixen",
@@ -25481,7 +26574,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 1094
     },
     {
         "name": "Delphox",
@@ -25506,7 +26600,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Psychic"
-        ]
+        ],
+        "id": 1095
     },
     {
         "name": "Froakie",
@@ -25528,7 +26623,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1096
     },
     {
         "name": "Frogadier",
@@ -25550,7 +26646,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1097
     },
     {
         "name": "Greninja",
@@ -25574,7 +26671,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Dark"
-        ]
+        ],
+        "id": 1098
     },
     {
         "name": "Bunnelby",
@@ -25596,7 +26694,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 1099
     },
     {
         "name": "Diggersby",
@@ -25620,7 +26719,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Ground"
-        ]
+        ],
+        "id": 1100
     },
     {
         "name": "Fletchling",
@@ -25643,7 +26743,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 1101
     },
     {
         "name": "Fletchinder",
@@ -25667,7 +26768,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Flying"
-        ]
+        ],
+        "id": 1102
     },
     {
         "name": "Talonflame",
@@ -25693,7 +26795,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Flying"
-        ]
+        ],
+        "id": 1103
     },
     {
         "name": "Scatterbug",
@@ -25713,7 +26816,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 1104
     },
     {
         "name": "Spewpa",
@@ -25733,7 +26837,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 1105
     },
     {
         "name": "Vivillon",
@@ -25758,7 +26863,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Flying"
-        ]
+        ],
+        "id": 1106
     },
     {
         "name": "Litleo",
@@ -25782,7 +26888,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Normal"
-        ]
+        ],
+        "id": 1107
     },
     {
         "name": "Pyroar",
@@ -25807,7 +26914,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Normal"
-        ]
+        ],
+        "id": 1108
     },
     {
         "name": "Pyroar (Female form)",
@@ -25831,7 +26939,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Normal"
-        ]
+        ],
+        "id": 1109
     },
     {
         "name": "Pyroar",
@@ -25855,7 +26964,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Normal"
-        ]
+        ],
+        "id": 1110
     },
     {
         "name": "Flabebe",
@@ -25877,7 +26987,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 1111
     },
     {
         "name": "Floette",
@@ -25899,7 +27010,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 1112
     },
     {
         "name": "Florges",
@@ -25924,7 +27036,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 1113
     },
     {
         "name": "Skiddo",
@@ -25946,7 +27059,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1114
     },
     {
         "name": "Gogoat",
@@ -25970,7 +27084,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1115
     },
     {
         "name": "Pancham",
@@ -25992,7 +27107,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 1116
     },
     {
         "name": "Pangoro",
@@ -26017,7 +27133,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Dark"
-        ]
+        ],
+        "id": 1117
     },
     {
         "name": "Furfrou",
@@ -26040,7 +27157,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 1118
     },
     {
         "name": "Espurr",
@@ -26062,7 +27180,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 1119
     },
     {
         "name": "Meowstic (Female form)",
@@ -26084,7 +27203,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 1120
     },
     {
         "name": "Meowstic",
@@ -26106,7 +27226,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 1121
     },
     {
         "name": "Spritzee",
@@ -26127,7 +27248,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 1122
     },
     {
         "name": "Aromatisse",
@@ -26150,7 +27272,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 1123
     },
     {
         "name": "Swirlix",
@@ -26170,7 +27293,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 1124
     },
     {
         "name": "Slurpuff",
@@ -26194,7 +27318,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 1125
     },
     {
         "name": "Inkay",
@@ -26216,7 +27341,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Psychic"
-        ]
+        ],
+        "id": 1126
     },
     {
         "name": "Malamar",
@@ -26240,7 +27366,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Psychic"
-        ]
+        ],
+        "id": 1127
     },
     {
         "name": "Binacle",
@@ -26263,7 +27390,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Water"
-        ]
+        ],
+        "id": 1128
     },
     {
         "name": "Barbaracle",
@@ -26288,7 +27416,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Water"
-        ]
+        ],
+        "id": 1129
     },
     {
         "name": "Skrelp",
@@ -26312,7 +27441,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Water"
-        ]
+        ],
+        "id": 1130
     },
     {
         "name": "Dragalge",
@@ -26337,7 +27467,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Dragon"
-        ]
+        ],
+        "id": 1131
     },
     {
         "name": "Clauncher",
@@ -26359,7 +27490,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1132
     },
     {
         "name": "Clawitzer",
@@ -26382,7 +27514,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1133
     },
     {
         "name": "Helioptile",
@@ -26405,7 +27538,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Normal"
-        ]
+        ],
+        "id": 1134
     },
     {
         "name": "Heliolisk",
@@ -26430,7 +27564,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Normal"
-        ]
+        ],
+        "id": 1135
     },
     {
         "name": "Tyrunt",
@@ -26453,7 +27588,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Dragon"
-        ]
+        ],
+        "id": 1136
     },
     {
         "name": "Tyrantrum",
@@ -26478,7 +27614,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Dragon"
-        ]
+        ],
+        "id": 1137
     },
     {
         "name": "Amaura",
@@ -26502,7 +27639,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Ice"
-        ]
+        ],
+        "id": 1138
     },
     {
         "name": "Aurorus",
@@ -26528,7 +27666,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Ice"
-        ]
+        ],
+        "id": 1139
     },
     {
         "name": "Sylveon",
@@ -26552,7 +27691,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 1140
     },
     {
         "name": "Hawlucha",
@@ -26577,7 +27717,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Flying"
-        ]
+        ],
+        "id": 1141
     },
     {
         "name": "Dedenne",
@@ -26599,7 +27740,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Fairy"
-        ]
+        ],
+        "id": 1142
     },
     {
         "name": "Carbink",
@@ -26622,7 +27764,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Fairy"
-        ]
+        ],
+        "id": 1143
     },
     {
         "name": "Goomy",
@@ -26644,7 +27787,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 1144
     },
     {
         "name": "Sliggoo",
@@ -26667,7 +27811,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 1145
     },
     {
         "name": "Goodra",
@@ -26690,7 +27835,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 1146
     },
     {
         "name": "Klefki",
@@ -26714,7 +27860,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Fairy"
-        ]
+        ],
+        "id": 1147
     },
     {
         "name": "Phantump",
@@ -26737,7 +27884,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Grass"
-        ]
+        ],
+        "id": 1148
     },
     {
         "name": "Trevenant",
@@ -26760,7 +27908,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Grass"
-        ]
+        ],
+        "id": 1149
     },
     {
         "name": "Pumpkaboo",
@@ -26783,7 +27932,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Grass"
-        ]
+        ],
+        "id": 1150
     },
     {
         "name": "Pumpkaboo (Average form)",
@@ -26806,7 +27956,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Grass"
-        ]
+        ],
+        "id": 1151
     },
     {
         "name": "Pumpkaboo (Large form)",
@@ -26829,7 +27980,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Grass"
-        ]
+        ],
+        "id": 1152
     },
     {
         "name": "Pumpkaboo (Super form)",
@@ -26852,7 +28004,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Grass"
-        ]
+        ],
+        "id": 1153
     },
     {
         "name": "Gourgeist",
@@ -26876,7 +28029,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Grass"
-        ]
+        ],
+        "id": 1154
     },
     {
         "name": "Gourgeist (Average form)",
@@ -26900,7 +28054,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Grass"
-        ]
+        ],
+        "id": 1155
     },
     {
         "name": "Gourgeist (Large form)",
@@ -26924,7 +28079,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Grass"
-        ]
+        ],
+        "id": 1156
     },
     {
         "name": "Gourgeist (Super form)",
@@ -26948,7 +28104,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Grass"
-        ]
+        ],
+        "id": 1157
     },
     {
         "name": "Bergmite",
@@ -26970,7 +28127,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 1158
     },
     {
         "name": "Avalugg",
@@ -26994,7 +28152,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 1159
     },
     {
         "name": "Noibat",
@@ -27017,7 +28176,8 @@ export const pokemonData = [
         "types": [
             "Flying",
             "Dragon"
-        ]
+        ],
+        "id": 1160
     },
     {
         "name": "Noivern",
@@ -27041,7 +28201,8 @@ export const pokemonData = [
         "types": [
             "Flying",
             "Dragon"
-        ]
+        ],
+        "id": 1161
     },
     {
         "name": "Xerneas",
@@ -27065,7 +28226,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 1162
     },
     {
         "name": "Yveltal",
@@ -27091,7 +28253,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Flying"
-        ]
+        ],
+        "id": 1163
     },
     {
         "name": "Diancie",
@@ -27114,7 +28277,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Fairy"
-        ]
+        ],
+        "id": 1164
     },
     {
         "name": "Hoopa",
@@ -27137,7 +28301,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Ghost"
-        ]
+        ],
+        "id": 1165
     },
     {
         "name": "Hoopa (Unbound form)",
@@ -27160,7 +28325,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Dark"
-        ]
+        ],
+        "id": 1166
     },
     {
         "name": "Volcanion",
@@ -27185,7 +28351,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Water"
-        ]
+        ],
+        "id": 1167
     },
     {
         "name": "Rowlet",
@@ -27207,7 +28374,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Flying"
-        ]
+        ],
+        "id": 1168
     },
     {
         "name": "Dartrix",
@@ -27230,7 +28398,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Flying"
-        ]
+        ],
+        "id": 1169
     },
     {
         "name": "Decidueye",
@@ -27253,7 +28422,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Ghost"
-        ]
+        ],
+        "id": 1170
     },
     {
         "name": "Litten",
@@ -27275,7 +28445,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 1171
     },
     {
         "name": "Torracat",
@@ -27297,7 +28468,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 1172
     },
     {
         "name": "Incineroar",
@@ -27321,7 +28493,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Dark"
-        ]
+        ],
+        "id": 1173
     },
     {
         "name": "Popplio",
@@ -27343,7 +28516,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1174
     },
     {
         "name": "Brionne",
@@ -27365,7 +28539,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1175
     },
     {
         "name": "Primarina",
@@ -27388,7 +28563,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Fairy"
-        ]
+        ],
+        "id": 1176
     },
     {
         "name": "Pikipek",
@@ -27411,7 +28587,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 1177
     },
     {
         "name": "Trumbeak",
@@ -27434,7 +28611,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 1178
     },
     {
         "name": "Toucannon",
@@ -27458,7 +28636,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Flying"
-        ]
+        ],
+        "id": 1179
     },
     {
         "name": "Yungoos",
@@ -27480,7 +28659,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 1180
     },
     {
         "name": "Gumshoos",
@@ -27502,7 +28682,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 1181
     },
     {
         "name": "Grubbin",
@@ -27524,7 +28705,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 1182
     },
     {
         "name": "Charjabug",
@@ -27547,7 +28729,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Electric"
-        ]
+        ],
+        "id": 1183
     },
     {
         "name": "Vikavolt",
@@ -27571,7 +28754,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Electric"
-        ]
+        ],
+        "id": 1184
     },
     {
         "name": "Crabrawler",
@@ -27593,7 +28777,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 1185
     },
     {
         "name": "Crabominable",
@@ -27617,7 +28802,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Ice"
-        ]
+        ],
+        "id": 1186
     },
     {
         "name": "Oricorio",
@@ -27640,7 +28826,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Flying"
-        ]
+        ],
+        "id": 1187
     },
     {
         "name": "Oricorio (Pau form)",
@@ -27663,7 +28850,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Flying"
-        ]
+        ],
+        "id": 1188
     },
     {
         "name": "Oricorio (Pompom form)",
@@ -27686,7 +28874,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Flying"
-        ]
+        ],
+        "id": 1189
     },
     {
         "name": "Oricorio (Sensu form)",
@@ -27709,7 +28898,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Flying"
-        ]
+        ],
+        "id": 1190
     },
     {
         "name": "Cutiefly",
@@ -27731,7 +28921,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Fairy"
-        ]
+        ],
+        "id": 1191
     },
     {
         "name": "Ribombee",
@@ -27753,7 +28944,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Fairy"
-        ]
+        ],
+        "id": 1192
     },
     {
         "name": "Rockruff",
@@ -27775,7 +28967,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 1193
     },
     {
         "name": "Lycanroc",
@@ -27797,7 +28990,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 1194
     },
     {
         "name": "Lycanroc (Dusk form)",
@@ -27820,7 +29014,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 1195
     },
     {
         "name": "Lycanroc (Midnight form)",
@@ -27842,7 +29037,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 1196
     },
     {
         "name": "Wishiwashi",
@@ -27865,7 +29061,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1197
     },
     {
         "name": "Wishiwashi (School form)",
@@ -27888,7 +29085,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1198
     },
     {
         "name": "Mareanie",
@@ -27911,7 +29109,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Water"
-        ]
+        ],
+        "id": 1199
     },
     {
         "name": "Toxapex",
@@ -27934,7 +29133,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Water"
-        ]
+        ],
+        "id": 1200
     },
     {
         "name": "Mudbray",
@@ -27956,7 +29156,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 1201
     },
     {
         "name": "Mudsdale",
@@ -27979,7 +29180,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 1202
     },
     {
         "name": "Dewpider",
@@ -28002,7 +29204,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Bug"
-        ]
+        ],
+        "id": 1203
     },
     {
         "name": "Araquanid",
@@ -28025,7 +29228,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Bug"
-        ]
+        ],
+        "id": 1204
     },
     {
         "name": "Fomantis",
@@ -28047,7 +29251,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1205
     },
     {
         "name": "Lurantis",
@@ -28070,7 +29275,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1206
     },
     {
         "name": "Morelull",
@@ -28092,7 +29298,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Fairy"
-        ]
+        ],
+        "id": 1207
     },
     {
         "name": "Shiinotic",
@@ -28115,7 +29322,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Fairy"
-        ]
+        ],
+        "id": 1208
     },
     {
         "name": "Salandit",
@@ -28138,7 +29346,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Fire"
-        ]
+        ],
+        "id": 1209
     },
     {
         "name": "Salazzle",
@@ -28162,7 +29371,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Fire"
-        ]
+        ],
+        "id": 1210
     },
     {
         "name": "Stufful",
@@ -28185,7 +29395,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Fighting"
-        ]
+        ],
+        "id": 1211
     },
     {
         "name": "Bewear",
@@ -28210,7 +29421,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Fighting"
-        ]
+        ],
+        "id": 1212
     },
     {
         "name": "Bounsweet",
@@ -28231,7 +29443,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1213
     },
     {
         "name": "Steenee",
@@ -28253,7 +29466,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1214
     },
     {
         "name": "Tsareena",
@@ -28277,7 +29491,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1215
     },
     {
         "name": "Comfey",
@@ -28299,7 +29514,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 1216
     },
     {
         "name": "Oranguru",
@@ -28323,7 +29539,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Psychic"
-        ]
+        ],
+        "id": 1217
     },
     {
         "name": "Passimian",
@@ -28346,7 +29563,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 1218
     },
     {
         "name": "Wimpod",
@@ -28366,7 +29584,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Water"
-        ]
+        ],
+        "id": 1219
     },
     {
         "name": "Golisopod",
@@ -28391,7 +29610,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Water"
-        ]
+        ],
+        "id": 1220
     },
     {
         "name": "Sandygast",
@@ -28414,7 +29634,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Ground"
-        ]
+        ],
+        "id": 1221
     },
     {
         "name": "Palossand",
@@ -28437,7 +29658,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Ground"
-        ]
+        ],
+        "id": 1222
     },
     {
         "name": "Pyukumuku",
@@ -28456,7 +29678,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1223
     },
     {
         "name": "Type Null",
@@ -28478,7 +29701,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 1224
     },
     {
         "name": "Silvally (Bug form)",
@@ -28502,7 +29726,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 1225
     },
     {
         "name": "Silvally (Dark form)",
@@ -28526,7 +29751,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 1226
     },
     {
         "name": "Silvally (Dragon form)",
@@ -28550,7 +29776,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 1227
     },
     {
         "name": "Silvally (Electric form)",
@@ -28574,7 +29801,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 1228
     },
     {
         "name": "Silvally (Fairy form)",
@@ -28598,7 +29826,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 1229
     },
     {
         "name": "Silvally (Fighting form)",
@@ -28622,7 +29851,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 1230
     },
     {
         "name": "Silvally (Fire form)",
@@ -28646,7 +29876,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 1231
     },
     {
         "name": "Silvally (Flying form)",
@@ -28670,7 +29901,8 @@ export const pokemonData = [
         },
         "types": [
             "Flying"
-        ]
+        ],
+        "id": 1232
     },
     {
         "name": "Silvally (Ghost form)",
@@ -28694,7 +29926,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 1233
     },
     {
         "name": "Silvally (Grass form)",
@@ -28718,7 +29951,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1234
     },
     {
         "name": "Silvally (Ground form)",
@@ -28742,7 +29976,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 1235
     },
     {
         "name": "Silvally (Ice form)",
@@ -28766,7 +30001,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 1236
     },
     {
         "name": "Silvally",
@@ -28790,7 +30026,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 1237
     },
     {
         "name": "Silvally (Poison form)",
@@ -28814,7 +30051,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 1238
     },
     {
         "name": "Silvally (Psychic form)",
@@ -28838,7 +30076,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 1239
     },
     {
         "name": "Silvally (Rock form)",
@@ -28862,7 +30101,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 1240
     },
     {
         "name": "Silvally (Steel form)",
@@ -28886,7 +30126,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 1241
     },
     {
         "name": "Silvally (Water form)",
@@ -28910,7 +30151,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1242
     },
     {
         "name": "Minior",
@@ -28933,7 +30175,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Flying"
-        ]
+        ],
+        "id": 1243
     },
     {
         "name": "Minior (Blue form)",
@@ -28956,7 +30199,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Flying"
-        ]
+        ],
+        "id": 1244
     },
     {
         "name": "Minior (Green form)",
@@ -28979,7 +30223,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Flying"
-        ]
+        ],
+        "id": 1245
     },
     {
         "name": "Minior (Indigo form)",
@@ -29002,7 +30247,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Flying"
-        ]
+        ],
+        "id": 1246
     },
     {
         "name": "Minior (Orange form)",
@@ -29025,7 +30271,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Flying"
-        ]
+        ],
+        "id": 1247
     },
     {
         "name": "Minior (Red form)",
@@ -29048,7 +30295,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Flying"
-        ]
+        ],
+        "id": 1248
     },
     {
         "name": "Minior (Violet form)",
@@ -29071,7 +30319,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Flying"
-        ]
+        ],
+        "id": 1249
     },
     {
         "name": "Minior (Yellow form)",
@@ -29094,7 +30343,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Flying"
-        ]
+        ],
+        "id": 1250
     },
     {
         "name": "Komala",
@@ -29116,7 +30366,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 1251
     },
     {
         "name": "Turtonator",
@@ -29139,7 +30390,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Dragon"
-        ]
+        ],
+        "id": 1252
     },
     {
         "name": "Togedemaru",
@@ -29162,7 +30414,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Steel"
-        ]
+        ],
+        "id": 1253
     },
     {
         "name": "Mimikyu",
@@ -29185,7 +30438,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Fairy"
-        ]
+        ],
+        "id": 1254
     },
     {
         "name": "Bruxish",
@@ -29209,7 +30463,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Psychic"
-        ]
+        ],
+        "id": 1255
     },
     {
         "name": "Drampa",
@@ -29232,7 +30487,8 @@ export const pokemonData = [
         "types": [
             "Normal",
             "Dragon"
-        ]
+        ],
+        "id": 1256
     },
     {
         "name": "Dhelmise",
@@ -29255,7 +30511,8 @@ export const pokemonData = [
         "types": [
             "Ghost",
             "Grass"
-        ]
+        ],
+        "id": 1257
     },
     {
         "name": "Jangmo O",
@@ -29277,7 +30534,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 1258
     },
     {
         "name": "Hakamo O",
@@ -29300,7 +30558,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Fighting"
-        ]
+        ],
+        "id": 1259
     },
     {
         "name": "Kommo O",
@@ -29323,7 +30582,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Fighting"
-        ]
+        ],
+        "id": 1260
     },
     {
         "name": "Tapu Koko",
@@ -29347,7 +30607,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Fairy"
-        ]
+        ],
+        "id": 1261
     },
     {
         "name": "Tapu Lele",
@@ -29371,7 +30632,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fairy"
-        ]
+        ],
+        "id": 1262
     },
     {
         "name": "Tapu Bulu",
@@ -29395,7 +30657,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Fairy"
-        ]
+        ],
+        "id": 1263
     },
     {
         "name": "Tapu Fini",
@@ -29419,7 +30682,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Fairy"
-        ]
+        ],
+        "id": 1264
     },
     {
         "name": "Cosmog",
@@ -29438,7 +30702,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 1265
     },
     {
         "name": "Cosmoem",
@@ -29457,7 +30722,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 1266
     },
     {
         "name": "Solgaleo",
@@ -29481,7 +30747,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Steel"
-        ]
+        ],
+        "id": 1267
     },
     {
         "name": "Lunala",
@@ -29505,7 +30772,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Ghost"
-        ]
+        ],
+        "id": 1268
     },
     {
         "name": "Nihilego",
@@ -29530,7 +30798,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Poison"
-        ]
+        ],
+        "id": 1269
     },
     {
         "name": "Buzzwole",
@@ -29554,7 +30823,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Fighting"
-        ]
+        ],
+        "id": 1270
     },
     {
         "name": "Pheromosa",
@@ -29578,7 +30848,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Fighting"
-        ]
+        ],
+        "id": 1271
     },
     {
         "name": "Xurkitree",
@@ -29601,7 +30872,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 1272
     },
     {
         "name": "Celesteela",
@@ -29625,7 +30897,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Flying"
-        ]
+        ],
+        "id": 1273
     },
     {
         "name": "Kartana",
@@ -29649,7 +30922,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Steel"
-        ]
+        ],
+        "id": 1274
     },
     {
         "name": "Guzzlord",
@@ -29669,7 +30943,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Ghost"
-        ]
+        ],
+        "id": 1275
     },
     {
         "name": "Necrozma (Dawn Wings form)",
@@ -29689,7 +30964,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Ghost"
-        ]
+        ],
+        "id": 1276
     },
     {
         "name": "Necrozma (Dusk Mane form)",
@@ -29709,7 +30985,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Steel"
-        ]
+        ],
+        "id": 1277
     },
     {
         "name": "Necrozma",
@@ -29728,7 +31005,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 1278
     },
     {
         "name": "Necrozma (Ultra form)",
@@ -29748,7 +31026,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Dragon"
-        ]
+        ],
+        "id": 1279
     },
     {
         "name": "Magearna",
@@ -29768,7 +31047,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Fairy"
-        ]
+        ],
+        "id": 1280
     },
     {
         "name": "Marshadow",
@@ -29788,7 +31068,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Ghost"
-        ]
+        ],
+        "id": 1281
     },
     {
         "name": "Poipole",
@@ -29807,7 +31088,8 @@ export const pokemonData = [
         },
         "types": [
             "Poison"
-        ]
+        ],
+        "id": 1282
     },
     {
         "name": "Naganadel",
@@ -29827,7 +31109,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Dragon"
-        ]
+        ],
+        "id": 1283
     },
     {
         "name": "Stakataka",
@@ -29847,7 +31130,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Steel"
-        ]
+        ],
+        "id": 1284
     },
     {
         "name": "Blacephalon",
@@ -29867,7 +31151,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Ghost"
-        ]
+        ],
+        "id": 1285
     },
     {
         "name": "Zeraora",
@@ -29886,7 +31171,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 1286
     },
     {
         "name": "Meltan",
@@ -29906,7 +31192,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 1287
     },
     {
         "name": "Melmetal",
@@ -29929,7 +31216,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 1288
     },
     {
         "name": "Grookey",
@@ -29950,7 +31238,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1289
     },
     {
         "name": "Thwackey",
@@ -29971,7 +31260,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1290
     },
     {
         "name": "Rillaboom",
@@ -29993,7 +31283,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1291
     },
     {
         "name": "Scorbunny",
@@ -30014,7 +31305,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 1292
     },
     {
         "name": "Raboot",
@@ -30035,7 +31327,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 1293
     },
     {
         "name": "Cinderace",
@@ -30057,7 +31350,8 @@ export const pokemonData = [
         },
         "types": [
             "Fire"
-        ]
+        ],
+        "id": 1294
     },
     {
         "name": "Sobble",
@@ -30078,7 +31372,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1295
     },
     {
         "name": "Drizzile",
@@ -30099,7 +31394,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1296
     },
     {
         "name": "Inteleon",
@@ -30121,7 +31417,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1297
     },
     {
         "name": "Skwovet",
@@ -30143,7 +31440,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 1298
     },
     {
         "name": "Greedent",
@@ -30165,7 +31463,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 1299
     },
     {
         "name": "Rookidee",
@@ -30186,7 +31485,8 @@ export const pokemonData = [
         },
         "types": [
             "Flying"
-        ]
+        ],
+        "id": 1300
     },
     {
         "name": "Corvisquire",
@@ -30207,7 +31507,8 @@ export const pokemonData = [
         },
         "types": [
             "Flying"
-        ]
+        ],
+        "id": 1301
     },
     {
         "name": "Corviknight",
@@ -30230,7 +31531,8 @@ export const pokemonData = [
         "types": [
             "Flying",
             "Steel"
-        ]
+        ],
+        "id": 1302
     },
     {
         "name": "Blipbug",
@@ -30249,7 +31551,8 @@ export const pokemonData = [
         },
         "types": [
             "Bug"
-        ]
+        ],
+        "id": 1303
     },
     {
         "name": "Dottler",
@@ -30271,7 +31574,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Psychic"
-        ]
+        ],
+        "id": 1304
     },
     {
         "name": "Orbeetle",
@@ -30293,7 +31597,8 @@ export const pokemonData = [
         "types": [
             "Bug",
             "Psychic"
-        ]
+        ],
+        "id": 1305
     },
     {
         "name": "Nickit",
@@ -30314,7 +31619,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 1306
     },
     {
         "name": "Thievul",
@@ -30335,7 +31641,8 @@ export const pokemonData = [
         },
         "types": [
             "Dark"
-        ]
+        ],
+        "id": 1307
     },
     {
         "name": "Gossifleur",
@@ -30356,7 +31663,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1308
     },
     {
         "name": "Eldegoss",
@@ -30377,7 +31685,8 @@ export const pokemonData = [
         },
         "types": [
             "Grass"
-        ]
+        ],
+        "id": 1309
     },
     {
         "name": "Wooloo",
@@ -30399,7 +31708,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 1310
     },
     {
         "name": "Dubwool",
@@ -30422,7 +31732,8 @@ export const pokemonData = [
         },
         "types": [
             "Normal"
-        ]
+        ],
+        "id": 1311
     },
     {
         "name": "Chewtle",
@@ -30443,7 +31754,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1312
     },
     {
         "name": "Drednaw",
@@ -30466,7 +31778,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Rock"
-        ]
+        ],
+        "id": 1313
     },
     {
         "name": "Yamper",
@@ -30487,7 +31800,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 1314
     },
     {
         "name": "Boltund",
@@ -30508,7 +31822,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 1315
     },
     {
         "name": "Rolycoly",
@@ -30529,7 +31844,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 1316
     },
     {
         "name": "Carkol",
@@ -30552,7 +31868,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Fire"
-        ]
+        ],
+        "id": 1317
     },
     {
         "name": "Coalossal",
@@ -30575,7 +31892,8 @@ export const pokemonData = [
         "types": [
             "Rock",
             "Fire"
-        ]
+        ],
+        "id": 1318
     },
     {
         "name": "Applin",
@@ -30595,7 +31913,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Dragon"
-        ]
+        ],
+        "id": 1319
     },
     {
         "name": "Flapple",
@@ -30619,7 +31938,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Dragon"
-        ]
+        ],
+        "id": 1320
     },
     {
         "name": "Appletun",
@@ -30643,7 +31963,8 @@ export const pokemonData = [
         "types": [
             "Grass",
             "Dragon"
-        ]
+        ],
+        "id": 1321
     },
     {
         "name": "Silicobra",
@@ -30665,7 +31986,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 1322
     },
     {
         "name": "Sandaconda",
@@ -30687,7 +32009,8 @@ export const pokemonData = [
         },
         "types": [
             "Ground"
-        ]
+        ],
+        "id": 1323
     },
     {
         "name": "Cramorant",
@@ -30710,7 +32033,8 @@ export const pokemonData = [
         "types": [
             "Flying",
             "Water"
-        ]
+        ],
+        "id": 1324
     },
     {
         "name": "Arrokuda",
@@ -30733,7 +32057,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1325
     },
     {
         "name": "Barraskewda",
@@ -30756,7 +32081,8 @@ export const pokemonData = [
         },
         "types": [
             "Water"
-        ]
+        ],
+        "id": 1326
     },
     {
         "name": "Toxel",
@@ -30776,7 +32102,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Poison"
-        ]
+        ],
+        "id": 1327
     },
     {
         "name": "Toxtricity",
@@ -30801,7 +32128,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Poison"
-        ]
+        ],
+        "id": 1328
     },
     {
         "name": "Sizzlipede",
@@ -30824,7 +32152,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Bug"
-        ]
+        ],
+        "id": 1329
     },
     {
         "name": "Centiskorch",
@@ -30848,7 +32177,8 @@ export const pokemonData = [
         "types": [
             "Fire",
             "Bug"
-        ]
+        ],
+        "id": 1330
     },
     {
         "name": "Clobbopus",
@@ -30869,7 +32199,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 1331
     },
     {
         "name": "Grapploct",
@@ -30892,7 +32223,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 1332
     },
     {
         "name": "Sinistea",
@@ -30914,7 +32246,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 1333
     },
     {
         "name": "Polteageist",
@@ -30937,7 +32270,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 1334
     },
     {
         "name": "Hatenna",
@@ -30959,7 +32293,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 1335
     },
     {
         "name": "Hattrem",
@@ -30981,7 +32316,8 @@ export const pokemonData = [
         },
         "types": [
             "Psychic"
-        ]
+        ],
+        "id": 1336
     },
     {
         "name": "Hatterene",
@@ -31006,7 +32342,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Fairy"
-        ]
+        ],
+        "id": 1337
     },
     {
         "name": "Impidimp",
@@ -31029,7 +32366,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Fairy"
-        ]
+        ],
+        "id": 1338
     },
     {
         "name": "Morgrem",
@@ -31052,7 +32390,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Fairy"
-        ]
+        ],
+        "id": 1339
     },
     {
         "name": "Grimmsnarl",
@@ -31077,7 +32416,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Fairy"
-        ]
+        ],
+        "id": 1340
     },
     {
         "name": "Obstagoon",
@@ -31102,7 +32442,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Normal"
-        ]
+        ],
+        "id": 1341
     },
     {
         "name": "Shadow Obstagoon",
@@ -31127,7 +32468,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Normal"
-        ]
+        ],
+        "id": 1342
     },
     {
         "name": "Perrserker",
@@ -31150,7 +32492,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 1343
     },
     {
         "name": "Shadow Perrserker",
@@ -31173,7 +32516,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 1344
     },
     {
         "name": "Cursola",
@@ -31196,7 +32540,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 1345
     },
     {
         "name": "Shadow Cursola",
@@ -31219,7 +32564,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 1346
     },
     {
         "name": "Sirfetchd",
@@ -31242,7 +32588,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 1347
     },
     {
         "name": "Shadow Sirfetchd",
@@ -31265,7 +32612,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 1348
     },
     {
         "name": "Mr Rime",
@@ -31290,7 +32638,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Psychic"
-        ]
+        ],
+        "id": 1349
     },
     {
         "name": "Shadow Mr Rime",
@@ -31315,7 +32664,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Psychic"
-        ]
+        ],
+        "id": 1350
     },
     {
         "name": "Runerigus",
@@ -31338,7 +32688,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Ghost"
-        ]
+        ],
+        "id": 1351
     },
     {
         "name": "Shadow Runerigus",
@@ -31361,7 +32712,8 @@ export const pokemonData = [
         "types": [
             "Ground",
             "Ghost"
-        ]
+        ],
+        "id": 1352
     },
     {
         "name": "Milcery",
@@ -31381,7 +32733,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 1353
     },
     {
         "name": "Alcremie",
@@ -31403,7 +32756,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 1354
     },
     {
         "name": "Falinks",
@@ -31425,7 +32779,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 1355
     },
     {
         "name": "Pincurchin",
@@ -31448,7 +32803,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 1356
     },
     {
         "name": "Snom",
@@ -31470,7 +32826,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Bug"
-        ]
+        ],
+        "id": 1357
     },
     {
         "name": "Frosmoth",
@@ -31494,7 +32851,8 @@ export const pokemonData = [
         "types": [
             "Ice",
             "Bug"
-        ]
+        ],
+        "id": 1358
     },
     {
         "name": "Stonjourner",
@@ -31515,7 +32873,8 @@ export const pokemonData = [
         },
         "types": [
             "Rock"
-        ]
+        ],
+        "id": 1359
     },
     {
         "name": "Eiscue",
@@ -31536,7 +32895,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 1360
     },
     {
         "name": "Eiscue (Noice form)",
@@ -31557,7 +32917,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 1361
     },
     {
         "name": "Indeedee",
@@ -31579,7 +32940,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Normal"
-        ]
+        ],
+        "id": 1362
     },
     {
         "name": "Indeedee (Female form)",
@@ -31601,7 +32963,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Normal"
-        ]
+        ],
+        "id": 1363
     },
     {
         "name": "Morpeko",
@@ -31625,7 +32988,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Dark"
-        ]
+        ],
+        "id": 1364
     },
     {
         "name": "Cufant",
@@ -31647,7 +33011,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 1365
     },
     {
         "name": "Copperajah",
@@ -31670,7 +33035,8 @@ export const pokemonData = [
         },
         "types": [
             "Steel"
-        ]
+        ],
+        "id": 1366
     },
     {
         "name": "Dracozolt",
@@ -31693,7 +33059,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Dragon"
-        ]
+        ],
+        "id": 1367
     },
     {
         "name": "Arctozolt",
@@ -31716,7 +33083,8 @@ export const pokemonData = [
         "types": [
             "Electric",
             "Ice"
-        ]
+        ],
+        "id": 1368
     },
     {
         "name": "Dracovish",
@@ -31739,7 +33107,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Dragon"
-        ]
+        ],
+        "id": 1369
     },
     {
         "name": "Arctovish",
@@ -31762,7 +33131,8 @@ export const pokemonData = [
         "types": [
             "Water",
             "Ice"
-        ]
+        ],
+        "id": 1370
     },
     {
         "name": "Duraludon",
@@ -31785,7 +33155,8 @@ export const pokemonData = [
         "types": [
             "Steel",
             "Dragon"
-        ]
+        ],
+        "id": 1371
     },
     {
         "name": "Dreepy",
@@ -31806,7 +33177,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Ghost"
-        ]
+        ],
+        "id": 1372
     },
     {
         "name": "Drakloak",
@@ -31829,7 +33201,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Ghost"
-        ]
+        ],
+        "id": 1373
     },
     {
         "name": "Dragapult",
@@ -31852,7 +33225,8 @@ export const pokemonData = [
         "types": [
             "Dragon",
             "Ghost"
-        ]
+        ],
+        "id": 1374
     },
     {
         "name": "Zacian",
@@ -31878,7 +33252,8 @@ export const pokemonData = [
         "types": [
             "Fairy",
             "Steel"
-        ]
+        ],
+        "id": 1375
     },
     {
         "name": "Zacian (Crowned Sword form)",
@@ -31904,7 +33279,8 @@ export const pokemonData = [
         "types": [
             "Fairy",
             "Steel"
-        ]
+        ],
+        "id": 1376
     },
     {
         "name": "Zacian (Hero form)",
@@ -31929,7 +33305,8 @@ export const pokemonData = [
         },
         "types": [
             "Fairy"
-        ]
+        ],
+        "id": 1377
     },
     {
         "name": "Zamazenta",
@@ -31955,7 +33332,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Steel"
-        ]
+        ],
+        "id": 1378
     },
     {
         "name": "Zamazenta (Crowned Shield form)",
@@ -31981,7 +33359,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Steel"
-        ]
+        ],
+        "id": 1379
     },
     {
         "name": "Zamazenta (Hero form)",
@@ -32006,7 +33385,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 1380
     },
     {
         "name": "Eternatus (Eternamax form)",
@@ -32030,7 +33410,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Dragon"
-        ]
+        ],
+        "id": 1381
     },
     {
         "name": "Eternatus",
@@ -32053,7 +33434,8 @@ export const pokemonData = [
         "types": [
             "Poison",
             "Dragon"
-        ]
+        ],
+        "id": 1382
     },
     {
         "name": "Kubfu",
@@ -32075,7 +33457,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 1383
     },
     {
         "name": "Urshifu",
@@ -32097,7 +33480,8 @@ export const pokemonData = [
         },
         "types": [
             "Fighting"
-        ]
+        ],
+        "id": 1384
     },
     {
         "name": "Urshifu (Rapid Strike form)",
@@ -32122,7 +33506,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Water"
-        ]
+        ],
+        "id": 1385
     },
     {
         "name": "Urshifu (Single Strike form)",
@@ -32147,7 +33532,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Dark"
-        ]
+        ],
+        "id": 1386
     },
     {
         "name": "Zarude",
@@ -32170,7 +33556,8 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Grass"
-        ]
+        ],
+        "id": 1387
     },
     {
         "name": "Regieleki",
@@ -32192,7 +33579,8 @@ export const pokemonData = [
         },
         "types": [
             "Electric"
-        ]
+        ],
+        "id": 1388
     },
     {
         "name": "Regidrago",
@@ -32213,7 +33601,8 @@ export const pokemonData = [
         },
         "types": [
             "Dragon"
-        ]
+        ],
+        "id": 1389
     },
     {
         "name": "Glastrier",
@@ -32235,7 +33624,8 @@ export const pokemonData = [
         },
         "types": [
             "Ice"
-        ]
+        ],
+        "id": 1390
     },
     {
         "name": "Spectrier",
@@ -32257,7 +33647,8 @@ export const pokemonData = [
         },
         "types": [
             "Ghost"
-        ]
+        ],
+        "id": 1391
     },
     {
         "name": "Calyrex (Ice Rider form)",
@@ -32281,7 +33672,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Ice"
-        ]
+        ],
+        "id": 1392
     },
     {
         "name": "Calyrex",
@@ -32304,7 +33696,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Grass"
-        ]
+        ],
+        "id": 1393
     },
     {
         "name": "Calyrex (Shadow Rider form)",
@@ -32328,7 +33721,8 @@ export const pokemonData = [
         "types": [
             "Psychic",
             "Ghost"
-        ]
+        ],
+        "id": 1394
     },
     {
         "name": "Sneasler",
@@ -32352,7 +33746,8 @@ export const pokemonData = [
         "types": [
             "Fighting",
             "Poison"
-        ]
+        ],
+        "id": 1395
     },
     {
         "name": "Overqwil",
@@ -32377,6 +33772,7 @@ export const pokemonData = [
         "types": [
             "Dark",
             "Poison"
-        ]
+        ],
+        "id": 1396
     }
 ];

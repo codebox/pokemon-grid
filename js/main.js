@@ -6,17 +6,23 @@ import {pickOne} from './utils.js';
 window.onload = start
 
 const urlHandler = (() => {
-    const PARAM_POKEMON = 'pokemon',
+    const PARAM_POKEMON_IDS = 'pokemon',
         PARAM_WEATHER = 'weather',
-        PARAM_SIZE = 'size';
+        PARAM_SIZE = 'size',
+        POKEMON_ID_SEPARATOR = '.';
 
     return {
         getModelValuesFromUrl(location) {
             const urlParams = new URLSearchParams(location.search),
-                pokemonData = urlParams.get(PARAM_POKEMON) || "",
+                pokemonData = urlParams.get(PARAM_POKEMON_IDS) || "",
                 weather = urlParams.get(PARAM_WEATHER),
                 gridSize = urlParams.get(PARAM_SIZE),
-                selectedPokemon = new Set(pokemonData.split(',').map(name => staticData.getPokemonByName(name)).filter(p => p).map(p => p.name)),
+                selectedPokemon = new Set(
+                    pokemonData.split(POKEMON_ID_SEPARATOR)
+                        .map(id => staticData.getPokemonById(Number(id)))
+                        .filter(p => p)
+                        .map(p => p.name)
+                ),
                 moveExclusions = {};
 
             return {
@@ -27,8 +33,8 @@ const urlHandler = (() => {
             }
         },
         buildUrlParamsFromModel(model) {
-            const pokemon = Array.from(model.selectedPokemon).join(',');
-            return `${PARAM_POKEMON}=${encodeURIComponent(pokemon)}&${PARAM_WEATHER}=${encodeURIComponent(model.weather)}&${PARAM_SIZE}=${encodeURIComponent(model.gridSize)}`;
+            const pokemonIds = Array.from(model.selectedPokemon).map(staticData.getPokemonByName).map(p => p.id).join(POKEMON_ID_SEPARATOR);
+            return `${PARAM_POKEMON_IDS}=${encodeURIComponent(pokemonIds)}&${PARAM_WEATHER}=${encodeURIComponent(model.weather)}&${PARAM_SIZE}=${encodeURIComponent(model.gridSize)}`;
         }
     };
 })();
