@@ -5,6 +5,34 @@ import {pickOne} from './utils.js';
 
 window.onload = start
 
+const urlHandler = (() => {
+    const PARAM_POKEMON = 'pokemon',
+        PARAM_WEATHER = 'weather',
+        PARAM_SIZE = 'size';
+
+    return {
+        getModelValuesFromUrl(location) {
+            const urlParams = new URLSearchParams(location.search),
+                pokemonData = urlParams.get(PARAM_POKEMON) || "",
+                weather = urlParams.get(PARAM_WEATHER),
+                gridSize = urlParams.get(PARAM_SIZE),
+                selectedPokemon = new Set(pokemonData.split(',').map(name => staticData.getPokemonByName(name)).filter(p => p).map(p => p.name)),
+                moveExclusions = {};
+
+            return {
+                selectedPokemon,
+                moveExclusions,
+                weather,
+                gridSize
+            }
+        },
+        buildUrlParamsFromModel(model) {
+            const pokemon = Array.from(model.selectedPokemon).join(',');
+            return `${PARAM_POKEMON}=${encodeURIComponent(pokemon)}&${PARAM_WEATHER}=${encodeURIComponent(model.weather)}&${PARAM_SIZE}=${encodeURIComponent(model.gridSize)}`;
+        }
+    };
+})();
+
 function start() {
     const
         model = buildModel(staticData),
@@ -94,6 +122,8 @@ function start() {
                 renderGrid();
                 updateListInterval = setInterval(refreshCounters, 1000);
                 updateStatsInterval = setInterval(refreshStats, 1000);
+                const queryParams = urlHandler.buildUrlParamsFromModel(model);
+                window.history.pushState({}, '', '?' + queryParams)
             } else {
                 clearInterval(updateListInterval);
                 clearInterval(updateStatsInterval);
@@ -144,6 +174,18 @@ function start() {
         }
     }
 
-    setState(STATE_STOPPED);
+    const modelValues = urlHandler.getModelValuesFromUrl(window.location);
+
+    model.moveExclusions = modelValues.moveExclusions || model.moveExclusions;
+    model.weather = modelValues.weather || model.weather;
+    model.gridSize = modelValues.gridSize || model.gridSize;
+    if (modelValues.selectedPokemon.size) {
+        model.selectedPokemon = modelValues.selectedPokemon;
+        view.selectSettingsUsingModel();
+        setState(STATE_RUNNING);
+    } else {
+        view.selectSettingsUsingModel();
+        setState(STATE_STOPPED);
+    }
 
 }

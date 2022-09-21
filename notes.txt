@@ -4,13 +4,16 @@ https://gamepress.gg/pokemongo/damage-mechanics
 https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json
 
 TODO
-    Make all settings/selections bookmarkable
+    Make all settings/selections bookmarkable TODO moveExclusions
     add seedable rnd algorithm, include seed in url
     select links should set moves as well
     add some explanatory text to settings page
-    add surrounding page structure
     more states - paused, completed
     update links to home page/source code
+    graph should scroll somehow
+    should stop if only 1 pokemon remaining
+    show weather on grid - improve info bar
+    view updates from model are haphazard
     - - - -
     Cache battle outcomes
     More optimisations

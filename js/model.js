@@ -53,7 +53,7 @@ export function buildModel() {
         ts: 0,
         selectedPokemon: new Set(['Charmander', 'Squirtle', 'Bulbasaur']),
         moveExclusions: {},
-        weather: '',
+        weather: 'none',
         gridSize: 'small',
         counters: []
     };

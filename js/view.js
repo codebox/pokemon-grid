@@ -93,15 +93,6 @@ export function buildView(model) {
         }
     }
 
-    Object.keys(model.gridSizes).forEach(name => {
-        const li = document.createElement('li');
-        li.innerHTML = name;
-        elGridSizeList.appendChild(li);
-        li.addEventListener('click', () => {
-            trigger('gridSizeSelected', name);
-        });
-    });
-
     const getPokemonColour = (() => {
         const pokemonColours = {};
         const variation = 0.2;
@@ -191,27 +182,39 @@ export function buildView(model) {
         return li;
     }
 
-    function initialiseSettings() {
+    function populateSettingsLists() {
         elSelectionList.innerHTML = '';
         staticData.getAllPokemon().forEach(pk => {
             const li = buildPokemonSelectionListItem(pk);
             elSelectionList.appendChild(li);
         });
+
+        Object.keys(model.gridSizes).forEach(name => {
+            const li = document.createElement('li');
+            li.innerHTML = name;
+            elGridSizeList.appendChild(li);
+            li.addEventListener('click', () => {
+                trigger('gridSizeSelected', name);
+            });
+        });
+    }
+    function selectSettingsUsingModel() {
         [...elSelectionList.children].forEach(li => {
             li.querySelector('input').checked = model.selectedPokemon.has(li.dataset.pokemon);
         });
 
-        const liSelectedWeather = [...elWeatherList.children].find(li => li.innerHTML.toLowerCase() === model.weather.toLowerCase());
-        if (liSelectedWeather) {
-            liSelectedWeather.classList.add('selected');
-        } else {
-            elNoWeather.classList.add('selected');
-        }
+        [...elWeatherList.children].forEach(li => {
+            const isSelected = li.innerHTML.toLowerCase() === model.weather.toLowerCase();
+            li.classList.toggle('selected', isSelected);
+        });
 
-        const liSelectedGridSize = [...elGridSizeList.children].find(li => li.innerHTML.toLowerCase() === model.gridSize.toLowerCase());
-        liSelectedGridSize.classList.add('selected');
+        [...elGridSizeList.children].forEach(li => {
+            const isSelected = li.innerHTML.toLowerCase() === model.gridSize.toLowerCase();
+            li.classList.toggle('selected', isSelected);
+        });
     }
-    initialiseSettings();
+    populateSettingsLists();
+    selectSettingsUsingModel();
 
     return {
         on(eventName, handler) {
@@ -295,9 +298,7 @@ export function buildView(model) {
         },
         updateSelection() {
             [...elSelectionList.querySelectorAll('input')].forEach(chk => chk.checked = model.selectedPokemon.has(chk.dataset.pokemon));
-        }
+        },
+        selectSettingsUsingModel
     };
-
-
-
 }
