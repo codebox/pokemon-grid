@@ -9,21 +9,27 @@ const urlHandler = (() => {
     const PARAM_POKEMON_IDS = 'pokemon',
         PARAM_WEATHER = 'weather',
         PARAM_SIZE = 'size',
-        POKEMON_ID_SEPARATOR = '.';
+        POKEMON_ID_SEPARATOR = '_',
+        MOVE_ID_SEPARATOR = '.';
 
     return {
         getModelValuesFromUrl(location) {
             const urlParams = new URLSearchParams(location.search),
-                pokemonData = urlParams.get(PARAM_POKEMON_IDS) || "",
+                pokemonData = (urlParams.get(PARAM_POKEMON_IDS) || '').split(POKEMON_ID_SEPARATOR),
                 weather = urlParams.get(PARAM_WEATHER),
                 gridSize = urlParams.get(PARAM_SIZE),
-                selectedPokemon = new Set(
-                    pokemonData.split(POKEMON_ID_SEPARATOR)
-                        .map(id => staticData.getPokemonById(Number(id)))
-                        .filter(p => p)
-                        .map(p => p.name)
-                ),
+                selectedPokemon = new Set(),
                 moveExclusions = {};
+
+            pokemonData.forEach(data => {
+                const [pokemonId, ...excludedMoveIds] = data.split(MOVE_ID_SEPARATOR),
+                    pokemon = staticData.getPokemonById(Number(pokemonId));
+                if (pokemon) {
+                    const moveNamesArray = [...pokemon.moves.quick, ...pokemon.moves.charge];
+                    selectedPokemon.add(pokemon.name);
+                    moveExclusions[pokemon.name] = new Set(excludedMoveIds.map(moveId => moveNamesArray[Number(moveId)]));
+                }
+            });
 
             return {
                 selectedPokemon,
@@ -33,8 +39,13 @@ const urlHandler = (() => {
             }
         },
         buildUrlParamsFromModel(model) {
-            const pokemonIds = Array.from(model.selectedPokemon).map(staticData.getPokemonByName).map(p => p.id).join(POKEMON_ID_SEPARATOR);
-            return `${PARAM_POKEMON_IDS}=${encodeURIComponent(pokemonIds)}&${PARAM_WEATHER}=${encodeURIComponent(model.weather)}&${PARAM_SIZE}=${encodeURIComponent(model.gridSize)}`;
+            const pokemons = Array.from(model.selectedPokemon).map(staticData.getPokemonByName),
+                pokemonIdsWithMoveExclusions = pokemons.map(pokemon => {
+                    const moves = [...pokemon.moves.quick, ...pokemon.moves.charge],
+                        excludedMoveIds = (Array.from(model.moveExclusions[pokemon.name] || new Set())).map(name => moves.indexOf(name));
+                        return [pokemon.id, ...excludedMoveIds].join(MOVE_ID_SEPARATOR);
+                }).join(POKEMON_ID_SEPARATOR);
+            return `${PARAM_POKEMON_IDS}=${encodeURIComponent(pokemonIdsWithMoveExclusions)}&${PARAM_WEATHER}=${encodeURIComponent(model.weather)}&${PARAM_SIZE}=${encodeURIComponent(model.gridSize)}`;
         }
     };
 })();

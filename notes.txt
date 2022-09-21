@@ -10,7 +10,6 @@ TODO
     add some explanatory text to settings page
     more states - paused, completed
     update links to home page/source code
-    graph should scroll somehow
     should stop if only 1 pokemon remaining
     show weather on grid - improve info bar
     view updates from model are haphazard

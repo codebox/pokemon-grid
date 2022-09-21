@@ -13,7 +13,6 @@ export function buildView(model) {
         elSettings = document.getElementById('settings'),
         elGridSizeList = document.getElementById('gridSizeList'),
         elWeatherList = document.getElementById('weatherList'),
-        elNoWeather = document.getElementById('noWeather'),
         elPokemonFilter = document.getElementById('pokemonFilter'),
         elPokemonSelectionLinks = document.getElementById('pokemonSelectionLinks'),
         elSelectionList = document.getElementById('pokemonSelectionList'),
@@ -200,7 +199,11 @@ export function buildView(model) {
     }
     function selectSettingsUsingModel() {
         [...elSelectionList.children].forEach(li => {
-            li.querySelector('input').checked = model.selectedPokemon.has(li.dataset.pokemon);
+            const pokemonName = li.dataset.pokemon;
+            li.querySelector('input.pokemonCheckbox').checked = model.selectedPokemon.has(pokemonName);
+            [...li.querySelectorAll('input.moveCheckbox')].forEach(checkBox => {
+                checkBox.checked = !(model.moveExclusions[pokemonName] || new Set()).has(checkBox.dataset.move);
+            });
         });
 
         [...elWeatherList.children].forEach(li => {
@@ -249,15 +252,16 @@ export function buildView(model) {
                     maxValue = Math.max(maxValue, count);
                 });
             });
-            const graphTopMargin=10;
+            const graphTopMargin=10,
+                xStep = Math.min(1, elCanvasGraph.width / counters.length);
             ctxGraph.clearRect(0, 0, elCanvasGraph.width, elCanvasGraph.height);
             Object.entries(graphPlots).forEach(([pokemonName, counts]) => {
                 const colour = getPokemonNameColour(pokemonName);
                 ctxGraph.strokeStyle = colour;
                 ctxGraph.beginPath();
                 for (let x=0; x<counts.length-1; x++) {
-                    ctxGraph.moveTo(x, graphTopMargin + (elCanvasGraph.height - graphTopMargin) * (1 - counts[x] / maxValue));
-                    ctxGraph.lineTo(x+1, graphTopMargin + (elCanvasGraph.height - graphTopMargin) * (1 - counts[x+1] / maxValue));
+                    ctxGraph.moveTo(x * xStep, graphTopMargin + (elCanvasGraph.height - graphTopMargin) * (1 - counts[x] / maxValue));
+                    ctxGraph.lineTo((x+1) * xStep, graphTopMargin + (elCanvasGraph.height - graphTopMargin) * (1 - counts[x+1] / maxValue));
                 }
                 ctxGraph.stroke();
             });
