@@ -1,6 +1,6 @@
 import {staticData} from './data.js';
 import {STATE_RUNNING, STATE_STOPPED} from './model.js';
-import {pickN, formatTime, hashString} from './utils.js';
+import {formatTime, hashString} from './utils.js';
 
 export function buildView(model) {
     const elCanvasGrid = document.getElementById('grid'),
@@ -46,17 +46,12 @@ export function buildView(model) {
         "Water": [221,82,66]
     };
 
-    function doSelection(fnSelection) {
-        const visiblePokemon = [ ...elSelectionList.children].filter(li => li.style.display !== 'none').map(li => li.dataset.pokemon),
-            selected = fnSelection(visiblePokemon);
-        trigger('pokemonReselected', selected);
-    }
-    elSelectAllPokemon.onclick = () => doSelection(a => a);
-    elSelectNoPokemon.onclick = () => doSelection(_ => []);
+    elSelectAllPokemon.onclick = () => trigger('selectAllPokemon');
+    elSelectNoPokemon.onclick = () => trigger('selectNoPokemon');
     [...elPokemonSelectionLinks.querySelectorAll('.selectRandom')].forEach(li => {
         const count = li.dataset.count;
         li.innerHTML = `${count} random`;
-        li.onclick = () => doSelection(a => pickN(a, count));
+        li.onclick = () => trigger('selectRandomPokemon', count);
     })
 
     elGo.onclick = () => trigger('goClick');

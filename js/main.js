@@ -1,7 +1,7 @@
 import {buildView} from './view.js';
 import {buildModel, STATE_RUNNING, STATE_STOPPED} from './model.js';
 import {staticData} from './data.js';
-import {pickOne} from './utils.js';
+import {pickOne, pickN} from './utils.js';
 
 window.onload = start
 
@@ -85,8 +85,19 @@ function start() {
     view.on('pokemonDeselected', event => {
         model.selectedPokemon.delete(event.data);
     });
-    view.on('pokemonReselected', event => {
-        model.selectedPokemon = new Set(event.data);
+    view.on('selectAllPokemon', event => {
+        model.moveExclusions = {};
+        model.selectedPokemon = new Set(staticData.getAllPokemon().map(p => p.name));
+        view.updateSettings();
+    });
+    view.on('selectNoPokemon', event => {
+        model.moveExclusions = {};
+        model.selectedPokemon = new Set();
+        view.updateSettings();
+    });
+    view.on('selectRandomPokemon', event => {
+        model.moveExclusions = {};
+        model.selectedPokemon = new Set(pickN(staticData.getAllPokemon().map(p => p.name), event.data));
         view.updateSettings();
     });
     view.on('moveSelected', event => {
