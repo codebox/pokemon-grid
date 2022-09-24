@@ -5,6 +5,8 @@ https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.j
 
 TODO
     more states - paused, completed
+    symbols rather than text on go/pause/stop buttons
+    mobile styles/widths
     should stop if only 1 pokemon remaining
     add seedable rnd algorithm, include seed in url
     add some explanatory text to settings page

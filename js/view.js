@@ -1,5 +1,5 @@
 import {staticData} from './data.js';
-import {STATE_RUNNING, STATE_STOPPED} from './model.js';
+import {STATE_RUNNING, STATE_STOPPED, STATE_PAUSED} from './model.js';
 import {formatTime, hashString} from './utils.js';
 
 export function buildView(model) {
@@ -10,6 +10,9 @@ export function buildView(model) {
         elList = document.getElementById('list'),
         elStop = document.getElementById('stop'),
         elGo = document.getElementById('go'),
+        elPauseGo = document.getElementById('pauseGo'),
+        elPauseSymbol = document.getElementById('pauseSymbol'),
+        elPlaySymbol = document.getElementById('playSymbol'),
         elSettings = document.getElementById('settings'),
         elGridSizeList = document.getElementById('gridSizeList'),
         elWeatherList = document.getElementById('weatherList'),
@@ -56,6 +59,7 @@ export function buildView(model) {
 
     elGo.onclick = () => trigger('goClick');
     elStop.onclick = () => trigger('stopClick');
+    elPauseGo.onclick = () => trigger('pauseGoClick');
 
     elGridSizeList.onclick = e => {
         [...elGridSizeList.children].forEach(el => {
@@ -243,19 +247,26 @@ export function buildView(model) {
             });
         },
         updateForState(state) {
-            toggle(elSettings, state === STATE_STOPPED);
-            toggle(elCanvasGrid, state !== STATE_STOPPED);
-            toggle(elCanvasGraph, state !== STATE_STOPPED);
-            toggle(elList, state !== STATE_STOPPED);
-            toggle(elStats, state !== STATE_STOPPED);
-            toggle(elInfo, state !== STATE_STOPPED);
-            toggle(elStop, state !== STATE_STOPPED);
-            toggle(elGo, state !== STATE_RUNNING);
+            const isStopped = state === STATE_STOPPED;
+            toggle(elSettings, isStopped);
+            toggle(elGo, isStopped);
+            toggle(elCanvasGrid, !isStopped);
+            toggle(elCanvasGraph, !isStopped);
+            toggle(elList, !isStopped);
+            toggle(elStats, !isStopped);
+            toggle(elInfo, !isStopped);
+            toggle(elStop, !isStopped);
+            toggle(elPauseGo, !isStopped);
+            toggle(elPauseSymbol, state === STATE_RUNNING);
+            toggle(elPlaySymbol, state === STATE_PAUSED);
 
             if (state === STATE_RUNNING) {
                 cellWidth = elCanvasGrid.width / model.grid.width;
                 cellHeight = elCanvasGrid.height / model.grid.height;
-            } else {
+
+            } else if (state === STATE_PAUSED) {
+
+            } else if (state === STATE_STOPPED) {
                 elList.innerHTML = '';
                 ctxGrid.clearRect(0, 0, elCanvasGrid.width, elCanvasGrid.height);
                 ctxGraph.clearRect(0, 0, elCanvasGraph.width, elCanvasGraph.height);

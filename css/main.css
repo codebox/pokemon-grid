@@ -21,6 +21,10 @@ button {
     width: 100%;
     padding: 5px;
 }
+button svg {
+    height: 16px;
+    width: 16px;
+}
 canvas {
     border: 1px solid black;
     cursor: crosshair;
@@ -66,6 +70,10 @@ p.infoText {
     padding: 2px;
     gap: 5px;
     justify-content: space-between;
+}
+#buttonRow {
+    display: flex;
+    flex-direction: row;
 }
 .listName {
     flex-grow: 1;

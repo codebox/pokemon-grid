@@ -1,5 +1,5 @@
 import {buildView} from './view.js';
-import {buildModel, STATE_RUNNING, STATE_STOPPED} from './model.js';
+import {buildModel, STATE_RUNNING, STATE_STOPPED, STATE_PAUSED} from './model.js';
 import {staticData} from './data.js';
 import {pickOne, pickN} from './utils.js';
 
@@ -56,20 +56,35 @@ function start() {
         view = buildView(model);
 
     view.on('stopClick', () => {
-        if (model.state === STATE_RUNNING) {
+        if (model.state !== STATE_STOPPED) {
             setState(STATE_STOPPED);
+        }
+    });
+    view.on('pauseGoClick', () => {
+        if (model.state === STATE_PAUSED) {
+            setState(STATE_RUNNING);
+        } else if (model.state === STATE_RUNNING) {
+            setState(STATE_PAUSED);
         }
     });
     view.on('goClick', () => {
         if (model.state === STATE_STOPPED) {
             try {
-                model.validate();
+                initialiseGrid();
+                const queryParams = urlHandler.buildUrlParamsFromModel(model);
+                window.history.pushState({}, '', '?' + queryParams)
                 setState(STATE_RUNNING);
             } catch (err) {
                 alert(err);
             }
         }
     });
+
+    function initialiseGrid() {
+        model.validate();
+        model.battles.clear();
+        model.populateGrid();
+    }
 
     view.on('gridOnMouseMove', event => {
         const {x,y} = event.data,
@@ -143,8 +158,6 @@ function start() {
     function setState(newState) {
         if (newState !== model.state) {
             if (newState === STATE_RUNNING) {
-                model.battles.clear();
-                model.populateGrid();
                 view.updateForState(model.state = newState);
                 runTimeStep();
                 renderGrid();
@@ -152,12 +165,16 @@ function start() {
                 updateListInterval = setInterval(refreshCounters, 1000);
                 refreshStats();
                 updateStatsInterval = setInterval(refreshStats, 1000);
-                const queryParams = urlHandler.buildUrlParamsFromModel(model);
-                window.history.pushState({}, '', '?' + queryParams)
-            } else {
+            } else if (newState === STATE_PAUSED) {
                 clearInterval(updateListInterval);
                 clearInterval(updateStatsInterval);
                 view.updateForState(model.state = newState);
+
+            } else if (newState === STATE_STOPPED) {
+                clearInterval(updateListInterval);
+                clearInterval(updateStatsInterval);
+                view.updateForState(model.state = newState);
+
             }
         }
     }
@@ -211,6 +228,7 @@ function start() {
     model.gridSize = modelValues.gridSize || model.gridSize;
     if (modelValues.selectedPokemon.size) {
         model.selectedPokemon = modelValues.selectedPokemon;
+        initialiseGrid();
         view.updateSettings();
         setState(STATE_RUNNING);
     } else {
