@@ -140,12 +140,12 @@ function start() {
     }
 
     let updateListInterval, updateStatsInterval;
-    function setState(state) {
-        if (state !== model.state) {
-            if (state === STATE_RUNNING) {
+    function setState(newState) {
+        if (newState !== model.state) {
+            if (newState === STATE_RUNNING) {
                 model.battles.clear();
                 model.populateGrid();
-                view.updateForState(model.state = state);
+                view.updateForState(model.state = newState);
                 runTimeStep();
                 renderGrid();
                 refreshCounters();
@@ -157,7 +157,7 @@ function start() {
             } else {
                 clearInterval(updateListInterval);
                 clearInterval(updateStatsInterval);
-                view.updateForState(model.state = state);
+                view.updateForState(model.state = newState);
             }
         }
     }
