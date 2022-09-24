@@ -1,5 +1,5 @@
 import {buildView} from './view.js';
-import {buildModel, STATE_RUNNING, STATE_STOPPED, STATE_PAUSED} from './model.js';
+import {buildModel, STATE_RUNNING, STATE_STOPPED, STATE_PAUSED, STATE_COMPLETED} from './model.js';
 import {staticData} from './data.js';
 import {pickOne, pickN} from './utils.js';
 
@@ -165,16 +165,10 @@ function start() {
                 updateListInterval = setInterval(refreshCounters, 1000);
                 refreshStats();
                 updateStatsInterval = setInterval(refreshStats, 1000);
-            } else if (newState === STATE_PAUSED) {
+            } else {
                 clearInterval(updateListInterval);
                 clearInterval(updateStatsInterval);
                 view.updateForState(model.state = newState);
-
-            } else if (newState === STATE_STOPPED) {
-                clearInterval(updateListInterval);
-                clearInterval(updateStatsInterval);
-                view.updateForState(model.state = newState);
-
             }
         }
     }
@@ -193,6 +187,10 @@ function start() {
                 model.battles.add(freePokemon, randomFreeNeighbour);
             }
         }, pokemon => pokemon.free);
+
+        if (model.battles.counts.started === model.battles.counts.finished) {
+            setState(STATE_COMPLETED);
+        }
 
         model.tick(tMsDelta);
 

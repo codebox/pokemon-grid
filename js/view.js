@@ -1,5 +1,5 @@
 import {staticData} from './data.js';
-import {STATE_RUNNING, STATE_STOPPED, STATE_PAUSED} from './model.js';
+import {STATE_RUNNING, STATE_STOPPED, STATE_PAUSED, STATE_COMPLETED} from './model.js';
 import {formatTime, hashString} from './utils.js';
 
 export function buildView(model) {
@@ -13,6 +13,7 @@ export function buildView(model) {
         elPauseGo = document.getElementById('pauseGo'),
         elPauseSymbol = document.getElementById('pauseSymbol'),
         elPlaySymbol = document.getElementById('playSymbol'),
+        elRewindSymbol = document.getElementById('rewindSymbol'),
         elSettings = document.getElementById('settings'),
         elGridSizeList = document.getElementById('gridSizeList'),
         elWeatherList = document.getElementById('weatherList'),
@@ -259,6 +260,7 @@ export function buildView(model) {
             toggle(elPauseGo, !isStopped);
             toggle(elPauseSymbol, state === STATE_RUNNING);
             toggle(elPlaySymbol, state === STATE_PAUSED);
+            toggle(elRewindSymbol, state === STATE_COMPLETED);
 
             if (state === STATE_RUNNING) {
                 cellWidth = elCanvasGrid.width / model.grid.width;

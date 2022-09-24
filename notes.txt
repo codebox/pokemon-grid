@@ -4,7 +4,7 @@ https://gamepress.gg/pokemongo/damage-mechanics
 https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json
 
 TODO
-    more states - paused, completed
+    more states - paused, completed TODO - update info bar when complete
     symbols rather than text on go/pause/stop buttons
     mobile styles/widths
     should stop if only 1 pokemon remaining

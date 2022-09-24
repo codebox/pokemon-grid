@@ -5,6 +5,7 @@ import {buildPokemon} from './pokemon.js';
 
 export const STATE_STOPPED = 'stopped',
     STATE_PAUSED = 'paused',
+    STATE_COMPLETED = 'completed',
     STATE_RUNNING = 'running';
 
 const gridSizes = Object.freeze({
