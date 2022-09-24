@@ -148,7 +148,9 @@ function start() {
                 view.updateForState(model.state = state);
                 runTimeStep();
                 renderGrid();
+                refreshCounters();
                 updateListInterval = setInterval(refreshCounters, 1000);
+                refreshStats();
                 updateStatsInterval = setInterval(refreshStats, 1000);
                 const queryParams = urlHandler.buildUrlParamsFromModel(model);
                 window.history.pushState({}, '', '?' + queryParams)
