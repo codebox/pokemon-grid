@@ -151,7 +151,7 @@ function start() {
     }
 
     function refreshStats() {
-        view.updateStats(model.ts, model.battles.counts.started - model.battles.counts.finished, model.battles.counts.finished, model.battles.counts.drawn);
+        view.updateStats(model.weather, model.ts, model.battles.counts.started - model.battles.counts.finished, model.battles.counts.finished);
     }
 
     let updateListInterval, updateStatsInterval;

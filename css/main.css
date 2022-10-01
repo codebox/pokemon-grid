@@ -30,7 +30,7 @@ canvas {
     cursor: crosshair;
 }
 p.infoText {
-    line-height: 24px;
+    min-height: 24px;
     margin: 0;
 }
 #outerContainer {
@@ -49,7 +49,7 @@ p.infoText {
     display: flex;
     flex-direction: row;
 }
-#gridContainer {
+#gridContainer, #infoContainer {
     display: flex;
     flex-direction: column;
     max-width: 100%;
@@ -60,7 +60,8 @@ p.infoText {
 }
 #list {
     overflow: scroll;
-    max-height: 800px;
+    max-height: 660px;
+    min-height: 660px;
     margin: 0;
     padding: 0 0 0 10px;
 }
@@ -220,6 +221,18 @@ h1 {
 }
 #gridSizeList li {
     text-transform: capitalize;
+}
+#info {
+    padding: 10px 0 0 10px;
+    margin: 0;
+    width: 100%;
+}
+#info th {
+    font-weight: bold;
+    text-align: left;
+}
+#info td {
+    text-align: right;
 }
 @media (max-width: 900px) {
     #mainContainer {

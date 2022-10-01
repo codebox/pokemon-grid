@@ -5,8 +5,12 @@ import {formatTime, hashString} from './utils.js';
 export function buildView(model) {
     const elCanvasGrid = document.getElementById('grid'),
         elCanvasGraph = document.getElementById('graph'),
+        elHoverInfo = document.getElementById('hoverInfo'),
         elInfo = document.getElementById('info'),
-        elStats = document.getElementById('stats'),
+        elInfoWeather = document.getElementById('infoWeather'),
+        elInfoTime = document.getElementById('infoTime'),
+        elInfoBattlesInProgress = document.getElementById('infoBattlesInProgress'),
+        elInfoBattlesFinished = document.getElementById('infoBattlesFinished'),
         elList = document.getElementById('list'),
         elStop = document.getElementById('stop'),
         elGo = document.getElementById('go'),
@@ -204,8 +208,7 @@ export function buildView(model) {
             eventTarget.addEventListener(eventName, handler);
         },
         setInfoText(text) {
-            elInfo.innerHTML = text;
-            toggle(elInfo, text);
+            elHoverInfo.innerHTML = text;
         },
         updateGrid() {
             ctxGrid.clearRect(0,0, elCanvasGrid.width, elCanvasGrid.height);
@@ -219,8 +222,11 @@ export function buildView(model) {
             const arr = Object.keys(pokemonCounts).sort(function(p1,p2){return pokemonCounts[p2]-pokemonCounts[p1]})
             elList.innerHTML = arr.map(name => `<li><div style="background-color: ${getPokemonNameColour(name)}" class="box"></div><span class="listName">${name}</span><span class="listCount">${pokemonCounts[name]}</span></li>`).join('');
         },
-        updateStats(gameTimeMs, battlesInProgress, battlesFinished, battlesDrawn) {
-            elStats.innerHTML = `Time: ${formatTime(gameTimeMs)} Battles: ${battlesInProgress} in progress, ${battlesFinished} finished, ${battlesDrawn} drawn`;
+        updateStats(weather, gameTimeMs, battlesInProgress, battlesFinished) {
+            elInfoWeather.innerHTML = weather;
+            elInfoTime.innerHTML = formatTime(gameTimeMs);
+            elInfoBattlesInProgress.innerHTML = battlesInProgress;
+            elInfoBattlesFinished.innerHTML = battlesFinished;
         },
         updateGraph(counters) {
             const graphPlots = {};
@@ -254,8 +260,8 @@ export function buildView(model) {
             toggle(elCanvasGrid, !isStopped);
             toggle(elCanvasGraph, !isStopped);
             toggle(elList, !isStopped);
-            toggle(elStats, !isStopped);
             toggle(elInfo, !isStopped);
+            toggle(elHoverInfo, !isStopped);
             toggle(elStop, !isStopped);
             toggle(elPauseGo, !isStopped);
             toggle(elPauseSymbol, state === STATE_RUNNING);

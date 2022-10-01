@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Pokemon Battle Grid</title>
 </head>
@@ -34,11 +34,18 @@
                         <svg id="stopSymbol" style="enable-background:new 0 0 512 512;" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M437.4,64H74.6C68.7,64,64,68.7,64,74.6v362.8c0,5.9,4.7,10.6,10.6,10.6h362.8c5.8,0,10.6-4.7,10.6-10.6V74.6  C448,68.7,443.2,64,437.4,64z"/></svg>
                     </button>
                 </div>
-                <p class="infoText" id="info"></p>
+                <p class="infoText" id="hoverInfo"></p>
                 <canvas id="graph" width="600px" height="150px"></canvas>
-                <p class="infoText" id="stats"></p>
             </div>
-            <ul id="list"></ul>
+            <div id="infoContainer">
+                <ul id="list"></ul>
+                <table id="info">
+                    <tr><th>Weather</th><td id="infoWeather"></td></tr>
+                    <tr><th>Time</th><td id="infoTime"></td></tr>
+                    <tr><th>Battles (in progress)</th><td id="infoBattlesInProgress"></td></tr>
+                    <tr><th>Battles (finished)</th><td id="infoBattlesFinished"></td></tr>
+                </table>
+            </div>
         </div>
 
         <div id="settings">
