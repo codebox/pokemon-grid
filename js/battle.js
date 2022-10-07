@@ -20,7 +20,7 @@ export function buildBattles(model) {
 
     const damageCalculator = (function(){
         return {
-            damage(attacker, defender, move, weather) {
+            damage(attacker, defender, move) {
                 const power = move.power,
                     attack = (attacker.stats.baseAttack + attacker.ivs.attack) * staticData.getCpmForLevel(attacker.level),
                     defence = (defender.stats.baseDefense + defender.ivs.defence) * staticData.getCpmForLevel(defender.level),
@@ -66,46 +66,33 @@ export function buildBattles(model) {
                 p2QuickDamage = damageCalculator.damage(p2, p1, p2.quickMove),
                 p2ChargeDamage = damageCalculator.damage(p2, p1, p2.chargeMove);
 
+            function updateStates(attackerState, defenderState, quickDamage, chargeDamage, tMsDelta) {
+                attackerState.quickMoveCountdown -= tMsDelta;
+                attackerState.chargeMoveCountdown -= tMsDelta;
+
+                if (attackerState.energy + attackerState.pokemon.chargeMove.energyDelta >= 0 && attackerState.chargeMoveCountdown <= 0) {
+                    defenderState.health -= chargeDamage;
+                    attackerState.energy += attackerState.pokemon.chargeMove.energyDelta;
+                    attackerState.chargeMoveCountdown = attackerState.pokemon.chargeMove.durationMs;
+                    if (attackerState.singleMove) {
+                        attackerState.quickMoveCountdown = attackerState.pokemon.quickMove.durationMs;
+                    }
+
+                } else if (attackerState.quickMoveCountdown <= 0) {
+                    defenderState.health -= quickDamage;
+                    attackerState.energy += attackerState.pokemon.quickMove.energyDelta;
+                    attackerState.quickMoveCountdown = attackerState.pokemon.quickMove.durationMs;
+                }
+            }
+
             battles.counts.started++;
 
             let t = 0;
             const battle = {
                 p1, p2,
                 tick(tMsDelta) {
-                    p1State.quickMoveCountdown -= tMsDelta;
-                    p1State.chargeMoveCountdown -= tMsDelta;
-
-                    if (p1State.energy + p1.chargeMove.energyDelta >= 0 && p1State.chargeMoveCountdown <= 0) {
-                        p2State.health -= p1ChargeDamage;
-                        p1State.energy += p1.chargeMove.energyDelta;
-                        p1State.chargeMoveCountdown = p1.chargeMove.durationMs;
-                        if (p1State.singleMove) {
-                            p1State.quickMoveCountdown = p1.quickMove.durationMs;
-                        }
-                        // console.log(`${t}: ${p1.name} CHARGE [${p1.chargeMove.name}/${p1ChargeDamage}] -> ${p2.name} [${p2State.health}]`)
-                    } else if (p1State.quickMoveCountdown <= 0) {
-                        p2State.health -= p1QuickDamage;
-                        p1State.energy += p1.quickMove.energyDelta;
-                        p1State.quickMoveCountdown = p1.quickMove.durationMs;
-                        // console.log(`${t}: ${p1.name} QUICK [${p1.quickMove.name}/${p1QuickDamage}] -> ${p2.name} [${p2State.health}]`)
-                    }
-
-                    p2State.quickMoveCountdown -= tMsDelta;
-                    p2State.chargeMoveCountdown -= tMsDelta;
-                    if (p2State.energy + p2.chargeMove.energyDelta >= 0 && p2State.chargeMoveCountdown <= 0) {
-                        p1State.health -= p2ChargeDamage;
-                        p2State.energy += p2.chargeMove.energyDelta;
-                        p2State.chargeMoveCountdown = p2.chargeMove.durationMs;
-                        if (p2State.singleMove) {
-                            p2State.quickMoveCountdown = p2.quickMove.durationMs;
-                        }
-                        // console.log(`${t}: ${p2.name} CHARGE [${p2.chargeMove.name}/${p2ChargeDamage}] -> ${p1.name} [${p1State.health}]`)
-                    } else if (p2State.quickMoveCountdown <= 0) {
-                        p1State.health -= p2QuickDamage;
-                        p2State.energy += p2.quickMove.energyDelta;
-                        p2State.quickMoveCountdown = p2.quickMove.durationMs;
-                        // console.log(`${t}: ${p2.name} QUICK [${p2.quickMove.name}/${p2QuickDamage}] -> ${p1.name} [${p1State.health}]`)
-                    }
+                    updateStates(p1State, p2State, p1QuickDamage, p1ChargeDamage, tMsDelta);
+                    updateStates(p2State, p1State, p2QuickDamage, p2ChargeDamage, tMsDelta);
 
                     if (p1State.health <= 0) {
                         battles.counts.finished++;
