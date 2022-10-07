@@ -56,6 +56,7 @@ export function buildModel() {
         moveExclusions: {},
         weather: 'none',
         gridSize: 'small',
+        includeDiagonalNeighbours: false,
         counters: []
     };
     model.battles = buildBattles(model, staticData);

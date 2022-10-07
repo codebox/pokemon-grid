@@ -21,11 +21,13 @@ export function buildGrid(width, height) {
         getPokemon(x, y) {
             return allPokemon[y*width + x];
         },
-        getNeighbours(pokemon) {
-            const {x,y} = pokemon;
-            return [[x-1,y], [x+1,y], [x,y-1], [x,y+1]]
-            // return [[x-1,y-1], [x-1,y], [x-1,y+1], [x,y-1], [x,y+1], [x+1,y-1], [x+1,y], [x+1,y+1]]
-                .filter(([x,y]) => x>=0 && y>=0 && x<width && y<height)
+        getNeighbours(pokemon, includeDiagonals = false) {
+            const {x,y} = pokemon,
+                neighbourCoords = includeDiagonals ?
+                    [[x-1,y-1], [x-1,y], [x-1,y+1], [x,y-1], [x,y+1], [x+1,y-1], [x+1,y], [x+1,y+1]] :
+                    [[x-1,y], [x+1,y], [x,y-1], [x,y+1]];
+
+            return neighbourCoords.filter(([x,y]) => x>=0 && y>=0 && x<width && y<height)
                 .map(([x,y]) => this.getPokemon(x, y));
         },
         replacePokemon(oldPokemon, newPokemon) {

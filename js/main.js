@@ -179,7 +179,7 @@ function start() {
     function runTimeStep() {
         // try to pair up free pokemon into new battles
         model.grid.forEachPokemon(freePokemon => {
-            const freeNeighbours = model.grid.getNeighbours(freePokemon).filter(p => p.free).filter(p => p.id !== freePokemon.id);
+            const freeNeighbours = model.grid.getNeighbours(freePokemon, model.includeDiagonalNeighbours).filter(p => p.free).filter(p => p.id !== freePokemon.id);
             if (freeNeighbours.length) {
                 const randomFreeNeighbour = pickOne(freeNeighbours);
                 freePokemon.free = false;
