@@ -35,13 +35,17 @@
                     </button>
                 </div>
                 <p class="infoText" id="hoverInfo"></p>
+            </div>
+            <div id="listContainer">
+                <ul id="list"></ul>
+            </div>
+            <div id="graphContainer">
                 <canvas id="graph" width="600px" height="150px"></canvas>
             </div>
             <div id="infoContainer">
-                <ul id="list"></ul>
                 <table id="info">
                     <tr><th>Weather</th><td id="infoWeather"></td></tr>
-                    <tr><th>Time</th><td id="infoTime"></td></tr>
+                    <tr><th>In-Game Time</th><td id="infoTime"></td></tr>
                     <tr><th>Battles (in progress)</th><td id="infoBattlesInProgress"></td></tr>
                     <tr><th>Battles (finished)</th><td id="infoBattlesFinished"></td></tr>
                 </table>
@@ -53,12 +57,12 @@
             <input id="pokemonFilter" placeholder="Pokemon Search">
             <div id="pokemonSelectionLinks">
                 <ul>
-                    <li id="selectAllPokemon">Select All</li>
-                    <li id="selectNoPokemon">Select None</li>
+<!--                    <li id="selectAllPokemon">Select All</li>-->
                     <li class="selectRandom" data-count="25"></li>
                     <li class="selectRandom" data-count="50"></li>
                     <li class="selectRandom" data-count="100"></li>
                     <li class="selectRandom" data-count="200"></li>
+                    <li id="selectNoPokemon">Clear</li>
                 </ul>
             </div>
             <ul id="pokemonSelectionList"></ul>

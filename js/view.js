@@ -11,6 +11,7 @@ export function buildView(model) {
         elInfoTime = document.getElementById('infoTime'),
         elInfoBattlesInProgress = document.getElementById('infoBattlesInProgress'),
         elInfoBattlesFinished = document.getElementById('infoBattlesFinished'),
+        elMainContainer = document.getElementById('mainContainer'),
         elList = document.getElementById('list'),
         elStop = document.getElementById('stop'),
         elGo = document.getElementById('go'),
@@ -24,7 +25,6 @@ export function buildView(model) {
         elPokemonFilter = document.getElementById('pokemonFilter'),
         elPokemonSelectionLinks = document.getElementById('pokemonSelectionLinks'),
         elSelectionList = document.getElementById('pokemonSelectionList'),
-        elSelectAllPokemon = document.getElementById('selectAllPokemon'),
         elSelectNoPokemon = document.getElementById('selectNoPokemon'),
         elGameMasterDate = document.getElementById('gameMasterDate'),
         ctxGrid = elCanvasGrid.getContext('2d'),
@@ -54,7 +54,6 @@ export function buildView(model) {
         "Water": [221,82,66]
     };
 
-    elSelectAllPokemon.onclick = () => trigger('selectAllPokemon');
     elSelectNoPokemon.onclick = () => trigger('selectNoPokemon');
     [...elPokemonSelectionLinks.querySelectorAll('.selectRandom')].forEach(li => {
         const count = li.dataset.count;
@@ -257,10 +256,11 @@ export function buildView(model) {
             const isStopped = state === STATE_STOPPED;
             toggle(elSettings, isStopped);
             toggle(elGo, isStopped);
-            toggle(elCanvasGrid, !isStopped);
-            toggle(elCanvasGraph, !isStopped);
-            toggle(elList, !isStopped);
-            toggle(elInfo, !isStopped);
+            // toggle(elCanvasGrid, !isStopped);
+            // toggle(elCanvasGraph, !isStopped);
+            // toggle(elList, !isStopped);
+            // toggle(elInfo, !isStopped);
+            toggle(elMainContainer, !isStopped);
             toggle(elHoverInfo, !isStopped);
             toggle(elStop, !isStopped);
             toggle(elPauseGo, !isStopped);

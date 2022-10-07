@@ -46,8 +46,9 @@ p.infoText {
     height: 100%;
 }
 #mainContainer {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    grid-template-rows: auto 1fr;
 }
 #gridContainer, #infoContainer {
     display: flex;
@@ -55,13 +56,16 @@ p.infoText {
     max-width: 100%;
     gap: 5px;
 }
+#listContainer {
+    overflow-y: auto;
+    max-height: 672px;
+    margin-bottom: 2px;
+}
 #grid {
     max-width: 100%;
 }
 #list {
-    overflow: scroll;
-    max-height: 660px;
-    min-height: 660px;
+    /*overflow: scroll;*/
     margin: 0;
     padding: 0 0 0 10px;
 }
@@ -235,17 +239,64 @@ h1 {
     text-align: right;
 }
 @media (max-width: 900px) {
-    #mainContainer {
-        flex-direction: column;
-        align-items: center;
+    h1 {
+        font-size: 1.5em;
     }
+    h2 {
+        text-align: center;
+        margin-top: 5px;
+    }
+    #appInfo, #gameMasterDate {
+        display: block;
+    }
+    #appInfo {
+        margin: 5px 0;
+        justify-content: center;
+    }
+    #appInfo svg {
+        display: none;
+    }
+    #appInfo a {
+        padding: 5px;
+    }
+    #mainContainer {
+        display: block;
+    }
+    #hoverInfo {
+        text-align: center;
+    }
+    #buttonRow {
+        padding-bottom: 10px;
+    }
+    #mainContainer div:nth-child(2) { order: 4; }
+
     header {
         text-align: center;
     }
-    #appInfo {
-        justify-content: center;
-    }
     #grid {
         margin: 0 auto;
+    }
+    #list {
+        padding: 0;
+    }
+    #listContainer {
+        max-height: 300px;
+        margin: 5px 0 10px 0;
+    }
+    #graph {
+        max-width: 100%;
+    }
+    #info {
+        padding: 0;
+    }
+    #outerContainer {
+        border: none;
+        padding: 10px;
+    }
+    .selectRandom {
+        text-align: center;
+    }
+    #selectNoPokemon {
+        line-height: 30px;
     }
 }
