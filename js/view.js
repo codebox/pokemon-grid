@@ -6,11 +6,11 @@ export function buildView(model) {
     const elCanvasGrid = document.getElementById('grid'),
         elCanvasGraph = document.getElementById('graph'),
         elHoverInfo = document.getElementById('hoverInfo'),
-        elInfo = document.getElementById('info'),
         elInfoWeather = document.getElementById('infoWeather'),
         elInfoTime = document.getElementById('infoTime'),
         elInfoBattlesInProgress = document.getElementById('infoBattlesInProgress'),
         elInfoBattlesFinished = document.getElementById('infoBattlesFinished'),
+        elInfoPokemonCount = document.getElementById('pokemonCount'),
         elMainContainer = document.getElementById('mainContainer'),
         elList = document.getElementById('list'),
         elStop = document.getElementById('stop'),
@@ -28,7 +28,8 @@ export function buildView(model) {
         elSelectNoPokemon = document.getElementById('selectNoPokemon'),
         elGameMasterDate = document.getElementById('gameMasterDate'),
         ctxGrid = elCanvasGrid.getContext('2d'),
-        ctxGraph = elCanvasGraph.getContext('2d');
+        ctxGraph = elCanvasGraph.getContext('2d'),
+        numFormat = Intl.NumberFormat();
 
     elGameMasterDate.innerHTML = `Game Master File: ${staticData.gameMasterDate}`;
     let cellWidth, cellHeight;
@@ -219,13 +220,14 @@ export function buildView(model) {
         updateList(pokemonCounts) {
             elList.innerHTML = '';
             const arr = Object.keys(pokemonCounts).sort(function(p1,p2){return pokemonCounts[p2]-pokemonCounts[p1]})
-            elList.innerHTML = arr.map(name => `<li><div style="background-color: ${getPokemonNameColour(name)}" class="box"></div><span class="listName">${name}</span><span class="listCount">${pokemonCounts[name]}</span></li>`).join('');
+            elList.innerHTML = arr.map(name => `<li><div style="background-color: ${getPokemonNameColour(name)}" class="box"></div><span class="listName">${name}</span><span class="listCount">${numFormat.format(pokemonCounts[name])}</span></li>`).join('');
         },
-        updateStats(weather, gameTimeMs, battlesInProgress, battlesFinished) {
+        updateStats(weather, gameTimeMs, pokemonCount, battlesInProgress, battlesFinished) {
             elInfoWeather.innerHTML = weather;
             elInfoTime.innerHTML = formatTime(gameTimeMs);
-            elInfoBattlesInProgress.innerHTML = battlesInProgress;
-            elInfoBattlesFinished.innerHTML = battlesFinished;
+            elInfoPokemonCount.innerHTML = numFormat.format(pokemonCount);
+            elInfoBattlesInProgress.innerHTML = numFormat.format(battlesInProgress);
+            elInfoBattlesFinished.innerHTML = numFormat.format(battlesFinished);
         },
         updateGraph(counters) {
             const graphPlots = {};
