@@ -4,8 +4,8 @@ https://gamepress.gg/pokemongo/damage-mechanics
 https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json
 
 TODO
-    Cache battle outcomes
-    More optimisations
-    Web workers, wasm?
-    allow -ve matches searches
-    allow :type=dark searches
+Cache battle outcomes
+More optimisations
+Web workers, wasm?
+allow -ve matches searches
+allow :type=dark searches
