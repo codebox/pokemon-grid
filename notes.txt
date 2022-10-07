@@ -4,14 +4,6 @@ https://gamepress.gg/pokemongo/damage-mechanics
 https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json
 
 TODO
-    more states - paused, completed TODO - update info bar when complete
-    should stop if only 1 pokemon remaining
-    add seedable rnd algorithm, include seed in url
-    add some explanatory text to settings page
-    update links to home page/source code
-    something odd happens if browser tab is hidden (graphs show straight lines)
-    add pokemon count to info table
-    - - - -
     Cache battle outcomes
     More optimisations
     Web workers, wasm?

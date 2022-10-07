@@ -112,6 +112,9 @@ p.infoText {
 #settings li:hover {
     background-color: #006BB722;
 }
+#settings p{
+    margin: 0;
+}
 #pokemonSelectionList {
     display: flex;
     flex-direction: column;
