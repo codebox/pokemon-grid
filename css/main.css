@@ -260,7 +260,8 @@ h1 {
         padding: 5px;
     }
     #mainContainer {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
     #hoverInfo {
         text-align: center;
