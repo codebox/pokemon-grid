@@ -9,7 +9,7 @@ Because of the game's [type effectiveness rules](https://bulbapedia.bulbagarden.
 one opponent may be weak against another, and so most simulations that start off with a good variety of different Pokémon end in
 some form of dynamic equilibrium, with territory constantly changing hands but without a single winner dominating the grid:
 
-<img src="https://codebox.net/assets/images/pokemon-grid/gridProgress1.png" alt="Pokemon Go cellular automata stage 1" width="200"><img src="https://codebox.net/assets/images/pokemon-grid/gridProgress2.png" alt="Pokemon Go cellular automata stage 2" width="200"><img src="https://codebox.net/assets/images/pokemon-grid/gridProgress3.png" alt="Pokemon Go cellular automata stage 3" width="200"><img src="https://codebox.net/assets/images/pokemon-grid/gridProgress4.png" alt="Pokemon Go cellular automata stage 4" width="200">
+<img src="https://codebox.net/assets/images/pokemon-grid/gridProgress1.png" alt="Pokemon Go cellular automata stage 1" width="200"> <img src="https://codebox.net/assets/images/pokemon-grid/gridProgress2.png" alt="Pokemon Go cellular automata stage 2" width="200"> <img src="https://codebox.net/assets/images/pokemon-grid/gridProgress3.png" alt="Pokemon Go cellular automata stage 3" width="200"> <img src="https://codebox.net/assets/images/pokemon-grid/gridProgress4.png" alt="Pokemon Go cellular automata stage 4" width="200">
 
 The following timelapse video shows how a simulation initialised with 40,000 Pokémon progressed over the course of 2 hours:
 
